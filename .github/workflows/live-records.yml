@@ -103,9 +103,18 @@ jobs:
           for attempt in {1..12}; do
             if curl -fsS --max-time 20 https://pocket-politics-records.dustinbowers51.workers.dev/manifest.json -o "$RUNNER_TEMP/public-manifest.json" &&
               cmp -s var/site/manifest.json "$RUNNER_TEMP/public-manifest.json"; then
-              echo "The checked release is live."
+              jq -er '"Published manifest updatedAt=" + .updatedAt + " version=" + .version' "$RUNNER_TEMP/public-manifest.json" | tee -a "$GITHUB_STEP_SUMMARY"
               exit 0
             fi
             sleep 5
           done
           exit 1
+      - name: Notify the publication monitor
+        env:
+          PING_URL: ${{ secrets.HEALTHCHECKS_PING_URL }}
+        run: |
+          if [[ -z "$PING_URL" ]]; then
+            echo "::warning::Publication monitor has no ping URL configured."
+            exit 0
+          fi
+          curl --fail --silent --show-error --max-time 10 --retry 3 --output /dev/null "$PING_URL"
