@@ -1,0 +1,56 @@
+name: Refresh official records
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 * * * *'
+permissions:
+  contents: read
+concurrency:
+  group: official-data-publication
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.event.repository.private == false && vars.LIVE_PUBLICATION_APPROVED == 'yes'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          repository: dustinbowers51/pocket-politics
+          ref: ${{ vars.VERIFIED_APP_COMMIT }}
+          ssh-key: ${{ secrets.APP_READ_ONLY_DEPLOY_KEY }}
+          persist-credentials: false
+      - name: Verify reviewed app revision
+        env:
+          EXPECTED: ${{ vars.VERIFIED_APP_COMMIT }}
+        run: test "$(git rev-parse HEAD)" = "$EXPECTED"
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - uses: actions/cache@v4
+        with:
+          path: var/live
+          key: national-archive-v1-${{ github.run_id }}
+          restore-keys: national-archive-v1-
+      - run: npm ci
+      - run: npm run typecheck && npm run lint && npm test
+      - run: python3 scripts/round6/check_debate.py
+      - run: python3 -m ingestion.live_job --archive var/live --output var/site
+      - run: node scripts/round6/check-release.cjs var/site
+      - name: Set cache lifetimes and allow read-only cross-origin access
+        run: |
+          cat >var/site/_headers <<'EOF'
+          /*
+            Access-Control-Allow-Origin: *
+          /manifest.json
+            Cache-Control: no-cache
+          /objects/*
+            Cache-Control: public, max-age=31536000, immutable
+          EOF
+      - name: Deploy checked static assets
+        uses: cloudflare/wrangler-action@v3
+        with:
+          accountId: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: deploy --config .github/records-host.json
