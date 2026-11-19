@@ -1,0 +1,27 @@
+name: Independent debate review
+on:
+  push:
+    branches: [review/official-debate-pilot]
+    paths: ['pilot/preview-request']
+concurrency:
+  group: debate-review-pilot
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  preview:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: review/official-debate-pilot
+      - run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          python -m pip install playwright==1.56.0
+          python pilot/sources.py
+      - name: Generate screenshots for review
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python pilot/preview.py
