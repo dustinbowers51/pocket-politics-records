@@ -1,6 +1,14 @@
 name: Refresh official records
 on:
+  push:
+    branches: [main]
+    paths: ['worker/**']
   workflow_dispatch:
+    inputs:
+      backup_slot:
+        description: UTC hour start in epoch milliseconds (Cloudflare backup only)
+        required: false
+        type: string
   schedule:
     - cron: '17 * * * *'
 permissions:
@@ -9,8 +17,34 @@ concurrency:
   group: official-data-publication
   cancel-in-progress: false
 jobs:
+  backup_check:
+    if: github.event_name == 'workflow_dispatch' && inputs.backup_slot != ''
+    runs-on: ubuntu-24.04
+    outputs:
+      publish: ${{ steps.check.outputs.publish }}
+    steps:
+      - id: check
+        env:
+          SLOT: ${{ inputs.backup_slot }}
+        shell: python
+        run: |
+          import json, os, time
+          from datetime import datetime
+          from urllib.request import urlopen
+          slot = int(os.environ["SLOT"])
+          now = int(time.time() * 1000)
+          eligible = slot % 3600000 == 0 and slot <= now < slot + 3600000
+          if eligible:
+              with urlopen("https://pocket-politics-records.dustinbowers51.workers.dev/manifest.json", timeout=20) as response:
+                  stamp = json.load(response)["updatedAt"]
+              eligible = datetime.fromisoformat(stamp).timestamp() * 1000 < slot
+          with open(os.environ["GITHUB_OUTPUT"], "a") as output:
+              print("publish=" + str(eligible).lower(), file=output)
   refresh:
-    if: github.event.repository.private == false && vars.LIVE_PUBLICATION_APPROVED == 'yes'
+    needs: backup_check
+    if: >-
+      !cancelled() && (needs.backup_check.result == 'skipped' || needs.backup_check.outputs.publish == 'true') &&
+      github.event.repository.private == false && vars.LIVE_PUBLICATION_APPROVED == 'yes'
     runs-on: ubuntu-24.04
     timeout-minutes: 90
     steps:
@@ -87,13 +121,18 @@ jobs:
           /objects/*
             Cache-Control: public, max-age=31536000, immutable
           EOF
+      - name: Check out the records Worker for this workflow revision
+        uses: actions/checkout@v4
+        with:
+          path: records-host
+          persist-credentials: false
       - name: Deploy checked static assets to the existing Worker
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           WRANGLER_SEND_METRICS: 'false'
         run: |
-          config=.github/records-host.json
+          config=records-host/worker/wrangler.json
           output="$RUNNER_TEMP/worker-version.ndjson"
           WRANGLER_OUTPUT_FILE_PATH="$output" npx --yes wrangler@4.165.0 versions upload --config "$config"
           version=$(jq -ers 'map(select(.type == "version-upload")) | last | .version_id | select(type == "string" and test("^[0-9a-f-]{36}$"))' "$output")

@@ -1,0 +1,11 @@
+{
+  "name": "pocket-politics-records",
+  "main": "index.mjs",
+  "compatibility_date": "2026-11-01",
+  "workers_dev": true,
+  "keep_vars": true,
+  "assets": {
+    "directory": "../../var/site",
+    "binding": "ASSETS"
+  }
+}
