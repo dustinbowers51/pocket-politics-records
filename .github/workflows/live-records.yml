@@ -28,7 +28,7 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: npm
-      - uses: actions/cache@v4
+      - uses: actions/cache/restore@v4
         with:
           path: var/live
           key: national-archive-v1-${{ github.run_id }}
@@ -38,7 +38,44 @@ jobs:
       - name: Install the PDF text verifier
         run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends poppler-utils
       - run: python3 scripts/round6/check_debate.py
-      - run: python3 -m ingestion.live_job --archive var/live --output var/site
+      - name: Import and verify official sources
+        id: import
+        shell: python
+        run: |
+          from pathlib import Path
+          from threading import Lock
+          import sys
+          import time
+          from urllib.error import HTTPError
+          from urllib.parse import urlsplit
+          sys.path.insert(0, str(Path.cwd()))
+          from ingestion.live_job import refresh
+
+          # Shared across all download workers to avoid simultaneous requests to a chamber.
+          lock = Lock()
+          last = {}
+          def pace(event, args):
+              if event != 'urllib.Request':
+                  return
+              host = urlsplit(args[0]).hostname
+              if host not in {'www.senate.gov', 'clerk.house.gov'}:
+                  return
+              with lock:
+                  time.sleep(max(0, last.get(host, 0) + 1 - time.monotonic()))
+                  last[host] = time.monotonic()
+          sys.addaudithook(pace)
+          try:
+              manifest = refresh(Path('var/live'), Path('var/site'))
+          except HTTPError as error:
+              print(f'Official source returned {error.code}: {error.url}', flush=True)
+              raise
+          print(f"Verified {len(manifest['files'])} files.", flush=True)
+      - name: Save resumable official-source archive
+        if: always() && steps.import.outcome != 'skipped'
+        uses: actions/cache/save@v4
+        with:
+          path: var/live
+          key: national-archive-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - run: node scripts/round6/check-release.cjs var/site
       - name: Set cache lifetimes and allow read-only cross-origin access
         run: |
