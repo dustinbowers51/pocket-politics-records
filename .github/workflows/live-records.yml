@@ -35,6 +35,8 @@ jobs:
           restore-keys: national-archive-v1-
       - run: npm ci
       - run: npm run typecheck && npm run lint && npm test
+      - name: Install the PDF text verifier
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends poppler-utils
       - run: python3 scripts/round6/check_debate.py
       - run: python3 -m ingestion.live_job --archive var/live --output var/site
       - run: node scripts/round6/check-release.cjs var/site
