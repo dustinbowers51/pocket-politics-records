@@ -2,7 +2,7 @@ name: Refresh official records
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 * * * *'
+    - cron: '17 * * * *'
 permissions:
   contents: read
 concurrency:
