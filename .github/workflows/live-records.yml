@@ -30,13 +30,16 @@ jobs:
         run: |
           import json, os, time
           from datetime import datetime
-          from urllib.request import urlopen
+          import subprocess
           slot = int(os.environ["SLOT"])
           now = int(time.time() * 1000)
           eligible = slot % 3600000 == 0 and slot <= now < slot + 3600000
           if eligible:
-              with urlopen("https://pocket-politics-records.dustinbowers51.workers.dev/manifest.json", timeout=20) as response:
-                  stamp = json.load(response)["updatedAt"]
+              manifest = subprocess.check_output([
+                  "curl", "-fsS", "--retry", "2", "--max-time", "20",
+                  "https://pocket-politics-records.dustinbowers51.workers.dev/manifest.json",
+              ])
+              stamp = json.loads(manifest)["updatedAt"]
               eligible = datetime.fromisoformat(stamp).timestamp() * 1000 < slot
           with open(os.environ["GITHUB_OUTPUT"], "a") as output:
               print("publish=" + str(eligible).lower(), file=output)
@@ -136,7 +139,13 @@ jobs:
           output="$RUNNER_TEMP/worker-version.ndjson"
           WRANGLER_OUTPUT_FILE_PATH="$output" npx --yes wrangler@4.165.0 versions upload --config "$config"
           version=$(jq -ers 'map(select(.type == "version-upload")) | last | .version_id | select(type == "string" and test("^[0-9a-f-]{36}$"))' "$output")
-          npx --yes wrangler@4.165.0 versions deploy "$version@100%" --yes --config "$config"
+          for delay in 0 5 15 30; do
+            sleep "$delay"
+            if npx --yes wrangler@4.165.0 versions deploy "$version@100%" --yes --config "$config"; then
+              exit 0
+            fi
+          done
+          exit 1
       - name: Verify the public manifest matches the checked release
         run: |
           for attempt in {1..12}; do
