@@ -1,0 +1,41 @@
+name: Read production cron configuration
+on:
+  push:
+    branches: [diagnostics/cron-20261119]
+permissions: {}
+jobs:
+  inspect:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Check trigger and binding metadata
+        env:
+          ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        shell: python
+        run: |
+          import json, os
+          from urllib.request import Request, urlopen
+          from urllib.error import HTTPError
+          host = "https://api.cloudflare.com/client/v4"
+          account = os.environ["ACCOUNT"]
+          script = "pocket-politics-records"
+          headers = {"Authorization":"Bearer "+os.environ["TOKEN"], "Content-Type":"application/json"}
+          for path in ("schedules", "settings"):
+              url = f"{host}/accounts/{account}/workers/scripts/{script}/{path}"
+              try:
+                  with urlopen(Request(url, headers=headers),timeout=20) as res:
+                      data = json.load(res)["result"]
+                  if path == "schedules":
+                      rows = data if isinstance(data,list) else data.get("schedules",[])
+                      print("Configured schedules:", [r["cron"] for r in rows])
+                  else:
+                      print("Required bindings:", [(r["name"],r["type"]) for r in data.get("bindings",[]) if r["name"] in ("ASSETS","GITHUB_ACTIONS_TOKEN")])
+              except HTTPError as err:
+                  print(path, err.code)
+          query = """query($account:String!){viewer{accounts(filter:{accountTag:$account}){workersInvocationsAdaptive(limit:100, filter:{scriptName:"pocket-politics-records",datetime_geq:"2026-11-19T21:00:00Z"}){dimensions{datetimeHour status} sum{requests errors}}}}}"""
+          try:
+              with urlopen(Request(host+"/graphql", headers=headers, data=json.dumps({"query":query,"variables":{"account":account}}).encode()),timeout=20) as res:
+                  metrics=json.load(res)
+              print("Invocation metrics:",metrics.get("data"),[e.get("message","")[:180] for e in (metrics.get("errors") or [])])
+          except HTTPError as err:
+              print("Invocation metrics HTTP", err.code)
