@@ -1,0 +1,37 @@
+{
+  "debateFingerprint": "eed63915a2a3268d5d90cb8320fd6a5e065075e734f6036b8fb23527119dc409",
+  "bill": "119-hr-8884",
+  "vote": "house:119:2:283",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm": "9165723fe2a584f08e8c5e1009adc2ad8e3992662067206b30c5e7adb689019a",
+    "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5186-3.htm": "1e2bc758bbfa37090a673234f105d4bbc828f62102c4d8d0a6f0f1390f6cdfc5"
+  },
+  "passageRecord": {
+    "url": "https://clerk.house.gov/evs/2026/roll283.xml",
+    "sha256": "bd517ba18e10ae4a11d60768d2a1307c88e977ee358434f7af6a9ad78d12d5d4"
+  },
+  "points": [
+    {
+      "bio": "S001195",
+      "speaker": "Jason Smith",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
+      "start": 4941,
+      "quote": "Many Americans that are living with disabilities want to enter the \nworkforce and seek gainful employment. In fact, an estimated 60 percent \nof Americans who receive benefits under the Social Security Disability \nInsurance program have stated a desire to return to work. Yet less than \n1 percent leave the disability insurance program each year for a job. \nThat is a gigantic gap between the number of disabled Americans who \nwant to work and the number who successfully return to work.",
+      "summary": "The speaker says many people receiving disability benefits want to work, but very few successfully leave the program for jobs.",
+      "index": 6
+    },
+    {
+      "bio": "C001080",
+      "speaker": "Judy Chu",
+      "side": "Nay",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
+      "start": 7250,
+      "quote": "Mr. Speaker, at a time when Americans are dealing with skyrocketing \nprices and vulnerable populations like seniors and people with \ndisabilities are struggling to get help with their Social Security \nbenefits because this administration has created a customer service \ncrisis through reckless staffing cuts, it is shameful that Republicans \nhave chosen to bring H.R. 8884 to the floor. This bill won't lower \ncosts, won't improve customer service, and won't make it easier for \npeople with disabilities to access the benefits they have earned. \nInstead, it opens the door to cutting those benefits while making SSA's \ncustomer service crisis even worse.",
+      "summary": "The speaker opposes the bill, saying it would not lower costs or improve service and could make disability benefits harder to access.",
+      "index": 17
+    }
+  ]
+}

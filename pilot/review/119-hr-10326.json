@@ -1,0 +1,37 @@
+{
+  "debateFingerprint": "0de37646d27be45dd672aa3ce4c738552c955c062040af42e5d2522d696cdb98",
+  "bill": "119-hr-10326",
+  "vote": "house:119:2:310",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm": "51caa14c500ab2cfe083c3850d93689e3266974e12621cdc263ac96a29d514d8",
+    "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5957.htm": "bbd1281ada80fca1a2226177f22c44568d7102c7e23768747a2d90feeeeb6d0b"
+  },
+  "passageRecord": {
+    "url": "https://clerk.house.gov/evs/2026/roll310.xml",
+    "sha256": "2de9a3d27362568686150e35a49cc0aa18bc34c756147f3536c12623f35927b7"
+  },
+  "points": [
+    {
+      "bio": "V000133",
+      "speaker": "Jefferson Van Drew",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
+      "start": 442,
+      "quote": "Madam Speaker, pursuant to House Resolution 1530, I \ncall up the bill (H.R. 10326) to enhance information-sharing \ncapabilities between Federal law enforcement and State agencies to \ndetect, investigate, and prosecute fraud in certain Federal programs, \nand to protect individual privacy, and ask for its immediate \nconsideration in the House.",
+      "summary": "The bill would let federal law enforcement and state agencies share information to investigate and prosecute fraud in certain federal programs while protecting privacy.",
+      "index": 0
+    },
+    {
+      "bio": "R000606",
+      "speaker": "Jamie Raskin",
+      "side": "Nay",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
+      "start": 12187,
+      "quote": "However, I rise in vehement opposition to H.R. 10326, the so-called \nPROOF Act, which is a dangerous bill and has nothing to do with \nfighting fraud and everything to do with orchestrating a huge privacy \ndata power grab from the American people.",
+      "summary": "Opponents said the bill is a dangerous privacy grab that would give the government broad access to Americans' personal data.",
+      "index": 40
+    }
+  ]
+}

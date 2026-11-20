@@ -1,0 +1,14 @@
+{
+  "debateFingerprint": "f4bf257be4731c636fa0b13c08b86967bac261bf8364fd256be67bbe0776194d",
+  "bill": "119-hr-7008",
+  "vote": "house:119:2:280",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm": "891e1427ab866b75765e6bdeaf8f6e573fc6401b26b3bb1e4ad37eb2c75b875d",
+    "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5157.htm": "1dcce00df8cd689d2dccc4b91ddb4cd479175b7e4ff9418ce5b6705e5bf41336"
+  },
+  "passageRecord": {
+    "url": "https://clerk.house.gov/evs/2026/roll280.xml",
+    "sha256": "543f0e2c7d60bdadd88f0b0da9ef88d05f23502b9e3609b37ddcc2bc411e889a"
+  },
+  "points": []
+}

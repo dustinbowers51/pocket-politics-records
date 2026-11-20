@@ -1,0 +1,14 @@
+{
+  "debateFingerprint": "b695616319ae7bf1bf08e72971f252fd3b89576896734b7f6ccea90b3d0f2c32",
+  "bill": "119-hr-6955",
+  "vote": "house:119:2:271",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm": "83653380408bcdef714864a15d21a87977cae60057c39d7c28afdd62d755eddc",
+    "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH5018-2.htm": "5b317fbc2f8bf29e569334e2997eb02f45c8f9a499c9cbfcfe7eb8e52d819e39"
+  },
+  "passageRecord": {
+    "url": "https://clerk.house.gov/evs/2026/roll271.xml",
+    "sha256": "90b42027b27ec42fd7412d5c661ed2fafeb9f1beccc658f2419e81cd70bfc442"
+  },
+  "points": []
+}

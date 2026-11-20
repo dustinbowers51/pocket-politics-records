@@ -1,0 +1,13 @@
+{
+  "debateFingerprint": "bf3b402468c6dce9b4e6dffb42c1948f3ba1c43041fb659563cbe0c04dac9806",
+  "bill": "119-hr-4795",
+  "vote": "house:119:2:295",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm": "f0ec39600a136c2e942c99353c9b3501ae6acf8afd431b546c7043ab4b12d423"
+  },
+  "passageRecord": {
+    "url": "https://clerk.house.gov/evs/2026/roll295.xml",
+    "sha256": "701a680c17f2eb9cde487195e6d4c9cea8655d4f0244009a059363dd86e9ce9a"
+  },
+  "points": []
+}

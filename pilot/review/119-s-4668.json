@@ -1,0 +1,14 @@
+{
+  "debateFingerprint": "3386f4b3c91a273b751f6d68a81a3bda6b65bcfc726647327a49a78acaddc789",
+  "bill": "119-s-4668",
+  "vote": "senate:119:2:250",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm": "1c187a6b87b414d819c795a71d553dba09a0cdf8601fcbea336e196d3ab03a9f",
+    "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5076-3.htm": "2587017ea21071bc494de6d1905dcb185219728e82b5bf12491d85e1a9d30a96"
+  },
+  "passageRecord": {
+    "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00250.xml",
+    "sha256": "7194114ea5332c376bef6c1cb308103dcfd014c48c701f69834fa8402dc06e32"
+  },
+  "points": []
+}
