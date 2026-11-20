@@ -5,6 +5,7 @@ import json
 import os
 import subprocess
 from pathlib import Path
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 from sources import digest, norm, read
@@ -28,14 +29,19 @@ def ask(instructions, payload):
                 model=MODEL,
                 store=False,
                 instructions=instructions,
-                input=json.dumps(payload),
+                input="Return JSON.\n" + json.dumps(payload),
                 text={"format": {"type": "json_object"}},
                 max_output_tokens=2500,
             )
         ).encode(),
     )
-    with urlopen(request, timeout=120) as response:
-        decoded = json.load(response)
+    try:
+        with urlopen(request, timeout=120) as response:
+            decoded = json.load(response)
+    except HTTPError as exc:
+        error = json.loads(exc.read()).get("error", {})
+        message = str(error.get("message", "" )).replace(os.environ["OPENAI_API_KEY"], "[redacted]")
+        raise RuntimeError(f"Responses API {exc.code}: {message[:500]}") from None
     if decoded.get("status") != "completed":
         raise RuntimeError("Incomplete model response")
     return json.loads(
