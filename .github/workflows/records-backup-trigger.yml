@@ -1,0 +1,46 @@
+name: Configure the records backup trigger
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/records-backup-trigger.yml']
+permissions: {}
+concurrency: configure-records-backup-trigger
+jobs:
+  configure:
+    if: github.ref == 'refs/heads/main' && vars.LIVE_PUBLICATION_APPROVED == 'yes'
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Ensure the existing Worker has the hourly backup schedule
+        env:
+          ACCOUNT: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        shell: python
+        run: |
+          import json
+          import os
+          from urllib.request import Request, urlopen
+
+          url = f"https://api.cloudflare.com/client/v4/accounts/{os.environ['ACCOUNT']}/workers/scripts/pocket-politics-records/schedules"
+          headers = {"Authorization": "Bearer " + os.environ["TOKEN"], "Content-Type": "application/json"}
+          target = "37 * * * *"
+
+          def schedules(method="GET", payload=None):
+              data = json.dumps(payload).encode() if payload is not None else None
+              with urlopen(Request(url, method=method, headers=headers, data=data), timeout=30) as response:
+                  result = json.load(response)
+              if not result["success"]:
+                  raise RuntimeError("Cloudflare schedule request failed")
+              rows = result["result"]
+              if isinstance(rows, dict):
+                  rows = rows["schedules"]
+              return [row["cron"] for row in rows]
+
+          before = schedules()
+          print("Existing schedules:", before, flush=True)
+          if target not in before:
+              schedules("PUT", [{"cron": expr} for expr in [*before, target]])
+          after = schedules()
+          if target not in after or not set(before).issubset(after):
+              raise RuntimeError("Production trigger verification failed")
+          print("Verified production schedules:", after)
