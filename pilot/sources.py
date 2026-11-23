@@ -68,11 +68,21 @@ def verify_vote(ballot):
             raise ValueError(
                 f"Official vote and archived position disagree for {bio} in {url}"
             )
-    return {"url": url, "sha256": digest(raw)}
+    if chamber == "house":
+        members = {r.get("name-id"): [r.get("party"), r.get("state")] for r in root.findall(".//recorded-vote/legislator")}
+    else:
+        by_lis = {r.findtext("lis_member_id"): [r.findtext("party"), r.findtext("state")] for r in root.findall(".//members/member")}
+        members = {bio: by_lis[lid] for bio, lid in ids.items() if lid in by_lis}
+    tally = collections.Counter(votes.values())
+    result = root.findtext(".//vote-result") or root.findtext("vote_result")
+    return {"url": url, "sha256": digest(raw), "members": members,
+            "result": result, "yea": tally["Yea"] + tally["Aye"], "nay": tally["Nay"] + tally["No"]}
 
 
 def sources(ballot):
     result, docs = [], {}
+    speaking = set()
+    unidentified = False
     congress, kind, number = ballot["bill"].split("-")
     for day in ballot["dates"]:
         package = "CREC-" + day
@@ -112,18 +122,26 @@ def sources(ballot):
             for member in ext.findall("{*}congMember[@role='SPEAKING']"):
                 label = member.findtext("{*}name[@type='parsed']")
                 bio = member.get("bioGuideId")
+                if bio:
+                    speaking.add(bio)
+                else:
+                    unidentified = True
                 if label and bio:
                     speakers[label.upper()].append(
                         (bio, member.findtext("{*}name[@type='authority-fnf']"))
                     )
             managers = set()
-            for match in re.finditer(
-                r"\((?:Mr|Mrs|Ms)\. [^()]{1,50}\)[^()]{1,120}(?:\((?:Mr|Mrs|Ms)\. [^()]{1,50}\)\s*)?(?:each\s+)?will control\s+\d+ minutes",
-                norm(text),
-            ):
-                managers.update(
-                    s.upper() for s in re.findall(r"\(([^()]+)\)", match.group())
-                )
+            floor = norm(text)
+            # Restrict the designation to the opening order of debate.
+            opening = re.split(r"(?i)an amendment (?:offered|printed)|amendment no\. \d+ offered", floor, maxsplit=1)[0]
+            designation = re.search(r"(?i)(?:gentleman|gentlewoman) from ([A-Za-z ]+?) \(((?:Mr|Ms|Mrs)\. [^()]+)\),? and (?:the )?(?:gentleman|gentlewoman) from ([A-Za-z ]+?) \(((?:Mr|Ms|Mrs)\. [^()]+)\) (?:each )?will control (\d+) minutes", opening)
+            if designation and int(designation[5]) >= 20:
+                for state, name in [(designation[1], designation[2]), (designation[3], designation[4])]:
+                    qualified = (name + " of " + state).upper()
+                    if qualified in speakers:
+                        managers.add(qualified)
+                    elif len(speakers.get(name.upper(), [])) == 1:
+                        managers.add(name.upper())
             active = None
             previous_end = 0
             for para in re.finditer(
@@ -180,12 +198,13 @@ def sources(ballot):
         title=ballot["title"],
         sources=docs,
         paragraphs=result,
+        speakerVotes={bio: ballot["positions"].get(bio) for bio in sorted(speaking)}, unidentified=unidentified,
     )
 
 
 if __name__ == "__main__":
     packets = []
-    for b in json.loads(Path("pilot/ballots.json").read_text()):
+    for b in json.loads(Path("pilot/ballots.json").read_text()) + json.loads(Path("pilot/one-sided.json").read_text()):
         record = verify_vote(b)
         packets.append({**sources(b), "passageRecord": record})
     Path("packets.json").write_text(json.dumps(packets))
