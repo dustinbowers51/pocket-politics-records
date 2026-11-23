@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "40f3e24df26fb8777364f1a64294e7b2e3f36a91b2bdd8d60ea34e08f6aedb4e",
+  "debateFingerprint": "8a6c4c2410dacdf3f90c75ebfa3d3813a0c811894fb038a6217a30dab1c8356f",
   "bill": "119-hr-8800",
   "vote": "house:119:2:278",
   "sources": {
@@ -7,7 +7,1982 @@
   },
   "passageRecord": {
     "url": "https://clerk.house.gov/evs/2026/roll278.xml",
-    "sha256": "541fa8d9340952b4674afdc74e54b5ace14bbb7b465d1250b8b898ea1407e094"
+    "sha256": "541fa8d9340952b4674afdc74e54b5ace14bbb7b465d1250b8b898ea1407e094",
+    "members": {
+      "A000370": [
+        "D",
+        "NC"
+      ],
+      "A000055": [
+        "R",
+        "AL"
+      ],
+      "A000371": [
+        "D",
+        "CA"
+      ],
+      "A000379": [
+        "R",
+        "MO"
+      ],
+      "A000372": [
+        "R",
+        "GA"
+      ],
+      "A000380": [
+        "D",
+        "RI"
+      ],
+      "A000369": [
+        "R",
+        "NV"
+      ],
+      "A000381": [
+        "D",
+        "AZ"
+      ],
+      "A000375": [
+        "R",
+        "TX"
+      ],
+      "A000148": [
+        "D",
+        "MA"
+      ],
+      "B001291": [
+        "R",
+        "TX"
+      ],
+      "B001298": [
+        "R",
+        "NE"
+      ],
+      "B001307": [
+        "R",
+        "IN"
+      ],
+      "B001306": [
+        "R",
+        "OH"
+      ],
+      "B001318": [
+        "D",
+        "VT"
+      ],
+      "B001282": [
+        "R",
+        "KY"
+      ],
+      "B001300": [
+        "D",
+        "CA"
+      ],
+      "B001321": [
+        "R",
+        "MI"
+      ],
+      "B001322": [
+        "R",
+        "WA"
+      ],
+      "B001314": [
+        "R",
+        "FL"
+      ],
+      "B001281": [
+        "D",
+        "OH"
+      ],
+      "B001323": [
+        "R",
+        "AK"
+      ],
+      "B001324": [
+        "D",
+        "MO"
+      ],
+      "B000668": [
+        "R",
+        "OR"
+      ],
+      "B001287": [
+        "D",
+        "CA"
+      ],
+      "B001301": [
+        "R",
+        "MI"
+      ],
+      "B001292": [
+        "D",
+        "VA"
+      ],
+      "B000740": [
+        "R",
+        "OK"
+      ],
+      "B001302": [
+        "R",
+        "AZ"
+      ],
+      "B001325": [
+        "R",
+        "SC"
+      ],
+      "B001257": [
+        "R",
+        "FL"
+      ],
+      "B000490": [
+        "D",
+        "GA"
+      ],
+      "B000825": [
+        "R",
+        "CO"
+      ],
+      "B001278": [
+        "D",
+        "OR"
+      ],
+      "B001295": [
+        "R",
+        "IL"
+      ],
+      "B001296": [
+        "D",
+        "PA"
+      ],
+      "B001317": [
+        "R",
+        "OK"
+      ],
+      "B001327": [
+        "R",
+        "PA"
+      ],
+      "B001313": [
+        "D",
+        "OH"
+      ],
+      "B001285": [
+        "D",
+        "CA"
+      ],
+      "B001260": [
+        "R",
+        "FL"
+      ],
+      "B001315": [
+        "D",
+        "IL"
+      ],
+      "B001309": [
+        "R",
+        "TN"
+      ],
+      "B001316": [
+        "R",
+        "MO"
+      ],
+      "B001326": [
+        "D",
+        "OR"
+      ],
+      "C000059": [
+        "R",
+        "CA"
+      ],
+      "C001039": [
+        "R",
+        "FL"
+      ],
+      "C001112": [
+        "D",
+        "CA"
+      ],
+      "C001126": [
+        "R",
+        "OH"
+      ],
+      "C001072": [
+        "D",
+        "IN"
+      ],
+      "C001103": [
+        "R",
+        "GA"
+      ],
+      "C001125": [
+        "D",
+        "LA"
+      ],
+      "C001051": [
+        "R",
+        "TX"
+      ],
+      "C001131": [
+        "D",
+        "TX"
+      ],
+      "C001055": [
+        "D",
+        "HI"
+      ],
+      "C001117": [
+        "D",
+        "IL"
+      ],
+      "C001066": [
+        "D",
+        "FL"
+      ],
+      "C001091": [
+        "D",
+        "TX"
+      ],
+      "C001080": [
+        "D",
+        "CA"
+      ],
+      "C001133": [
+        "R",
+        "AZ"
+      ],
+      "C001123": [
+        "D",
+        "CA"
+      ],
+      "C001101": [
+        "D",
+        "MA"
+      ],
+      "C001067": [
+        "D",
+        "NY"
+      ],
+      "C001061": [
+        "D",
+        "MO"
+      ],
+      "C001118": [
+        "R",
+        "VA"
+      ],
+      "C001115": [
+        "R",
+        "TX"
+      ],
+      "C000537": [
+        "D",
+        "SC"
+      ],
+      "C001116": [
+        "R",
+        "GA"
+      ],
+      "C001068": [
+        "D",
+        "TN"
+      ],
+      "C001053": [
+        "R",
+        "OK"
+      ],
+      "C001129": [
+        "R",
+        "GA"
+      ],
+      "C001108": [
+        "R",
+        "KY"
+      ],
+      "C001136": [
+        "D",
+        "NJ"
+      ],
+      "C001110": [
+        "D",
+        "CA"
+      ],
+      "C001059": [
+        "D",
+        "CA"
+      ],
+      "C001069": [
+        "D",
+        "CT"
+      ],
+      "C001119": [
+        "D",
+        "MN"
+      ],
+      "C001132": [
+        "R",
+        "AZ"
+      ],
+      "C001137": [
+        "R",
+        "CO"
+      ],
+      "C001087": [
+        "R",
+        "AR"
+      ],
+      "C001120": [
+        "R",
+        "TX"
+      ],
+      "C001130": [
+        "D",
+        "TX"
+      ],
+      "C001121": [
+        "D",
+        "CO"
+      ],
+      "C001063": [
+        "D",
+        "TX"
+      ],
+      "D000629": [
+        "D",
+        "KS"
+      ],
+      "D000626": [
+        "R",
+        "OH"
+      ],
+      "D000096": [
+        "D",
+        "IL"
+      ],
+      "D000230": [
+        "D",
+        "NC"
+      ],
+      "D000594": [
+        "R",
+        "TX"
+      ],
+      "D000631": [
+        "D",
+        "PA"
+      ],
+      "D000197": [
+        "D",
+        "CO"
+      ],
+      "D000216": [
+        "D",
+        "CT"
+      ],
+      "D000617": [
+        "D",
+        "WA"
+      ],
+      "D000530": [
+        "D",
+        "PA"
+      ],
+      "D000623": [
+        "D",
+        "CA"
+      ],
+      "D000616": [
+        "R",
+        "TN"
+      ],
+      "D000635": [
+        "D",
+        "OR"
+      ],
+      "D000600": [
+        "R",
+        "FL"
+      ],
+      "D000624": [
+        "D",
+        "MI"
+      ],
+      "D000399": [
+        "D",
+        "TX"
+      ],
+      "D000032": [
+        "R",
+        "FL"
+      ],
+      "D000634": [
+        "R",
+        "MT"
+      ],
+      "D000628": [
+        "R",
+        "FL"
+      ],
+      "E000246": [
+        "R",
+        "NC"
+      ],
+      "E000301": [
+        "D",
+        "MD"
+      ],
+      "E000071": [
+        "R",
+        "TX"
+      ],
+      "E000294": [
+        "R",
+        "MN"
+      ],
+      "E000299": [
+        "D",
+        "TX"
+      ],
+      "E000297": [
+        "D",
+        "NY"
+      ],
+      "E000298": [
+        "R",
+        "KS"
+      ],
+      "E000300": [
+        "R",
+        "CO"
+      ],
+      "E000296": [
+        "D",
+        "PA"
+      ],
+      "E000235": [
+        "R",
+        "MS"
+      ],
+      "F000246": [
+        "R",
+        "TX"
+      ],
+      "F000482": [
+        "R",
+        "ND"
+      ],
+      "F000446": [
+        "R",
+        "IA"
+      ],
+      "F000110": [
+        "D",
+        "LA"
+      ],
+      "F000481": [
+        "D",
+        "AL"
+      ],
+      "F000484": [
+        "R",
+        "FL"
+      ],
+      "F000475": [
+        "R",
+        "MN"
+      ],
+      "F000470": [
+        "R",
+        "MN"
+      ],
+      "F000471": [
+        "R",
+        "WI"
+      ],
+      "F000466": [
+        "R",
+        "PA"
+      ],
+      "F000459": [
+        "R",
+        "TN"
+      ],
+      "F000468": [
+        "D",
+        "TX"
+      ],
+      "F000474": [
+        "R",
+        "NE"
+      ],
+      "F000480": [
+        "R",
+        "CA"
+      ],
+      "F000454": [
+        "D",
+        "IL"
+      ],
+      "F000477": [
+        "D",
+        "NC"
+      ],
+      "F000450": [
+        "R",
+        "NC"
+      ],
+      "F000462": [
+        "D",
+        "FL"
+      ],
+      "F000472": [
+        "R",
+        "FL"
+      ],
+      "F000483": [
+        "D",
+        "CA"
+      ],
+      "F000476": [
+        "D",
+        "FL"
+      ],
+      "F000478": [
+        "R",
+        "SC"
+      ],
+      "F000469": [
+        "R",
+        "ID"
+      ],
+      "F000485": [
+        "R",
+        "GA"
+      ],
+      "G000607": [
+        "R",
+        "CA"
+      ],
+      "G000559": [
+        "D",
+        "CA"
+      ],
+      "G000597": [
+        "R",
+        "NY"
+      ],
+      "G000598": [
+        "D",
+        "CA"
+      ],
+      "G000586": [
+        "D",
+        "IL"
+      ],
+      "G000587": [
+        "D",
+        "TX"
+      ],
+      "G000603": [
+        "R",
+        "TX"
+      ],
+      "G000602": [
+        "D",
+        "NY"
+      ],
+      "G000593": [
+        "R",
+        "FL"
+      ],
+      "G000592": [
+        "D",
+        "ME"
+      ],
+      "G000599": [
+        "D",
+        "NY"
+      ],
+      "G000601": [
+        "R",
+        "TX"
+      ],
+      "G000585": [
+        "D",
+        "CA"
+      ],
+      "G000581": [
+        "D",
+        "TX"
+      ],
+      "G000589": [
+        "R",
+        "TX"
+      ],
+      "G000604": [
+        "D",
+        "NH"
+      ],
+      "G000565": [
+        "R",
+        "AZ"
+      ],
+      "G000583": [
+        "D",
+        "NJ"
+      ],
+      "G000546": [
+        "R",
+        "MO"
+      ],
+      "G000605": [
+        "D",
+        "CA"
+      ],
+      "G000553": [
+        "D",
+        "TX"
+      ],
+      "G000568": [
+        "R",
+        "VA"
+      ],
+      "G000606": [
+        "D",
+        "AZ"
+      ],
+      "G000576": [
+        "R",
+        "WI"
+      ],
+      "G000591": [
+        "R",
+        "MS"
+      ],
+      "G000558": [
+        "R",
+        "KY"
+      ],
+      "H001096": [
+        "R",
+        "WY"
+      ],
+      "H001098": [
+        "R",
+        "AZ"
+      ],
+      "H001090": [
+        "D",
+        "CA"
+      ],
+      "H001099": [
+        "R",
+        "FL"
+      ],
+      "H001101": [
+        "R",
+        "NC"
+      ],
+      "H001052": [
+        "R",
+        "MD"
+      ],
+      "H001102": [
+        "R",
+        "NC"
+      ],
+      "H001086": [
+        "R",
+        "TN"
+      ],
+      "H001081": [
+        "D",
+        "CT"
+      ],
+      "H001082": [
+        "R",
+        "OK"
+      ],
+      "H001077": [
+        "R",
+        "LA"
+      ],
+      "H001072": [
+        "R",
+        "AR"
+      ],
+      "H001047": [
+        "D",
+        "CT"
+      ],
+      "H001091": [
+        "R",
+        "IA"
+      ],
+      "H001066": [
+        "D",
+        "NV"
+      ],
+      "H001093": [
+        "R",
+        "IN"
+      ],
+      "H001085": [
+        "D",
+        "PA"
+      ],
+      "H000874": [
+        "D",
+        "MD"
+      ],
+      "H001094": [
+        "D",
+        "OR"
+      ],
+      "H001067": [
+        "R",
+        "NC"
+      ],
+      "H001068": [
+        "D",
+        "CA"
+      ],
+      "H001058": [
+        "R",
+        "MI"
+      ],
+      "H001095": [
+        "R",
+        "TX"
+      ],
+      "H001100": [
+        "R",
+        "CO"
+      ],
+      "I000056": [
+        "R",
+        "CA"
+      ],
+      "I000058": [
+        "D",
+        "MD"
+      ],
+      "J000311": [
+        "R",
+        "GA"
+      ],
+      "J000309": [
+        "D",
+        "IL"
+      ],
+      "J000304": [
+        "R",
+        "TX"
+      ],
+      "J000305": [
+        "D",
+        "CA"
+      ],
+      "J000307": [
+        "R",
+        "MI"
+      ],
+      "J000298": [
+        "D",
+        "WA"
+      ],
+      "J000294": [
+        "D",
+        "NY"
+      ],
+      "J000288": [
+        "D",
+        "GA"
+      ],
+      "J000299": [
+        "R",
+        "LA"
+      ],
+      "J000301": [
+        "R",
+        "SD"
+      ],
+      "J000310": [
+        "D",
+        "TX"
+      ],
+      "J000289": [
+        "R",
+        "OH"
+      ],
+      "J000295": [
+        "R",
+        "OH"
+      ],
+      "J000302": [
+        "R",
+        "PA"
+      ],
+      "K000400": [
+        "D",
+        "CA"
+      ],
+      "K000009": [
+        "D",
+        "OH"
+      ],
+      "K000398": [
+        "R",
+        "NJ"
+      ],
+      "K000375": [
+        "D",
+        "MA"
+      ],
+      "K000385": [
+        "D",
+        "IL"
+      ],
+      "K000388": [
+        "R",
+        "MS"
+      ],
+      "K000376": [
+        "R",
+        "PA"
+      ],
+      "K000402": [
+        "D",
+        "NY"
+      ],
+      "K000403": [
+        "R",
+        "UT"
+      ],
+      "K000389": [
+        "D",
+        "CA"
+      ],
+      "K000399": [
+        "R",
+        "VA"
+      ],
+      "K000401": [
+        "I",
+        "CA"
+      ],
+      "K000397": [
+        "R",
+        "CA"
+      ],
+      "K000405": [
+        "R",
+        "NC"
+      ],
+      "K000391": [
+        "D",
+        "IL"
+      ],
+      "K000392": [
+        "R",
+        "TN"
+      ],
+      "L000585": [
+        "R",
+        "IL"
+      ],
+      "L000598": [
+        "R",
+        "NY"
+      ],
+      "L000601": [
+        "D",
+        "OH"
+      ],
+      "L000600": [
+        "R",
+        "NY"
+      ],
+      "L000560": [
+        "D",
+        "WA"
+      ],
+      "L000557": [
+        "D",
+        "CT"
+      ],
+      "L000606": [
+        "D",
+        "NY"
+      ],
+      "L000566": [
+        "R",
+        "OH"
+      ],
+      "L000599": [
+        "R",
+        "NY"
+      ],
+      "L000597": [
+        "R",
+        "FL"
+      ],
+      "L000590": [
+        "D",
+        "NV"
+      ],
+      "L000602": [
+        "D",
+        "PA"
+      ],
+      "L000273": [
+        "D",
+        "NM"
+      ],
+      "L000595": [
+        "R",
+        "LA"
+      ],
+      "L000593": [
+        "D",
+        "CA"
+      ],
+      "L000607": [
+        "D",
+        "CA"
+      ],
+      "L000582": [
+        "D",
+        "CA"
+      ],
+      "L000397": [
+        "D",
+        "CA"
+      ],
+      "L000583": [
+        "R",
+        "GA"
+      ],
+      "L000491": [
+        "R",
+        "OK"
+      ],
+      "L000596": [
+        "R",
+        "FL"
+      ],
+      "L000603": [
+        "R",
+        "TX"
+      ],
+      "L000562": [
+        "D",
+        "MA"
+      ],
+      "M000194": [
+        "R",
+        "SC"
+      ],
+      "M001230": [
+        "R",
+        "PA"
+      ],
+      "M001223": [
+        "D",
+        "RI"
+      ],
+      "M000317": [
+        "R",
+        "NY"
+      ],
+      "M001228": [
+        "R",
+        "UT"
+      ],
+      "M000871": [
+        "R",
+        "KS"
+      ],
+      "M001231": [
+        "D",
+        "NY"
+      ],
+      "M001184": [
+        "R",
+        "KY"
+      ],
+      "M001199": [
+        "R",
+        "FL"
+      ],
+      "M001163": [
+        "D",
+        "CA"
+      ],
+      "M001208": [
+        "D",
+        "GA"
+      ],
+      "M001238": [
+        "D",
+        "DE"
+      ],
+      "M001157": [
+        "R",
+        "TX"
+      ],
+      "M001136": [
+        "R",
+        "MI"
+      ],
+      "M001232": [
+        "D",
+        "MD"
+      ],
+      "M001227": [
+        "D",
+        "VA"
+      ],
+      "M001177": [
+        "R",
+        "CA"
+      ],
+      "M001143": [
+        "D",
+        "MN"
+      ],
+      "M001218": [
+        "R",
+        "GA"
+      ],
+      "M001237": [
+        "D",
+        "MI"
+      ],
+      "M001240": [
+        "R",
+        "NC"
+      ],
+      "M001220": [
+        "D",
+        "KY"
+      ],
+      "M000312": [
+        "D",
+        "MA"
+      ],
+      "M001239": [
+        "R",
+        "VA"
+      ],
+      "M001229": [
+        "D",
+        "NJ"
+      ],
+      "M001137": [
+        "D",
+        "NY"
+      ],
+      "M001246": [
+        "D",
+        "NJ"
+      ],
+      "M001245": [
+        "D",
+        "TX"
+      ],
+      "M001226": [
+        "D",
+        "NJ"
+      ],
+      "M001188": [
+        "D",
+        "NY"
+      ],
+      "M001233": [
+        "R",
+        "IN"
+      ],
+      "M001204": [
+        "R",
+        "PA"
+      ],
+      "M000687": [
+        "D",
+        "MD"
+      ],
+      "M001211": [
+        "R",
+        "IL"
+      ],
+      "M001222": [
+        "R",
+        "OH"
+      ],
+      "M001205": [
+        "R",
+        "WV"
+      ],
+      "M001215": [
+        "R",
+        "IA"
+      ],
+      "M001216": [
+        "R",
+        "FL"
+      ],
+      "M001241": [
+        "D",
+        "CA"
+      ],
+      "M001194": [
+        "R",
+        "MI"
+      ],
+      "M001212": [
+        "R",
+        "AL"
+      ],
+      "M001236": [
+        "R",
+        "NC"
+      ],
+      "M001213": [
+        "R",
+        "UT"
+      ],
+      "M001160": [
+        "D",
+        "WI"
+      ],
+      "M001235": [
+        "R",
+        "WV"
+      ],
+      "M001224": [
+        "R",
+        "TX"
+      ],
+      "M001206": [
+        "D",
+        "NY"
+      ],
+      "M001234": [
+        "D",
+        "MN"
+      ],
+      "M001217": [
+        "D",
+        "FL"
+      ],
+      "M001196": [
+        "D",
+        "MA"
+      ],
+      "M001214": [
+        "D",
+        "IN"
+      ],
+      "M001225": [
+        "D",
+        "CA"
+      ],
+      "M001210": [
+        "R",
+        "NC"
+      ],
+      "N000002": [
+        "D",
+        "NY"
+      ],
+      "N000015": [
+        "D",
+        "MA"
+      ],
+      "N000191": [
+        "D",
+        "CO"
+      ],
+      "N000026": [
+        "R",
+        "TX"
+      ],
+      "N000189": [
+        "R",
+        "WA"
+      ],
+      "N000188": [
+        "D",
+        "NJ"
+      ],
+      "N000190": [
+        "R",
+        "SC"
+      ],
+      "N000193": [
+        "R",
+        "IA"
+      ],
+      "O000019": [
+        "R",
+        "CA"
+      ],
+      "O000172": [
+        "D",
+        "NY"
+      ],
+      "O000175": [
+        "R",
+        "TN"
+      ],
+      "O000176": [
+        "D",
+        "MD"
+      ],
+      "O000173": [
+        "D",
+        "MN"
+      ],
+      "O000177": [
+        "R",
+        "MO"
+      ],
+      "O000086": [
+        "R",
+        "UT"
+      ],
+      "P000034": [
+        "D",
+        "NJ"
+      ],
+      "P000609": [
+        "R",
+        "AL"
+      ],
+      "P000613": [
+        "D",
+        "CA"
+      ],
+      "P000614": [
+        "D",
+        "NH"
+      ],
+      "P000622": [
+        "R",
+        "FL"
+      ],
+      "P000197": [
+        "D",
+        "CA"
+      ],
+      "G000600": [
+        "D",
+        "WA"
+      ],
+      "P000605": [
+        "R",
+        "PA"
+      ],
+      "P000608": [
+        "D",
+        "CA"
+      ],
+      "P000620": [
+        "D",
+        "CO"
+      ],
+      "P000048": [
+        "R",
+        "TX"
+      ],
+      "P000597": [
+        "D",
+        "ME"
+      ],
+      "P000607": [
+        "D",
+        "WI"
+      ],
+      "P000621": [
+        "D",
+        "NJ"
+      ],
+      "P000617": [
+        "D",
+        "MA"
+      ],
+      "Q000023": [
+        "D",
+        "IL"
+      ],
+      "R000617": [
+        "D",
+        "IL"
+      ],
+      "R000621": [
+        "D",
+        "WA"
+      ],
+      "R000606": [
+        "D",
+        "MD"
+      ],
+      "R000610": [
+        "R",
+        "PA"
+      ],
+      "R000622": [
+        "D",
+        "NY"
+      ],
+      "R000620": [
+        "D",
+        "CA"
+      ],
+      "R000575": [
+        "R",
+        "AL"
+      ],
+      "R000395": [
+        "R",
+        "KY"
+      ],
+      "R000612": [
+        "R",
+        "TN"
+      ],
+      "R000305": [
+        "D",
+        "NC"
+      ],
+      "R000603": [
+        "R",
+        "NC"
+      ],
+      "R000614": [
+        "R",
+        "TX"
+      ],
+      "R000599": [
+        "D",
+        "CA"
+      ],
+      "R000619": [
+        "R",
+        "OH"
+      ],
+      "R000609": [
+        "R",
+        "FL"
+      ],
+      "R000579": [
+        "D",
+        "NY"
+      ],
+      "S000168": [
+        "R",
+        "FL"
+      ],
+      "S001226": [
+        "D",
+        "OR"
+      ],
+      "S001156": [
+        "D",
+        "CA"
+      ],
+      "S001176": [
+        "R",
+        "LA"
+      ],
+      "S001205": [
+        "D",
+        "PA"
+      ],
+      "S001145": [
+        "D",
+        "IL"
+      ],
+      "S001228": [
+        "R",
+        "KS"
+      ],
+      "S001190": [
+        "D",
+        "IL"
+      ],
+      "S001221": [
+        "D",
+        "MI"
+      ],
+      "S001216": [
+        "D",
+        "WA"
+      ],
+      "S001183": [
+        "R",
+        "AZ"
+      ],
+      "S000185": [
+        "D",
+        "VA"
+      ],
+      "S001189": [
+        "R",
+        "GA"
+      ],
+      "S001224": [
+        "R",
+        "TX"
+      ],
+      "S000250": [
+        "R",
+        "TX"
+      ],
+      "S001185": [
+        "D",
+        "AL"
+      ],
+      "S000344": [
+        "D",
+        "CA"
+      ],
+      "S001229": [
+        "R",
+        "IN"
+      ],
+      "S001231": [
+        "D",
+        "CA"
+      ],
+      "S001148": [
+        "R",
+        "ID"
+      ],
+      "S001195": [
+        "R",
+        "MO"
+      ],
+      "S001172": [
+        "R",
+        "NE"
+      ],
+      "S000522": [
+        "R",
+        "NJ"
+      ],
+      "S000510": [
+        "D",
+        "WA"
+      ],
+      "S001199": [
+        "R",
+        "PA"
+      ],
+      "S001225": [
+        "D",
+        "IL"
+      ],
+      "S001200": [
+        "D",
+        "FL"
+      ],
+      "S000929": [
+        "R",
+        "IN"
+      ],
+      "S001218": [
+        "D",
+        "NM"
+      ],
+      "S001211": [
+        "D",
+        "AZ"
+      ],
+      "S001212": [
+        "R",
+        "MN"
+      ],
+      "S001196": [
+        "R",
+        "NY"
+      ],
+      "S001213": [
+        "R",
+        "WI"
+      ],
+      "S001214": [
+        "R",
+        "FL"
+      ],
+      "S001215": [
+        "D",
+        "MI"
+      ],
+      "S001159": [
+        "D",
+        "WA"
+      ],
+      "S001220": [
+        "R",
+        "AL"
+      ],
+      "S001188": [
+        "R",
+        "IN"
+      ],
+      "S001230": [
+        "D",
+        "VA"
+      ],
+      "S001201": [
+        "D",
+        "NY"
+      ],
+      "S001223": [
+        "D",
+        "OH"
+      ],
+      "T000472": [
+        "D",
+        "CA"
+      ],
+      "T000490": [
+        "R",
+        "OH"
+      ],
+      "T000478": [
+        "R",
+        "NY"
+      ],
+      "T000488": [
+        "D",
+        "MI"
+      ],
+      "T000460": [
+        "D",
+        "CA"
+      ],
+      "T000193": [
+        "D",
+        "MS"
+      ],
+      "T000467": [
+        "R",
+        "PA"
+      ],
+      "T000165": [
+        "R",
+        "WI"
+      ],
+      "T000480": [
+        "R",
+        "SC"
+      ],
+      "T000468": [
+        "D",
+        "NV"
+      ],
+      "T000481": [
+        "D",
+        "MI"
+      ],
+      "T000487": [
+        "D",
+        "HI"
+      ],
+      "T000469": [
+        "D",
+        "NY"
+      ],
+      "T000474": [
+        "D",
+        "CA"
+      ],
+      "T000486": [
+        "D",
+        "NY"
+      ],
+      "T000482": [
+        "D",
+        "MA"
+      ],
+      "T000491": [
+        "D",
+        "CA"
+      ],
+      "T000463": [
+        "R",
+        "OH"
+      ],
+      "U000040": [
+        "D",
+        "IL"
+      ],
+      "V000129": [
+        "R",
+        "CA"
+      ],
+      "V000133": [
+        "R",
+        "NJ"
+      ],
+      "V000134": [
+        "R",
+        "TX"
+      ],
+      "V000139": [
+        "R",
+        "TN"
+      ],
+      "V000135": [
+        "R",
+        "WI"
+      ],
+      "V000130": [
+        "D",
+        "CA"
+      ],
+      "V000136": [
+        "D",
+        "NM"
+      ],
+      "V000131": [
+        "D",
+        "TX"
+      ],
+      "V000081": [
+        "D",
+        "NY"
+      ],
+      "V000138": [
+        "D",
+        "VA"
+      ],
+      "W000812": [
+        "R",
+        "MO"
+      ],
+      "W000798": [
+        "R",
+        "MI"
+      ],
+      "W000831": [
+        "D",
+        "VA"
+      ],
+      "W000797": [
+        "D",
+        "FL"
+      ],
+      "W000187": [
+        "D",
+        "CA"
+      ],
+      "W000822": [
+        "D",
+        "NJ"
+      ],
+      "W000814": [
+        "R",
+        "TX"
+      ],
+      "W000806": [
+        "R",
+        "FL"
+      ],
+      "W000821": [
+        "R",
+        "AR"
+      ],
+      "W000830": [
+        "D",
+        "CA"
+      ],
+      "W000829": [
+        "R",
+        "WI"
+      ],
+      "W000788": [
+        "D",
+        "GA"
+      ],
+      "W000816": [
+        "R",
+        "TX"
+      ],
+      "W000808": [
+        "D",
+        "FL"
+      ],
+      "W000795": [
+        "R",
+        "SC"
+      ],
+      "W000804": [
+        "R",
+        "VA"
+      ],
+      "W000809": [
+        "R",
+        "AR"
+      ],
+      "Y000067": [
+        "R",
+        "IN"
+      ],
+      "Z000018": [
+        "R",
+        "MT"
+      ]
+    },
+    "result": "Passed",
+    "yea": 216,
+    "nay": 212
   },
-  "points": []
+  "points": [
+    {
+      "bio": "R000575",
+      "speaker": "Mike Rogers",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+      "start": 63455,
+      "quote": "Mr. DesJARLAIS. Mr. Chairman, I rise today in favor of the Fiscal \nYear 2027 National Defense Authorization Act.",
+      "summary": "I rise today in favor of the Fiscal Year 2027 National Defense Authorization Act.",
+      "index": 0
+    },
+    {
+      "bio": "S000510",
+      "speaker": "Adam Smith",
+      "side": "Nay",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+      "start": 55085,
+      "quote": "I will mention just two: number one, the war in Iran. We are all sort \nof, I guess, in collective denial about what an utter disaster this has \nbeen and how it is getting worse every day. We lost four more \nservicemembers over the weekend. This is after we have been told over \nand over and over again that Iran is completely obliterated, they have \nno military capacity whatsoever.",
+      "summary": "We are all sort of, I guess, in collective denial about what an utter disaster this has been and how it is getting worse every day.",
+      "index": 101
+    }
+  ],
+  "diagnostics": {
+    "selection": [
+      {
+        "bio": "R000575",
+        "speaker": "Mike Rogers",
+        "side": "Yea",
+        "manager": true,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 63455,
+        "quote": "Mr. DesJARLAIS. Mr. Chairman, I rise today in favor of the Fiscal \nYear 2027 National Defense Authorization Act.",
+        "summary": "I rise today in favor of the Fiscal Year 2027 National Defense Authorization Act.",
+        "index": 0,
+        "reason": "Directly supports the bill on passage."
+      },
+      {
+        "bio": "W000804",
+        "speaker": "Robert J. Wittman",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 58664,
+        "quote": "Mr. Chairman, I rise in strong support today of H.R. \n8800, the National Defense Authorization Act for Fiscal Year 2027.",
+        "summary": "I rise in strong support today of H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027.",
+        "index": 1,
+        "reason": "Directly supports the bill on passage."
+      },
+      {
+        "bio": "B001298",
+        "speaker": "Don Bacon",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 72666,
+        "quote": "Mr. Chair, I rise today in strong support of H.R. 8800, \nthe National Defense Authorization Act for Fiscal Year 2027. I thank \nChairman Rogers and Ranking Member Smith for their leadership in \ncompiling this bill. By the way, it passed with a huge bipartisan \nmajority in committee.",
+        "summary": "I rise today in strong support of H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027. I thank Chairman Rogers and Ranking Member Smith for their leadership in compiling this bill. By the way, it passed with a huge bipartisan majority in committee.",
+        "index": 3,
+        "reason": "Directly supports the bill and cites broad bipartisan backing."
+      },
+      {
+        "bio": "J000304",
+        "speaker": "Ronny Jackson",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 79820,
+        "quote": "Mr. Chairman, I rise today in support of H.R. \n8800, the National Defense Authorization Act for Fiscal Year 2027.",
+        "summary": "Mr. Chairman, I rise today in support of H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027.",
+        "index": 5,
+        "reason": "Directly supports the bill on passage."
+      },
+      {
+        "bio": "K000399",
+        "speaker": "Jennifer A. Kiggans",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 85937,
+        "quote": "Mr. Speaker, I rise in strong support of \nthe Fiscal Year 2027 National Defense Authorization Act.",
+        "summary": "Mr. Speaker, I rise in strong support of the Fiscal Year 2027 National Defense Authorization Act.",
+        "index": 8,
+        "reason": "Directly supports the bill on passage."
+      },
+      {
+        "bio": "R000575",
+        "speaker": "Mike Rogers",
+        "side": "Yea",
+        "manager": true,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 63570,
+        "quote": "As the chairman of the Strategic Forces Subcommittee, I was proud to \nwork in a bipartisan fashion along with my friend Ranking Member Seth \nMoulton on some of the most consequential issues to our national \nsecurity.",
+        "summary": "As the chairman of the Strategic Forces Subcommittee, I was proud to work in a bipartisan fashion along with my friend Ranking Member Seth Moulton on some of the most consequential issues to our national security.",
+        "index": 16,
+        "reason": "Supports the bill through bipartisan work on national security issues."
+      },
+      {
+        "bio": "S000510",
+        "speaker": "Adam Smith",
+        "side": "Nay",
+        "manager": true,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 55085,
+        "quote": "I will mention just two: number one, the war in Iran. We are all sort \nof, I guess, in collective denial about what an utter disaster this has \nbeen and how it is getting worse every day. We lost four more \nservicemembers over the weekend. This is after we have been told over \nand over and over again that Iran is completely obliterated, they have \nno military capacity whatsoever.",
+        "summary": "We are all sort of, I guess, in collective denial about what an utter disaster this has been and how it is getting worse every day.",
+        "index": 101,
+        "reason": "Floor manager gives a substantive opposition reason tied to the ongoing war and its worsening consequences."
+      },
+      {
+        "bio": "S000510",
+        "speaker": "Adam Smith",
+        "side": "Nay",
+        "manager": true,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 92704,
+        "quote": "Once again, I thank the chairman for the process that we went through \nhere. I have made the arguments. I don't want to restate them and \nbelabor them, but we are deeply concerned about the ongoing war in \nIran. There is no plan, no direction, continually rising costs. We are \nalso concerned about the amount of money that is being poured into \ndefense, at the same time that we are seeing cuts in Medicaid, cuts in \nfood stamps, cuts in a variety of programs that are enormously \nimportant, and tax cuts that continue as the deficit and the debt get \never higher.",
+        "summary": "We are deeply concerned about the ongoing war in Iran.",
+        "index": 132,
+        "reason": "Floor manager states a direct objection based on the ongoing war and its escalating costs."
+      },
+      {
+        "bio": "S000510",
+        "speaker": "Adam Smith",
+        "side": "Nay",
+        "manager": true,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 2727986,
+        "quote": "This administration has shown exactly how it intends to use the \nDefense Production Act authorities, to preempt State and local law, to \nbypass Tribal consultation, and to take equity stakes in mining \ncompanies when it benefits the administration's allies and some family \nmembers.",
+        "summary": "This administration has shown exactly how it intends to use the Defense Production Act authorities, to preempt State and local law, to bypass Tribal consultation, and to take equity stakes in mining companies when it benefits the administration's allies and some family members.",
+        "index": 153,
+        "reason": "Floor manager argues against expanding these powers because they have been used to override laws and benefit allies."
+      },
+      {
+        "bio": "S000510",
+        "speaker": "Adam Smith",
+        "side": "Nay",
+        "manager": true,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 2728271,
+        "quote": "As a former State legislator, I am particularly concerned about the \nadministration's weaponization of the Defense Production Act to \noverride State and local laws, laws that are enacted to protect our \ncommunities.",
+        "summary": "I am particularly concerned about the administration's weaponization of the Defense Production Act to override State and local laws, laws that are enacted to protect our communities.",
+        "index": 157,
+        "reason": "Floor manager opposes the measure because it would be used to override laws protecting communities."
+      },
+      {
+        "bio": "S000510",
+        "speaker": "Adam Smith",
+        "side": "Nay",
+        "manager": true,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 2728742,
+        "quote": "We need language that protects Tribal consultation, prohibits the \nwaiving of environmental law, and institutes strong oversight in \nanticorruption measures.",
+        "summary": "We need language that protects Tribal consultation, prohibits the waiving of environmental law, and institutes strong oversight in anticorruption measures.",
+        "index": 165,
+        "reason": "Floor manager says the bill needs stronger safeguards and oversight, implying the current approach is inadequate."
+      },
+      {
+        "bio": "S000510",
+        "speaker": "Adam Smith",
+        "side": "Nay",
+        "manager": true,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+        "start": 2827239,
+        "quote": "I would also point out that we started the war in Iran. We are \nengaged in a major conflict in Latin America that everybody has sort of \nforgotten about, but we are at war with all the narcoterrorists down \nthere. We are trying to stand up to China. We are asking the rest of \nthe world to be with us on a lot of stuff that they have serious doubts \nabout.",
+        "summary": "I would also point out that we started the war in Iran.",
+        "index": 181,
+        "reason": "Floor manager grounds opposition in the claim that the United States has entered a war and is asking others to support it despite doubts."
+      }
+    ],
+    "checks": [
+      {
+        "id": 0,
+        "accepted": true,
+        "reason": "The summary preserves the speaker’s support for the Fiscal Year 2027 National Defense Authorization Act.",
+        "side": "Yea"
+      },
+      {
+        "id": 16,
+        "accepted": true,
+        "reason": "The summary faithfully repeats the chairman’s bipartisan work with Ranking Member Seth Moulton on important national security issues.",
+        "side": "Yea"
+      },
+      {
+        "id": 1,
+        "accepted": true,
+        "reason": "The summary matches the quote’s support for H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027.",
+        "side": "Yea"
+      },
+      {
+        "id": 3,
+        "accepted": true,
+        "reason": "The summary faithfully includes the support statement and the thanks to Chairman Rogers and Ranking Member Smith for their leadership, plus the bipartisan committee passage.",
+        "side": "Yea"
+      },
+      {
+        "id": 5,
+        "accepted": true,
+        "reason": "The summary accurately preserves the speaker’s support for H.R. 8800 and the act’s full title.",
+        "side": "Yea"
+      },
+      {
+        "id": 8,
+        "accepted": true,
+        "reason": "The summary matches the quote’s strong support for the Fiscal Year 2027 National Defense Authorization Act.",
+        "side": "Yea"
+      },
+      {
+        "id": 101,
+        "accepted": true,
+        "reason": "The summary faithfully preserves the quoted claim that people are in denial about the war in Iran being an utter disaster that is worsening every day.",
+        "side": "Nay"
+      },
+      {
+        "id": 132,
+        "accepted": true,
+        "reason": "The summary accurately captures the speaker's concern about the ongoing war in Iran, which is explicitly stated in the quote.",
+        "side": "Nay"
+      },
+      {
+        "id": 153,
+        "accepted": true,
+        "reason": "The summary matches the quote exactly and does not add or alter any substantive claim.",
+        "side": "Nay"
+      },
+      {
+        "id": 157,
+        "accepted": true,
+        "reason": "The summary faithfully restates the concern that the administration is weaponizing the Defense Production Act to override state and local laws.",
+        "side": "Nay"
+      },
+      {
+        "id": 165,
+        "accepted": true,
+        "reason": "The summary accurately preserves the requested protections and oversight measures stated in the quote.",
+        "side": "Nay"
+      },
+      {
+        "id": 181,
+        "accepted": false,
+        "reason": "The summary invents a different claim by saying the speaker started the war in Iran, whereas the quote says they would point out that they started it as part of a broader discussion.",
+        "side": "Nay"
+      }
+    ],
+    "proceduralDropped": 43
+  }
 }
