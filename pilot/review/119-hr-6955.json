@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "b695616319ae7bf1bf08e72971f252fd3b89576896734b7f6ccea90b3d0f2c32",
+  "debateFingerprint": "5face8463c86e6a52f4220f7eebf9db8e623c76a53cdd4c83ceca26dd8e9994c",
   "bill": "119-hr-6955",
   "vote": "house:119:2:271",
   "sources": {
@@ -8,7 +8,2026 @@
   },
   "passageRecord": {
     "url": "https://clerk.house.gov/evs/2026/roll271.xml",
-    "sha256": "90b42027b27ec42fd7412d5c661ed2fafeb9f1beccc658f2419e81cd70bfc442"
+    "sha256": "90b42027b27ec42fd7412d5c661ed2fafeb9f1beccc658f2419e81cd70bfc442",
+    "members": {
+      "A000370": [
+        "D",
+        "NC"
+      ],
+      "A000055": [
+        "R",
+        "AL"
+      ],
+      "A000371": [
+        "D",
+        "CA"
+      ],
+      "A000379": [
+        "R",
+        "MO"
+      ],
+      "A000372": [
+        "R",
+        "GA"
+      ],
+      "A000380": [
+        "D",
+        "RI"
+      ],
+      "A000369": [
+        "R",
+        "NV"
+      ],
+      "A000381": [
+        "D",
+        "AZ"
+      ],
+      "A000375": [
+        "R",
+        "TX"
+      ],
+      "A000148": [
+        "D",
+        "MA"
+      ],
+      "B001291": [
+        "R",
+        "TX"
+      ],
+      "B001298": [
+        "R",
+        "NE"
+      ],
+      "B001307": [
+        "R",
+        "IN"
+      ],
+      "B001306": [
+        "R",
+        "OH"
+      ],
+      "B001318": [
+        "D",
+        "VT"
+      ],
+      "B001282": [
+        "R",
+        "KY"
+      ],
+      "B001300": [
+        "D",
+        "CA"
+      ],
+      "B001321": [
+        "R",
+        "MI"
+      ],
+      "B001322": [
+        "R",
+        "WA"
+      ],
+      "B001314": [
+        "R",
+        "FL"
+      ],
+      "B001281": [
+        "D",
+        "OH"
+      ],
+      "B001323": [
+        "R",
+        "AK"
+      ],
+      "B001324": [
+        "D",
+        "MO"
+      ],
+      "B000668": [
+        "R",
+        "OR"
+      ],
+      "B001287": [
+        "D",
+        "CA"
+      ],
+      "B001301": [
+        "R",
+        "MI"
+      ],
+      "B001292": [
+        "D",
+        "VA"
+      ],
+      "B000740": [
+        "R",
+        "OK"
+      ],
+      "B001302": [
+        "R",
+        "AZ"
+      ],
+      "B001325": [
+        "R",
+        "SC"
+      ],
+      "B001257": [
+        "R",
+        "FL"
+      ],
+      "B000490": [
+        "D",
+        "GA"
+      ],
+      "B000825": [
+        "R",
+        "CO"
+      ],
+      "B001278": [
+        "D",
+        "OR"
+      ],
+      "B001295": [
+        "R",
+        "IL"
+      ],
+      "B001296": [
+        "D",
+        "PA"
+      ],
+      "B001317": [
+        "R",
+        "OK"
+      ],
+      "B001327": [
+        "R",
+        "PA"
+      ],
+      "B001313": [
+        "D",
+        "OH"
+      ],
+      "B001285": [
+        "D",
+        "CA"
+      ],
+      "B001260": [
+        "R",
+        "FL"
+      ],
+      "B001315": [
+        "D",
+        "IL"
+      ],
+      "B001309": [
+        "R",
+        "TN"
+      ],
+      "B001316": [
+        "R",
+        "MO"
+      ],
+      "B001326": [
+        "D",
+        "OR"
+      ],
+      "C000059": [
+        "R",
+        "CA"
+      ],
+      "C001039": [
+        "R",
+        "FL"
+      ],
+      "C001112": [
+        "D",
+        "CA"
+      ],
+      "C001126": [
+        "R",
+        "OH"
+      ],
+      "C001072": [
+        "D",
+        "IN"
+      ],
+      "C001103": [
+        "R",
+        "GA"
+      ],
+      "C001125": [
+        "D",
+        "LA"
+      ],
+      "C001051": [
+        "R",
+        "TX"
+      ],
+      "C001131": [
+        "D",
+        "TX"
+      ],
+      "C001055": [
+        "D",
+        "HI"
+      ],
+      "C001117": [
+        "D",
+        "IL"
+      ],
+      "C001066": [
+        "D",
+        "FL"
+      ],
+      "C001091": [
+        "D",
+        "TX"
+      ],
+      "C001080": [
+        "D",
+        "CA"
+      ],
+      "C001133": [
+        "R",
+        "AZ"
+      ],
+      "C001123": [
+        "D",
+        "CA"
+      ],
+      "C001101": [
+        "D",
+        "MA"
+      ],
+      "C001067": [
+        "D",
+        "NY"
+      ],
+      "C001061": [
+        "D",
+        "MO"
+      ],
+      "C001118": [
+        "R",
+        "VA"
+      ],
+      "C001115": [
+        "R",
+        "TX"
+      ],
+      "C000537": [
+        "D",
+        "SC"
+      ],
+      "C001116": [
+        "R",
+        "GA"
+      ],
+      "C001068": [
+        "D",
+        "TN"
+      ],
+      "C001053": [
+        "R",
+        "OK"
+      ],
+      "C001129": [
+        "R",
+        "GA"
+      ],
+      "C001108": [
+        "R",
+        "KY"
+      ],
+      "C001136": [
+        "D",
+        "NJ"
+      ],
+      "C001110": [
+        "D",
+        "CA"
+      ],
+      "C001059": [
+        "D",
+        "CA"
+      ],
+      "C001069": [
+        "D",
+        "CT"
+      ],
+      "C001119": [
+        "D",
+        "MN"
+      ],
+      "C001132": [
+        "R",
+        "AZ"
+      ],
+      "C001137": [
+        "R",
+        "CO"
+      ],
+      "C001087": [
+        "R",
+        "AR"
+      ],
+      "C001120": [
+        "R",
+        "TX"
+      ],
+      "C001130": [
+        "D",
+        "TX"
+      ],
+      "C001121": [
+        "D",
+        "CO"
+      ],
+      "C001063": [
+        "D",
+        "TX"
+      ],
+      "D000629": [
+        "D",
+        "KS"
+      ],
+      "D000626": [
+        "R",
+        "OH"
+      ],
+      "D000096": [
+        "D",
+        "IL"
+      ],
+      "D000230": [
+        "D",
+        "NC"
+      ],
+      "D000594": [
+        "R",
+        "TX"
+      ],
+      "D000631": [
+        "D",
+        "PA"
+      ],
+      "D000197": [
+        "D",
+        "CO"
+      ],
+      "D000216": [
+        "D",
+        "CT"
+      ],
+      "D000617": [
+        "D",
+        "WA"
+      ],
+      "D000530": [
+        "D",
+        "PA"
+      ],
+      "D000623": [
+        "D",
+        "CA"
+      ],
+      "D000616": [
+        "R",
+        "TN"
+      ],
+      "D000635": [
+        "D",
+        "OR"
+      ],
+      "D000600": [
+        "R",
+        "FL"
+      ],
+      "D000624": [
+        "D",
+        "MI"
+      ],
+      "D000399": [
+        "D",
+        "TX"
+      ],
+      "D000032": [
+        "R",
+        "FL"
+      ],
+      "D000634": [
+        "R",
+        "MT"
+      ],
+      "D000628": [
+        "R",
+        "FL"
+      ],
+      "E000246": [
+        "R",
+        "NC"
+      ],
+      "E000301": [
+        "D",
+        "MD"
+      ],
+      "E000071": [
+        "R",
+        "TX"
+      ],
+      "E000294": [
+        "R",
+        "MN"
+      ],
+      "E000299": [
+        "D",
+        "TX"
+      ],
+      "E000297": [
+        "D",
+        "NY"
+      ],
+      "E000298": [
+        "R",
+        "KS"
+      ],
+      "E000300": [
+        "R",
+        "CO"
+      ],
+      "E000296": [
+        "D",
+        "PA"
+      ],
+      "E000235": [
+        "R",
+        "MS"
+      ],
+      "F000246": [
+        "R",
+        "TX"
+      ],
+      "F000482": [
+        "R",
+        "ND"
+      ],
+      "F000446": [
+        "R",
+        "IA"
+      ],
+      "F000110": [
+        "D",
+        "LA"
+      ],
+      "F000481": [
+        "D",
+        "AL"
+      ],
+      "F000484": [
+        "R",
+        "FL"
+      ],
+      "F000475": [
+        "R",
+        "MN"
+      ],
+      "F000470": [
+        "R",
+        "MN"
+      ],
+      "F000471": [
+        "R",
+        "WI"
+      ],
+      "F000466": [
+        "R",
+        "PA"
+      ],
+      "F000459": [
+        "R",
+        "TN"
+      ],
+      "F000468": [
+        "D",
+        "TX"
+      ],
+      "F000474": [
+        "R",
+        "NE"
+      ],
+      "F000480": [
+        "R",
+        "CA"
+      ],
+      "F000454": [
+        "D",
+        "IL"
+      ],
+      "F000477": [
+        "D",
+        "NC"
+      ],
+      "F000450": [
+        "R",
+        "NC"
+      ],
+      "F000462": [
+        "D",
+        "FL"
+      ],
+      "F000472": [
+        "R",
+        "FL"
+      ],
+      "F000483": [
+        "D",
+        "CA"
+      ],
+      "F000476": [
+        "D",
+        "FL"
+      ],
+      "F000478": [
+        "R",
+        "SC"
+      ],
+      "F000469": [
+        "R",
+        "ID"
+      ],
+      "F000485": [
+        "R",
+        "GA"
+      ],
+      "G000607": [
+        "R",
+        "CA"
+      ],
+      "G000559": [
+        "D",
+        "CA"
+      ],
+      "G000597": [
+        "R",
+        "NY"
+      ],
+      "G000598": [
+        "D",
+        "CA"
+      ],
+      "G000586": [
+        "D",
+        "IL"
+      ],
+      "G000587": [
+        "D",
+        "TX"
+      ],
+      "G000603": [
+        "R",
+        "TX"
+      ],
+      "G000602": [
+        "D",
+        "NY"
+      ],
+      "G000593": [
+        "R",
+        "FL"
+      ],
+      "G000592": [
+        "D",
+        "ME"
+      ],
+      "G000599": [
+        "D",
+        "NY"
+      ],
+      "G000601": [
+        "R",
+        "TX"
+      ],
+      "G000585": [
+        "D",
+        "CA"
+      ],
+      "G000581": [
+        "D",
+        "TX"
+      ],
+      "G000589": [
+        "R",
+        "TX"
+      ],
+      "G000604": [
+        "D",
+        "NH"
+      ],
+      "G000565": [
+        "R",
+        "AZ"
+      ],
+      "G000583": [
+        "D",
+        "NJ"
+      ],
+      "G000546": [
+        "R",
+        "MO"
+      ],
+      "G000605": [
+        "D",
+        "CA"
+      ],
+      "G000553": [
+        "D",
+        "TX"
+      ],
+      "G000568": [
+        "R",
+        "VA"
+      ],
+      "G000606": [
+        "D",
+        "AZ"
+      ],
+      "G000576": [
+        "R",
+        "WI"
+      ],
+      "G000591": [
+        "R",
+        "MS"
+      ],
+      "G000558": [
+        "R",
+        "KY"
+      ],
+      "H001096": [
+        "R",
+        "WY"
+      ],
+      "H001098": [
+        "R",
+        "AZ"
+      ],
+      "H001090": [
+        "D",
+        "CA"
+      ],
+      "H001099": [
+        "R",
+        "FL"
+      ],
+      "H001101": [
+        "R",
+        "NC"
+      ],
+      "H001052": [
+        "R",
+        "MD"
+      ],
+      "H001102": [
+        "R",
+        "NC"
+      ],
+      "H001086": [
+        "R",
+        "TN"
+      ],
+      "H001081": [
+        "D",
+        "CT"
+      ],
+      "H001082": [
+        "R",
+        "OK"
+      ],
+      "H001077": [
+        "R",
+        "LA"
+      ],
+      "H001072": [
+        "R",
+        "AR"
+      ],
+      "H001047": [
+        "D",
+        "CT"
+      ],
+      "H001091": [
+        "R",
+        "IA"
+      ],
+      "H001066": [
+        "D",
+        "NV"
+      ],
+      "H001093": [
+        "R",
+        "IN"
+      ],
+      "H001085": [
+        "D",
+        "PA"
+      ],
+      "H000874": [
+        "D",
+        "MD"
+      ],
+      "H001094": [
+        "D",
+        "OR"
+      ],
+      "H001067": [
+        "R",
+        "NC"
+      ],
+      "H001068": [
+        "D",
+        "CA"
+      ],
+      "H001058": [
+        "R",
+        "MI"
+      ],
+      "H001095": [
+        "R",
+        "TX"
+      ],
+      "H001100": [
+        "R",
+        "CO"
+      ],
+      "I000056": [
+        "R",
+        "CA"
+      ],
+      "I000058": [
+        "D",
+        "MD"
+      ],
+      "J000311": [
+        "R",
+        "GA"
+      ],
+      "J000309": [
+        "D",
+        "IL"
+      ],
+      "J000304": [
+        "R",
+        "TX"
+      ],
+      "J000305": [
+        "D",
+        "CA"
+      ],
+      "J000307": [
+        "R",
+        "MI"
+      ],
+      "J000298": [
+        "D",
+        "WA"
+      ],
+      "J000294": [
+        "D",
+        "NY"
+      ],
+      "J000288": [
+        "D",
+        "GA"
+      ],
+      "J000299": [
+        "R",
+        "LA"
+      ],
+      "J000301": [
+        "R",
+        "SD"
+      ],
+      "J000310": [
+        "D",
+        "TX"
+      ],
+      "J000289": [
+        "R",
+        "OH"
+      ],
+      "J000295": [
+        "R",
+        "OH"
+      ],
+      "J000302": [
+        "R",
+        "PA"
+      ],
+      "K000400": [
+        "D",
+        "CA"
+      ],
+      "K000009": [
+        "D",
+        "OH"
+      ],
+      "K000398": [
+        "R",
+        "NJ"
+      ],
+      "K000375": [
+        "D",
+        "MA"
+      ],
+      "K000385": [
+        "D",
+        "IL"
+      ],
+      "K000388": [
+        "R",
+        "MS"
+      ],
+      "K000376": [
+        "R",
+        "PA"
+      ],
+      "K000402": [
+        "D",
+        "NY"
+      ],
+      "K000403": [
+        "R",
+        "UT"
+      ],
+      "K000389": [
+        "D",
+        "CA"
+      ],
+      "K000399": [
+        "R",
+        "VA"
+      ],
+      "K000401": [
+        "I",
+        "CA"
+      ],
+      "K000397": [
+        "R",
+        "CA"
+      ],
+      "K000405": [
+        "R",
+        "NC"
+      ],
+      "K000391": [
+        "D",
+        "IL"
+      ],
+      "K000392": [
+        "R",
+        "TN"
+      ],
+      "L000585": [
+        "R",
+        "IL"
+      ],
+      "L000598": [
+        "R",
+        "NY"
+      ],
+      "L000601": [
+        "D",
+        "OH"
+      ],
+      "L000600": [
+        "R",
+        "NY"
+      ],
+      "L000560": [
+        "D",
+        "WA"
+      ],
+      "L000557": [
+        "D",
+        "CT"
+      ],
+      "L000606": [
+        "D",
+        "NY"
+      ],
+      "L000566": [
+        "R",
+        "OH"
+      ],
+      "L000599": [
+        "R",
+        "NY"
+      ],
+      "L000597": [
+        "R",
+        "FL"
+      ],
+      "L000590": [
+        "D",
+        "NV"
+      ],
+      "L000602": [
+        "D",
+        "PA"
+      ],
+      "L000273": [
+        "D",
+        "NM"
+      ],
+      "L000595": [
+        "R",
+        "LA"
+      ],
+      "L000593": [
+        "D",
+        "CA"
+      ],
+      "L000607": [
+        "D",
+        "CA"
+      ],
+      "L000582": [
+        "D",
+        "CA"
+      ],
+      "L000397": [
+        "D",
+        "CA"
+      ],
+      "L000583": [
+        "R",
+        "GA"
+      ],
+      "L000491": [
+        "R",
+        "OK"
+      ],
+      "L000596": [
+        "R",
+        "FL"
+      ],
+      "L000603": [
+        "R",
+        "TX"
+      ],
+      "L000562": [
+        "D",
+        "MA"
+      ],
+      "M000194": [
+        "R",
+        "SC"
+      ],
+      "M001230": [
+        "R",
+        "PA"
+      ],
+      "M001223": [
+        "D",
+        "RI"
+      ],
+      "M000317": [
+        "R",
+        "NY"
+      ],
+      "M001228": [
+        "R",
+        "UT"
+      ],
+      "M000871": [
+        "R",
+        "KS"
+      ],
+      "M001231": [
+        "D",
+        "NY"
+      ],
+      "M001184": [
+        "R",
+        "KY"
+      ],
+      "M001199": [
+        "R",
+        "FL"
+      ],
+      "M001163": [
+        "D",
+        "CA"
+      ],
+      "M001208": [
+        "D",
+        "GA"
+      ],
+      "M001238": [
+        "D",
+        "DE"
+      ],
+      "M001157": [
+        "R",
+        "TX"
+      ],
+      "M001136": [
+        "R",
+        "MI"
+      ],
+      "M001232": [
+        "D",
+        "MD"
+      ],
+      "M001227": [
+        "D",
+        "VA"
+      ],
+      "M001177": [
+        "R",
+        "CA"
+      ],
+      "M001143": [
+        "D",
+        "MN"
+      ],
+      "M001218": [
+        "R",
+        "GA"
+      ],
+      "M001237": [
+        "D",
+        "MI"
+      ],
+      "M001240": [
+        "R",
+        "NC"
+      ],
+      "M001220": [
+        "D",
+        "KY"
+      ],
+      "M000312": [
+        "D",
+        "MA"
+      ],
+      "M001239": [
+        "R",
+        "VA"
+      ],
+      "M001229": [
+        "D",
+        "NJ"
+      ],
+      "M001137": [
+        "D",
+        "NY"
+      ],
+      "M001246": [
+        "D",
+        "NJ"
+      ],
+      "M001245": [
+        "D",
+        "TX"
+      ],
+      "M001226": [
+        "D",
+        "NJ"
+      ],
+      "M001188": [
+        "D",
+        "NY"
+      ],
+      "M001233": [
+        "R",
+        "IN"
+      ],
+      "M001204": [
+        "R",
+        "PA"
+      ],
+      "M000687": [
+        "D",
+        "MD"
+      ],
+      "M001211": [
+        "R",
+        "IL"
+      ],
+      "M001222": [
+        "R",
+        "OH"
+      ],
+      "M001205": [
+        "R",
+        "WV"
+      ],
+      "M001215": [
+        "R",
+        "IA"
+      ],
+      "M001216": [
+        "R",
+        "FL"
+      ],
+      "M001241": [
+        "D",
+        "CA"
+      ],
+      "M001194": [
+        "R",
+        "MI"
+      ],
+      "M001212": [
+        "R",
+        "AL"
+      ],
+      "M001236": [
+        "R",
+        "NC"
+      ],
+      "M001213": [
+        "R",
+        "UT"
+      ],
+      "M001160": [
+        "D",
+        "WI"
+      ],
+      "M001235": [
+        "R",
+        "WV"
+      ],
+      "M001224": [
+        "R",
+        "TX"
+      ],
+      "M001206": [
+        "D",
+        "NY"
+      ],
+      "M001234": [
+        "D",
+        "MN"
+      ],
+      "M001217": [
+        "D",
+        "FL"
+      ],
+      "M001196": [
+        "D",
+        "MA"
+      ],
+      "M001214": [
+        "D",
+        "IN"
+      ],
+      "M001225": [
+        "D",
+        "CA"
+      ],
+      "M001210": [
+        "R",
+        "NC"
+      ],
+      "N000002": [
+        "D",
+        "NY"
+      ],
+      "N000015": [
+        "D",
+        "MA"
+      ],
+      "N000191": [
+        "D",
+        "CO"
+      ],
+      "N000026": [
+        "R",
+        "TX"
+      ],
+      "N000189": [
+        "R",
+        "WA"
+      ],
+      "N000188": [
+        "D",
+        "NJ"
+      ],
+      "N000190": [
+        "R",
+        "SC"
+      ],
+      "N000193": [
+        "R",
+        "IA"
+      ],
+      "O000019": [
+        "R",
+        "CA"
+      ],
+      "O000172": [
+        "D",
+        "NY"
+      ],
+      "O000175": [
+        "R",
+        "TN"
+      ],
+      "O000176": [
+        "D",
+        "MD"
+      ],
+      "O000173": [
+        "D",
+        "MN"
+      ],
+      "O000177": [
+        "R",
+        "MO"
+      ],
+      "O000086": [
+        "R",
+        "UT"
+      ],
+      "P000034": [
+        "D",
+        "NJ"
+      ],
+      "P000609": [
+        "R",
+        "AL"
+      ],
+      "P000613": [
+        "D",
+        "CA"
+      ],
+      "P000614": [
+        "D",
+        "NH"
+      ],
+      "P000622": [
+        "R",
+        "FL"
+      ],
+      "P000197": [
+        "D",
+        "CA"
+      ],
+      "G000600": [
+        "D",
+        "WA"
+      ],
+      "P000605": [
+        "R",
+        "PA"
+      ],
+      "P000608": [
+        "D",
+        "CA"
+      ],
+      "P000620": [
+        "D",
+        "CO"
+      ],
+      "P000048": [
+        "R",
+        "TX"
+      ],
+      "P000597": [
+        "D",
+        "ME"
+      ],
+      "P000607": [
+        "D",
+        "WI"
+      ],
+      "P000621": [
+        "D",
+        "NJ"
+      ],
+      "P000617": [
+        "D",
+        "MA"
+      ],
+      "Q000023": [
+        "D",
+        "IL"
+      ],
+      "R000617": [
+        "D",
+        "IL"
+      ],
+      "R000621": [
+        "D",
+        "WA"
+      ],
+      "R000606": [
+        "D",
+        "MD"
+      ],
+      "R000610": [
+        "R",
+        "PA"
+      ],
+      "R000622": [
+        "D",
+        "NY"
+      ],
+      "R000620": [
+        "D",
+        "CA"
+      ],
+      "R000575": [
+        "R",
+        "AL"
+      ],
+      "R000395": [
+        "R",
+        "KY"
+      ],
+      "R000612": [
+        "R",
+        "TN"
+      ],
+      "R000305": [
+        "D",
+        "NC"
+      ],
+      "R000603": [
+        "R",
+        "NC"
+      ],
+      "R000614": [
+        "R",
+        "TX"
+      ],
+      "R000599": [
+        "D",
+        "CA"
+      ],
+      "R000619": [
+        "R",
+        "OH"
+      ],
+      "R000609": [
+        "R",
+        "FL"
+      ],
+      "R000579": [
+        "D",
+        "NY"
+      ],
+      "S000168": [
+        "R",
+        "FL"
+      ],
+      "S001226": [
+        "D",
+        "OR"
+      ],
+      "S001156": [
+        "D",
+        "CA"
+      ],
+      "S001176": [
+        "R",
+        "LA"
+      ],
+      "S001205": [
+        "D",
+        "PA"
+      ],
+      "S001145": [
+        "D",
+        "IL"
+      ],
+      "S001228": [
+        "R",
+        "KS"
+      ],
+      "S001190": [
+        "D",
+        "IL"
+      ],
+      "S001221": [
+        "D",
+        "MI"
+      ],
+      "S001216": [
+        "D",
+        "WA"
+      ],
+      "S001183": [
+        "R",
+        "AZ"
+      ],
+      "S000185": [
+        "D",
+        "VA"
+      ],
+      "S001189": [
+        "R",
+        "GA"
+      ],
+      "S001224": [
+        "R",
+        "TX"
+      ],
+      "S000250": [
+        "R",
+        "TX"
+      ],
+      "S001185": [
+        "D",
+        "AL"
+      ],
+      "S000344": [
+        "D",
+        "CA"
+      ],
+      "S001229": [
+        "R",
+        "IN"
+      ],
+      "S001231": [
+        "D",
+        "CA"
+      ],
+      "S001148": [
+        "R",
+        "ID"
+      ],
+      "S001195": [
+        "R",
+        "MO"
+      ],
+      "S001172": [
+        "R",
+        "NE"
+      ],
+      "S000522": [
+        "R",
+        "NJ"
+      ],
+      "S000510": [
+        "D",
+        "WA"
+      ],
+      "S001199": [
+        "R",
+        "PA"
+      ],
+      "S001225": [
+        "D",
+        "IL"
+      ],
+      "S001200": [
+        "D",
+        "FL"
+      ],
+      "S000929": [
+        "R",
+        "IN"
+      ],
+      "S001218": [
+        "D",
+        "NM"
+      ],
+      "S001211": [
+        "D",
+        "AZ"
+      ],
+      "S001212": [
+        "R",
+        "MN"
+      ],
+      "S001196": [
+        "R",
+        "NY"
+      ],
+      "S001213": [
+        "R",
+        "WI"
+      ],
+      "S001214": [
+        "R",
+        "FL"
+      ],
+      "S001215": [
+        "D",
+        "MI"
+      ],
+      "S001159": [
+        "D",
+        "WA"
+      ],
+      "S001220": [
+        "R",
+        "AL"
+      ],
+      "S001188": [
+        "R",
+        "IN"
+      ],
+      "S001230": [
+        "D",
+        "VA"
+      ],
+      "S001201": [
+        "D",
+        "NY"
+      ],
+      "S001223": [
+        "D",
+        "OH"
+      ],
+      "T000472": [
+        "D",
+        "CA"
+      ],
+      "T000490": [
+        "R",
+        "OH"
+      ],
+      "T000478": [
+        "R",
+        "NY"
+      ],
+      "T000488": [
+        "D",
+        "MI"
+      ],
+      "T000460": [
+        "D",
+        "CA"
+      ],
+      "T000193": [
+        "D",
+        "MS"
+      ],
+      "T000467": [
+        "R",
+        "PA"
+      ],
+      "T000165": [
+        "R",
+        "WI"
+      ],
+      "T000480": [
+        "R",
+        "SC"
+      ],
+      "T000468": [
+        "D",
+        "NV"
+      ],
+      "T000481": [
+        "D",
+        "MI"
+      ],
+      "T000487": [
+        "D",
+        "HI"
+      ],
+      "T000469": [
+        "D",
+        "NY"
+      ],
+      "T000474": [
+        "D",
+        "CA"
+      ],
+      "T000486": [
+        "D",
+        "NY"
+      ],
+      "T000482": [
+        "D",
+        "MA"
+      ],
+      "T000491": [
+        "D",
+        "CA"
+      ],
+      "T000463": [
+        "R",
+        "OH"
+      ],
+      "U000040": [
+        "D",
+        "IL"
+      ],
+      "V000129": [
+        "R",
+        "CA"
+      ],
+      "V000133": [
+        "R",
+        "NJ"
+      ],
+      "V000134": [
+        "R",
+        "TX"
+      ],
+      "V000139": [
+        "R",
+        "TN"
+      ],
+      "V000135": [
+        "R",
+        "WI"
+      ],
+      "V000130": [
+        "D",
+        "CA"
+      ],
+      "V000136": [
+        "D",
+        "NM"
+      ],
+      "V000131": [
+        "D",
+        "TX"
+      ],
+      "V000081": [
+        "D",
+        "NY"
+      ],
+      "V000138": [
+        "D",
+        "VA"
+      ],
+      "W000812": [
+        "R",
+        "MO"
+      ],
+      "W000798": [
+        "R",
+        "MI"
+      ],
+      "W000831": [
+        "D",
+        "VA"
+      ],
+      "W000797": [
+        "D",
+        "FL"
+      ],
+      "W000187": [
+        "D",
+        "CA"
+      ],
+      "W000822": [
+        "D",
+        "NJ"
+      ],
+      "W000814": [
+        "R",
+        "TX"
+      ],
+      "W000806": [
+        "R",
+        "FL"
+      ],
+      "W000821": [
+        "R",
+        "AR"
+      ],
+      "W000830": [
+        "D",
+        "CA"
+      ],
+      "W000829": [
+        "R",
+        "WI"
+      ],
+      "W000788": [
+        "D",
+        "GA"
+      ],
+      "W000816": [
+        "R",
+        "TX"
+      ],
+      "W000808": [
+        "D",
+        "FL"
+      ],
+      "W000795": [
+        "R",
+        "SC"
+      ],
+      "W000804": [
+        "R",
+        "VA"
+      ],
+      "W000809": [
+        "R",
+        "AR"
+      ],
+      "Y000067": [
+        "R",
+        "IN"
+      ],
+      "Z000018": [
+        "R",
+        "MT"
+      ]
+    },
+    "result": "Passed",
+    "yea": 270,
+    "nay": 155
   },
-  "points": []
+  "points": [
+    {
+      "bio": "M001204",
+      "speaker": "Daniel Meuser",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+      "start": 203767,
+      "quote": "I do rise in support of the very appropriately named Main Street \nCapital Access Act introduced by Chairman Hill and Subcommittee \nChairman Barr. The legislation does exactly what it says. It supports \naccess to capital for Main Street.",
+      "summary": "I do rise in support of the very appropriately named Main Street Capital Access Act introduced by Chairman Hill and Subcommittee Chairman Barr. The legislation does exactly what it says. It supports access to capital for Main Street.",
+      "index": 4
+    },
+    {
+      "bio": "B001282",
+      "speaker": "Andy Barr",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+      "start": 184145,
+      "quote": "The Main Street Capital Access Act is exactly the kind of reform \nneeded to advance this committee's goal of making community banking \ngreat again. Over the past 18 months, we have worked hard to develop \nover two dozen banking reform bills--many of them with strong \nbipartisan support--and combined them into one multifaceted package \ndesigned to strengthen our community financial institutions, not big \nbanks, like the ranking member is referring to, community banks, Main \nStreet banks, midsize banks.",
+      "summary": "The Main Street Capital Access Act is exactly the kind of reform needed to advance this committee's goal of making community banking great again. Over the past 18 months, we have worked hard to develop over two dozen banking reform bills--many of them with strong bipartisan support--and combined them into one multifaceted package designed to strengthen our community financial institutions, not big banks, like the ranking member is referring to, community banks, Main Street banks, midsize banks.",
+      "index": 8
+    },
+    {
+      "bio": "K000405",
+      "speaker": "Brad Knott",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+      "start": 211830,
+      "quote": "With administrative costs rising every year, local banks simply \ncannot afford to operate. We can see this most clearly in 1980 where \nthere were more than 14,000 community banks in the United States. Now \nbecause of the regulatory structure of the current market, there are \nroughly 4,000 community banks. This stifles lending, reduces \ncompetition, and makes it harder for Americans, especially in rural \ncommunities, to access capital. Put plainly, the current regulatory \nclimate punishes community banks, and it benefits larger international \nbanks.",
+      "summary": "With administrative costs rising every year, local banks simply cannot afford to operate. We can see this most clearly in 1980 where there were more than 14,000 community banks in the United States. Now because of the regulatory structure of the current market, there are roughly 4,000 community banks. This stifles lending, reduces competition, and makes it harder for Americans, especially in rural communities, to access capital. Put plainly, the current regulatory climate punishes community banks, and it benefits larger international banks.",
+      "index": 19
+    },
+    {
+      "bio": "V000081",
+      "speaker": "Nydia M. Velazquez",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+      "start": 189736,
+      "quote": "Instead of focusing on modest improvements, this package represents \nthe largest amount of bank deregulation since before the financial \ncrisis. It includes sweeping reforms that will not only significantly \nroll back necessary safeguards and weaken oversight, but it will also \nundermine consumer protection and antidiscrimination measures and \nhamper the CFPB's ability to issue new rules. This deregulation package \nwill push risk into the shadows and make the next publicly financed \nbailout more likely.",
+      "summary": "This package represents the largest amount of bank deregulation since before the financial crisis. It includes sweeping reforms that will not only significantly roll back necessary safeguards and weaken oversight, but it will also undermine consumer protection and antidiscrimination measures and hamper the CFPB's ability to issue new rules. This deregulation package will push risk into the shadows and make the next publicly financed bailout more likely.",
+      "index": 7
+    },
+    {
+      "bio": "G000587",
+      "speaker": "Sylvia R. Garcia",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+      "start": 200719,
+      "quote": "It does not help end the affordability crisis, feed hardworking \nAmericans, or keep a roof over their heads. Instead, this bill sneaks \nin deregulatory measures, further weakens the Consumer Financial \nProtection Bureau, and weakens community reinvestment and anti-\ndiscrimination safeguards.",
+      "summary": "It does not help end the affordability crisis, feed hardworking Americans, or keep a roof over their heads. Instead, this bill sneaks in deregulatory measures, further weakens the Consumer Financial Protection Bureau, and weakens community reinvestment and anti- discrimination safeguards.",
+      "index": 5
+    },
+    {
+      "bio": "W000187",
+      "speaker": "Maxine Waters",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+      "start": 250180,
+      "quote": "Nothing in this bill will help consumers afford groceries or pay for \ngas. Do you know who is not suffering during the affordability crisis? \nWall Street. This bill would loosen the guardrails on Wall Street mega \nbanks even as they report record profits.",
+      "summary": "Nothing in this bill will help consumers afford groceries or pay for gas. Do you know who is not suffering during the affordability crisis? Wall Street. This bill would loosen the guardrails on Wall Street mega banks even as they report record profits.",
+      "index": 52
+    }
+  ],
+  "diagnostics": {
+    "selection": [
+      {
+        "bio": "M001204",
+        "speaker": "Daniel Meuser",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 203767,
+        "quote": "I do rise in support of the very appropriately named Main Street \nCapital Access Act introduced by Chairman Hill and Subcommittee \nChairman Barr. The legislation does exactly what it says. It supports \naccess to capital for Main Street.",
+        "summary": "I do rise in support of the very appropriately named Main Street Capital Access Act introduced by Chairman Hill and Subcommittee Chairman Barr. The legislation does exactly what it says. It supports access to capital for Main Street.",
+        "index": 4,
+        "reason": "Direct support for the bill and its central purpose of expanding access to capital."
+      },
+      {
+        "bio": "B001282",
+        "speaker": "Andy Barr",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 184145,
+        "quote": "The Main Street Capital Access Act is exactly the kind of reform \nneeded to advance this committee's goal of making community banking \ngreat again. Over the past 18 months, we have worked hard to develop \nover two dozen banking reform bills--many of them with strong \nbipartisan support--and combined them into one multifaceted package \ndesigned to strengthen our community financial institutions, not big \nbanks, like the ranking member is referring to, community banks, Main \nStreet banks, midsize banks.",
+        "summary": "The Main Street Capital Access Act is exactly the kind of reform needed to advance this committee's goal of making community banking great again. Over the past 18 months, we have worked hard to develop over two dozen banking reform bills--many of them with strong bipartisan support--and combined them into one multifaceted package designed to strengthen our community financial institutions, not big banks, like the ranking member is referring to, community banks, Main Street banks, midsize banks.",
+        "index": 8,
+        "reason": "Supports the bill as needed reform and emphasizes strengthening community financial institutions."
+      },
+      {
+        "bio": "K000405",
+        "speaker": "Brad Knott",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 211830,
+        "quote": "With administrative costs rising every year, local banks simply \ncannot afford to operate. We can see this most clearly in 1980 where \nthere were more than 14,000 community banks in the United States. Now \nbecause of the regulatory structure of the current market, there are \nroughly 4,000 community banks. This stifles lending, reduces \ncompetition, and makes it harder for Americans, especially in rural \ncommunities, to access capital. Put plainly, the current regulatory \nclimate punishes community banks, and it benefits larger international \nbanks.",
+        "summary": "With administrative costs rising every year, local banks simply cannot afford to operate. We can see this most clearly in 1980 where there were more than 14,000 community banks in the United States. Now because of the regulatory structure of the current market, there are roughly 4,000 community banks. This stifles lending, reduces competition, and makes it harder for Americans, especially in rural communities, to access capital. Put plainly, the current regulatory climate punishes community banks, and it benefits larger international banks.",
+        "index": 19,
+        "reason": "Explains the harm of the current framework and the need for relief that this bill provides."
+      },
+      {
+        "bio": "B001282",
+        "speaker": "Andy Barr",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 186083,
+        "quote": "The goal is simple: Regulation should follow the risk, not the ZIP \nCode or the political fashion. A $500 million community bank in rural \nKentucky, rural Arkansas, or rural Michigan should not be regulated \nunder the same framework built for a trillion-dollar institution \noperating around the globe. That means higher costs, fewer loans, more \nforced consolidation. This hurts everyday Americans by reducing both \naccess to credit and opportunities for small business growth.",
+        "summary": "The goal is simple: Regulation should follow the risk, not the ZIP Code or the political fashion. A $500 million community bank in rural Kentucky, rural Arkansas, or rural Michigan should not be regulated under the same framework built for a trillion-dollar institution operating around the globe. That means higher costs, fewer loans, more forced consolidation. This hurts everyday Americans by reducing both access to credit and opportunities for small business growth.",
+        "index": 27,
+        "reason": "States the case for tailoring regulation to bank risk and against one-size-fits-all treatment."
+      },
+      {
+        "bio": "B001282",
+        "speaker": "Andy Barr",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 186563,
+        "quote": "The Main Street Capital Access Act is about changing that. It is \nabout rightsizing this regulatory framework to ensure that community \nlenders get back to what they do best: serving their customers and \ntheir communities.",
+        "summary": "The Main Street Capital Access Act is about changing that. It is about rightsizing this regulatory framework to ensure that community lenders get back to what they do best: serving their customers and their communities.",
+        "index": 30,
+        "reason": "Supports the bill as a change to make regulation fit community lenders and their role."
+      },
+      {
+        "bio": "B001282",
+        "speaker": "Andy Barr",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 187139,
+        "quote": "It also restores proportionality to regulation, updating capital \nleverage and enhanced prudential standards to actually reflect a bank's \nrisk profile, not just an arbitrary static asset threshold. That means \nless money spent on regulatory gymnastics and more money available for \nloans in your communities.",
+        "summary": "It also restores proportionality to regulation, updating capital leverage and enhanced prudential standards to actually reflect a bank's risk profile, not just an arbitrary static asset threshold. That means less money spent on regulatory gymnastics and more money available for loans in your communities.",
+        "index": 34,
+        "reason": "Highlights the bill's proportional regulation and its effect on lending capacity."
+      },
+      {
+        "bio": "V000081",
+        "speaker": "Nydia M. Velazquez",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 189736,
+        "quote": "Instead of focusing on modest improvements, this package represents \nthe largest amount of bank deregulation since before the financial \ncrisis. It includes sweeping reforms that will not only significantly \nroll back necessary safeguards and weaken oversight, but it will also \nundermine consumer protection and antidiscrimination measures and \nhamper the CFPB's ability to issue new rules. This deregulation package \nwill push risk into the shadows and make the next publicly financed \nbailout more likely.",
+        "summary": "This package represents the largest amount of bank deregulation since before the financial crisis. It includes sweeping reforms that will not only significantly roll back necessary safeguards and weaken oversight, but it will also undermine consumer protection and antidiscrimination measures and hamper the CFPB's ability to issue new rules. This deregulation package will push risk into the shadows and make the next publicly financed bailout more likely.",
+        "index": 7,
+        "reason": "Strong substantive opposition based on deregulation, weakened oversight, and increased systemic risk."
+      },
+      {
+        "bio": "G000587",
+        "speaker": "Sylvia R. Garcia",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 200719,
+        "quote": "It does not help end the affordability crisis, feed hardworking \nAmericans, or keep a roof over their heads. Instead, this bill sneaks \nin deregulatory measures, further weakens the Consumer Financial \nProtection Bureau, and weakens community reinvestment and anti-\ndiscrimination safeguards.",
+        "summary": "It does not help end the affordability crisis, feed hardworking Americans, or keep a roof over their heads. Instead, this bill sneaks in deregulatory measures, further weakens the Consumer Financial Protection Bureau, and weakens community reinvestment and anti- discrimination safeguards.",
+        "index": 5,
+        "reason": "Argues the bill fails to address key economic needs while weakening consumer and civil-rights protections."
+      },
+      {
+        "bio": "W000187",
+        "speaker": "Maxine Waters",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 250180,
+        "quote": "Nothing in this bill will help consumers afford groceries or pay for \ngas. Do you know who is not suffering during the affordability crisis? \nWall Street. This bill would loosen the guardrails on Wall Street mega \nbanks even as they report record profits.",
+        "summary": "Nothing in this bill will help consumers afford groceries or pay for gas. Do you know who is not suffering during the affordability crisis? Wall Street. This bill would loosen the guardrails on Wall Street mega banks even as they report record profits.",
+        "index": 52,
+        "reason": "States the bill does not help consumers and instead benefits large banks during an affordability crisis."
+      },
+      {
+        "bio": "W000187",
+        "speaker": "Maxine Waters",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 251236,
+        "quote": "Now is not the time to plant new seeds for the next crisis. Now is \nnot the time to juice the mega banks' profit margins. Now is not the \ntime to legitimize Trump's efforts to gut the CFPB, fair lending, and \nother consumer protections.",
+        "summary": "Now is not the time to plant new seeds for the next crisis. Now is not the time to juice the mega banks' profit margins. Now is not the time to legitimize Trump's efforts to gut the CFPB, fair lending, and other consumer protections.",
+        "index": 56,
+        "reason": "Frames the bill as worsening crisis risk and undercutting consumer safeguards."
+      },
+      {
+        "bio": "W000187",
+        "speaker": "Maxine Waters",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 249478,
+        "quote": "In fact, I am disappointed that my friends on the other side of the \naisle are advancing provisions that even contradict our carefully \ncrafted bipartisan agreement in the housing bill.",
+        "summary": "I am disappointed that my friends on the other side of the aisle are advancing provisions that even contradict our carefully crafted bipartisan agreement in the housing bill.",
+        "index": 48,
+        "reason": "Objects that the bill breaks a bipartisan compromise."
+      },
+      {
+        "bio": "W000187",
+        "speaker": "Maxine Waters",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
+        "start": 249666,
+        "quote": "There is a provision in this bill on de novo banks that goes beyond \nour bipartisan deal, allowing regulators to decide whether to make \npermanent reforms that really should be for Congress to decide.",
+        "summary": "There is a provision in this bill on de novo banks that goes beyond our bipartisan deal, allowing regulators to decide whether to make permanent reforms that really should be for Congress to decide.",
+        "index": 49,
+        "reason": "Raises a substantive concern that the bill exceeds the negotiated agreement and shifts authority improperly."
+      }
+    ],
+    "checks": [
+      {
+        "id": 4,
+        "accepted": true,
+        "reason": "The summary matches the quote without adding, omitting, or changing the claim.",
+        "side": "Yea"
+      },
+      {
+        "id": 8,
+        "accepted": true,
+        "reason": "The summary faithfully preserves the reform and package description in the quote.",
+        "side": "Yea"
+      },
+      {
+        "id": 19,
+        "accepted": true,
+        "reason": "The summary accurately restates the rising costs, bank decline, and regulatory impact described in the quote.",
+        "side": "Yea"
+      },
+      {
+        "id": 27,
+        "accepted": true,
+        "reason": "The summary closely matches the quote and keeps the same causal effects on lending and credit access.",
+        "side": "Yea"
+      },
+      {
+        "id": 30,
+        "accepted": true,
+        "reason": "The summary faithfully captures the act's purpose and the role of community lenders in the quote.",
+        "side": "Yea"
+      },
+      {
+        "id": 34,
+        "accepted": true,
+        "reason": "The summary accurately reflects the proportional regulation point and the effect on loan availability.",
+        "side": "Yea"
+      },
+      {
+        "id": 7,
+        "accepted": true,
+        "reason": "The summary faithfully matches the quote's claims about large-scale bank deregulation, weakened safeguards, reduced CFPB authority, and higher bailout risk.",
+        "side": "Nay"
+      },
+      {
+        "id": 5,
+        "accepted": true,
+        "reason": "The summary accurately preserves the quote's point that the bill does not address affordability and instead weakens the CFPB and fair-lending safeguards.",
+        "side": "Nay"
+      },
+      {
+        "id": 52,
+        "accepted": true,
+        "reason": "The summary is faithful to the quote's claims that the bill will not help consumers and would loosen guardrails on Wall Street megabanks despite record profits.",
+        "side": "Nay"
+      },
+      {
+        "id": 56,
+        "accepted": true,
+        "reason": "The summary accurately reflects the quote's warnings about fueling the next crisis, boosting megabank profits, and legitimizing efforts to gut consumer protections.",
+        "side": "Nay"
+      },
+      {
+        "id": 48,
+        "accepted": true,
+        "reason": "The summary preserves the quote's meaning that the advancing provisions conflict with the bipartisan housing agreement.",
+        "side": "Nay"
+      },
+      {
+        "id": 49,
+        "accepted": true,
+        "reason": "The summary faithfully conveys that the de novo banks provision exceeds the bipartisan deal and lets regulators decide issues Congress should decide.",
+        "side": "Nay"
+      }
+    ],
+    "proceduralDropped": 12
+  }
 }
