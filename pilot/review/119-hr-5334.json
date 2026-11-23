@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "d5db3a4f3bde25170e8e89f0f0273cbb80f5ea706ac8a24cbb977dadbc5eaf8d",
+  "debateFingerprint": "fd3d6ed41505f96b47842beba1b86c55c31de1fc4c608c33a20218b174297552",
   "bill": "119-hr-5334",
   "vote": "senate:119:2:224",
   "sources": {
@@ -7,7 +7,640 @@
   },
   "passageRecord": {
     "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00224.xml",
-    "sha256": "476688b518081e46b27098b9b9459a293930b1bd516dc4152d32b4ef598b700d"
+    "sha256": "476688b518081e46b27098b9b9459a293930b1bd516dc4152d32b4ef598b700d",
+    "members": {
+      "A000382": [
+        "D",
+        "MD"
+      ],
+      "A000383": [
+        "R",
+        "OK"
+      ],
+      "B001230": [
+        "D",
+        "WI"
+      ],
+      "B001236": [
+        "R",
+        "AR"
+      ],
+      "B001243": [
+        "R",
+        "TN"
+      ],
+      "B001261": [
+        "R",
+        "WY"
+      ],
+      "B001267": [
+        "D",
+        "CO"
+      ],
+      "B001277": [
+        "D",
+        "CT"
+      ],
+      "B001288": [
+        "D",
+        "NJ"
+      ],
+      "B001299": [
+        "R",
+        "IN"
+      ],
+      "B001303": [
+        "D",
+        "DE"
+      ],
+      "B001305": [
+        "R",
+        "NC"
+      ],
+      "B001319": [
+        "R",
+        "AL"
+      ],
+      "C000127": [
+        "D",
+        "WA"
+      ],
+      "C000880": [
+        "R",
+        "ID"
+      ],
+      "C001035": [
+        "R",
+        "ME"
+      ],
+      "C001047": [
+        "R",
+        "WV"
+      ],
+      "C001056": [
+        "R",
+        "TX"
+      ],
+      "C001075": [
+        "R",
+        "LA"
+      ],
+      "C001088": [
+        "D",
+        "DE"
+      ],
+      "C001095": [
+        "R",
+        "AR"
+      ],
+      "C001096": [
+        "R",
+        "ND"
+      ],
+      "C001098": [
+        "R",
+        "TX"
+      ],
+      "C001113": [
+        "D",
+        "NV"
+      ],
+      "C001114": [
+        "R",
+        "UT"
+      ],
+      "D000563": [
+        "D",
+        "IL"
+      ],
+      "D000618": [
+        "R",
+        "MT"
+      ],
+      "D000622": [
+        "D",
+        "IL"
+      ],
+      "E000295": [
+        "R",
+        "IA"
+      ],
+      "F000463": [
+        "R",
+        "NE"
+      ],
+      "F000479": [
+        "D",
+        "PA"
+      ],
+      "G000386": [
+        "R",
+        "IA"
+      ],
+      "G000555": [
+        "D",
+        "NY"
+      ],
+      "G000574": [
+        "D",
+        "AZ"
+      ],
+      "G000608": [
+        "R",
+        "SC"
+      ],
+      "H000273": [
+        "D",
+        "CO"
+      ],
+      "H000601": [
+        "R",
+        "TN"
+      ],
+      "H001042": [
+        "D",
+        "HI"
+      ],
+      "H001046": [
+        "D",
+        "NM"
+      ],
+      "H001061": [
+        "R",
+        "ND"
+      ],
+      "H001076": [
+        "D",
+        "NH"
+      ],
+      "H001079": [
+        "R",
+        "MS"
+      ],
+      "H001089": [
+        "R",
+        "MO"
+      ],
+      "H001104": [
+        "R",
+        "OH"
+      ],
+      "J000293": [
+        "R",
+        "WI"
+      ],
+      "J000312": [
+        "R",
+        "WV"
+      ],
+      "K000367": [
+        "D",
+        "MN"
+      ],
+      "K000377": [
+        "D",
+        "AZ"
+      ],
+      "K000383": [
+        "I",
+        "ME"
+      ],
+      "K000384": [
+        "D",
+        "VA"
+      ],
+      "K000393": [
+        "R",
+        "LA"
+      ],
+      "K000394": [
+        "D",
+        "NJ"
+      ],
+      "L000570": [
+        "D",
+        "NM"
+      ],
+      "L000571": [
+        "R",
+        "WY"
+      ],
+      "L000575": [
+        "R",
+        "OK"
+      ],
+      "L000577": [
+        "R",
+        "UT"
+      ],
+      "M000133": [
+        "D",
+        "MA"
+      ],
+      "M000355": [
+        "R",
+        "KY"
+      ],
+      "M000934": [
+        "R",
+        "KS"
+      ],
+      "M001111": [
+        "D",
+        "WA"
+      ],
+      "M001153": [
+        "R",
+        "AK"
+      ],
+      "M001169": [
+        "D",
+        "CT"
+      ],
+      "M001176": [
+        "D",
+        "OR"
+      ],
+      "M001198": [
+        "R",
+        "KS"
+      ],
+      "M001242": [
+        "R",
+        "OH"
+      ],
+      "M001243": [
+        "R",
+        "PA"
+      ],
+      "M001244": [
+        "R",
+        "FL"
+      ],
+      "O000174": [
+        "D",
+        "GA"
+      ],
+      "P000145": [
+        "D",
+        "CA"
+      ],
+      "P000595": [
+        "D",
+        "MI"
+      ],
+      "P000603": [
+        "R",
+        "KY"
+      ],
+      "R000122": [
+        "D",
+        "RI"
+      ],
+      "R000584": [
+        "R",
+        "ID"
+      ],
+      "R000605": [
+        "R",
+        "SD"
+      ],
+      "R000608": [
+        "D",
+        "NV"
+      ],
+      "R000618": [
+        "R",
+        "NE"
+      ],
+      "S000033": [
+        "I",
+        "VT"
+      ],
+      "S000148": [
+        "D",
+        "NY"
+      ],
+      "S001150": [
+        "D",
+        "CA"
+      ],
+      "S001181": [
+        "D",
+        "NH"
+      ],
+      "S001184": [
+        "R",
+        "SC"
+      ],
+      "S001194": [
+        "D",
+        "HI"
+      ],
+      "S001198": [
+        "R",
+        "AK"
+      ],
+      "S001203": [
+        "D",
+        "MN"
+      ],
+      "S001208": [
+        "D",
+        "MI"
+      ],
+      "S001217": [
+        "R",
+        "FL"
+      ],
+      "S001227": [
+        "R",
+        "MO"
+      ],
+      "S001232": [
+        "R",
+        "MT"
+      ],
+      "T000250": [
+        "R",
+        "SD"
+      ],
+      "T000278": [
+        "R",
+        "AL"
+      ],
+      "T000476": [
+        "R",
+        "NC"
+      ],
+      "V000128": [
+        "D",
+        "MD"
+      ],
+      "W000437": [
+        "R",
+        "MS"
+      ],
+      "W000779": [
+        "D",
+        "OR"
+      ],
+      "W000790": [
+        "D",
+        "GA"
+      ],
+      "W000800": [
+        "D",
+        "VT"
+      ],
+      "W000802": [
+        "D",
+        "RI"
+      ],
+      "W000805": [
+        "D",
+        "VA"
+      ],
+      "W000817": [
+        "D",
+        "MA"
+      ],
+      "Y000064": [
+        "R",
+        "IN"
+      ]
+    },
+    "result": "Bill Passed",
+    "yea": 86,
+    "nay": 11
   },
-  "points": []
+  "points": [
+    {
+      "bio": "S001181",
+      "speaker": "Jeanne Shaheen",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+      "start": 8238,
+      "quote": "Mr. President, colleagues, every day that Russia earns \nbillions from energy exports, it has more resources to finance this \nwar. Every day that Putin has those resources, he gains more time. \nEvery day that Putin gains more time, more Ukrainians are killed.",
+      "summary": "Every day that Russia earns billions from energy exports, it has more resources to finance this war. Every day that Putin has those resources, he gains more time. Every day that Putin gains more time, more Ukrainians are killed.",
+      "index": 3
+    },
+    {
+      "bio": "P000603",
+      "speaker": "Rand Paul",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+      "start": 2222,
+      "quote": "Mr. President, the bill before us contains the largest tax \nincrease ever passed by a Republican Congress. Worse yet, the bill \ntransfers the taxing authority from the legislature to the executive \nbranch, an unconstitutional delegation of power.",
+      "summary": "the bill before us contains the largest tax increase ever passed by a Republican Congress",
+      "index": 0
+    }
+  ],
+  "diagnostics": {
+    "selection": [
+      {
+        "bio": "S001181",
+        "speaker": "Jeanne Shaheen",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 8238,
+        "quote": "Mr. President, colleagues, every day that Russia earns \nbillions from energy exports, it has more resources to finance this \nwar. Every day that Putin has those resources, he gains more time. \nEvery day that Putin gains more time, more Ukrainians are killed.",
+        "summary": "Every day that Russia earns billions from energy exports, it has more resources to finance this war. Every day that Putin has those resources, he gains more time. Every day that Putin gains more time, more Ukrainians are killed.",
+        "index": 3,
+        "reason": "Supports the bill as a way to cut off Russian war funding and reduce Ukrainian casualties."
+      },
+      {
+        "bio": "C001056",
+        "speaker": "John Cornyn",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 8696,
+        "quote": "Mr. President, Mr. Fetterman and I appreciate the work \nbeing done to advance the Lindsey O. Graham Sanctioning Russia and Iran \nAct of 2026, H.R.5334, in the Senate. This bill will honor Senator \nGraham's legacy, help dismantle Putin's war machine, and strengthen the \nU.S. national security.",
+        "summary": "This bill will honor Senator Graham's legacy, help dismantle Putin's war machine, and strengthen the U.S. national security.",
+        "index": 4,
+        "reason": "States direct support for the bill and its security benefits."
+      },
+      {
+        "bio": "G000608",
+        "speaker": "Darline Graham",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 12535,
+        "quote": "Mr. President, I rise today, and I am honored to \nreiterate my full support for the Lindsey O. Graham Sanctioning Russia \nand Iran Act of 2026.",
+        "summary": "I rise today, and I am honored to reiterate my full support for the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026.",
+        "index": 5,
+        "reason": "Explicit endorsement of the bill."
+      },
+      {
+        "bio": "B001319",
+        "speaker": "Katie Boyd Britt",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 3356,
+        "quote": "Mr. President, the Senate has a spine. That is exactly \nwhat we are doing here today is standing with a steel spine. We are \nstanding against Putin's aggression.",
+        "summary": "The Senate has a spine. That is exactly what we are doing here today is standing with a steel spine. We are standing against Putin's aggression.",
+        "index": 6,
+        "reason": "Presents the vote as opposing Putin's aggression."
+      },
+      {
+        "bio": "S001181",
+        "speaker": "Jeanne Shaheen",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 8499,
+        "quote": "This legislation is what President Zelenskyy asked us to do. This is \nwhat Senator Graham worked so hard to achieve. I hope we can give it an \noverwhelming vote.",
+        "summary": "This legislation is what President Zelenskyy asked us to do. This is what Senator Graham worked so hard to achieve. I hope we can give it an overwhelming vote.",
+        "index": 9,
+        "reason": "Supports the bill as aligned with Zelenskyy’s request and Graham’s effort."
+      },
+      {
+        "bio": "G000608",
+        "speaker": "Darline Graham",
+        "side": "Yea",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 13702,
+        "quote": "This legislation hits Putin where it hurts. It contains provisions \nthat specifically target those who are supporting Russia's war in \nUkraine. This bill forces those primary countries keeping Russia's \neconomy afloat to make a simple yet critical choice--a choice between \ndoing business with America or buying cheap Russian energy. This \nlegislation tells Russia's customers that the United States of America \nwill not sit by while they fund Putin's assault.",
+        "summary": "This legislation hits Putin where it hurts. It contains provisions that specifically target those who are supporting Russia's war in Ukraine. This bill forces those primary countries keeping Russia's economy afloat to make a simple yet critical choice--a choice between doing business with America or buying cheap Russian energy. This legislation tells Russia's customers that the United States of America will not sit by while they fund Putin's assault.",
+        "index": 25,
+        "reason": "Argues the bill targets supporters of Russia’s war and pressures customers financing Putin’s assault."
+      },
+      {
+        "bio": "P000603",
+        "speaker": "Rand Paul",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 2222,
+        "quote": "Mr. President, the bill before us contains the largest tax \nincrease ever passed by a Republican Congress. Worse yet, the bill \ntransfers the taxing authority from the legislature to the executive \nbranch, an unconstitutional delegation of power.",
+        "summary": "the bill before us contains the largest tax increase ever passed by a Republican Congress",
+        "index": 0,
+        "reason": "Opposing a bill on the basis of an enormous tax increase is a direct substantive reason to vote no."
+      },
+      {
+        "bio": "P000603",
+        "speaker": "Rand Paul",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 2222,
+        "quote": "Mr. President, the bill before us contains the largest tax \nincrease ever passed by a Republican Congress. Worse yet, the bill \ntransfers the taxing authority from the legislature to the executive \nbranch, an unconstitutional delegation of power.",
+        "summary": "the bill transfers the taxing authority from the legislature to the executive branch, an unconstitutional delegation of power",
+        "index": 0,
+        "reason": "Claiming the bill makes an unconstitutional transfer of taxing authority is a direct substantive reason to vote no."
+      },
+      {
+        "bio": "P000603",
+        "speaker": "Rand Paul",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 2593,
+        "quote": "Madison believed the Republic would survive only if the Constitution \ndivided the power and pitted the executive ambition against legislative \nambition. Madison would be horrified by the clamor of so many in \nCongress to cede the taxing authority.",
+        "summary": "Madison would be horrified by the clamor of so many in Congress to cede the taxing authority",
+        "index": 1,
+        "reason": "Arguing that Congress should not cede taxing authority is a direct substantive reason to vote no."
+      },
+      {
+        "bio": "P000603",
+        "speaker": "Rand Paul",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 2843,
+        "quote": "My amendment strips the transfer of the taxing authority from the \nbill. My amendment--if it passes--will demonstrate that Congress still \nhas a spine, still has ambition, and still supports the separation and \nlimitation of power.",
+        "summary": "My amendment strips the transfer of the taxing authority from the bill",
+        "index": 2,
+        "reason": "Removing the transfer of taxing authority is presented as the key substantive objection supporting a no vote on the bill as written."
+      },
+      {
+        "bio": "P000603",
+        "speaker": "Rand Paul",
+        "side": "Nay",
+        "manager": false,
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+        "start": 2843,
+        "quote": "My amendment strips the transfer of the taxing authority from the \nbill. My amendment--if it passes--will demonstrate that Congress still \nhas a spine, still has ambition, and still supports the separation and \nlimitation of power.",
+        "summary": "My amendment--if it passes--will demonstrate that Congress still has a spine, still has ambition, and still supports the separation and limitation of power",
+        "index": 2,
+        "reason": "Supporting separation and limitation of power is a direct substantive reason to oppose the bill as written."
+      }
+    ],
+    "checks": [
+      {
+        "id": 3,
+        "accepted": true,
+        "reason": "The summary faithfully preserves the repeated causal chain about Russia’s energy revenues funding the war, giving Putin time, and resulting in more Ukrainians being killed.",
+        "side": "Yea"
+      },
+      {
+        "id": 4,
+        "accepted": true,
+        "reason": "The summary accurately reflects the bill’s stated benefits of honoring Senator Graham, dismantling Putin’s war machine, and strengthening U.S. national security.",
+        "side": "Yea"
+      },
+      {
+        "id": 5,
+        "accepted": true,
+        "reason": "The summary matches the quote exactly in meaning and does not add or omit any substantive claim.",
+        "side": "Yea"
+      },
+      {
+        "id": 6,
+        "accepted": true,
+        "reason": "The summary faithfully conveys the Senate’s resolve and its opposition to Putin’s aggression.",
+        "side": "Yea"
+      },
+      {
+        "id": 9,
+        "accepted": true,
+        "reason": "The summary accurately includes Zelenskyy’s request, Graham’s efforts, and the hope for an overwhelming vote.",
+        "side": "Yea"
+      },
+      {
+        "id": 25,
+        "accepted": true,
+        "reason": "The summary faithfully preserves the bill’s purpose, its targeting of supporters of Russia’s war, and the choice it imposes on Russia’s customers.",
+        "side": "Yea"
+      },
+      {
+        "id": 0,
+        "accepted": true,
+        "reason": "The summary faithfully preserves the claim that the bill transfers taxing authority from the legislature to the executive branch as an unconstitutional delegation of power.",
+        "side": "Nay"
+      },
+      {
+        "id": 0,
+        "accepted": true,
+        "reason": "The summary faithfully preserves the claim that the bill transfers taxing authority from the legislature to the executive branch as an unconstitutional delegation of power.",
+        "side": "Nay"
+      },
+      {
+        "id": 1,
+        "accepted": true,
+        "reason": "The summary faithfully preserves the statement that Madison would be horrified by Congress’s clamor to cede the taxing authority.",
+        "side": "Nay"
+      },
+      {
+        "id": 2,
+        "accepted": true,
+        "reason": "The summary faithfully preserves the claim that if the amendment passes, it will demonstrate Congress still has a spine, ambition, and support for separation and limitation of power.",
+        "side": "Nay"
+      },
+      {
+        "id": 2,
+        "accepted": true,
+        "reason": "The summary faithfully preserves the claim that if the amendment passes, it will demonstrate Congress still has a spine, ambition, and support for separation and limitation of power.",
+        "side": "Nay"
+      }
+    ],
+    "proceduralDropped": 3
+  }
 }
