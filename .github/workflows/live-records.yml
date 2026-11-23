@@ -74,7 +74,13 @@ jobs:
       - run: npm run typecheck && npm run lint && npm test
       - name: Install the PDF text verifier
         run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends poppler-utils
-      - run: python3 scripts/round6/check_debate.py
+      - name: Check out the records Worker for this workflow revision
+        uses: actions/checkout@v4
+        with:
+          path: records-host
+          persist-credentials: false
+      - name: Verify reviewed debate sources with download retries
+        run: python3 records-host/ops/official_downloads.py
       - name: Import and verify official sources
         id: import
         shell: python
@@ -86,6 +92,9 @@ jobs:
           from urllib.error import HTTPError
           from urllib.parse import urlsplit
           sys.path.insert(0, str(Path.cwd()))
+          sys.path.insert(0, str(Path("records-host/ops").resolve()))
+          from official_downloads import install_archive
+          install_archive()
           from ingestion.live_job import refresh
 
           # Shared across all download workers to avoid simultaneous requests to a chamber.
@@ -124,11 +133,6 @@ jobs:
           /objects/*
             Cache-Control: public, max-age=31536000, immutable
           EOF
-      - name: Check out the records Worker for this workflow revision
-        uses: actions/checkout@v4
-        with:
-          path: records-host
-          persist-credentials: false
       - name: Deploy checked static assets to the existing Worker
         env:
           CLOUDFLARE_ACCOUNT_ID: ${{ vars.CLOUDFLARE_ACCOUNT_ID }}
