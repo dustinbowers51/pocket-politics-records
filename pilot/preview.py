@@ -5,6 +5,7 @@ import json
 import os
 import re
 import itertools
+import time
 import subprocess
 from pathlib import Path
 from urllib.error import HTTPError
@@ -220,6 +221,10 @@ if __name__ == "__main__":
             ["git", "commit", "-m", "Cache debate review for " + packet["bill"]],
             check=True,
         )
-        subprocess.run(
-            ["git", "push", "origin", "HEAD:review/official-debate-pilot"], check=True
-        )
+        for delay in (0, 15, 60):
+            time.sleep(delay)
+            push = subprocess.run(["git", "push", "origin", "HEAD:review/official-debate-pilot"])
+            if push.returncode == 0:
+                break
+        else:
+            push.check_returncode()
