@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "b566197a0540a6166c3335f761d51fde6db45fa1519e6fefdec06a52fbc382a2",
+  "debateFingerprint": "e89de4db0de7f63036943d2c1b5c1e1f47df6b332446da86797a83efcab46330",
   "bill": "119-hr-7008",
   "vote": "house:119:2:280",
   "sources": {
@@ -1739,251 +1739,301 @@
     "yea": 232,
     "nay": 198
   },
-  "points": [
-    {
-      "bio": "S001213",
-      "speaker": "Bryan Steil",
-      "side": "Yea",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-      "start": 17939,
-      "quote": "Mr. Speaker, I rise today in support of the Stop Insider Trading Act. \nThere is a lot of talk in this town about draining the swamp and \ncleaning up Washington. Today, the rubber hits the road. Good \ngovernance matters, and the Committee on House Administration is \nleading the way.",
-      "summary": "I rise today in support of the Stop Insider Trading Act.",
-      "index": 0
-    },
-    {
-      "bio": "M001206",
-      "speaker": "Joseph D. Morelle",
-      "side": "Nay",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-      "start": 20521,
-      "quote": "Mr. Speaker, what we are considering here today is a remarkable \ndisplay of cynicism, even for this institution, even for this \nRepublican leadership team.",
-      "summary": "what we are considering here today is a remarkable display of cynicism, even for this institution, even for this Republican leadership team.",
-      "index": 0
-    }
-  ],
+  "points": [],
   "diagnostics": {
     "selection": [
       {
-        "bio": "S001213",
-        "speaker": "Bryan Steil",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 17939,
-        "quote": "Mr. Speaker, I rise today in support of the Stop Insider Trading Act. \nThere is a lot of talk in this town about draining the swamp and \ncleaning up Washington. Today, the rubber hits the road. Good \ngovernance matters, and the Committee on House Administration is \nleading the way.",
-        "summary": "I rise today in support of the Stop Insider Trading Act.",
-        "index": 0,
-        "reason": "Directly supports the bill."
+        "pick": {
+          "paragraph": 3,
+          "first_sentence_id": 0,
+          "last_sentence_id": 3,
+          "reason": "General floor-manager support for the bill and a specific governance rationale: the committee is leading the reform effort to improve transparency and ethics."
+        }
       },
       {
-        "bio": "S001213",
-        "speaker": "Bryan Steil",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 18224,
-        "quote": "Under current law, Members of Congress are required to publicly \ndisclose their stock trades. The disclosures lack details and are often \nfiled months after a transaction.",
-        "summary": "Under current law, Members of Congress are required to publicly disclose their stock trades. The disclosures lack details and are often filed months after a transaction.",
-        "index": 8,
-        "reason": "Identifies a transparency gap the bill addresses."
+        "pick": {
+          "paragraph": 4,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains the current disclosure regime is inadequate because trades are disclosed with too little detail and too late, supporting the need for the bill."
+        }
       },
       {
-        "bio": "K000398",
-        "speaker": "Thomas H. Kean, Jr.",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 56330,
-        "quote": "That is why I strongly support the Stop Insider Trading Act, which \nwould prohibit Members of Congress, their spouses, and dependent \nchildren from purchasing individual stocks.",
-        "summary": "That is why I strongly support the Stop Insider Trading Act, which would prohibit Members of Congress, their spouses, and dependent children from purchasing individual stocks.",
-        "index": 13,
-        "reason": "States support for the core prohibition in the bill."
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues that current stock trading by Members fuels public frustration and that a ban would eliminate even the appearance of impropriety."
+        }
       },
       {
-        "bio": "S001213",
-        "speaker": "Bryan Steil",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 18398,
-        "quote": "This lack of transparency and the continued practice of Members \npurchasing stock is fueling public frustration. It is time we ban \nMembers of Congress from being able to buy individual companies' shares \nof stock. Doing so removes even the appearance of impropriety.",
-        "summary": "This lack of transparency and the continued practice of Members purchasing stock is fueling public frustration. It is time we ban Members of Congress from being able to buy individual companies' shares of stock. Doing so removes even the appearance of impropriety.",
-        "index": 16,
-        "reason": "Gives a substantive justification for banning congressional stock purchases."
+        "pick": {
+          "paragraph": 6,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Frames the legislation as transformational ethics reform and notes it is the first House floor vote on a congressional stock trading ban."
+        }
       },
       {
-        "bio": "S001213",
-        "speaker": "Bryan Steil",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 18668,
-        "quote": "Mr. Speaker, we have an opportunity to pass transformational \ncongressional ethics reform. This is the first congressional stock \ntrading ban to receive a vote on the floor of the House. Today, every \nAmerican will know where their Member stands.",
-        "summary": "We have an opportunity to pass transformational congressional ethics reform. This is the first congressional stock trading ban to receive a vote on the floor of the House. Today, every American will know where their Member stands.",
-        "index": 24,
-        "reason": "Supports the reform as a meaningful ethics measure."
+        "pick": {
+          "paragraph": 7,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Makes the substantive case that Members should not day trade in Washington and should work for the American people instead."
+        }
       },
       {
-        "bio": "S001213",
-        "speaker": "Bryan Steil",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 18917,
-        "quote": "If you want to day trade, there is a place for that. It is called \nWall Street. If you want to come to Washington, you should be working \non behalf of the American people.",
-        "summary": "If you want to day trade, there is a place for that. It is called Wall Street. If you want to come to Washington, you should be working on behalf of the American people.",
-        "index": 31,
-        "reason": "Explains why Members should not trade stocks while serving."
+        "pick": {
+          "paragraph": 25,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Says the bill will make Congress more transparent and accountable and help restore public trust."
+        }
       },
       {
-        "bio": "M001206",
-        "speaker": "Joseph D. Morelle",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 20521,
-        "quote": "Mr. Speaker, what we are considering here today is a remarkable \ndisplay of cynicism, even for this institution, even for this \nRepublican leadership team.",
-        "summary": "what we are considering here today is a remarkable display of cynicism, even for this institution, even for this Republican leadership team.",
-        "index": 0,
-        "reason": "Frames the bill as cynical rather than a genuine reform."
+        "pick": {
+          "paragraph": 42,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains that the bill is not a real stock-trading ban and that it elevates Members above the law, directly arguing against passage."
+        }
       },
       {
-        "bio": "M001206",
-        "speaker": "Joseph D. Morelle",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 21188,
-        "quote": "What are Speaker Johnson and House Republicans doing about this? They \nare pretending here on the floor today to address the issue. They are \npushing the so-called Stop Insider Trading Act, a name meant entirely \nto trick the American people.",
-        "summary": "they are pretending here on the floor today to address the issue.",
-        "index": 14,
-        "reason": "Argues the measure is only a pretense, not a real attempt to solve the problem."
+        "pick": {
+          "paragraph": 43,
+          "first_sentence_id": 1,
+          "last_sentence_id": 4,
+          "reason": "Details the loopholes—allowing Members to hold stock, use dividends, and let family members trade—showing the bill is an inadequate fake ban."
+        }
       },
       {
-        "bio": "M001206",
-        "speaker": "Joseph D. Morelle",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 21433,
-        "quote": "This bill, quite simply, is a sham. The bill allows Members of the \nCongress to continue owning and trading stocks. That is right. The so-\ncalled Stop Insider Trading Act actually allows Members of Congress to \nown and trade stocks.",
-        "summary": "This bill, quite simply, is a sham.",
-        "index": 21,
-        "reason": "Directly characterizes the bill as illegitimate and deceptive."
+        "pick": {
+          "paragraph": 75,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues the bill does not go far enough because Members can keep existing investments, preserving conflicts of interest."
+        }
       },
       {
-        "bio": "M001206",
-        "speaker": "Joseph D. Morelle",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 21668,
-        "quote": "Even this half measure--or should I say quarter measure--goes too far \nfor Republican leadership. How do we know? What is the tell? How do we \nknow that the Republican posturing is all performative and that \nRepublicans do not want a stock trading bill ban to become law? They \nhave added a poison pill to this bill. They have added provisions that \nhave absolutely nothing to do with stock trading and everything to do \nwith their obsession with the 2020 election.",
-        "summary": "Even this half measure--or should I say quarter measure--goes too far for Republican leadership.",
-        "index": 28,
-        "reason": "Undercuts the bill as an inadequate compromise that still fails to reflect real opposition."
+        "pick": {
+          "paragraph": 90,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "States that the bill still allows selling stock, taking dividends, and reinvesting, so it fails to stop the conduct it targets."
+        }
       },
       {
-        "bio": "M001206",
-        "speaker": "Joseph D. Morelle",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 39087,
-        "quote": "This will not fix anything, and that is what it is intended to do, to \nnot fix anything, but to make people believe that we have addressed it. \nWe haven't addressed anything.",
-        "summary": "This will not fix anything, and that is what it is intended to do, to not fix anything, but to make people believe that we have addressed it.",
-        "index": 52,
-        "reason": "States the bill is designed to create the appearance of action without solving the issue."
+        "pick": {
+          "paragraph": 123,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Supports a real ban as a trust-restoring reform but implies the bill on the floor falls short of that standard."
+        }
       },
       {
-        "bio": "M001206",
-        "speaker": "Joseph D. Morelle",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
-        "start": 47003,
-        "quote": "Others have pointed out Democratic Members and recognized them. There \nare glaring examples here. However, to reiterate the point, this bill \nwould not prevent insider trading. It would just trick the American \npeople into thinking we are trying to do something about corruption \nwhen we are not.",
-        "summary": "this bill would not prevent insider trading. It would just trick the American people into thinking we are trying to do something about corruption when we are not.",
-        "index": 57,
-        "reason": "Asserts the bill fails on its stated purpose and only misleads the public."
+        "pick": {
+          "paragraph": 163,
+          "first_sentence_id": 0,
+          "last_sentence_id": 5,
+          "reason": "Explicitly says the so-called Stop Insider Trading Act is not a stock trading ban and does not require divestiture, which is a direct substantive objection."
+        }
       }
     ],
     "checks": [
       {
-        "id": 0,
-        "accepted": true,
-        "reason": "The summary faithfully matches the quote's opening statement of support for the Stop Insider Trading Act.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 3,
+          "first_sentence_id": 0,
+          "last_sentence_id": 3,
+          "reason": "General floor-manager support for the bill and a specific governance rationale: the committee is leading the reform effort to improve transparency and ethics."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 8,
-        "accepted": true,
-        "reason": "The summary accurately restates the current-law disclosure requirement and its shortcomings in detail and timing.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 4,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains the current disclosure regime is inadequate because trades are disclosed with too little detail and too late, supporting the need for the bill."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 16,
-        "accepted": true,
-        "reason": "The summary matches the quote's claim that lack of transparency and stock purchases are fueling frustration and that banning member stock purchases removes the appearance of impropriety.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues that current stock trading by Members fuels public frustration and that a ban would eliminate even the appearance of impropriety."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 24,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the claim about transformational ethics reform, the first floor vote on a congressional stock trading ban, and public scrutiny of members' positions.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 6,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Frames the legislation as transformational ethics reform and notes it is the first House floor vote on a congressional stock trading ban."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 31,
-        "accepted": true,
-        "reason": "The summary accurately conveys the contrast between day trading on Wall Street and serving the American people in Washington.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 7,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Makes the substantive case that Members should not day trade in Washington and should work for the American people instead."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 13,
-        "accepted": true,
-        "reason": "The summary correctly reflects support for the bill and its ban on purchases of individual stocks by members, spouses, and dependent children.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 25,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Says the bill will make Congress more transparent and accountable and help restore public trust."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 0,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the speaker’s criticism and wording without adding or changing any substantive claim.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 42,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains that the bill is not a real stock-trading ban and that it elevates Members above the law, directly arguing against passage."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 14,
-        "accepted": true,
-        "reason": "The summary accurately captures that they are pretending on the floor to address the issue.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 43,
+          "first_sentence_id": 1,
+          "last_sentence_id": 4,
+          "reason": "Details the loopholes—allowing Members to hold stock, use dividends, and let family members trade—showing the bill is an inadequate fake ban."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 21,
-        "accepted": true,
-        "reason": "The summary matches the quote’s central claim that the bill is a sham.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 75,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues the bill does not go far enough because Members can keep existing investments, preserving conflicts of interest."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 28,
-        "accepted": true,
-        "reason": "The summary is faithful to the quote’s claim that even this weak bill goes too far for Republican leadership.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 90,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "States that the bill still allows selling stock, taking dividends, and reinvesting, so it fails to stop the conduct it targets."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 52,
-        "accepted": true,
-        "reason": "The summary correctly reflects that the bill will not fix anything and is meant to make people think it has.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 123,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Supports a real ban as a trust-restoring reform but implies the bill on the floor falls short of that standard."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 57,
-        "accepted": true,
-        "reason": "The summary accurately states that the bill would not prevent insider trading and would only trick the public into thinking action is being taken.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 163,
+          "first_sentence_id": 0,
+          "last_sentence_id": 5,
+          "reason": "Explicitly says the so-called Stop Insider Trading Act is not a stock trading ban and does not require divestiture, which is a direct substantive objection."
+        },
+        "accepted": false,
+        "reason": "'first'"
       }
     ],
-    "proceduralDropped": 16
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_00d970f0eac63f6f016b05b60aeae887d295574d9e3324cce7",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 4824,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 265,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 5089
+        },
+        "estimatedUsd": 0.0048105,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_0e92dfc063102012016b05b60c83e087d282105b9fc8d07940",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 5919,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 286,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 6205
+        },
+        "estimatedUsd": 0.00572625,
+        "status": "completed"
+      }
+    ]
   }
 }
