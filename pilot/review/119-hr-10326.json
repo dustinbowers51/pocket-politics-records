@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "7e76e053eea4f3bdcaf8be39453fb6be357e27cdcd50c0b6013ef88b37774bd9",
+  "debateFingerprint": "8f6eb3d8fbea1217b53b43ca4e4280159e4747cfe5f1ea86d3e6afafd6f0604f",
   "bill": "119-hr-10326",
   "vote": "house:119:2:310",
   "sources": {
@@ -1754,13 +1754,15 @@
       "side": "Yea",
       "manager": true,
       "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-      "start": 8178,
-      "quote": "Madam Speaker, I rise today in strong support of H.R. 10326, the \nPreventing Rip-offs and Obtaining Oversight of Funds Act, otherwise \nknown as the PROOF Act.",
-      "display": "I rise today in strong support of H.R. 10326, the Preventing Rip-offs and Obtaining Oversight of Funds Act, otherwise known as the PROOF Act.",
-      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm#:~:text=Madam%20Speaker%2C%20I%20rise%20today%20in%20strong%20support%20of%20H.R.%2010326%2C%20the%20Preventing%20Rip%2Doffs%20and%20Obtaining%20Oversight%20of%20Funds%20Act%2C%20otherwise%20known%20as%20the%20PROOF%20Act.",
-      "end": 8336,
+      "start": 8677,
+      "quote": "The tragedy isn't just that the money was stolen. The tragedy is that \nFederal law enforcement didn't have sufficient tools to stop it. \nSophisticated fraud rings intentionally scatter their operations across \nState lines because they know individual State databases do not talk to \neach other, and they also know they can hide behind local bureaucratic \nred tape.",
+      "display": "The tragedy isn't just that the money was stolen. The tragedy is that Federal law enforcement didn't have sufficient tools to stop it. Sophisticated fraud rings intentionally scatter their operations across State lines because they know individual State databases do not talk to each other, and they also know they can hide behind local bureaucratic red tape.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm#:~:text=The%20tragedy%20isn%27t%20just%20that%20the%20money%20was%20stolen.%20The%20tragedy%20is%20that%20Federal%20law%20enforcement%20didn%27t%20have%20sufficient%20tools%20to%20stop%20it.%20Sophisticated%20fraud%20rings%20intentionally%20scatter%20their%20operations%20across%20State%20lines%20because%20they%20know%20individual%20State%20databases%20do%20not%20talk%20to%20each%20other%2C%20and%20they%20also%20know%20they%20can%20hide%20behind%20local%20bureaucratic%20red%20tape.",
+      "end": 9041,
       "sentenceIds": [
-        "3.0"
+        "5.0",
+        "5.1",
+        "5.2"
       ]
     },
     {
@@ -1769,13 +1771,14 @@
       "side": "Nay",
       "manager": true,
       "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-      "start": 12187,
-      "quote": "However, I rise in vehement opposition to H.R. 10326, the so-called \nPROOF Act, which is a dangerous bill and has nothing to do with \nfighting fraud and everything to do with orchestrating a huge privacy \ndata power grab from the American people.",
-      "display": "However, I rise in vehement opposition to H.R. 10326, the so-called PROOF Act, which is a dangerous bill and has nothing to do with fighting fraud and everything to do with orchestrating a huge privacy data power grab from the American people.",
-      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm#:~:text=However%2C%20I%20rise%20in%20vehement%20opposition%20to%20H.R.%2010326%2C%20the%20so%2Dcalled%20PROOF%20Act%2C%20which%20is%20a%20dangerous%20bill%20and%20has%20nothing%20to%20do%20with%20fighting%20fraud%20and%20everything%20to%20do%20with%20orchestrating%20a%20huge%20privacy%20data%20power%20grab%20from%20the%20American%20people.",
-      "end": 12433,
+      "start": 14401,
+      "quote": "This legislation is totally unnecessary. The Department of Justice \nalready has the tools it needs to investigate and prosecute fraud.",
+      "display": "This legislation is totally unnecessary. The Department of Justice already has the tools it needs to investigate and prosecute fraud.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm#:~:text=This%20legislation%20is%20totally%20unnecessary.%20The%20Department%20of%20Justice%20already%20has%20the%20tools%20it%20needs%20to%20investigate%20and%20prosecute%20fraud.",
+      "end": 14535,
       "sentenceIds": [
-        "10.0"
+        "16.0",
+        "16.1"
       ]
     }
   ],
@@ -1784,147 +1787,25 @@
       {
         "side": "Yea",
         "pick": {
-          "paragraph": 3,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "General floor-manager support for the bill and its purpose to prevent rip-offs and obtain oversight of funds."
-        }
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 4,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Explains the harm from fraud to taxpayers and vulnerable beneficiaries, supporting the bill’s antifraud aim."
-        }
-      },
-      {
-        "side": "Yea",
-        "pick": {
           "paragraph": 5,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Argues federal law enforcement needs stronger tools because fraud rings evade detection across state lines."
-        }
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 6,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Cites a real SNAP fraud example where state resistance blocked access to data needed to stop theft."
-        }
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 7,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Uses another concrete example of denied attendance logs to justify federal oversight against fraudulent billing."
-        }
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 40,
-          "first_sentence_id": 0,
-          "last_sentence_id": 4,
-          "reason": "As bill sponsor, supports the measure as a commonsense accountability response to billions in stolen taxpayer funds."
-        }
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 10,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Specific opposition to H.R. 10326 as a privacy data power grab rather than a fraud measure."
-        }
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 13,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Argues the bill overturns longstanding privacy safeguards and was rushed to the floor outside regular order."
+          "first": 0,
+          "last": 2
         }
       },
       {
         "side": "Nay",
         "pick": {
           "paragraph": 16,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Says the legislation is unnecessary because DOJ already has tools to investigate and prosecute fraud."
-        }
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 21,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Contends the bill would improperly allow access to all data, conflicting with the Privacy Act and federal privacy statutes."
-        }
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 57,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Objects that the bill gives the Attorney General open-ended authority to deem programs vulnerable to fraud and demand all information."
-        }
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 115,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Explicitly urges colleagues to reject or withdraw the bill and says it should return after proper hearings and markup."
+          "first": 0,
+          "last": 1
         }
       }
     ],
     "checks": [
       {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 40,
-          "first_sentence_id": 0,
-          "last_sentence_id": 4,
-          "reason": "As bill sponsor, supports the measure as a commonsense accountability response to billions in stolen taxpayer funds."
-        },
-        "accepted": false,
-        "reason": "Invalid sentence range"
-      },
-      {
         "id": 0,
         "accepted": true,
-        "reason": "States support for the PROOF Act, which is a direct vote position and implies the bill is intended to improve oversight.",
-        "side": "Yea",
-        "sentenceIds": [
-          "3.0"
-        ]
-      },
-      {
-        "id": 1,
-        "accepted": true,
-        "reason": "Explains that criminals stole benefits intended for vulnerable people, giving a substantive harm the bill aims to address.",
-        "side": "Yea",
-        "sentenceIds": [
-          "4.0",
-          "4.1"
-        ]
-      },
-      {
-        "id": 2,
-        "accepted": true,
-        "reason": "Argues federal law enforcement lacked sufficient tools to stop interstate fraud, which is a concrete justification for the bill.",
+        "reason": "It gives a substantive reason for voting yea: federal law enforcement lacks sufficient tools to stop sophisticated fraud rings that exploit state-to-state data gaps and bureaucracy.",
         "side": "Yea",
         "sentenceIds": [
           "5.0",
@@ -1933,82 +1814,13 @@
         ]
       },
       {
-        "id": 3,
-        "accepted": true,
-        "reason": "Cites a real-world SNAP fraud case and data resistance as evidence of the oversight problem the bill addresses.",
-        "side": "Yea",
-        "sentenceIds": [
-          "6.0",
-          "6.1"
-        ]
-      },
-      {
-        "id": 4,
-        "accepted": true,
-        "reason": "Describes denial of attendance logs that prevented stopping daycare billing fraud, a substantive reason for stronger oversight.",
-        "side": "Yea",
-        "sentenceIds": [
-          "7.0"
-        ]
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 13,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Argues the bill overturns longstanding privacy safeguards and was rushed to the floor outside regular order."
-        },
-        "accepted": false,
-        "reason": "Invalid quote start or word count"
-      },
-      {
         "id": 0,
         "accepted": true,
-        "reason": "Claims the bill is a privacy data power grab and unrelated to fighting fraud, which is a substantive policy objection supporting a Nay vote.",
-        "side": "Nay",
-        "sentenceIds": [
-          "10.0"
-        ]
-      },
-      {
-        "id": 1,
-        "accepted": true,
-        "reason": "States the DOJ already has the tools to investigate and prosecute fraud, arguing the bill is unnecessary.",
+        "reason": "States a substantive policy reason for voting no: the bill is unnecessary because DOJ already has sufficient tools to investigate and prosecute fraud.",
         "side": "Nay",
         "sentenceIds": [
           "16.0",
           "16.1"
-        ]
-      },
-      {
-        "id": 2,
-        "accepted": true,
-        "reason": "Argues the bill is inconsistent with the Privacy Act and federal privacy statutes, a concrete substantive objection.",
-        "side": "Nay",
-        "sentenceIds": [
-          "21.0",
-          "21.1"
-        ]
-      },
-      {
-        "id": 3,
-        "accepted": true,
-        "reason": "Criticizes the bill for letting the Attorney General broadly trigger disclosure of all information based on a vague fraud label, which is a specific privacy concern.",
-        "side": "Nay",
-        "sentenceIds": [
-          "57.0",
-          "57.1"
-        ]
-      },
-      {
-        "id": 4,
-        "accepted": false,
-        "reason": "This is mainly a call to withdraw the bill and have hearings/markup later, which is procedural rather than a substantive reason about the bill itself.",
-        "side": "Nay",
-        "sentenceIds": [
-          "115.0",
-          "115.1"
         ]
       }
     ],
@@ -2108,8 +1920,291 @@
         },
         "estimatedUsd": 0.0011745,
         "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_01079058adfd07e2016b05b6fd6f2487d0b8a9623b9e91c14e",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 233,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 53,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 286
+        },
+        "estimatedUsd": 0.00041325,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_04b9a390d0847a46016b05b7000ea087d0b35af57424b05f90",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 192,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 48,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 240
+        },
+        "estimatedUsd": 0.00036,
+        "status": "completed"
       }
     ],
-    "reusedSelection": true
+    "priorReview": {
+      "selection": [
+        {
+          "side": "Yea",
+          "pick": {
+            "paragraph": 3,
+            "first_sentence_id": 0,
+            "last_sentence_id": 0,
+            "reason": "General floor-manager support for the bill and its purpose to prevent rip-offs and obtain oversight of funds."
+          }
+        },
+        {
+          "side": "Yea",
+          "pick": {
+            "paragraph": 4,
+            "first_sentence_id": 0,
+            "last_sentence_id": 1,
+            "reason": "Explains the harm from fraud to taxpayers and vulnerable beneficiaries, supporting the bill’s antifraud aim."
+          }
+        },
+        {
+          "side": "Yea",
+          "pick": {
+            "paragraph": 5,
+            "first_sentence_id": 0,
+            "last_sentence_id": 2,
+            "reason": "Argues federal law enforcement needs stronger tools because fraud rings evade detection across state lines."
+          }
+        },
+        {
+          "side": "Yea",
+          "pick": {
+            "paragraph": 6,
+            "first_sentence_id": 0,
+            "last_sentence_id": 1,
+            "reason": "Cites a real SNAP fraud example where state resistance blocked access to data needed to stop theft."
+          }
+        },
+        {
+          "side": "Yea",
+          "pick": {
+            "paragraph": 7,
+            "first_sentence_id": 0,
+            "last_sentence_id": 0,
+            "reason": "Uses another concrete example of denied attendance logs to justify federal oversight against fraudulent billing."
+          }
+        },
+        {
+          "side": "Yea",
+          "pick": {
+            "paragraph": 40,
+            "first_sentence_id": 0,
+            "last_sentence_id": 4,
+            "reason": "As bill sponsor, supports the measure as a commonsense accountability response to billions in stolen taxpayer funds."
+          }
+        },
+        {
+          "side": "Nay",
+          "pick": {
+            "paragraph": 10,
+            "first_sentence_id": 0,
+            "last_sentence_id": 0,
+            "reason": "Specific opposition to H.R. 10326 as a privacy data power grab rather than a fraud measure."
+          }
+        },
+        {
+          "side": "Nay",
+          "pick": {
+            "paragraph": 13,
+            "first_sentence_id": 0,
+            "last_sentence_id": 1,
+            "reason": "Argues the bill overturns longstanding privacy safeguards and was rushed to the floor outside regular order."
+          }
+        },
+        {
+          "side": "Nay",
+          "pick": {
+            "paragraph": 16,
+            "first_sentence_id": 0,
+            "last_sentence_id": 1,
+            "reason": "Says the legislation is unnecessary because DOJ already has tools to investigate and prosecute fraud."
+          }
+        },
+        {
+          "side": "Nay",
+          "pick": {
+            "paragraph": 21,
+            "first_sentence_id": 0,
+            "last_sentence_id": 1,
+            "reason": "Contends the bill would improperly allow access to all data, conflicting with the Privacy Act and federal privacy statutes."
+          }
+        },
+        {
+          "side": "Nay",
+          "pick": {
+            "paragraph": 57,
+            "first_sentence_id": 0,
+            "last_sentence_id": 1,
+            "reason": "Objects that the bill gives the Attorney General open-ended authority to deem programs vulnerable to fraud and demand all information."
+          }
+        },
+        {
+          "side": "Nay",
+          "pick": {
+            "paragraph": 115,
+            "first_sentence_id": 0,
+            "last_sentence_id": 1,
+            "reason": "Explicitly urges colleagues to reject or withdraw the bill and says it should return after proper hearings and markup."
+          }
+        }
+      ],
+      "checks": [
+        {
+          "side": "Yea",
+          "pick": {
+            "paragraph": 40,
+            "first_sentence_id": 0,
+            "last_sentence_id": 4,
+            "reason": "As bill sponsor, supports the measure as a commonsense accountability response to billions in stolen taxpayer funds."
+          },
+          "accepted": false,
+          "reason": "Invalid sentence range"
+        },
+        {
+          "id": 0,
+          "accepted": true,
+          "reason": "States support for the PROOF Act, which is a direct vote position and implies the bill is intended to improve oversight.",
+          "side": "Yea",
+          "sentenceIds": [
+            "3.0"
+          ]
+        },
+        {
+          "id": 1,
+          "accepted": true,
+          "reason": "Explains that criminals stole benefits intended for vulnerable people, giving a substantive harm the bill aims to address.",
+          "side": "Yea",
+          "sentenceIds": [
+            "4.0",
+            "4.1"
+          ]
+        },
+        {
+          "id": 2,
+          "accepted": true,
+          "reason": "Argues federal law enforcement lacked sufficient tools to stop interstate fraud, which is a concrete justification for the bill.",
+          "side": "Yea",
+          "sentenceIds": [
+            "5.0",
+            "5.1",
+            "5.2"
+          ]
+        },
+        {
+          "id": 3,
+          "accepted": true,
+          "reason": "Cites a real-world SNAP fraud case and data resistance as evidence of the oversight problem the bill addresses.",
+          "side": "Yea",
+          "sentenceIds": [
+            "6.0",
+            "6.1"
+          ]
+        },
+        {
+          "id": 4,
+          "accepted": true,
+          "reason": "Describes denial of attendance logs that prevented stopping daycare billing fraud, a substantive reason for stronger oversight.",
+          "side": "Yea",
+          "sentenceIds": [
+            "7.0"
+          ]
+        },
+        {
+          "side": "Nay",
+          "pick": {
+            "paragraph": 13,
+            "first_sentence_id": 0,
+            "last_sentence_id": 1,
+            "reason": "Argues the bill overturns longstanding privacy safeguards and was rushed to the floor outside regular order."
+          },
+          "accepted": false,
+          "reason": "Invalid quote start or word count"
+        },
+        {
+          "id": 0,
+          "accepted": true,
+          "reason": "Claims the bill is a privacy data power grab and unrelated to fighting fraud, which is a substantive policy objection supporting a Nay vote.",
+          "side": "Nay",
+          "sentenceIds": [
+            "10.0"
+          ]
+        },
+        {
+          "id": 1,
+          "accepted": true,
+          "reason": "States the DOJ already has the tools to investigate and prosecute fraud, arguing the bill is unnecessary.",
+          "side": "Nay",
+          "sentenceIds": [
+            "16.0",
+            "16.1"
+          ]
+        },
+        {
+          "id": 2,
+          "accepted": true,
+          "reason": "Argues the bill is inconsistent with the Privacy Act and federal privacy statutes, a concrete substantive objection.",
+          "side": "Nay",
+          "sentenceIds": [
+            "21.0",
+            "21.1"
+          ]
+        },
+        {
+          "id": 3,
+          "accepted": true,
+          "reason": "Criticizes the bill for letting the Attorney General broadly trigger disclosure of all information based on a vague fraud label, which is a specific privacy concern.",
+          "side": "Nay",
+          "sentenceIds": [
+            "57.0",
+            "57.1"
+          ]
+        },
+        {
+          "id": 4,
+          "accepted": false,
+          "reason": "This is mainly a call to withdraw the bill and have hearings/markup later, which is procedural rather than a substantive reason about the bill itself.",
+          "side": "Nay",
+          "sentenceIds": [
+            "115.0",
+            "115.1"
+          ]
+        }
+      ],
+      "reusedSelection": true
+    },
+    "selectionOrigin": "AI editorial review of the versioned sentence inventory"
   }
 }
