@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "fadeae5a1db205b5962a688a973f67138f573cea96234c39826d7d0fec81f82d",
+  "debateFingerprint": "c218e85a2f4109558cbe598cea74ddecc4bd4b1872a50dab007ad5260785d1db",
   "bill": "119-hr-5334",
   "vote": "senate:119:2:224",
   "sources": {
@@ -414,7 +414,40 @@
     "yea": 86,
     "nay": 11
   },
-  "points": [],
+  "points": [
+    {
+      "bio": "S001181",
+      "speaker": "Jeanne Shaheen",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+      "start": 8238,
+      "quote": "Mr. President, colleagues, every day that Russia earns \nbillions from energy exports, it has more resources to finance this \nwar. Every day that Putin has those resources, he gains more time. \nEvery day that Putin gains more time, more Ukrainians are killed.",
+      "display": "colleagues, every day that Russia earns billions from energy exports, it has more resources to finance this war. Every day that Putin has those resources, he gains more time. Every day that Putin gains more time, more Ukrainians are killed.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm#:~:text=Mr.%20President%2C%20colleagues%2C%20every%20day%20that%20Russia%20earns%20billions%20from%20energy%20exports%2C%20it%20has%20more%20resources%20to%20finance%20this%20war.%20Every%20day%20that%20Putin%20has%20those%20resources%2C%20he%20gains%20more%20time.%20Every%20day%20that%20Putin%20gains%20more%20time%2C%20more%20Ukrainians%20are%20killed.",
+      "end": 8496,
+      "sentenceIds": [
+        "19.0",
+        "19.1",
+        "19.2"
+      ]
+    },
+    {
+      "bio": "P000603",
+      "speaker": "Rand Paul",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm",
+      "start": 2329,
+      "quote": "Worse yet, the bill \ntransfers the taxing authority from the legislature to the executive \nbranch, an unconstitutional delegation of power.",
+      "display": "Worse yet, the bill transfers the taxing authority from the legislature to the executive branch, an unconstitutional delegation of power.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-08-07/html/CREC-2026-08-07-pt1-PgS4538.htm#:~:text=Worse%20yet%2C%20the%20bill%20transfers%20the%20taxing%20authority%20from%20the%20legislature%20to%20the%20executive%20branch%2C%20an%20unconstitutional%20delegation%20of%20power.",
+      "end": 2468,
+      "sentenceIds": [
+        "2.1"
+      ]
+    }
+  ],
   "diagnostics": {
     "selection": [
       {
@@ -503,24 +536,13 @@
       {
         "side": "Yea",
         "pick": {
-          "paragraph": 19,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Explains why the bill is needed by linking Russian energy revenue directly to funding the war in Ukraine."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
           "paragraph": 22,
           "first_sentence_id": 0,
           "last_sentence_id": 1,
           "reason": "Supports the bill by saying it advances the legislation and will help dismantle Putin's war machine and strengthen U.S. national security."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid quote start or word count"
       },
       {
         "side": "Yea",
@@ -531,18 +553,7 @@
           "reason": "Describes how the bill would cut off Russian revenue streams, including helium exports, that finance aggression against Ukraine."
         },
         "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 29,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "States the bill provides economic tools to stop Russian oil and gas purchases from fueling Putin's war machine."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Yea",
@@ -553,51 +564,65 @@
           "reason": "Argues the legislation directly targets supporters of Russia's war and forces countries to choose between America and Russian energy."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
+        "id": 0,
+        "accepted": true,
+        "reason": "Supports sanctions by arguing Russia’s energy export revenue funds Putin’s war and causes more Ukrainian deaths, so cutting that revenue is a substantive pro-vote reason.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 41,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Says the bill would end Russia's network of aggression and criminal leadership."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "19.0",
+          "19.1",
+          "19.2"
+        ]
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 2,
-          "first_sentence_id": 1,
-          "last_sentence_id": 1,
-          "reason": "Claims the bill unconstitutionally delegates taxing authority from Congress to the executive branch."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "id": 1,
+        "accepted": true,
+        "reason": "States the bill provides economic tools to stop major purchases of Russian oil and gas from fueling Putin’s war machine, which is a concrete reason to support the bill.",
+        "side": "Yea",
+        "sentenceIds": [
+          "29.0",
+          "29.1",
+          "29.2"
+        ]
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 3,
-          "first_sentence_id": 1,
-          "last_sentence_id": 1,
-          "reason": "Argues ceding taxing authority violates Madisonian separation of powers and the Constitution."
-        },
+        "id": 2,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "This is a broad assertion about the bill ending Russia’s aggression, not a specific substantive justification for why the bill should be supported.",
+        "side": "Yea",
+        "sentenceIds": [
+          "41.0"
+        ]
       },
       {
+        "id": 0,
+        "accepted": true,
+        "reason": "Claims the bill unconstitutionally transfers taxing authority to the executive, which is a substantive objection supporting a Nay vote.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 4,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "States an amendment would remove the transfer of taxing authority from the bill."
-        },
+        "sentenceIds": [
+          "2.1"
+        ]
+      },
+      {
+        "id": 1,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "This is mainly rhetorical and historical commentary; it does not itself state a concrete bill-specific reason beyond general disapproval.",
+        "side": "Nay",
+        "sentenceIds": [
+          "3.1"
+        ]
+      },
+      {
+        "id": 2,
+        "accepted": false,
+        "reason": "This describes an amendment to remove a provision, not a reason supporting or opposing the bill as quoted.",
+        "side": "Nay",
+        "sentenceIds": [
+          "4.0"
+        ]
       }
     ],
     "responses": [
@@ -648,7 +673,56 @@
         },
         "estimatedUsd": 0.00078525,
         "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_089cfe2c7a4e3c27016b05b66685d487d2a38c09cf3309eb64",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 297,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 134,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 431
+        },
+        "estimatedUsd": 0.00082575,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_0cbe1cbd313cbce2016b05b6686a2887d2a6c575f6480a8642",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 227,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 111,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 338
+        },
+        "estimatedUsd": 0.00066975,
+        "status": "completed"
       }
-    ]
+    ],
+    "reusedSelection": true
   }
 }
