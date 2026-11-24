@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "43606f57a602eaf90c25304d2c16b571fbcf7ca92b84b3dda85539583243353b",
+  "debateFingerprint": "69268f86f1f3aa8722904241ffc2fb856041c977e0ae7c11bdb3bba5d6f65cde",
   "bill": "119-hr-8884",
   "vote": "house:119:2:283",
   "sources": {
@@ -1861,7 +1861,7 @@
           "reason": "Supports the bill by explicitly stating support for H.R. 8884 and identifying it as the Removing Barriers to Work for Disabled Americans Act."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Yea",
@@ -1872,7 +1872,7 @@
           "reason": "Explains the problem the bill addresses, citing disabled Americans who want to work and the large gap between that desire and actual return-to-work outcomes."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Yea",
@@ -1883,7 +1883,7 @@
           "reason": "States the bill’s core mechanism: restoring SSA authority to test solutions that help more disabled Americans return to work."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Yea",
@@ -1894,7 +1894,7 @@
           "reason": "Argues that SSA’s expired demonstration authority needs to be renewed because too many disabled Americans still cannot navigate the current program."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Yea",
@@ -1905,7 +1905,7 @@
           "reason": "Identifies the work-disincentive barriers the bill seeks to address, including confusing eligibility rules, overpayment fears, and benefit cliffs."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Yea",
@@ -1916,7 +1916,7 @@
           "reason": "Uses a hearing witness example to emphasize the dignity of work and explain how the bill would help deliver it."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Nay",
@@ -1927,40 +1927,7 @@
           "reason": "Explains that the bill would not help disabled Americans and would instead worsen Social Security customer service while risking benefit cuts."
         },
         "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 14,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "States support for the general goal but argues this bill pursues it in a harmful way, framing the core opposition to the legislation."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 15,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Criticizes the bill for giving broad authority to experiment with disability benefits without meaningful guardrails."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 16,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Defines SSDI as support for severely impaired Americans who cannot work, underscoring why the bill's changes are risky for vulnerable beneficiaries."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid quote start or word count"
       },
       {
         "side": "Nay",
@@ -1971,18 +1938,48 @@
           "reason": "Emphasizes that SSDI is an earned, tightly restricted benefit with low payments, supporting the argument that it should not be subject to risky demonstrations."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
+        "id": 0,
+        "accepted": true,
+        "reason": "It gives a substantive reason against the bill: it says the bill is the wrong way to achieve the goal and lacks adequate safeguards.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 38,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Argues the bill gives the administration open-ended authority to push disabled people into harmful demonstration programs that could threaten their benefits."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "14.0",
+          "14.1",
+          "14.2"
+        ]
+      },
+      {
+        "id": 1,
+        "accepted": true,
+        "reason": "It states a concrete policy objection: the bill gives broad experimental authority over disability benefits with no meaningful guardrails.",
+        "side": "Nay",
+        "sentenceIds": [
+          "15.0"
+        ]
+      },
+      {
+        "id": 2,
+        "accepted": true,
+        "reason": "It explains why the benefits matter and implies the bill threatens a program for vulnerable people who cannot work.",
+        "side": "Nay",
+        "sentenceIds": [
+          "16.0",
+          "16.1"
+        ]
+      },
+      {
+        "id": 3,
+        "accepted": true,
+        "reason": "It gives a specific reason to oppose the bill: it could let the administration push disabled beneficiaries off their benefits through open-ended authority.",
+        "side": "Nay",
+        "sentenceIds": [
+          "38.0",
+          "38.1",
+          "38.2"
+        ]
       }
     ],
     "responses": [
@@ -2033,7 +2030,32 @@
         },
         "estimatedUsd": 0.0026445,
         "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_069bac8f5f859d62016b05b66c1ec887d282d558b00dcbcc05",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 356,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 150,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 506
+        },
+        "estimatedUsd": 0.000942,
+        "status": "completed"
       }
-    ]
+    ],
+    "reusedSelection": true
   }
 }
