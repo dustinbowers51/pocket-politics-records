@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "8a6c4c2410dacdf3f90c75ebfa3d3813a0c811894fb038a6217a30dab1c8356f",
+  "debateFingerprint": "0d32e4c345f306f9948d9ca2a0505a41985414f5b2c873722581746272d3e855",
   "bill": "119-hr-8800",
   "vote": "house:119:2:278",
   "sources": {
@@ -1738,251 +1738,301 @@
     "yea": 216,
     "nay": 212
   },
-  "points": [
-    {
-      "bio": "R000575",
-      "speaker": "Mike Rogers",
-      "side": "Yea",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-      "start": 63455,
-      "quote": "Mr. DesJARLAIS. Mr. Chairman, I rise today in favor of the Fiscal \nYear 2027 National Defense Authorization Act.",
-      "summary": "I rise today in favor of the Fiscal Year 2027 National Defense Authorization Act.",
-      "index": 0
-    },
-    {
-      "bio": "S000510",
-      "speaker": "Adam Smith",
-      "side": "Nay",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-      "start": 55085,
-      "quote": "I will mention just two: number one, the war in Iran. We are all sort \nof, I guess, in collective denial about what an utter disaster this has \nbeen and how it is getting worse every day. We lost four more \nservicemembers over the weekend. This is after we have been told over \nand over and over again that Iran is completely obliterated, they have \nno military capacity whatsoever.",
-      "summary": "We are all sort of, I guess, in collective denial about what an utter disaster this has been and how it is getting worse every day.",
-      "index": 101
-    }
-  ],
+  "points": [],
   "diagnostics": {
     "selection": [
       {
-        "bio": "R000575",
-        "speaker": "Mike Rogers",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 63455,
-        "quote": "Mr. DesJARLAIS. Mr. Chairman, I rise today in favor of the Fiscal \nYear 2027 National Defense Authorization Act.",
-        "summary": "I rise today in favor of the Fiscal Year 2027 National Defense Authorization Act.",
-        "index": 0,
-        "reason": "Directly supports the bill on passage."
+        "pick": {
+          "paragraph": 164,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "As a floor manager, this speaker gives a specific reason for supporting the bill: it is important bipartisan work and thanks the Ranking Member for partnership in fashioning it."
+        }
       },
       {
-        "bio": "W000804",
-        "speaker": "Robert J. Wittman",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 58664,
-        "quote": "Mr. Chairman, I rise in strong support today of H.R. \n8800, the National Defense Authorization Act for Fiscal Year 2027.",
-        "summary": "I rise in strong support today of H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027.",
-        "index": 1,
-        "reason": "Directly supports the bill on passage."
+        "pick": {
+          "paragraph": 165,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "The manager supports the bill because it provides critical authorities for warfighters and says it helps keep the nation free and safe."
+        }
       },
       {
-        "bio": "B001298",
-        "speaker": "Don Bacon",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 72666,
-        "quote": "Mr. Chair, I rise today in strong support of H.R. 8800, \nthe National Defense Authorization Act for Fiscal Year 2027. I thank \nChairman Rogers and Ranking Member Smith for their leadership in \ncompiling this bill. By the way, it passed with a huge bipartisan \nmajority in committee.",
-        "summary": "I rise today in strong support of H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027. I thank Chairman Rogers and Ranking Member Smith for their leadership in compiling this bill. By the way, it passed with a huge bipartisan majority in committee.",
-        "index": 3,
-        "reason": "Directly supports the bill and cites broad bipartisan backing."
+        "pick": {
+          "paragraph": 176,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "The manager advances the bill's Afghanistan War Commission provisions by explaining the need for accountability and transparency after 20 years of war and nearly 2,500 U.S. servicemember deaths."
+        }
       },
       {
-        "bio": "J000304",
-        "speaker": "Ronny Jackson",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 79820,
-        "quote": "Mr. Chairman, I rise today in support of H.R. \n8800, the National Defense Authorization Act for Fiscal Year 2027.",
-        "summary": "Mr. Chairman, I rise today in support of H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027.",
-        "index": 5,
-        "reason": "Directly supports the bill on passage."
+        "pick": {
+          "paragraph": 179,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "The manager explains that the extension is needed so the commission can produce a complete and accurate report, giving a concrete rationale for the bill language."
+        }
       },
       {
-        "bio": "K000399",
-        "speaker": "Jennifer A. Kiggans",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 85937,
-        "quote": "Mr. Speaker, I rise in strong support of \nthe Fiscal Year 2027 National Defense Authorization Act.",
-        "summary": "Mr. Speaker, I rise in strong support of the Fiscal Year 2027 National Defense Authorization Act.",
-        "index": 8,
-        "reason": "Directly supports the bill on passage."
+        "pick": {
+          "paragraph": 422,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "The manager supports the allied-training authorities by stating that Secretary Hegseth requested the funding because training with allies and partners is essential to U.S. military readiness."
+        }
       },
       {
-        "bio": "R000575",
-        "speaker": "Mike Rogers",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 63570,
-        "quote": "As the chairman of the Strategic Forces Subcommittee, I was proud to \nwork in a bipartisan fashion along with my friend Ranking Member Seth \nMoulton on some of the most consequential issues to our national \nsecurity.",
-        "summary": "As the chairman of the Strategic Forces Subcommittee, I was proud to work in a bipartisan fashion along with my friend Ranking Member Seth Moulton on some of the most consequential issues to our national security.",
-        "index": 16,
-        "reason": "Supports the bill through bipartisan work on national security issues."
+        "pick": {
+          "paragraph": 423,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "This manager provides a specific justification for the bill's burden-sharing programs: they help American forces train effectively with allies, deter China, and defend the homeland."
+        }
       },
       {
-        "bio": "S000510",
-        "speaker": "Adam Smith",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 55085,
-        "quote": "I will mention just two: number one, the war in Iran. We are all sort \nof, I guess, in collective denial about what an utter disaster this has \nbeen and how it is getting worse every day. We lost four more \nservicemembers over the weekend. This is after we have been told over \nand over and over again that Iran is completely obliterated, they have \nno military capacity whatsoever.",
-        "summary": "We are all sort of, I guess, in collective denial about what an utter disaster this has been and how it is getting worse every day.",
-        "index": 101,
-        "reason": "Floor manager gives a substantive opposition reason tied to the ongoing war and its worsening consequences."
+        "pick": {
+          "paragraph": 161,
+          "first_sentence_id": 2,
+          "last_sentence_id": 4,
+          "reason": "Gives a concrete fiscal policy objection: rising defense spending alongside cuts to Medicaid and food stamps and growing deficits."
+        }
       },
       {
-        "bio": "S000510",
-        "speaker": "Adam Smith",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 92704,
-        "quote": "Once again, I thank the chairman for the process that we went through \nhere. I have made the arguments. I don't want to restate them and \nbelabor them, but we are deeply concerned about the ongoing war in \nIran. There is no plan, no direction, continually rising costs. We are \nalso concerned about the amount of money that is being poured into \ndefense, at the same time that we are seeing cuts in Medicaid, cuts in \nfood stamps, cuts in a variety of programs that are enormously \nimportant, and tax cuts that continue as the deficit and the debt get \never higher.",
-        "summary": "We are deeply concerned about the ongoing war in Iran.",
-        "index": 132,
-        "reason": "Floor manager states a direct objection based on the ongoing war and its escalating costs."
+        "pick": {
+          "paragraph": 186,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Opposes the amendment because it would eliminate a highly successful, low-cost national security investment."
+        }
       },
       {
-        "bio": "S000510",
-        "speaker": "Adam Smith",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 2727986,
-        "quote": "This administration has shown exactly how it intends to use the \nDefense Production Act authorities, to preempt State and local law, to \nbypass Tribal consultation, and to take equity stakes in mining \ncompanies when it benefits the administration's allies and some family \nmembers.",
-        "summary": "This administration has shown exactly how it intends to use the Defense Production Act authorities, to preempt State and local law, to bypass Tribal consultation, and to take equity stakes in mining companies when it benefits the administration's allies and some family members.",
-        "index": 153,
-        "reason": "Floor manager argues against expanding these powers because they have been used to override laws and benefit allies."
+        "pick": {
+          "paragraph": 275,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues the amendment is unnecessary because the military does not need it to ensure supply and the U.S. is already the world's largest oil producer."
+        }
       },
       {
-        "bio": "S000510",
-        "speaker": "Adam Smith",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 2728271,
-        "quote": "As a former State legislator, I am particularly concerned about the \nadministration's weaponization of the Defense Production Act to \noverride State and local laws, laws that are enacted to protect our \ncommunities.",
-        "summary": "I am particularly concerned about the administration's weaponization of the Defense Production Act to override State and local laws, laws that are enacted to protect our communities.",
-        "index": 157,
-        "reason": "Floor manager opposes the measure because it would be used to override laws protecting communities."
+        "pick": {
+          "paragraph": 370,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Contends the amendment is really a national-security pretext to override state laws, especially on recycling and disposal rules."
+        }
       },
       {
-        "bio": "S000510",
-        "speaker": "Adam Smith",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 2728742,
-        "quote": "We need language that protects Tribal consultation, prohibits the \nwaiving of environmental law, and institutes strong oversight in \nanticorruption measures.",
-        "summary": "We need language that protects Tribal consultation, prohibits the waiving of environmental law, and institutes strong oversight in anticorruption measures.",
-        "index": 165,
-        "reason": "Floor manager says the bill needs stronger safeguards and oversight, implying the current approach is inadequate."
+        "pick": {
+          "paragraph": 385,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Objects that the amendment would undermine California's standards and the will of its residents on hazardous materials."
+        }
       },
       {
-        "bio": "S000510",
-        "speaker": "Adam Smith",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
-        "start": 2827239,
-        "quote": "I would also point out that we started the war in Iran. We are \nengaged in a major conflict in Latin America that everybody has sort of \nforgotten about, but we are at war with all the narcoterrorists down \nthere. We are trying to stand up to China. We are asking the rest of \nthe world to be with us on a lot of stuff that they have serious doubts \nabout.",
-        "summary": "I would also point out that we started the war in Iran.",
-        "index": 181,
-        "reason": "Floor manager grounds opposition in the claim that the United States has entered a war and is asking others to support it despite doubts."
+        "pick": {
+          "paragraph": 496,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Warns that expanding access to personal firearms on base increases servicemember suicide risk."
+        }
       }
     ],
     "checks": [
       {
-        "id": 0,
-        "accepted": true,
-        "reason": "The summary preserves the speaker’s support for the Fiscal Year 2027 National Defense Authorization Act.",
-        "side": "Yea"
-      },
-      {
-        "id": 16,
-        "accepted": true,
-        "reason": "The summary faithfully repeats the chairman’s bipartisan work with Ranking Member Seth Moulton on important national security issues.",
-        "side": "Yea"
-      },
-      {
-        "id": 1,
-        "accepted": true,
-        "reason": "The summary matches the quote’s support for H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027.",
-        "side": "Yea"
-      },
-      {
-        "id": 3,
-        "accepted": true,
-        "reason": "The summary faithfully includes the support statement and the thanks to Chairman Rogers and Ranking Member Smith for their leadership, plus the bipartisan committee passage.",
-        "side": "Yea"
-      },
-      {
-        "id": 5,
-        "accepted": true,
-        "reason": "The summary accurately preserves the speaker’s support for H.R. 8800 and the act’s full title.",
-        "side": "Yea"
-      },
-      {
-        "id": 8,
-        "accepted": true,
-        "reason": "The summary matches the quote’s strong support for the Fiscal Year 2027 National Defense Authorization Act.",
-        "side": "Yea"
-      },
-      {
-        "id": 101,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the quoted claim that people are in denial about the war in Iran being an utter disaster that is worsening every day.",
-        "side": "Nay"
-      },
-      {
-        "id": 132,
-        "accepted": true,
-        "reason": "The summary accurately captures the speaker's concern about the ongoing war in Iran, which is explicitly stated in the quote.",
-        "side": "Nay"
-      },
-      {
-        "id": 153,
-        "accepted": true,
-        "reason": "The summary matches the quote exactly and does not add or alter any substantive claim.",
-        "side": "Nay"
-      },
-      {
-        "id": 157,
-        "accepted": true,
-        "reason": "The summary faithfully restates the concern that the administration is weaponizing the Defense Production Act to override state and local laws.",
-        "side": "Nay"
-      },
-      {
-        "id": 165,
-        "accepted": true,
-        "reason": "The summary accurately preserves the requested protections and oversight measures stated in the quote.",
-        "side": "Nay"
-      },
-      {
-        "id": 181,
+        "side": "Yea",
+        "pick": {
+          "paragraph": 164,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "As a floor manager, this speaker gives a specific reason for supporting the bill: it is important bipartisan work and thanks the Ranking Member for partnership in fashioning it."
+        },
         "accepted": false,
-        "reason": "The summary invents a different claim by saying the speaker started the war in Iran, whereas the quote says they would point out that they started it as part of a broader discussion.",
-        "side": "Nay"
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 165,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "The manager supports the bill because it provides critical authorities for warfighters and says it helps keep the nation free and safe."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 176,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "The manager advances the bill's Afghanistan War Commission provisions by explaining the need for accountability and transparency after 20 years of war and nearly 2,500 U.S. servicemember deaths."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 179,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "The manager explains that the extension is needed so the commission can produce a complete and accurate report, giving a concrete rationale for the bill language."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 422,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "The manager supports the allied-training authorities by stating that Secretary Hegseth requested the funding because training with allies and partners is essential to U.S. military readiness."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 423,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "This manager provides a specific justification for the bill's burden-sharing programs: they help American forces train effectively with allies, deter China, and defend the homeland."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 161,
+          "first_sentence_id": 2,
+          "last_sentence_id": 4,
+          "reason": "Gives a concrete fiscal policy objection: rising defense spending alongside cuts to Medicaid and food stamps and growing deficits."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 186,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Opposes the amendment because it would eliminate a highly successful, low-cost national security investment."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 275,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues the amendment is unnecessary because the military does not need it to ensure supply and the U.S. is already the world's largest oil producer."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 370,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Contends the amendment is really a national-security pretext to override state laws, especially on recycling and disposal rules."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 385,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Objects that the amendment would undermine California's standards and the will of its residents on hazardous materials."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 496,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Warns that expanding access to personal firearms on base increases servicemember suicide risk."
+        },
+        "accepted": false,
+        "reason": "'first'"
       }
     ],
-    "proceduralDropped": 43
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_09e33c2a8140f123016b05b610b9c487d29e2be61cb2d178b4",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 12908,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 313,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 13221
+        },
+        "estimatedUsd": 0.0110895,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_00086acf5af4d5d4016b05b6130a5087d28c138642573e9a13",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 13676,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 254,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 13930
+        },
+        "estimatedUsd": 0.0114,
+        "status": "completed"
+      }
+    ]
   }
 }
