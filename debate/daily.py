@@ -16,7 +16,7 @@ FIRST_DAY = "2026-11-24"
 
 
 def ballots(db_path):
-    crosswalk=json.loads(Path("debate/senate-ids.json").read_text())
+    crosswalk=json.loads(Path(__file__).with_name("senate-ids.json").read_text())
     with sqlite3.connect(f"file:{db_path}?mode=ro",uri=True) as db:
         query="""select v.id,v.bill_id,v.chamber,v.date,b.title,e.payload
                  from votes v join entities e on e.id=v.id and e.kind='vote'
@@ -61,7 +61,7 @@ def process(b):
 def main():
     state=json.loads(STATE.read_text())
     seeding=not state["seedComplete"]
-    planned=json.loads(Path("debate/seed-votes.json").read_text()) if seeding else ballots("var/live/national.sqlite")
+    planned=json.loads(Path(__file__).with_name("seed-votes.json").read_text()) if seeding else ballots("../var/live/national.sqlite")
     events=[]
     try:
         for b in planned:
