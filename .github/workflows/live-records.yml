@@ -122,6 +122,10 @@ jobs:
         with:
           path: var/live
           key: national-archive-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Include completed debate snapshot in hashed metadata
+        env:
+          DEBATE_QUOTES_ENABLED: ${{ vars.DEBATE_QUOTES_ENABLED }}
+        run: python3 records-host/debate/attach.py var/site
       - run: node scripts/round6/check-release.cjs var/site
       - name: Set cache lifetimes and allow read-only cross-origin access
         run: |

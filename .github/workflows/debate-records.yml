@@ -1,0 +1,69 @@
+name: Daily debate records
+on:
+  schedule:
+    - cron: '43 8 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['debate/launch']
+  issue_comment:
+    types: [created]
+permissions: {}
+jobs:
+  manage:
+    if: github.event_name != 'issue_comment' || (github.event.issue.number == 7 && github.event.comment.user.id == 318668238 && startsWith(github.event.comment.body, 'drop'))
+    runs-on: ubuntu-24.04
+    timeout-minutes: 50
+    concurrency:
+      group: debate-state-writer
+      cancel-in-progress: false
+    permissions:
+      contents: write
+      issues: write
+    outputs:
+      seeded: ${{ steps.generate.outputs.seeded }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Configure records writer
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Pin moderation issue
+        if: github.event_name == 'push'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api graphql -f query='mutation { pinIssue(input:{issueId:"I_kwDOV0WTvs8AAAABiKkQtA"}) { issue { url } } }'
+      - name: Apply owner commands and reply
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 debate/moderation.py
+      - name: Determine if discovery needs the official archive
+        id: mode
+        run: echo "seeded=$(jq -r .seedComplete debate-data/state.json)" >> "$GITHUB_OUTPUT"
+      - name: Read latest hourly archive
+        if: github.event_name != 'issue_comment' && vars.DEBATE_QUOTES_ENABLED != 'false' && steps.mode.outputs.seeded == 'true'
+        uses: actions/cache/restore@v4
+        with:
+          path: var/live
+          key: national-archive-v1-readonly-${{ github.run_id }}
+          restore-keys: national-archive-v1-
+          fail-on-cache-miss: true
+      - name: Verify and stage daily debate batch
+        id: generate
+        if: github.event_name != 'issue_comment' && vars.DEBATE_QUOTES_ENABLED != 'false'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python3 debate/daily.py
+  first-publication:
+    needs: manage
+    if: needs.manage.outputs.seeded == 'true'
+    runs-on: ubuntu-24.04
+    permissions:
+      actions: write
+    steps:
+      - name: Request first checked records publication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run live-records.yml --repo "$GITHUB_REPOSITORY" --ref main
