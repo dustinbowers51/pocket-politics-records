@@ -1,0 +1,2247 @@
+{
+  "debateFingerprint": "cf5da762de6e8b0fbc9773d0246d9e5593b4b4cc7638dc8706523a7cda4e7f4b",
+  "bill": "119-hr-5587",
+  "vote": "house:119:2:137",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-04-23/html/CREC-2026-04-23-pt1-PgH3073-4.htm": "e62c69298e1c6b1fef018ddc4abbaf3fca6e5364780c5746432e738238750a64"
+  },
+  "passageRecord": {
+    "url": "https://clerk.house.gov/evs/2026/roll137.xml",
+    "sha256": "c2c0806d427a081fd26a552d57dc5822dfee8b7b7fdccbd46a7e650415457305",
+    "members": {
+      "A000370": [
+        "D",
+        "NC"
+      ],
+      "A000055": [
+        "R",
+        "AL"
+      ],
+      "A000371": [
+        "D",
+        "CA"
+      ],
+      "A000379": [
+        "R",
+        "MO"
+      ],
+      "A000372": [
+        "R",
+        "GA"
+      ],
+      "A000380": [
+        "D",
+        "RI"
+      ],
+      "A000369": [
+        "R",
+        "NV"
+      ],
+      "A000381": [
+        "D",
+        "AZ"
+      ],
+      "A000375": [
+        "R",
+        "TX"
+      ],
+      "A000148": [
+        "D",
+        "MA"
+      ],
+      "B001291": [
+        "R",
+        "TX"
+      ],
+      "B001298": [
+        "R",
+        "NE"
+      ],
+      "B001307": [
+        "R",
+        "IN"
+      ],
+      "B001306": [
+        "R",
+        "OH"
+      ],
+      "B001318": [
+        "D",
+        "VT"
+      ],
+      "B001282": [
+        "R",
+        "KY"
+      ],
+      "B001300": [
+        "D",
+        "CA"
+      ],
+      "B001321": [
+        "R",
+        "MI"
+      ],
+      "B001322": [
+        "R",
+        "WA"
+      ],
+      "B001314": [
+        "R",
+        "FL"
+      ],
+      "B001281": [
+        "D",
+        "OH"
+      ],
+      "B001323": [
+        "R",
+        "AK"
+      ],
+      "B001324": [
+        "D",
+        "MO"
+      ],
+      "B000668": [
+        "R",
+        "OR"
+      ],
+      "B001287": [
+        "D",
+        "CA"
+      ],
+      "B001301": [
+        "R",
+        "MI"
+      ],
+      "B001292": [
+        "D",
+        "VA"
+      ],
+      "B000740": [
+        "R",
+        "OK"
+      ],
+      "B001302": [
+        "R",
+        "AZ"
+      ],
+      "B001325": [
+        "R",
+        "SC"
+      ],
+      "B001257": [
+        "R",
+        "FL"
+      ],
+      "B000490": [
+        "D",
+        "GA"
+      ],
+      "B000825": [
+        "R",
+        "CO"
+      ],
+      "B001278": [
+        "D",
+        "OR"
+      ],
+      "B001295": [
+        "R",
+        "IL"
+      ],
+      "B001296": [
+        "D",
+        "PA"
+      ],
+      "B001317": [
+        "R",
+        "OK"
+      ],
+      "B001327": [
+        "R",
+        "PA"
+      ],
+      "B001313": [
+        "D",
+        "OH"
+      ],
+      "B001285": [
+        "D",
+        "CA"
+      ],
+      "B001260": [
+        "R",
+        "FL"
+      ],
+      "B001315": [
+        "D",
+        "IL"
+      ],
+      "B001309": [
+        "R",
+        "TN"
+      ],
+      "B001316": [
+        "R",
+        "MO"
+      ],
+      "B001326": [
+        "D",
+        "OR"
+      ],
+      "C000059": [
+        "R",
+        "CA"
+      ],
+      "C001039": [
+        "R",
+        "FL"
+      ],
+      "C001112": [
+        "D",
+        "CA"
+      ],
+      "C001126": [
+        "R",
+        "OH"
+      ],
+      "C001072": [
+        "D",
+        "IN"
+      ],
+      "C001103": [
+        "R",
+        "GA"
+      ],
+      "C001125": [
+        "D",
+        "LA"
+      ],
+      "C001051": [
+        "R",
+        "TX"
+      ],
+      "C001131": [
+        "D",
+        "TX"
+      ],
+      "C001055": [
+        "D",
+        "HI"
+      ],
+      "C001117": [
+        "D",
+        "IL"
+      ],
+      "C001066": [
+        "D",
+        "FL"
+      ],
+      "C001091": [
+        "D",
+        "TX"
+      ],
+      "C001080": [
+        "D",
+        "CA"
+      ],
+      "C001133": [
+        "R",
+        "AZ"
+      ],
+      "C001123": [
+        "D",
+        "CA"
+      ],
+      "C001101": [
+        "D",
+        "MA"
+      ],
+      "C001067": [
+        "D",
+        "NY"
+      ],
+      "C001061": [
+        "D",
+        "MO"
+      ],
+      "C001118": [
+        "R",
+        "VA"
+      ],
+      "C001115": [
+        "R",
+        "TX"
+      ],
+      "C000537": [
+        "D",
+        "SC"
+      ],
+      "C001116": [
+        "R",
+        "GA"
+      ],
+      "C001068": [
+        "D",
+        "TN"
+      ],
+      "C001053": [
+        "R",
+        "OK"
+      ],
+      "C001129": [
+        "R",
+        "GA"
+      ],
+      "C001108": [
+        "R",
+        "KY"
+      ],
+      "C001136": [
+        "D",
+        "NJ"
+      ],
+      "C001110": [
+        "D",
+        "CA"
+      ],
+      "C001059": [
+        "D",
+        "CA"
+      ],
+      "C001069": [
+        "D",
+        "CT"
+      ],
+      "C001119": [
+        "D",
+        "MN"
+      ],
+      "C001132": [
+        "R",
+        "AZ"
+      ],
+      "C001137": [
+        "R",
+        "CO"
+      ],
+      "C001087": [
+        "R",
+        "AR"
+      ],
+      "C001120": [
+        "R",
+        "TX"
+      ],
+      "C001130": [
+        "D",
+        "TX"
+      ],
+      "C001121": [
+        "D",
+        "CO"
+      ],
+      "C001063": [
+        "D",
+        "TX"
+      ],
+      "D000629": [
+        "D",
+        "KS"
+      ],
+      "D000626": [
+        "R",
+        "OH"
+      ],
+      "D000096": [
+        "D",
+        "IL"
+      ],
+      "D000230": [
+        "D",
+        "NC"
+      ],
+      "D000594": [
+        "R",
+        "TX"
+      ],
+      "D000631": [
+        "D",
+        "PA"
+      ],
+      "D000197": [
+        "D",
+        "CO"
+      ],
+      "D000216": [
+        "D",
+        "CT"
+      ],
+      "D000617": [
+        "D",
+        "WA"
+      ],
+      "D000530": [
+        "D",
+        "PA"
+      ],
+      "D000623": [
+        "D",
+        "CA"
+      ],
+      "D000616": [
+        "R",
+        "TN"
+      ],
+      "D000635": [
+        "D",
+        "OR"
+      ],
+      "D000600": [
+        "R",
+        "FL"
+      ],
+      "D000624": [
+        "D",
+        "MI"
+      ],
+      "D000399": [
+        "D",
+        "TX"
+      ],
+      "D000032": [
+        "R",
+        "FL"
+      ],
+      "D000634": [
+        "R",
+        "MT"
+      ],
+      "D000628": [
+        "R",
+        "FL"
+      ],
+      "E000246": [
+        "R",
+        "NC"
+      ],
+      "E000301": [
+        "D",
+        "MD"
+      ],
+      "E000071": [
+        "R",
+        "TX"
+      ],
+      "E000294": [
+        "R",
+        "MN"
+      ],
+      "E000299": [
+        "D",
+        "TX"
+      ],
+      "E000297": [
+        "D",
+        "NY"
+      ],
+      "E000298": [
+        "R",
+        "KS"
+      ],
+      "E000300": [
+        "R",
+        "CO"
+      ],
+      "E000296": [
+        "D",
+        "PA"
+      ],
+      "E000235": [
+        "R",
+        "MS"
+      ],
+      "F000246": [
+        "R",
+        "TX"
+      ],
+      "F000482": [
+        "R",
+        "ND"
+      ],
+      "F000446": [
+        "R",
+        "IA"
+      ],
+      "F000110": [
+        "D",
+        "LA"
+      ],
+      "F000481": [
+        "D",
+        "AL"
+      ],
+      "F000484": [
+        "R",
+        "FL"
+      ],
+      "F000475": [
+        "R",
+        "MN"
+      ],
+      "F000470": [
+        "R",
+        "MN"
+      ],
+      "F000471": [
+        "R",
+        "WI"
+      ],
+      "F000466": [
+        "R",
+        "PA"
+      ],
+      "F000459": [
+        "R",
+        "TN"
+      ],
+      "F000468": [
+        "D",
+        "TX"
+      ],
+      "F000474": [
+        "R",
+        "NE"
+      ],
+      "F000480": [
+        "R",
+        "CA"
+      ],
+      "F000454": [
+        "D",
+        "IL"
+      ],
+      "F000477": [
+        "D",
+        "NC"
+      ],
+      "F000450": [
+        "R",
+        "NC"
+      ],
+      "F000462": [
+        "D",
+        "FL"
+      ],
+      "F000472": [
+        "R",
+        "FL"
+      ],
+      "F000483": [
+        "D",
+        "CA"
+      ],
+      "F000476": [
+        "D",
+        "FL"
+      ],
+      "F000478": [
+        "R",
+        "SC"
+      ],
+      "F000469": [
+        "R",
+        "ID"
+      ],
+      "F000485": [
+        "R",
+        "GA"
+      ],
+      "G000559": [
+        "D",
+        "CA"
+      ],
+      "G000597": [
+        "R",
+        "NY"
+      ],
+      "G000598": [
+        "D",
+        "CA"
+      ],
+      "G000586": [
+        "D",
+        "IL"
+      ],
+      "G000587": [
+        "D",
+        "TX"
+      ],
+      "G000603": [
+        "R",
+        "TX"
+      ],
+      "G000602": [
+        "D",
+        "NY"
+      ],
+      "G000593": [
+        "R",
+        "FL"
+      ],
+      "G000592": [
+        "D",
+        "ME"
+      ],
+      "G000599": [
+        "D",
+        "NY"
+      ],
+      "G000601": [
+        "R",
+        "TX"
+      ],
+      "G000585": [
+        "D",
+        "CA"
+      ],
+      "G000581": [
+        "D",
+        "TX"
+      ],
+      "G000589": [
+        "R",
+        "TX"
+      ],
+      "G000604": [
+        "D",
+        "NH"
+      ],
+      "G000565": [
+        "R",
+        "AZ"
+      ],
+      "G000583": [
+        "D",
+        "NJ"
+      ],
+      "G000546": [
+        "R",
+        "MO"
+      ],
+      "G000605": [
+        "D",
+        "CA"
+      ],
+      "G000553": [
+        "D",
+        "TX"
+      ],
+      "G000568": [
+        "R",
+        "VA"
+      ],
+      "G000606": [
+        "D",
+        "AZ"
+      ],
+      "G000576": [
+        "R",
+        "WI"
+      ],
+      "G000591": [
+        "R",
+        "MS"
+      ],
+      "G000558": [
+        "R",
+        "KY"
+      ],
+      "H001096": [
+        "R",
+        "WY"
+      ],
+      "H001098": [
+        "R",
+        "AZ"
+      ],
+      "H001090": [
+        "D",
+        "CA"
+      ],
+      "H001099": [
+        "R",
+        "FL"
+      ],
+      "H001101": [
+        "R",
+        "NC"
+      ],
+      "H001052": [
+        "R",
+        "MD"
+      ],
+      "H001102": [
+        "R",
+        "NC"
+      ],
+      "H001086": [
+        "R",
+        "TN"
+      ],
+      "H001081": [
+        "D",
+        "CT"
+      ],
+      "H001082": [
+        "R",
+        "OK"
+      ],
+      "H001077": [
+        "R",
+        "LA"
+      ],
+      "H001072": [
+        "R",
+        "AR"
+      ],
+      "H001047": [
+        "D",
+        "CT"
+      ],
+      "H001091": [
+        "R",
+        "IA"
+      ],
+      "H001066": [
+        "D",
+        "NV"
+      ],
+      "H001093": [
+        "R",
+        "IN"
+      ],
+      "H001085": [
+        "D",
+        "PA"
+      ],
+      "H000874": [
+        "D",
+        "MD"
+      ],
+      "H001094": [
+        "D",
+        "OR"
+      ],
+      "H001067": [
+        "R",
+        "NC"
+      ],
+      "H001068": [
+        "D",
+        "CA"
+      ],
+      "H001058": [
+        "R",
+        "MI"
+      ],
+      "H001095": [
+        "R",
+        "TX"
+      ],
+      "H001100": [
+        "R",
+        "CO"
+      ],
+      "I000056": [
+        "R",
+        "CA"
+      ],
+      "I000058": [
+        "D",
+        "MD"
+      ],
+      "J000311": [
+        "R",
+        "GA"
+      ],
+      "J000309": [
+        "D",
+        "IL"
+      ],
+      "J000304": [
+        "R",
+        "TX"
+      ],
+      "J000305": [
+        "D",
+        "CA"
+      ],
+      "J000307": [
+        "R",
+        "MI"
+      ],
+      "J000298": [
+        "D",
+        "WA"
+      ],
+      "J000294": [
+        "D",
+        "NY"
+      ],
+      "J000288": [
+        "D",
+        "GA"
+      ],
+      "J000301": [
+        "R",
+        "SD"
+      ],
+      "J000310": [
+        "D",
+        "TX"
+      ],
+      "J000289": [
+        "R",
+        "OH"
+      ],
+      "J000295": [
+        "R",
+        "OH"
+      ],
+      "J000302": [
+        "R",
+        "PA"
+      ],
+      "K000400": [
+        "D",
+        "CA"
+      ],
+      "K000009": [
+        "D",
+        "OH"
+      ],
+      "K000398": [
+        "R",
+        "NJ"
+      ],
+      "K000375": [
+        "D",
+        "MA"
+      ],
+      "K000385": [
+        "D",
+        "IL"
+      ],
+      "K000388": [
+        "R",
+        "MS"
+      ],
+      "K000376": [
+        "R",
+        "PA"
+      ],
+      "K000402": [
+        "D",
+        "NY"
+      ],
+      "K000403": [
+        "R",
+        "UT"
+      ],
+      "K000389": [
+        "D",
+        "CA"
+      ],
+      "K000399": [
+        "R",
+        "VA"
+      ],
+      "K000401": [
+        "I",
+        "CA"
+      ],
+      "K000397": [
+        "R",
+        "CA"
+      ],
+      "K000405": [
+        "R",
+        "NC"
+      ],
+      "K000391": [
+        "D",
+        "IL"
+      ],
+      "K000392": [
+        "R",
+        "TN"
+      ],
+      "L000585": [
+        "R",
+        "IL"
+      ],
+      "L000598": [
+        "R",
+        "NY"
+      ],
+      "L000601": [
+        "D",
+        "OH"
+      ],
+      "L000600": [
+        "R",
+        "NY"
+      ],
+      "L000560": [
+        "D",
+        "WA"
+      ],
+      "L000557": [
+        "D",
+        "CT"
+      ],
+      "L000606": [
+        "D",
+        "NY"
+      ],
+      "L000566": [
+        "R",
+        "OH"
+      ],
+      "L000599": [
+        "R",
+        "NY"
+      ],
+      "L000597": [
+        "R",
+        "FL"
+      ],
+      "L000590": [
+        "D",
+        "NV"
+      ],
+      "L000602": [
+        "D",
+        "PA"
+      ],
+      "L000273": [
+        "D",
+        "NM"
+      ],
+      "L000595": [
+        "R",
+        "LA"
+      ],
+      "L000593": [
+        "D",
+        "CA"
+      ],
+      "L000607": [
+        "D",
+        "CA"
+      ],
+      "L000582": [
+        "D",
+        "CA"
+      ],
+      "L000397": [
+        "D",
+        "CA"
+      ],
+      "L000583": [
+        "R",
+        "GA"
+      ],
+      "L000491": [
+        "R",
+        "OK"
+      ],
+      "L000596": [
+        "R",
+        "FL"
+      ],
+      "L000603": [
+        "R",
+        "TX"
+      ],
+      "L000562": [
+        "D",
+        "MA"
+      ],
+      "M000194": [
+        "R",
+        "SC"
+      ],
+      "M001230": [
+        "R",
+        "PA"
+      ],
+      "M001223": [
+        "D",
+        "RI"
+      ],
+      "M000317": [
+        "R",
+        "NY"
+      ],
+      "M001228": [
+        "R",
+        "UT"
+      ],
+      "M000871": [
+        "R",
+        "KS"
+      ],
+      "M001231": [
+        "D",
+        "NY"
+      ],
+      "M001184": [
+        "R",
+        "KY"
+      ],
+      "M001199": [
+        "R",
+        "FL"
+      ],
+      "M001163": [
+        "D",
+        "CA"
+      ],
+      "M001208": [
+        "D",
+        "GA"
+      ],
+      "M001238": [
+        "D",
+        "DE"
+      ],
+      "M001157": [
+        "R",
+        "TX"
+      ],
+      "M001136": [
+        "R",
+        "MI"
+      ],
+      "M001232": [
+        "D",
+        "MD"
+      ],
+      "M001227": [
+        "D",
+        "VA"
+      ],
+      "M001177": [
+        "R",
+        "CA"
+      ],
+      "M001143": [
+        "D",
+        "MN"
+      ],
+      "M001218": [
+        "R",
+        "GA"
+      ],
+      "M001237": [
+        "D",
+        "MI"
+      ],
+      "M001240": [
+        "R",
+        "NC"
+      ],
+      "M001220": [
+        "D",
+        "KY"
+      ],
+      "M000312": [
+        "D",
+        "MA"
+      ],
+      "M001239": [
+        "R",
+        "VA"
+      ],
+      "M001229": [
+        "D",
+        "NJ"
+      ],
+      "M001137": [
+        "D",
+        "NY"
+      ],
+      "M001246": [
+        "D",
+        "NJ"
+      ],
+      "M001245": [
+        "D",
+        "TX"
+      ],
+      "M001226": [
+        "D",
+        "NJ"
+      ],
+      "M001188": [
+        "D",
+        "NY"
+      ],
+      "M001233": [
+        "R",
+        "IN"
+      ],
+      "M001204": [
+        "R",
+        "PA"
+      ],
+      "M000687": [
+        "D",
+        "MD"
+      ],
+      "M001211": [
+        "R",
+        "IL"
+      ],
+      "M001222": [
+        "R",
+        "OH"
+      ],
+      "M001205": [
+        "R",
+        "WV"
+      ],
+      "M001215": [
+        "R",
+        "IA"
+      ],
+      "M001216": [
+        "R",
+        "FL"
+      ],
+      "M001241": [
+        "D",
+        "CA"
+      ],
+      "M001194": [
+        "R",
+        "MI"
+      ],
+      "M001212": [
+        "R",
+        "AL"
+      ],
+      "M001236": [
+        "R",
+        "NC"
+      ],
+      "M001213": [
+        "R",
+        "UT"
+      ],
+      "M001160": [
+        "D",
+        "WI"
+      ],
+      "M001235": [
+        "R",
+        "WV"
+      ],
+      "M001224": [
+        "R",
+        "TX"
+      ],
+      "M001206": [
+        "D",
+        "NY"
+      ],
+      "M001234": [
+        "D",
+        "MN"
+      ],
+      "M001217": [
+        "D",
+        "FL"
+      ],
+      "M001196": [
+        "D",
+        "MA"
+      ],
+      "M001214": [
+        "D",
+        "IN"
+      ],
+      "M001225": [
+        "D",
+        "CA"
+      ],
+      "M001210": [
+        "R",
+        "NC"
+      ],
+      "N000002": [
+        "D",
+        "NY"
+      ],
+      "N000015": [
+        "D",
+        "MA"
+      ],
+      "N000191": [
+        "D",
+        "CO"
+      ],
+      "N000026": [
+        "R",
+        "TX"
+      ],
+      "N000189": [
+        "R",
+        "WA"
+      ],
+      "N000188": [
+        "D",
+        "NJ"
+      ],
+      "N000190": [
+        "R",
+        "SC"
+      ],
+      "N000193": [
+        "R",
+        "IA"
+      ],
+      "O000019": [
+        "R",
+        "CA"
+      ],
+      "O000172": [
+        "D",
+        "NY"
+      ],
+      "O000175": [
+        "R",
+        "TN"
+      ],
+      "O000176": [
+        "D",
+        "MD"
+      ],
+      "O000173": [
+        "D",
+        "MN"
+      ],
+      "O000177": [
+        "R",
+        "MO"
+      ],
+      "O000086": [
+        "R",
+        "UT"
+      ],
+      "P000034": [
+        "D",
+        "NJ"
+      ],
+      "P000609": [
+        "R",
+        "AL"
+      ],
+      "P000613": [
+        "D",
+        "CA"
+      ],
+      "P000614": [
+        "D",
+        "NH"
+      ],
+      "P000622": [
+        "R",
+        "FL"
+      ],
+      "P000197": [
+        "D",
+        "CA"
+      ],
+      "G000600": [
+        "D",
+        "WA"
+      ],
+      "P000605": [
+        "R",
+        "PA"
+      ],
+      "P000608": [
+        "D",
+        "CA"
+      ],
+      "P000620": [
+        "D",
+        "CO"
+      ],
+      "P000048": [
+        "R",
+        "TX"
+      ],
+      "P000597": [
+        "D",
+        "ME"
+      ],
+      "P000607": [
+        "D",
+        "WI"
+      ],
+      "P000621": [
+        "D",
+        "NJ"
+      ],
+      "P000617": [
+        "D",
+        "MA"
+      ],
+      "Q000023": [
+        "D",
+        "IL"
+      ],
+      "R000617": [
+        "D",
+        "IL"
+      ],
+      "R000621": [
+        "D",
+        "WA"
+      ],
+      "R000606": [
+        "D",
+        "MD"
+      ],
+      "R000610": [
+        "R",
+        "PA"
+      ],
+      "R000622": [
+        "D",
+        "NY"
+      ],
+      "R000620": [
+        "D",
+        "CA"
+      ],
+      "R000575": [
+        "R",
+        "AL"
+      ],
+      "R000395": [
+        "R",
+        "KY"
+      ],
+      "R000612": [
+        "R",
+        "TN"
+      ],
+      "R000305": [
+        "D",
+        "NC"
+      ],
+      "R000603": [
+        "R",
+        "NC"
+      ],
+      "R000614": [
+        "R",
+        "TX"
+      ],
+      "R000599": [
+        "D",
+        "CA"
+      ],
+      "R000619": [
+        "R",
+        "OH"
+      ],
+      "R000609": [
+        "R",
+        "FL"
+      ],
+      "R000579": [
+        "D",
+        "NY"
+      ],
+      "S000168": [
+        "R",
+        "FL"
+      ],
+      "S001226": [
+        "D",
+        "OR"
+      ],
+      "S001156": [
+        "D",
+        "CA"
+      ],
+      "S001176": [
+        "R",
+        "LA"
+      ],
+      "S001205": [
+        "D",
+        "PA"
+      ],
+      "S001145": [
+        "D",
+        "IL"
+      ],
+      "S001228": [
+        "R",
+        "KS"
+      ],
+      "S001190": [
+        "D",
+        "IL"
+      ],
+      "S001221": [
+        "D",
+        "MI"
+      ],
+      "S001216": [
+        "D",
+        "WA"
+      ],
+      "S001183": [
+        "R",
+        "AZ"
+      ],
+      "S000185": [
+        "D",
+        "VA"
+      ],
+      "S001189": [
+        "R",
+        "GA"
+      ],
+      "S001224": [
+        "R",
+        "TX"
+      ],
+      "S000250": [
+        "R",
+        "TX"
+      ],
+      "S001185": [
+        "D",
+        "AL"
+      ],
+      "S000344": [
+        "D",
+        "CA"
+      ],
+      "S001229": [
+        "R",
+        "IN"
+      ],
+      "S001231": [
+        "D",
+        "CA"
+      ],
+      "S001148": [
+        "R",
+        "ID"
+      ],
+      "S001195": [
+        "R",
+        "MO"
+      ],
+      "S001172": [
+        "R",
+        "NE"
+      ],
+      "S000522": [
+        "R",
+        "NJ"
+      ],
+      "S000510": [
+        "D",
+        "WA"
+      ],
+      "S001199": [
+        "R",
+        "PA"
+      ],
+      "S001225": [
+        "D",
+        "IL"
+      ],
+      "S001200": [
+        "D",
+        "FL"
+      ],
+      "S000929": [
+        "R",
+        "IN"
+      ],
+      "S001218": [
+        "D",
+        "NM"
+      ],
+      "S001211": [
+        "D",
+        "AZ"
+      ],
+      "S001212": [
+        "R",
+        "MN"
+      ],
+      "S001196": [
+        "R",
+        "NY"
+      ],
+      "S001213": [
+        "R",
+        "WI"
+      ],
+      "S001214": [
+        "R",
+        "FL"
+      ],
+      "S001215": [
+        "D",
+        "MI"
+      ],
+      "S001159": [
+        "D",
+        "WA"
+      ],
+      "S001220": [
+        "R",
+        "AL"
+      ],
+      "S001188": [
+        "R",
+        "IN"
+      ],
+      "S001230": [
+        "D",
+        "VA"
+      ],
+      "S001201": [
+        "D",
+        "NY"
+      ],
+      "S001223": [
+        "D",
+        "OH"
+      ],
+      "T000472": [
+        "D",
+        "CA"
+      ],
+      "T000490": [
+        "R",
+        "OH"
+      ],
+      "T000478": [
+        "R",
+        "NY"
+      ],
+      "T000488": [
+        "D",
+        "MI"
+      ],
+      "T000460": [
+        "D",
+        "CA"
+      ],
+      "T000193": [
+        "D",
+        "MS"
+      ],
+      "T000467": [
+        "R",
+        "PA"
+      ],
+      "T000165": [
+        "R",
+        "WI"
+      ],
+      "T000480": [
+        "R",
+        "SC"
+      ],
+      "T000468": [
+        "D",
+        "NV"
+      ],
+      "T000481": [
+        "D",
+        "MI"
+      ],
+      "T000487": [
+        "D",
+        "HI"
+      ],
+      "T000469": [
+        "D",
+        "NY"
+      ],
+      "T000474": [
+        "D",
+        "CA"
+      ],
+      "T000486": [
+        "D",
+        "NY"
+      ],
+      "T000482": [
+        "D",
+        "MA"
+      ],
+      "T000491": [
+        "D",
+        "CA"
+      ],
+      "T000463": [
+        "R",
+        "OH"
+      ],
+      "U000040": [
+        "D",
+        "IL"
+      ],
+      "V000129": [
+        "R",
+        "CA"
+      ],
+      "V000133": [
+        "R",
+        "NJ"
+      ],
+      "V000134": [
+        "R",
+        "TX"
+      ],
+      "V000139": [
+        "R",
+        "TN"
+      ],
+      "V000135": [
+        "R",
+        "WI"
+      ],
+      "V000130": [
+        "D",
+        "CA"
+      ],
+      "V000136": [
+        "D",
+        "NM"
+      ],
+      "V000131": [
+        "D",
+        "TX"
+      ],
+      "V000081": [
+        "D",
+        "NY"
+      ],
+      "V000138": [
+        "D",
+        "VA"
+      ],
+      "W000812": [
+        "R",
+        "MO"
+      ],
+      "W000798": [
+        "R",
+        "MI"
+      ],
+      "W000831": [
+        "D",
+        "VA"
+      ],
+      "W000797": [
+        "D",
+        "FL"
+      ],
+      "W000187": [
+        "D",
+        "CA"
+      ],
+      "W000822": [
+        "D",
+        "NJ"
+      ],
+      "W000814": [
+        "R",
+        "TX"
+      ],
+      "W000806": [
+        "R",
+        "FL"
+      ],
+      "W000821": [
+        "R",
+        "AR"
+      ],
+      "W000830": [
+        "D",
+        "CA"
+      ],
+      "W000829": [
+        "R",
+        "WI"
+      ],
+      "W000788": [
+        "D",
+        "GA"
+      ],
+      "W000816": [
+        "R",
+        "TX"
+      ],
+      "W000808": [
+        "D",
+        "FL"
+      ],
+      "W000795": [
+        "R",
+        "SC"
+      ],
+      "W000804": [
+        "R",
+        "VA"
+      ],
+      "W000809": [
+        "R",
+        "AR"
+      ],
+      "Y000067": [
+        "R",
+        "IN"
+      ],
+      "Z000018": [
+        "R",
+        "MT"
+      ]
+    },
+    "result": "Passed",
+    "yea": 231,
+    "nay": 186
+  },
+  "points": [
+    {
+      "debateScope": "general",
+      "bio": "W000821",
+      "speaker": "Bruce Westerman",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-04-23/html/CREC-2026-04-23-pt1-PgH3073-4.htm",
+      "start": 6923,
+      "quote": "Crucially, this bill upholds strong environmental standards by \nstipulating that Federal requirements may only be waived if operators \nreceive drilling permits and comply with historic preservation laws on \nthe State level.\n  Notably, the bill would not impact the royalties paid to the Federal \nGovernment. Therefore, it will not reduce the Federal revenues \ngenerated by geothermal production.",
+      "display": "Crucially, this bill upholds strong environmental standards by stipulating that Federal requirements may only be waived if operators receive drilling permits and comply with historic preservation laws on the State level. Notably, the bill would not impact the royalties paid to the Federal Government. Therefore, it will not reduce the Federal revenues generated by geothermal production.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-04-23/html/CREC-2026-04-23-pt1-PgH3073-4.htm#:~:text=Crucially%2C%20this%20bill%20upholds%20strong%20environmental%20standards%20by%20stipulating%20that%20Federal%20requirements%20may%20only%20be%20waived%20if%20operators%20receive%20drilling%20permits%20and%20comply%20with%20historic%20preservation%20laws%20on%20the%20State%20level.%20Notably%2C%20the%20bill%20would%20not%20impact%20the%20royalties%20paid%20to%20the%20Federal%20Government.%20Therefore%2C%20it%20will%20not%20reduce%20the%20Federal%20revenues%20generated%20by%20geothermal%20production.",
+      "end": 7318,
+      "sentenceIds": [
+        "2.10",
+        "2.11",
+        "2.12"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "K000397",
+      "speaker": "Young Kim",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-04-23/html/CREC-2026-04-23-pt1-PgH3073-4.htm",
+      "start": 16269,
+      "quote": "The HEATS Act fixes that by cutting red tape and waiving Federal \ndrilling permit requirements for geothermal wells on State and local \nlands. Operators will still go through a rigorous State-level \npermitting process, but they will no longer be subjected to duplicative \nFederal requirements that slow production, raise costs, and kill jobs.",
+      "display": "The HEATS Act fixes that by cutting red tape and waiving Federal drilling permit requirements for geothermal wells on State and local lands. Operators will still go through a rigorous State-level permitting process, but they will no longer be subjected to duplicative Federal requirements that slow production, raise costs, and kill jobs.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-04-23/html/CREC-2026-04-23-pt1-PgH3073-4.htm#:~:text=The%20HEATS%20Act%20fixes%20that%20by%20cutting%20red%20tape%20and%20waiving%20Federal%20drilling%20permit%20requirements%20for%20geothermal%20wells%20on%20State%20and%20local%20lands.%20Operators%20will%20still%20go%20through%20a%20rigorous%20State%2Dlevel%20permitting%20process%2C%20but%20they%20will%20no%20longer%20be%20subjected%20to%20duplicative%20Federal%20requirements%20that%20slow%20production%2C%20raise%20costs%2C%20and%20kill%20jobs.",
+      "end": 16611,
+      "sentenceIds": [
+        "6.6",
+        "6.7"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "A000381",
+      "speaker": "Yassamin Ansari",
+      "side": "Nay",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-04-23/html/CREC-2026-04-23-pt1-PgH3073-4.htm",
+      "start": 25312,
+      "quote": "Mr. Speaker, in closing, even good energy sources need good \npermitting policy. I am a strong supporter of geothermal energy, but \nthe HEATS Act could undermine the on-the-ground support and good \nenvironmental track record geothermal currently enjoys.",
+      "display": "in closing, even good energy sources need good permitting policy. I am a strong supporter of geothermal energy, but the HEATS Act could undermine the on-the-ground support and good environmental track record geothermal currently enjoys.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-04-23/html/CREC-2026-04-23-pt1-PgH3073-4.htm#:~:text=Mr.%20Speaker%2C%20in%20closing%2C%20even%20good%20energy%20sources%20need%20good%20permitting%20policy.%20I%20am%20a%20strong%20supporter%20of%20geothermal%20energy%2C%20but%20the%20HEATS%20Act%20could%20undermine%20the%20on%2Dthe%2Dground%20support%20and%20good%20environmental%20track%20record%20geothermal%20currently%20enjoys.",
+      "end": 25564,
+      "sentenceIds": [
+        "10.1",
+        "10.2"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "H001068",
+      "speaker": "Jared Huffman",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-04-23/html/CREC-2026-04-23-pt1-PgH3073-4.htm",
+      "start": 18928,
+      "quote": "While this may sound innocuous--oh, it is just subsurface; it is \nbelow what we can see with our eyes--without a Federal permit, the core \nsafeguards for development affecting Federal resources would totally \ndisappear. That includes protections under the National Environmental \nPolicy Act, the National Historic Preservation Act, and the Endangered \nSpecies Act.",
+      "display": "While this may sound innocuous--oh, it is just subsurface; it is below what we can see with our eyes--without a Federal permit, the core safeguards for development affecting Federal resources would totally disappear. That includes protections under the National Environmental Policy Act, the National Historic Preservation Act, and the Endangered Species Act.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-04-23/html/CREC-2026-04-23-pt1-PgH3073-4.htm#:~:text=While%20this%20may%20sound%20innocuous%2D%2Doh%2C%20it%20is%20just%20subsurface%3B%20it%20is%20below%20what%20we%20can%20see%20with%20our%20eyes%2D%2Dwithout%20a%20Federal%20permit%2C%20the%20core%20safeguards%20for%20development%20affecting%20Federal%20resources%20would%20totally%20disappear.%20That%20includes%20protections%20under%20the%20National%20Environmental%20Policy%20Act%2C%20the%20National%20Historic%20Preservation%20Act%2C%20and%20the%20Endangered%20Species%20Act.",
+      "end": 19292,
+      "sentenceIds": [
+        "8.11",
+        "8.12"
+      ]
+    }
+  ],
+  "diagnostics": {
+    "selection": [
+      {
+        "side": "Yea",
+        "attempt": 1,
+        "spanIds": [
+          9,
+          13,
+          19,
+          60,
+          61,
+          63,
+          135,
+          137
+        ],
+        "spans": [
+          [
+            "2.4"
+          ],
+          [
+            "2.6"
+          ],
+          [
+            "2.10",
+            "2.11",
+            "2.12"
+          ],
+          [
+            "6.6"
+          ],
+          [
+            "6.6",
+            "6.7"
+          ],
+          [
+            "6.7",
+            "6.8"
+          ],
+          [
+            "11.1",
+            "11.2"
+          ],
+          [
+            "11.3",
+            "11.4"
+          ]
+        ]
+      },
+      {
+        "side": "Nay",
+        "attempt": 1,
+        "spanIds": [
+          8,
+          21,
+          29,
+          42,
+          54,
+          60,
+          76,
+          111
+        ],
+        "spans": [
+          [
+            "3.4",
+            "3.5",
+            "3.6"
+          ],
+          [
+            "8.2",
+            "8.3"
+          ],
+          [
+            "8.5",
+            "8.6"
+          ],
+          [
+            "8.11",
+            "8.12"
+          ],
+          [
+            "8.15",
+            "8.16",
+            "8.17"
+          ],
+          [
+            "8.18"
+          ],
+          [
+            "8.28",
+            "8.29"
+          ],
+          [
+            "10.1",
+            "10.2"
+          ]
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": 0,
+        "effect_evidence": "",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "A vague preference for a smarter approach does not identify any concrete action or effect of the bill, nor a policy consequence.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "2.4"
+        ]
+      },
+      {
+        "id": 1,
+        "effect_evidence": "would expedite the development of geothermal energy on non-Federal surface lands",
+        "value_evidence": "commonsense bill",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It states a bill effect, but the quoted benefit is only a generic endorsement and does not explain why the effect is desirable or harmful in policy terms.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "2.6"
+        ]
+      },
+      {
+        "id": 2,
+        "effect_evidence": "Federal requirements may only be waived if operators receive drilling permits and comply with historic preservation laws",
+        "value_evidence": "it will not reduce the Federal revenues generated by geothermal production",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It identifies a concrete waiver condition and explains a policy consequence: federal revenues are preserved, which is presented as desirable.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "2.10",
+          "2.11",
+          "2.12"
+        ]
+      },
+      {
+        "id": 6,
+        "effect_evidence": "streamline the permitting process for geothermal energy projects and reduce agency workloads",
+        "value_evidence": "which will allow BLM to focus on projects that actually have a majority Federal nexus",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It states specific effects and explains a policy benefit: reduced workload lets BLM focus on the projects that most need federal attention.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "11.1",
+          "11.2"
+        ]
+      },
+      {
+        "id": 7,
+        "effect_evidence": "eliminating duplicative Federal-level bureaucracy",
+        "value_evidence": "will help stop the things that are impeding geothermal energy development",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It identifies the bill's mechanism and explains why it is desirable: removing duplicative bureaucracy will reduce impediments to geothermal development.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "11.3",
+          "11.4"
+        ]
+      },
+      {
+        "id": 3,
+        "effect_evidence": "waiving Federal drilling permit requirements for geothermal wells on State and local lands",
+        "value_evidence": "cutting red tape",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It identifies a concrete action, but the value claim is just a slogan without a stated policy consequence.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "6.6"
+        ]
+      },
+      {
+        "id": 4,
+        "effect_evidence": "waiving Federal drilling permit requirements for geothermal wells on State and local lands",
+        "value_evidence": "they will no longer be subjected to duplicative Federal requirements that slow production, raise costs, and kill jobs",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It names the bill's action and gives a clear harmful effect of existing federal requirements that the bill removes: slower production, higher costs, and job losses.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "6.6",
+          "6.7"
+        ]
+      },
+      {
+        "id": 5,
+        "effect_evidence": "Operators will still go through a rigorous State-level permitting process, but they will no longer be subjected to duplicative Federal requirements",
+        "value_evidence": "more American energy coming online faster, lower energy costs for working families, and a stronger domestic supply chain that doesn't depend on adversaries like China",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It describes the effect of removing duplicative federal requirements and ties it to concrete beneficial outcomes: faster energy deployment, lower costs, and supply-chain strength.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "6.7",
+          "6.8"
+        ]
+      },
+      {
+        "id": 0,
+        "effect_evidence": "",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "The quote only states support for geothermal energy and opposition to the bill; it does not identify any concrete action or effect of the bill or explain a resulting benefit/harm.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "3.4",
+          "3.5",
+          "3.6"
+        ]
+      },
+      {
+        "id": 7,
+        "effect_evidence": "could undermine the on-the-ground support and good environmental track record geothermal currently enjoys",
+        "value_evidence": "could undermine the on-the-ground support and good environmental track record geothermal currently enjoys",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It gives a concrete adverse effect of the bill and explains it as harmful to geothermal's support and environmental reputation.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "10.1",
+          "10.2"
+        ]
+      },
+      {
+        "id": 1,
+        "effect_evidence": "trying to destroy an entire sector",
+        "value_evidence": "drive up utility bills for the American people",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It mentions a harmful outcome, but that is attributed to Trump's war on clean energy rather than to this bill, so it does not actually state a bill action/effect plus consequence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "8.2",
+          "8.3"
+        ]
+      },
+      {
+        "id": 2,
+        "effect_evidence": "",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "This is only a general call for bipartisan work and a background fact about a geothermal plant; it does not describe any action or effect of the bill.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "8.5",
+          "8.6"
+        ]
+      },
+      {
+        "id": 3,
+        "effect_evidence": "without a Federal permit, the core safeguards for development affecting Federal resources would totally disappear",
+        "value_evidence": "the core safeguards for development affecting Federal resources would totally disappear",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It clearly identifies the bill's effect—eliminating the need for a federal permit and thereby removing safeguards—and explains why that is harmful.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "8.11",
+          "8.12"
+        ]
+      },
+      {
+        "id": 4,
+        "effect_evidence": "all Federal oversight goes away, along with public input and consultation requirements",
+        "value_evidence": "It is bad news for Tribes, communities, and property owners on the ground.",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It states a concrete bill effect—ending federal oversight, public input, and tribal consultation—and gives a clear harmful consequence.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "8.15",
+          "8.16",
+          "8.17"
+        ]
+      },
+      {
+        "id": 5,
+        "effect_evidence": "It takes away opportunities for public involvement",
+        "value_evidence": "can make projects better",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It identifies the effect of reducing public involvement and explains that this is harmful because such involvement can improve projects.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "8.18"
+        ]
+      },
+      {
+        "id": 6,
+        "effect_evidence": "it creates a gray area for underground injection control permits",
+        "value_evidence": "which allow for the assessment of potential seismic activity",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It states a specific regulatory effect and links it to a harmful consequence: uncertainty around permits that assess seismic risk.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "8.28",
+          "8.29"
+        ]
+      }
+    ],
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_07414d4cc2ab145d016b05c04e656887d289e54b7b4690b5d3",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 3569,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 27,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3596
+        },
+        "estimatedUsd": 0.00279825,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_015683a7383a8af3016b05c04f4e2c87d29bb7f6863202792d",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 740,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 648,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 1388
+        },
+        "estimatedUsd": 0.003471,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_0326d3dbe7d55fbc016b05c054077887d292a36c7cfa6e1572",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 3654,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 27,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3681
+        },
+        "estimatedUsd": 0.002862,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_02beb6e07e79a3d2016b05c0550ac887d2b3afdcdc3ab3b281",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 731,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 587,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 1318
+        },
+        "estimatedUsd": 0.00318975,
+        "status": "completed"
+      }
+    ],
+    "excludedAmendmentParagraphs": 0,
+    "candidateCounts": {
+      "Yea": 154,
+      "Nay": 143
+    }
+  }
+}
