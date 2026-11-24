@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "0d32e4c345f306f9948d9ca2a0505a41985414f5b2c873722581746272d3e855",
+  "debateFingerprint": "5c9b82ff8773359fd6f502f28b0a19fa9e57df2a7868630fcdaa03c661ae0138",
   "bill": "119-hr-8800",
   "vote": "house:119:2:278",
   "sources": {
@@ -1738,7 +1738,40 @@
     "yea": 216,
     "nay": 212
   },
-  "points": [],
+  "points": [
+    {
+      "bio": "R000575",
+      "speaker": "Mike Rogers",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+      "start": 93658,
+      "quote": "This is a very important bill. It provides critical authorities for \nour warfighters to keep us free and safe.",
+      "display": "This is a very important bill. It provides critical authorities for our warfighters to keep us free and safe.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm#:~:text=This%20is%20a%20very%20important%20bill.%20It%20provides%20critical%20authorities%20for%20our%20warfighters%20to%20keep%20us%20free%20and%20safe.",
+      "end": 93768,
+      "sentenceIds": [
+        "165.0",
+        "165.1"
+      ]
+    },
+    {
+      "bio": "H001085",
+      "speaker": "Chrissy Houlahan",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm",
+      "start": 2533933,
+      "quote": "I rise in opposition to this amendment. This amendment would, indeed, \neliminate one of the most successful and the very least expensive \nnational security investments the United States has ever made.",
+      "display": "I rise in opposition to this amendment. This amendment would, indeed, eliminate one of the most successful and the very least expensive national security investments the United States has ever made.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4736.htm#:~:text=I%20rise%20in%20opposition%20to%20this%20amendment.%20This%20amendment%20would%2C%20indeed%2C%20eliminate%20one%20of%20the%20most%20successful%20and%20the%20very%20least%20expensive%20national%20security%20investments%20the%20United%20States%20has%20ever%20made.",
+      "end": 2534133,
+      "sentenceIds": [
+        "186.0",
+        "186.1"
+      ]
+    }
+  ],
   "diagnostics": {
     "selection": [
       {
@@ -1852,70 +1885,63 @@
     ],
     "checks": [
       {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 164,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "As a floor manager, this speaker gives a specific reason for supporting the bill: it is important bipartisan work and thanks the Ranking Member for partnership in fashioning it."
-        },
+        "id": 0,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "This is only thanks and praise for a colleague; it does not state a policy reason for voting Yea on the bill.",
+        "side": "Yea",
+        "sentenceIds": [
+          "164.0",
+          "164.1"
+        ]
       },
       {
+        "id": 1,
+        "accepted": true,
+        "reason": "It gives a substantive reason: the bill provides critical authorities for warfighters and helps keep the nation safe.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 165,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "The manager supports the bill because it provides critical authorities for warfighters and says it helps keep the nation free and safe."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "165.0",
+          "165.1"
+        ]
       },
       {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 176,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "The manager advances the bill's Afghanistan War Commission provisions by explaining the need for accountability and transparency after 20 years of war and nearly 2,500 U.S. servicemember deaths."
-        },
+        "id": 2,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "This explains the purpose of the Afghanistan War Commission, but not a reason supporting passage of the defense bill itself.",
+        "side": "Yea",
+        "sentenceIds": [
+          "176.0"
+        ]
       },
       {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 179,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "The manager explains that the extension is needed so the commission can produce a complete and accurate report, giving a concrete rationale for the bill language."
-        },
+        "id": 3,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "It argues for a commission extension, not for the National Defense Authorization Act as a whole.",
+        "side": "Yea",
+        "sentenceIds": [
+          "179.0",
+          "179.1"
+        ]
       },
       {
+        "id": 4,
+        "accepted": true,
+        "reason": "It states that the funded authorities are needed for readiness and joint exercises with allies, which supports voting Yea.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 422,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "The manager supports the allied-training authorities by stating that Secretary Hegseth requested the funding because training with allies and partners is essential to U.S. military readiness."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "422.0",
+          "422.1"
+        ]
       },
       {
+        "id": 5,
+        "accepted": true,
+        "reason": "It gives a concrete defense rationale: the programs help train with allies, deter China, and defend the homeland.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 423,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "This manager provides a specific justification for the bill's burden-sharing programs: they help American forces train effectively with allies, deter China, and defend the homeland."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "423.0",
+          "423.1"
+        ]
       },
       {
         "side": "Nay",
@@ -1926,62 +1952,59 @@
           "reason": "Gives a concrete fiscal policy objection: rising defense spending alongside cuts to Medicaid and food stamps and growing deficits."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid quote start or word count"
       },
       {
+        "id": 0,
+        "accepted": true,
+        "reason": "Gives a substantive reason against the amendment: it would eliminate a successful and low-cost national security investment.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 186,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Opposes the amendment because it would eliminate a highly successful, low-cost national security investment."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "186.0",
+          "186.1"
+        ]
       },
       {
+        "id": 1,
+        "accepted": true,
+        "reason": "States a concrete objection: the military does not need the provision because supply is already stable and domestic oil production is high.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 275,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Argues the amendment is unnecessary because the military does not need it to ensure supply and the U.S. is already the world's largest oil producer."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "275.0",
+          "275.1",
+          "275.2"
+        ]
       },
       {
+        "id": 2,
+        "accepted": true,
+        "reason": "Argues the amendment uses national security as a false justification to override state laws, which is a substantive policy critique.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 370,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Contends the amendment is really a national-security pretext to override state laws, especially on recycling and disposal rules."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "370.0",
+          "370.1",
+          "370.2"
+        ]
       },
       {
+        "id": 3,
+        "accepted": true,
+        "reason": "Says the amendment would undermine California's will and its people, which is a concrete substantive objection.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 385,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Objects that the amendment would undermine California's standards and the will of its residents on hazardous materials."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "385.0",
+          "385.1"
+        ]
       },
       {
+        "id": 4,
+        "accepted": true,
+        "reason": "Provides a substantive safety concern: expanding firearm access on base increases servicemember suicide risk.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 496,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Warns that expanding access to personal firearms on base increases servicemember suicide risk."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "496.0",
+          "496.1"
+        ]
       }
     ],
     "responses": [
@@ -2032,7 +2055,56 @@
         },
         "estimatedUsd": 0.0114,
         "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_0d8b4770adfec253016b05b6762dbc87d28913f7a872b18fca",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 422,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 208,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 630
+        },
+        "estimatedUsd": 0.0012525,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_0ec1f050e5a5360f016b05b678681887d28c0108613eac6651",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 357,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 173,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 530
+        },
+        "estimatedUsd": 0.00104625,
+        "status": "completed"
       }
-    ]
+    ],
+    "reusedSelection": true
   }
 }
