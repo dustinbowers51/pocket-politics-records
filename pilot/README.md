@@ -1,11 +1,13 @@
-# Automatic debate review
+# Automatic debate span review
 
-The records review runs the automatic source parser, sentence selector, independent verification request and renderer. There is no editorial input or alternate selection path. The artifacts are review previews. The hourly records deployment and the app use separate workflows.
+## Frozen test protocol
 
-## Frozen November 24 holdout
+Score the first automatic outputs from the ten previously unused House-origin bills with House final-passage votes in span-holdout.json. Take the newest eligible bills by archived passage date and roll number. Exclude every prior sample and require remarks by members on both sides of a passage vote verified against the House Clerk. Do not choose bills by argument quality. Use the same automatic selection path for every bill, with no editorial nominations or replacements.
 
-Use the ten House final-passage ballots in holdout.json exactly once. The sampling rule takes the newest eligible House passage roll calls from the app’s archived 119th Congress votes, ordered by date and roll number, excluding bills used in either previous pilot. Each unique bill must have a verified passage vote and attributed Congressional Record paragraphs from members on both recorded sides. Eligibility uses speaker presence, without assessing argument quality. The sample is House-only.
+Each eligible span contains one to three consecutive complete sentences from one member’s general debate or final-passage remarks, with a maximum of 60 source words. Preserve the original text and offsets. Strip opening salutations and fold whitespace for display. Enumerate span IDs before the model selects them. Only a side with zero accepted quotes gets one additional nomination round from remaining spans. An empty card after that is a valid output.
 
-Before any model call, verify each ballot against the Clerk’s XML. Only general debate and final-passage remarks are eligible. Strict structured responses nominate consecutive sentence IDs. Independent checks assess a concrete reason for the recorded vote, meaning beyond the title and whether the quotation stands alone. Each side displays up to three distinct speakers with an equal number on the other side. The source text, hash, character offsets, identifiers, responses, token counts and estimated cost are retained in the diagnostics. Display normalization strips the opening salutation and folds whitespace.
+Count a quote as weak if it fails to say what the bill does or would do, or its effect, and why that is good or bad. Deadlines or timing alone, objections solely to process, and background without a bill connection are weak. A bill-referring pronoun is acceptable. Material references to missing context are not.
 
-**Pass rule fixed before generation.** Zero wrong speakers, wrong sides or altered quotations. Across all ten bills at most one displayed quote may lack a reason, concern only an amendment, merely restate the title or require missing context. An empty state after genuine rejection is allowed. A missing output, API failure or failed source check is an incomplete evaluation. Report the number of bills with a pair and the total number of displayed quotes alongside the verdict. Score the first automatic outputs, with no manual selection, repairs or substitutions after generation.
+**Pass requires all three conditions.** Zero wrong speakers, wrong passage votes, or altered quotes. At most one weak quote across the ten bills, using the higher of the initial and independent reviewer counts. At least six bills must display a pair. A missing output or operational error makes the run incomplete. Preserve the first results even if the test fails. Report screenshots, diagnostics and estimated spend.
+
+The prior ten-bill holdout scored three weak quotes on independent review, including Frost on H.R. 1181. The previous screenshots and evidence remain in git history.

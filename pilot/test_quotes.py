@@ -63,3 +63,33 @@ class HoldoutGuards(unittest.TestCase):
             self.assertTrue(BACK_REFERENCE.search(opening))
         self.assertTrue(title_only("I rise today in support of the Stop Insider Trading Act.", "Stop Insider Trading Act"))
         self.assertFalse(title_only("Members could still trade using confidential committee information.", "Stop Insider Trading Act"))
+
+class SpanCatalogTest(unittest.TestCase):
+    def test_all_valid_lengths_and_bill_pronoun(self):
+        from preview import candidate_spans
+        text = "It pays hospitals for care. Rural clinics could stay open. Those protections matter. Families could get care locally."
+        row = dict(quote=text, side="Yea", manager=False, bio="M", debateScope="general")
+        spans = candidate_spans(dict(title="Hospital Payment Act",paragraphs=[row]), "Yea")
+        self.assertEqual([(a,b) for _,a,b in spans], [(0,0),(0,1),(0,2),(1,1),(1,2),(1,3),(3,3)])
+
+    def test_retry_only_for_empty_side_and_remove_previous_span(self):
+        from preview import select
+        from sources import digest
+        from unittest.mock import patch
+        text = "It funds rural clinics. Patients can get care locally."
+        rows = [dict(quote=text, speaker=s, side=s, bio=s, manager=True, url="record", start=0)
+                for s in ("Yea","Nay")]
+        packet = dict(title="Health Act", paragraphs=rows, sources={"record":digest(text.encode())},
+                      passageRecord={"members":{"Yea":[],"Nay":[]}})
+        seen=[]
+        def ask(prompt, payload, audit, stage, side):
+            if stage=="selection":
+                seen.append((side,payload["last_id"]))
+                return {"span_ids":[0]}
+            quote=payload["quotes"][0]
+            return {"checks":[dict(id=0,substantive=side=="Yea" or seen.count(("Nay",1))==1,
+                                   stands_alone=True,effect_evidence=quote,value_evidence=quote,reason="test")]}
+        with patch("preview.ask",side_effect=ask), patch("preview.read",return_value=text.encode()):
+            result=select(packet,dict(selection=[],checks=[]))
+        self.assertEqual(seen,[("Yea",2),("Nay",2),("Nay",1)])
+        self.assertEqual(len(result),2)

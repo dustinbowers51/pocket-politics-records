@@ -4,6 +4,7 @@ import collections
 import hashlib
 import json
 import re
+from tempfile import NamedTemporaryFile
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.error import HTTPError
@@ -17,7 +18,12 @@ def read(url):
     path = CACHE / hashlib.sha256(url.encode()).hexdigest()
     if not path.exists():
         with urlopen(url, timeout=45) as response:
-            path.write_bytes(response.read())
+            body = response.read()
+            if not body:
+                raise ValueError(f"Empty official source at {url}")
+            with NamedTemporaryFile(dir=CACHE, delete=False) as temp:
+                temp.write(body)
+            Path(temp.name).replace(path)
     return path.read_bytes()
 
 
@@ -224,7 +230,16 @@ def sources(ballot):
                         managers.add(qualified)
                     elif len(speakers.get(name.upper(), [])) == 1:
                         managers.add(name.upper())
-            result.extend(attributed(text, speakers, managers, ballot, url))
+            # Preserve paragraph breaks while allowing a span across adjacent paragraphs in one turn.
+            previous = None
+            for row in attributed(text, speakers, managers, ballot, url):
+                if previous and (row["bio"], row["debateScope"]) == (previous["bio"], previous["debateScope"]):
+                    end = previous["start"] + len(previous["quote"])
+                    if text[end:row["start"]].isspace():
+                        previous["quote"] = text[previous["start"]:row["start"] + len(row["quote"])]
+                        continue
+                result.append(row)
+                previous = row
     return dict(
         bill=ballot["bill"],
         vote=ballot["vote"],
@@ -237,7 +252,7 @@ def sources(ballot):
 
 if __name__ == "__main__":
     packets = []
-    for b in json.loads(Path("pilot/holdout.json").read_text()):
+    for b in json.loads(Path("pilot/span-holdout.json").read_text()):
         record = verify_vote(b)
         packets.append({**sources(b), "passageRecord": record})
     Path("packets.json").write_text(json.dumps(packets))
