@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "e355f3a30f0e848219b4bfcec27012dae06713363d21cb73c2e2519992d3b4ca",
+  "debateFingerprint": "a7c1ab61a00c948840975ea8364305a33b32ae082f14ec763e9988a2f9c76e51",
   "bill": "119-hr-9436",
   "vote": "house:119:2:291",
   "sources": {
@@ -1743,7 +1743,39 @@
     "yea": 219,
     "nay": 196
   },
-  "points": [],
+  "points": [
+    {
+      "bio": "W000821",
+      "speaker": "Bruce Westerman",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
+      "start": 2681,
+      "quote": "Mr. Speaker, I rise in strong support of H.R. 9436, the Northeast \nLobsterman Protection Act, which will protect one of the world's most \niconic fisheries and the American jobs, communities, and families that \ndepend on it.",
+      "display": "I rise in strong support of H.R. 9436, the Northeast Lobsterman Protection Act, which will protect one of the world's most iconic fisheries and the American jobs, communities, and families that depend on it.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm#:~:text=Mr.%20Speaker%2C%20I%20rise%20in%20strong%20support%20of%20H.R.%209436%2C%20the%20Northeast%20Lobsterman%20Protection%20Act%2C%20which%20will%20protect%20one%20of%20the%20world%27s%20most%20iconic%20fisheries%20and%20the%20American%20jobs%2C%20communities%2C%20and%20families%20that%20depend%20on%20it.",
+      "end": 2904,
+      "sentenceIds": [
+        "3.0"
+      ]
+    },
+    {
+      "bio": "H001068",
+      "speaker": "Jared Huffman",
+      "side": "Nay",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
+      "start": 47623,
+      "quote": "Mr. Speaker, I urge this body to reject H.R. 9436. This bill moves \nthe goalposts and risks the extinction of an iconic whale that calls \nour Nation's Atlantic waters home.",
+      "display": "I urge this body to reject H.R. 9436. This bill moves the goalposts and risks the extinction of an iconic whale that calls our Nation's Atlantic waters home.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm#:~:text=Mr.%20Speaker%2C%20I%20urge%20this%20body%20to%20reject%20H.R.%209436.%20This%20bill%20moves%20the%20goalposts%20and%20risks%20the%20extinction%20of%20an%20iconic%20whale%20that%20calls%20our%20Nation%27s%20Atlantic%20waters%20home.",
+      "end": 47795,
+      "sentenceIds": [
+        "104.0",
+        "104.1"
+      ]
+    }
+  ],
   "diagnostics": {
     "selection": [
       {
@@ -1859,46 +1891,13 @@
       {
         "side": "Yea",
         "pick": {
-          "paragraph": 3,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Specific support for the bill as protecting the iconic fishery and the American jobs, communities, and families that depend on it."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 4,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Provides concrete economic justification, citing lobster's share of Maine fisheries value, $2 billion in activity, and 17,500 jobs."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 5,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Argues the industry matters beyond money because it sustains families and communities tied to a 70-year tradition."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
           "paragraph": 10,
           "first_sentence_id": 0,
           "last_sentence_id": 1,
           "reason": "Explains the bill's purpose as a bipartisan regulatory pause that gives the state and industry more time to develop new gear, conservation measures, and research."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid quote start or word count"
       },
       {
         "side": "Yea",
@@ -1909,7 +1908,7 @@
           "reason": "States that more time is needed to gather data and says the bill extends MMPA and ESA coverage through 2035 to get regulations right."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid quote start or word count"
       },
       {
         "side": "Yea",
@@ -1920,29 +1919,35 @@
           "reason": "Contends that Maine's approach is working, citing a right whale population increase and minimal attributed whale deaths while preserving economic activity."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 44,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Cites concrete entanglement mortality data to argue the bill is dangerous for right whale protection."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "id": 0,
+        "accepted": true,
+        "reason": "Supports the bill by saying it will protect a major fishery and the jobs, communities, and families that depend on it.",
+        "side": "Yea",
+        "sentenceIds": [
+          "3.0"
+        ]
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 61,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Argues fishing-gear entanglement is a leading cause of right whale deaths and that earlier delays weakened needed protections."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "id": 1,
+        "accepted": true,
+        "reason": "Provides concrete economic evidence that lobster is economically important in Maine and supports many jobs.",
+        "side": "Yea",
+        "sentenceIds": [
+          "4.0"
+        ]
+      },
+      {
+        "id": 2,
+        "accepted": true,
+        "reason": "Explains that the lobster industry sustains families and communities and has long-standing value beyond profits.",
+        "side": "Yea",
+        "sentenceIds": [
+          "5.0",
+          "5.1"
+        ]
       },
       {
         "side": "Nay",
@@ -1953,40 +1958,56 @@
           "reason": "Uses recent NOAA mortality and injury data to warn the bill would gut environmental protections and extend harmful exemptions."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 104,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Directly urges rejection because the bill risks extinction of the right whale."
-        },
+        "id": 0,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "States a mortality fact about whales, but does not give a substantive reason for voting Nay on this bill.",
+        "side": "Nay",
+        "sentenceIds": [
+          "44.0"
+        ]
       },
       {
+        "id": 2,
+        "accepted": true,
+        "reason": "Says the bill would weaken protections and risk extinction of North Atlantic right whales, a substantive opposition reason.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 108,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Warns the bill discourages cooperative research and penalizes fishermen who already invested in safer gear."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "104.0",
+          "104.1"
+        ]
       },
       {
+        "id": 3,
+        "accepted": true,
+        "reason": "Claims the bill discourages cooperative research and penalizes fishermen who already transitioned gear, giving a concrete reason against it.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 109,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Criticizes the waiver extension as unfunded and based on obsolete data, weakening informed regulation."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "108.0",
+          "108.1"
+        ]
+      },
+      {
+        "id": 4,
+        "accepted": true,
+        "reason": "Argues the bill delays action without new funding and would force rules based on obsolete data, which is a substantive policy objection.",
+        "side": "Nay",
+        "sentenceIds": [
+          "109.0",
+          "109.1"
+        ]
+      },
+      {
+        "id": 1,
+        "accepted": true,
+        "reason": "Argues the bill delays protections against deadly whale entanglements, which is a concrete policy reason to oppose it.",
+        "side": "Nay",
+        "sentenceIds": [
+          "61.0",
+          "61.1"
+        ]
       }
     ],
     "responses": [
@@ -2037,7 +2058,56 @@
         },
         "estimatedUsd": 0.00272925,
         "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_0fb81556a0430a91016b05b660534487d2a7f171493b3e35ad",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 292,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 111,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 403
+        },
+        "estimatedUsd": 0.0007185,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_04ea4893843f044a016b05b661fbec87d29901a03b7bdada9d",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 384,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 180,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 564
+        },
+        "estimatedUsd": 0.001098,
+        "status": "completed"
       }
-    ]
+    ],
+    "reusedSelection": true
   }
 }
