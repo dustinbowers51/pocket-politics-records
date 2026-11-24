@@ -1,0 +1,2889 @@
+{
+  "debateFingerprint": "85df308e70c4c25be792321acf1f8d8ef6469b14f26f3ff72d5ec0adf46a6d4d",
+  "bill": "119-hr-1346",
+  "vote": "house:119:2:164",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3421.htm": "5149758b88a3838ceedf62d46275c68f4eee6c2dc80f6dac1d6b62dc0889d58b",
+    "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3435.htm": "c7a249b219cbdf8f30c1adf4119e90563480c985593d77b91c006de2a482af4b"
+  },
+  "passageRecord": {
+    "url": "https://clerk.house.gov/evs/2026/roll164.xml",
+    "sha256": "784496f77a4e51ff763d7c44685c04a9af96fac1d227718fbcbbd164cf10d6aa",
+    "members": {
+      "A000370": [
+        "D",
+        "NC"
+      ],
+      "A000055": [
+        "R",
+        "AL"
+      ],
+      "A000371": [
+        "D",
+        "CA"
+      ],
+      "A000379": [
+        "R",
+        "MO"
+      ],
+      "A000372": [
+        "R",
+        "GA"
+      ],
+      "A000380": [
+        "D",
+        "RI"
+      ],
+      "A000369": [
+        "R",
+        "NV"
+      ],
+      "A000381": [
+        "D",
+        "AZ"
+      ],
+      "A000375": [
+        "R",
+        "TX"
+      ],
+      "A000148": [
+        "D",
+        "MA"
+      ],
+      "B001291": [
+        "R",
+        "TX"
+      ],
+      "B001298": [
+        "R",
+        "NE"
+      ],
+      "B001307": [
+        "R",
+        "IN"
+      ],
+      "B001306": [
+        "R",
+        "OH"
+      ],
+      "B001318": [
+        "D",
+        "VT"
+      ],
+      "B001282": [
+        "R",
+        "KY"
+      ],
+      "B001300": [
+        "D",
+        "CA"
+      ],
+      "B001321": [
+        "R",
+        "MI"
+      ],
+      "B001322": [
+        "R",
+        "WA"
+      ],
+      "B001314": [
+        "R",
+        "FL"
+      ],
+      "B001281": [
+        "D",
+        "OH"
+      ],
+      "B001323": [
+        "R",
+        "AK"
+      ],
+      "B001324": [
+        "D",
+        "MO"
+      ],
+      "B000668": [
+        "R",
+        "OR"
+      ],
+      "B001287": [
+        "D",
+        "CA"
+      ],
+      "B001301": [
+        "R",
+        "MI"
+      ],
+      "B001292": [
+        "D",
+        "VA"
+      ],
+      "B000740": [
+        "R",
+        "OK"
+      ],
+      "B001302": [
+        "R",
+        "AZ"
+      ],
+      "B001325": [
+        "R",
+        "SC"
+      ],
+      "B001257": [
+        "R",
+        "FL"
+      ],
+      "B000490": [
+        "D",
+        "GA"
+      ],
+      "B000825": [
+        "R",
+        "CO"
+      ],
+      "B001278": [
+        "D",
+        "OR"
+      ],
+      "B001295": [
+        "R",
+        "IL"
+      ],
+      "B001296": [
+        "D",
+        "PA"
+      ],
+      "B001317": [
+        "R",
+        "OK"
+      ],
+      "B001327": [
+        "R",
+        "PA"
+      ],
+      "B001313": [
+        "D",
+        "OH"
+      ],
+      "B001285": [
+        "D",
+        "CA"
+      ],
+      "B001260": [
+        "R",
+        "FL"
+      ],
+      "B001315": [
+        "D",
+        "IL"
+      ],
+      "B001309": [
+        "R",
+        "TN"
+      ],
+      "B001316": [
+        "R",
+        "MO"
+      ],
+      "B001326": [
+        "D",
+        "OR"
+      ],
+      "C000059": [
+        "R",
+        "CA"
+      ],
+      "C001039": [
+        "R",
+        "FL"
+      ],
+      "C001112": [
+        "D",
+        "CA"
+      ],
+      "C001126": [
+        "R",
+        "OH"
+      ],
+      "C001072": [
+        "D",
+        "IN"
+      ],
+      "C001103": [
+        "R",
+        "GA"
+      ],
+      "C001125": [
+        "D",
+        "LA"
+      ],
+      "C001051": [
+        "R",
+        "TX"
+      ],
+      "C001131": [
+        "D",
+        "TX"
+      ],
+      "C001055": [
+        "D",
+        "HI"
+      ],
+      "C001117": [
+        "D",
+        "IL"
+      ],
+      "C001066": [
+        "D",
+        "FL"
+      ],
+      "C001091": [
+        "D",
+        "TX"
+      ],
+      "C001080": [
+        "D",
+        "CA"
+      ],
+      "C001133": [
+        "R",
+        "AZ"
+      ],
+      "C001123": [
+        "D",
+        "CA"
+      ],
+      "C001101": [
+        "D",
+        "MA"
+      ],
+      "C001067": [
+        "D",
+        "NY"
+      ],
+      "C001061": [
+        "D",
+        "MO"
+      ],
+      "C001118": [
+        "R",
+        "VA"
+      ],
+      "C001115": [
+        "R",
+        "TX"
+      ],
+      "C000537": [
+        "D",
+        "SC"
+      ],
+      "C001116": [
+        "R",
+        "GA"
+      ],
+      "C001068": [
+        "D",
+        "TN"
+      ],
+      "C001053": [
+        "R",
+        "OK"
+      ],
+      "C001129": [
+        "R",
+        "GA"
+      ],
+      "C001108": [
+        "R",
+        "KY"
+      ],
+      "C001136": [
+        "D",
+        "NJ"
+      ],
+      "C001110": [
+        "D",
+        "CA"
+      ],
+      "C001059": [
+        "D",
+        "CA"
+      ],
+      "C001069": [
+        "D",
+        "CT"
+      ],
+      "C001119": [
+        "D",
+        "MN"
+      ],
+      "C001132": [
+        "R",
+        "AZ"
+      ],
+      "C001137": [
+        "R",
+        "CO"
+      ],
+      "C001087": [
+        "R",
+        "AR"
+      ],
+      "C001120": [
+        "R",
+        "TX"
+      ],
+      "C001130": [
+        "D",
+        "TX"
+      ],
+      "C001121": [
+        "D",
+        "CO"
+      ],
+      "C001063": [
+        "D",
+        "TX"
+      ],
+      "D000629": [
+        "D",
+        "KS"
+      ],
+      "D000626": [
+        "R",
+        "OH"
+      ],
+      "D000096": [
+        "D",
+        "IL"
+      ],
+      "D000230": [
+        "D",
+        "NC"
+      ],
+      "D000594": [
+        "R",
+        "TX"
+      ],
+      "D000631": [
+        "D",
+        "PA"
+      ],
+      "D000197": [
+        "D",
+        "CO"
+      ],
+      "D000216": [
+        "D",
+        "CT"
+      ],
+      "D000617": [
+        "D",
+        "WA"
+      ],
+      "D000530": [
+        "D",
+        "PA"
+      ],
+      "D000623": [
+        "D",
+        "CA"
+      ],
+      "D000616": [
+        "R",
+        "TN"
+      ],
+      "D000635": [
+        "D",
+        "OR"
+      ],
+      "D000600": [
+        "R",
+        "FL"
+      ],
+      "D000624": [
+        "D",
+        "MI"
+      ],
+      "D000399": [
+        "D",
+        "TX"
+      ],
+      "D000032": [
+        "R",
+        "FL"
+      ],
+      "D000634": [
+        "R",
+        "MT"
+      ],
+      "D000628": [
+        "R",
+        "FL"
+      ],
+      "E000246": [
+        "R",
+        "NC"
+      ],
+      "E000301": [
+        "D",
+        "MD"
+      ],
+      "E000071": [
+        "R",
+        "TX"
+      ],
+      "E000294": [
+        "R",
+        "MN"
+      ],
+      "E000299": [
+        "D",
+        "TX"
+      ],
+      "E000297": [
+        "D",
+        "NY"
+      ],
+      "E000298": [
+        "R",
+        "KS"
+      ],
+      "E000300": [
+        "R",
+        "CO"
+      ],
+      "E000296": [
+        "D",
+        "PA"
+      ],
+      "E000235": [
+        "R",
+        "MS"
+      ],
+      "F000246": [
+        "R",
+        "TX"
+      ],
+      "F000482": [
+        "R",
+        "ND"
+      ],
+      "F000446": [
+        "R",
+        "IA"
+      ],
+      "F000110": [
+        "D",
+        "LA"
+      ],
+      "F000481": [
+        "D",
+        "AL"
+      ],
+      "F000484": [
+        "R",
+        "FL"
+      ],
+      "F000475": [
+        "R",
+        "MN"
+      ],
+      "F000470": [
+        "R",
+        "MN"
+      ],
+      "F000471": [
+        "R",
+        "WI"
+      ],
+      "F000466": [
+        "R",
+        "PA"
+      ],
+      "F000459": [
+        "R",
+        "TN"
+      ],
+      "F000468": [
+        "D",
+        "TX"
+      ],
+      "F000474": [
+        "R",
+        "NE"
+      ],
+      "F000480": [
+        "R",
+        "CA"
+      ],
+      "F000454": [
+        "D",
+        "IL"
+      ],
+      "F000477": [
+        "D",
+        "NC"
+      ],
+      "F000450": [
+        "R",
+        "NC"
+      ],
+      "F000462": [
+        "D",
+        "FL"
+      ],
+      "F000472": [
+        "R",
+        "FL"
+      ],
+      "F000483": [
+        "D",
+        "CA"
+      ],
+      "F000476": [
+        "D",
+        "FL"
+      ],
+      "F000478": [
+        "R",
+        "SC"
+      ],
+      "F000469": [
+        "R",
+        "ID"
+      ],
+      "F000485": [
+        "R",
+        "GA"
+      ],
+      "G000559": [
+        "D",
+        "CA"
+      ],
+      "G000597": [
+        "R",
+        "NY"
+      ],
+      "G000598": [
+        "D",
+        "CA"
+      ],
+      "G000586": [
+        "D",
+        "IL"
+      ],
+      "G000587": [
+        "D",
+        "TX"
+      ],
+      "G000603": [
+        "R",
+        "TX"
+      ],
+      "G000602": [
+        "D",
+        "NY"
+      ],
+      "G000593": [
+        "R",
+        "FL"
+      ],
+      "G000592": [
+        "D",
+        "ME"
+      ],
+      "G000599": [
+        "D",
+        "NY"
+      ],
+      "G000601": [
+        "R",
+        "TX"
+      ],
+      "G000585": [
+        "D",
+        "CA"
+      ],
+      "G000581": [
+        "D",
+        "TX"
+      ],
+      "G000589": [
+        "R",
+        "TX"
+      ],
+      "G000604": [
+        "D",
+        "NH"
+      ],
+      "G000565": [
+        "R",
+        "AZ"
+      ],
+      "G000583": [
+        "D",
+        "NJ"
+      ],
+      "G000546": [
+        "R",
+        "MO"
+      ],
+      "G000605": [
+        "D",
+        "CA"
+      ],
+      "G000553": [
+        "D",
+        "TX"
+      ],
+      "G000568": [
+        "R",
+        "VA"
+      ],
+      "G000606": [
+        "D",
+        "AZ"
+      ],
+      "G000576": [
+        "R",
+        "WI"
+      ],
+      "G000591": [
+        "R",
+        "MS"
+      ],
+      "G000558": [
+        "R",
+        "KY"
+      ],
+      "H001096": [
+        "R",
+        "WY"
+      ],
+      "H001098": [
+        "R",
+        "AZ"
+      ],
+      "H001090": [
+        "D",
+        "CA"
+      ],
+      "H001099": [
+        "R",
+        "FL"
+      ],
+      "H001101": [
+        "R",
+        "NC"
+      ],
+      "H001052": [
+        "R",
+        "MD"
+      ],
+      "H001102": [
+        "R",
+        "NC"
+      ],
+      "H001086": [
+        "R",
+        "TN"
+      ],
+      "H001081": [
+        "D",
+        "CT"
+      ],
+      "H001082": [
+        "R",
+        "OK"
+      ],
+      "H001077": [
+        "R",
+        "LA"
+      ],
+      "H001072": [
+        "R",
+        "AR"
+      ],
+      "H001047": [
+        "D",
+        "CT"
+      ],
+      "H001091": [
+        "R",
+        "IA"
+      ],
+      "H001066": [
+        "D",
+        "NV"
+      ],
+      "H001093": [
+        "R",
+        "IN"
+      ],
+      "H001085": [
+        "D",
+        "PA"
+      ],
+      "H000874": [
+        "D",
+        "MD"
+      ],
+      "H001094": [
+        "D",
+        "OR"
+      ],
+      "H001067": [
+        "R",
+        "NC"
+      ],
+      "H001068": [
+        "D",
+        "CA"
+      ],
+      "H001058": [
+        "R",
+        "MI"
+      ],
+      "H001095": [
+        "R",
+        "TX"
+      ],
+      "H001100": [
+        "R",
+        "CO"
+      ],
+      "I000056": [
+        "R",
+        "CA"
+      ],
+      "I000058": [
+        "D",
+        "MD"
+      ],
+      "J000311": [
+        "R",
+        "GA"
+      ],
+      "J000309": [
+        "D",
+        "IL"
+      ],
+      "J000304": [
+        "R",
+        "TX"
+      ],
+      "J000305": [
+        "D",
+        "CA"
+      ],
+      "J000307": [
+        "R",
+        "MI"
+      ],
+      "J000298": [
+        "D",
+        "WA"
+      ],
+      "J000294": [
+        "D",
+        "NY"
+      ],
+      "J000288": [
+        "D",
+        "GA"
+      ],
+      "J000299": [
+        "R",
+        "LA"
+      ],
+      "J000301": [
+        "R",
+        "SD"
+      ],
+      "J000310": [
+        "D",
+        "TX"
+      ],
+      "J000289": [
+        "R",
+        "OH"
+      ],
+      "J000295": [
+        "R",
+        "OH"
+      ],
+      "J000302": [
+        "R",
+        "PA"
+      ],
+      "K000400": [
+        "D",
+        "CA"
+      ],
+      "K000009": [
+        "D",
+        "OH"
+      ],
+      "K000398": [
+        "R",
+        "NJ"
+      ],
+      "K000375": [
+        "D",
+        "MA"
+      ],
+      "K000385": [
+        "D",
+        "IL"
+      ],
+      "K000388": [
+        "R",
+        "MS"
+      ],
+      "K000376": [
+        "R",
+        "PA"
+      ],
+      "K000402": [
+        "D",
+        "NY"
+      ],
+      "K000403": [
+        "R",
+        "UT"
+      ],
+      "K000389": [
+        "D",
+        "CA"
+      ],
+      "K000399": [
+        "R",
+        "VA"
+      ],
+      "K000401": [
+        "I",
+        "CA"
+      ],
+      "K000397": [
+        "R",
+        "CA"
+      ],
+      "K000405": [
+        "R",
+        "NC"
+      ],
+      "K000391": [
+        "D",
+        "IL"
+      ],
+      "K000392": [
+        "R",
+        "TN"
+      ],
+      "L000585": [
+        "R",
+        "IL"
+      ],
+      "L000598": [
+        "R",
+        "NY"
+      ],
+      "L000601": [
+        "D",
+        "OH"
+      ],
+      "L000600": [
+        "R",
+        "NY"
+      ],
+      "L000560": [
+        "D",
+        "WA"
+      ],
+      "L000557": [
+        "D",
+        "CT"
+      ],
+      "L000606": [
+        "D",
+        "NY"
+      ],
+      "L000566": [
+        "R",
+        "OH"
+      ],
+      "L000599": [
+        "R",
+        "NY"
+      ],
+      "L000597": [
+        "R",
+        "FL"
+      ],
+      "L000590": [
+        "D",
+        "NV"
+      ],
+      "L000602": [
+        "D",
+        "PA"
+      ],
+      "L000273": [
+        "D",
+        "NM"
+      ],
+      "L000595": [
+        "R",
+        "LA"
+      ],
+      "L000593": [
+        "D",
+        "CA"
+      ],
+      "L000607": [
+        "D",
+        "CA"
+      ],
+      "L000582": [
+        "D",
+        "CA"
+      ],
+      "L000397": [
+        "D",
+        "CA"
+      ],
+      "L000583": [
+        "R",
+        "GA"
+      ],
+      "L000491": [
+        "R",
+        "OK"
+      ],
+      "L000596": [
+        "R",
+        "FL"
+      ],
+      "L000603": [
+        "R",
+        "TX"
+      ],
+      "L000562": [
+        "D",
+        "MA"
+      ],
+      "M000194": [
+        "R",
+        "SC"
+      ],
+      "M001230": [
+        "R",
+        "PA"
+      ],
+      "M001223": [
+        "D",
+        "RI"
+      ],
+      "M000317": [
+        "R",
+        "NY"
+      ],
+      "M001228": [
+        "R",
+        "UT"
+      ],
+      "M000871": [
+        "R",
+        "KS"
+      ],
+      "M001231": [
+        "D",
+        "NY"
+      ],
+      "M001184": [
+        "R",
+        "KY"
+      ],
+      "M001199": [
+        "R",
+        "FL"
+      ],
+      "M001163": [
+        "D",
+        "CA"
+      ],
+      "M001208": [
+        "D",
+        "GA"
+      ],
+      "M001238": [
+        "D",
+        "DE"
+      ],
+      "M001157": [
+        "R",
+        "TX"
+      ],
+      "M001136": [
+        "R",
+        "MI"
+      ],
+      "M001232": [
+        "D",
+        "MD"
+      ],
+      "M001227": [
+        "D",
+        "VA"
+      ],
+      "M001177": [
+        "R",
+        "CA"
+      ],
+      "M001143": [
+        "D",
+        "MN"
+      ],
+      "M001218": [
+        "R",
+        "GA"
+      ],
+      "M001237": [
+        "D",
+        "MI"
+      ],
+      "M001240": [
+        "R",
+        "NC"
+      ],
+      "M001220": [
+        "D",
+        "KY"
+      ],
+      "M000312": [
+        "D",
+        "MA"
+      ],
+      "M001239": [
+        "R",
+        "VA"
+      ],
+      "M001229": [
+        "D",
+        "NJ"
+      ],
+      "M001137": [
+        "D",
+        "NY"
+      ],
+      "M001246": [
+        "D",
+        "NJ"
+      ],
+      "M001245": [
+        "D",
+        "TX"
+      ],
+      "M001226": [
+        "D",
+        "NJ"
+      ],
+      "M001188": [
+        "D",
+        "NY"
+      ],
+      "M001233": [
+        "R",
+        "IN"
+      ],
+      "M001204": [
+        "R",
+        "PA"
+      ],
+      "M000687": [
+        "D",
+        "MD"
+      ],
+      "M001211": [
+        "R",
+        "IL"
+      ],
+      "M001222": [
+        "R",
+        "OH"
+      ],
+      "M001205": [
+        "R",
+        "WV"
+      ],
+      "M001215": [
+        "R",
+        "IA"
+      ],
+      "M001216": [
+        "R",
+        "FL"
+      ],
+      "M001241": [
+        "D",
+        "CA"
+      ],
+      "M001194": [
+        "R",
+        "MI"
+      ],
+      "M001212": [
+        "R",
+        "AL"
+      ],
+      "M001236": [
+        "R",
+        "NC"
+      ],
+      "M001213": [
+        "R",
+        "UT"
+      ],
+      "M001160": [
+        "D",
+        "WI"
+      ],
+      "M001235": [
+        "R",
+        "WV"
+      ],
+      "M001224": [
+        "R",
+        "TX"
+      ],
+      "M001206": [
+        "D",
+        "NY"
+      ],
+      "M001234": [
+        "D",
+        "MN"
+      ],
+      "M001217": [
+        "D",
+        "FL"
+      ],
+      "M001196": [
+        "D",
+        "MA"
+      ],
+      "M001214": [
+        "D",
+        "IN"
+      ],
+      "M001225": [
+        "D",
+        "CA"
+      ],
+      "M001210": [
+        "R",
+        "NC"
+      ],
+      "N000002": [
+        "D",
+        "NY"
+      ],
+      "N000015": [
+        "D",
+        "MA"
+      ],
+      "N000191": [
+        "D",
+        "CO"
+      ],
+      "N000026": [
+        "R",
+        "TX"
+      ],
+      "N000189": [
+        "R",
+        "WA"
+      ],
+      "N000188": [
+        "D",
+        "NJ"
+      ],
+      "N000190": [
+        "R",
+        "SC"
+      ],
+      "N000193": [
+        "R",
+        "IA"
+      ],
+      "O000019": [
+        "R",
+        "CA"
+      ],
+      "O000172": [
+        "D",
+        "NY"
+      ],
+      "O000175": [
+        "R",
+        "TN"
+      ],
+      "O000176": [
+        "D",
+        "MD"
+      ],
+      "O000173": [
+        "D",
+        "MN"
+      ],
+      "O000177": [
+        "R",
+        "MO"
+      ],
+      "O000086": [
+        "R",
+        "UT"
+      ],
+      "P000034": [
+        "D",
+        "NJ"
+      ],
+      "P000609": [
+        "R",
+        "AL"
+      ],
+      "P000613": [
+        "D",
+        "CA"
+      ],
+      "P000614": [
+        "D",
+        "NH"
+      ],
+      "P000622": [
+        "R",
+        "FL"
+      ],
+      "P000197": [
+        "D",
+        "CA"
+      ],
+      "G000600": [
+        "D",
+        "WA"
+      ],
+      "P000605": [
+        "R",
+        "PA"
+      ],
+      "P000608": [
+        "D",
+        "CA"
+      ],
+      "P000620": [
+        "D",
+        "CO"
+      ],
+      "P000048": [
+        "R",
+        "TX"
+      ],
+      "P000597": [
+        "D",
+        "ME"
+      ],
+      "P000607": [
+        "D",
+        "WI"
+      ],
+      "P000621": [
+        "D",
+        "NJ"
+      ],
+      "P000617": [
+        "D",
+        "MA"
+      ],
+      "Q000023": [
+        "D",
+        "IL"
+      ],
+      "R000617": [
+        "D",
+        "IL"
+      ],
+      "R000621": [
+        "D",
+        "WA"
+      ],
+      "R000606": [
+        "D",
+        "MD"
+      ],
+      "R000610": [
+        "R",
+        "PA"
+      ],
+      "R000622": [
+        "D",
+        "NY"
+      ],
+      "R000620": [
+        "D",
+        "CA"
+      ],
+      "R000575": [
+        "R",
+        "AL"
+      ],
+      "R000395": [
+        "R",
+        "KY"
+      ],
+      "R000612": [
+        "R",
+        "TN"
+      ],
+      "R000305": [
+        "D",
+        "NC"
+      ],
+      "R000603": [
+        "R",
+        "NC"
+      ],
+      "R000614": [
+        "R",
+        "TX"
+      ],
+      "R000599": [
+        "D",
+        "CA"
+      ],
+      "R000619": [
+        "R",
+        "OH"
+      ],
+      "R000609": [
+        "R",
+        "FL"
+      ],
+      "R000579": [
+        "D",
+        "NY"
+      ],
+      "S000168": [
+        "R",
+        "FL"
+      ],
+      "S001226": [
+        "D",
+        "OR"
+      ],
+      "S001156": [
+        "D",
+        "CA"
+      ],
+      "S001176": [
+        "R",
+        "LA"
+      ],
+      "S001205": [
+        "D",
+        "PA"
+      ],
+      "S001145": [
+        "D",
+        "IL"
+      ],
+      "S001228": [
+        "R",
+        "KS"
+      ],
+      "S001190": [
+        "D",
+        "IL"
+      ],
+      "S001221": [
+        "D",
+        "MI"
+      ],
+      "S001216": [
+        "D",
+        "WA"
+      ],
+      "S001183": [
+        "R",
+        "AZ"
+      ],
+      "S000185": [
+        "D",
+        "VA"
+      ],
+      "S001189": [
+        "R",
+        "GA"
+      ],
+      "S001224": [
+        "R",
+        "TX"
+      ],
+      "S000250": [
+        "R",
+        "TX"
+      ],
+      "S001185": [
+        "D",
+        "AL"
+      ],
+      "S000344": [
+        "D",
+        "CA"
+      ],
+      "S001229": [
+        "R",
+        "IN"
+      ],
+      "S001231": [
+        "D",
+        "CA"
+      ],
+      "S001148": [
+        "R",
+        "ID"
+      ],
+      "S001195": [
+        "R",
+        "MO"
+      ],
+      "S001172": [
+        "R",
+        "NE"
+      ],
+      "S000522": [
+        "R",
+        "NJ"
+      ],
+      "S000510": [
+        "D",
+        "WA"
+      ],
+      "S001199": [
+        "R",
+        "PA"
+      ],
+      "S001225": [
+        "D",
+        "IL"
+      ],
+      "S001200": [
+        "D",
+        "FL"
+      ],
+      "S000929": [
+        "R",
+        "IN"
+      ],
+      "S001218": [
+        "D",
+        "NM"
+      ],
+      "S001211": [
+        "D",
+        "AZ"
+      ],
+      "S001212": [
+        "R",
+        "MN"
+      ],
+      "S001196": [
+        "R",
+        "NY"
+      ],
+      "S001213": [
+        "R",
+        "WI"
+      ],
+      "S001214": [
+        "R",
+        "FL"
+      ],
+      "S001215": [
+        "D",
+        "MI"
+      ],
+      "S001159": [
+        "D",
+        "WA"
+      ],
+      "S001220": [
+        "R",
+        "AL"
+      ],
+      "S001188": [
+        "R",
+        "IN"
+      ],
+      "S001230": [
+        "D",
+        "VA"
+      ],
+      "S001201": [
+        "D",
+        "NY"
+      ],
+      "S001223": [
+        "D",
+        "OH"
+      ],
+      "T000472": [
+        "D",
+        "CA"
+      ],
+      "T000490": [
+        "R",
+        "OH"
+      ],
+      "T000478": [
+        "R",
+        "NY"
+      ],
+      "T000488": [
+        "D",
+        "MI"
+      ],
+      "T000460": [
+        "D",
+        "CA"
+      ],
+      "T000193": [
+        "D",
+        "MS"
+      ],
+      "T000467": [
+        "R",
+        "PA"
+      ],
+      "T000165": [
+        "R",
+        "WI"
+      ],
+      "T000480": [
+        "R",
+        "SC"
+      ],
+      "T000468": [
+        "D",
+        "NV"
+      ],
+      "T000481": [
+        "D",
+        "MI"
+      ],
+      "T000487": [
+        "D",
+        "HI"
+      ],
+      "T000469": [
+        "D",
+        "NY"
+      ],
+      "T000474": [
+        "D",
+        "CA"
+      ],
+      "T000486": [
+        "D",
+        "NY"
+      ],
+      "T000482": [
+        "D",
+        "MA"
+      ],
+      "T000491": [
+        "D",
+        "CA"
+      ],
+      "T000463": [
+        "R",
+        "OH"
+      ],
+      "U000040": [
+        "D",
+        "IL"
+      ],
+      "V000129": [
+        "R",
+        "CA"
+      ],
+      "V000133": [
+        "R",
+        "NJ"
+      ],
+      "V000134": [
+        "R",
+        "TX"
+      ],
+      "V000139": [
+        "R",
+        "TN"
+      ],
+      "V000135": [
+        "R",
+        "WI"
+      ],
+      "V000130": [
+        "D",
+        "CA"
+      ],
+      "V000136": [
+        "D",
+        "NM"
+      ],
+      "V000131": [
+        "D",
+        "TX"
+      ],
+      "V000081": [
+        "D",
+        "NY"
+      ],
+      "V000138": [
+        "D",
+        "VA"
+      ],
+      "W000812": [
+        "R",
+        "MO"
+      ],
+      "W000798": [
+        "R",
+        "MI"
+      ],
+      "W000831": [
+        "D",
+        "VA"
+      ],
+      "W000797": [
+        "D",
+        "FL"
+      ],
+      "W000187": [
+        "D",
+        "CA"
+      ],
+      "W000822": [
+        "D",
+        "NJ"
+      ],
+      "W000814": [
+        "R",
+        "TX"
+      ],
+      "W000806": [
+        "R",
+        "FL"
+      ],
+      "W000821": [
+        "R",
+        "AR"
+      ],
+      "W000830": [
+        "D",
+        "CA"
+      ],
+      "W000829": [
+        "R",
+        "WI"
+      ],
+      "W000788": [
+        "D",
+        "GA"
+      ],
+      "W000816": [
+        "R",
+        "TX"
+      ],
+      "W000808": [
+        "D",
+        "FL"
+      ],
+      "W000795": [
+        "R",
+        "SC"
+      ],
+      "W000804": [
+        "R",
+        "VA"
+      ],
+      "W000809": [
+        "R",
+        "AR"
+      ],
+      "Y000067": [
+        "R",
+        "IN"
+      ],
+      "Z000018": [
+        "R",
+        "MT"
+      ]
+    },
+    "result": "Passed",
+    "yea": 218,
+    "nay": 203
+  },
+  "points": [
+    {
+      "debateScope": "general",
+      "bio": "G000558",
+      "speaker": "Brett Guthrie",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3421.htm",
+      "start": 18370,
+      "quote": "The underlying bill will allow for year-round sale of 15 percent \nethanol and gasoline, which farmers say is needed to provide an \nadditional market for their crops without impacting air quality.",
+      "display": "The underlying bill will allow for year-round sale of 15 percent ethanol and gasoline, which farmers say is needed to provide an additional market for their crops without impacting air quality.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3421.htm#:~:text=The%20underlying%20bill%20will%20allow%20for%20year%2Dround%20sale%20of%2015%20percent%20ethanol%20and%20gasoline%2C%20which%20farmers%20say%20is%20needed%20to%20provide%20an%20additional%20market%20for%20their%20crops%20without%20impacting%20air%20quality.",
+      "end": 18565,
+      "sentenceIds": [
+        "2.3"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "F000482",
+      "speaker": "Julie Fedorchak",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3421.htm",
+      "start": 31464,
+      "quote": "E15 is homegrown American energy. Most importantly, eliminating the \nartificial prohibition on summer sales of E15 is an important step \ntoward creating the consistent demand that will allow this industry to \ngrow and stand on its own without RFS one day.\n  We have to get this done first.",
+      "display": "E15 is homegrown American energy. Most importantly, eliminating the artificial prohibition on summer sales of E15 is an important step toward creating the consistent demand that will allow this industry to grow and stand on its own without RFS one day. We have to get this done first.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3421.htm#:~:text=E15%20is%20homegrown%20American%20energy.%20Most%20importantly%2C%20eliminating%20the%20artificial%20prohibition%20on%20summer%20sales%20of%20E15%20is%20an%20important%20step%20toward%20creating%20the%20consistent%20demand%20that%20will%20allow%20this%20industry%20to%20grow%20and%20stand%20on%20its%20own%20without%20RFS%20one%20day.%20We%20have%20to%20get%20this%20done%20first.",
+      "end": 31753,
+      "sentenceIds": [
+        "10.11",
+        "10.12",
+        "10.13"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "H001096",
+      "speaker": "Harriet M. Hageman",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3421.htm",
+      "start": 45496,
+      "quote": "This bill is disastrous for Wyoming refiners and independent \npetroleum producers, leading to a direct loss of at least 750 jobs in \nmy home State.",
+      "display": "This bill is disastrous for Wyoming refiners and independent petroleum producers, leading to a direct loss of at least 750 jobs in my home State.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3421.htm#:~:text=This%20bill%20is%20disastrous%20for%20Wyoming%20refiners%20and%20independent%20petroleum%20producers%2C%20leading%20to%20a%20direct%20loss%20of%20at%20least%20750%20jobs%20in%20my%20home%20State.",
+      "end": 45643,
+      "sentenceIds": [
+        "22.1"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "R000614",
+      "speaker": "Chip Roy",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3421.htm",
+      "start": 58122,
+      "quote": "Expanding E15 is just the wrong direction to go. \nIt is going to harm refiners. It is going to drive up the cost of gas.",
+      "display": "Expanding E15 is just the wrong direction to go. It is going to harm refiners. It is going to drive up the cost of gas.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-05-13/html/CREC-2026-05-13-pt1-PgH3421.htm#:~:text=Expanding%20E15%20is%20just%20the%20wrong%20direction%20to%20go.%20It%20is%20going%20to%20harm%20refiners.%20It%20is%20going%20to%20drive%20up%20the%20cost%20of%20gas.",
+      "end": 58242,
+      "sentenceIds": [
+        "36.7",
+        "36.8",
+        "36.9"
+      ]
+    }
+  ],
+  "diagnostics": {
+    "selection": [
+      {
+        "side": "Yea",
+        "attempt": 1,
+        "spanIds": [
+          3,
+          12,
+          14,
+          39,
+          47,
+          57,
+          90,
+          107
+        ],
+        "spans": [
+          [
+            "2.3"
+          ],
+          [
+            "10.0",
+            "10.1",
+            "10.2"
+          ],
+          [
+            "10.1",
+            "10.2"
+          ],
+          [
+            "10.11",
+            "10.12",
+            "10.13"
+          ],
+          [
+            "10.14",
+            "10.15"
+          ],
+          [
+            "12.1"
+          ],
+          [
+            "12.14",
+            "12.15",
+            "12.16"
+          ],
+          [
+            "14.1"
+          ]
+        ]
+      },
+      {
+        "side": "Nay",
+        "attempt": 1,
+        "spanIds": [
+          54,
+          58,
+          61,
+          65,
+          71,
+          74,
+          75,
+          78,
+          81,
+          83,
+          84,
+          86,
+          88,
+          90,
+          92,
+          104,
+          106,
+          107,
+          108,
+          111,
+          113,
+          116,
+          120,
+          122,
+          123,
+          125,
+          129,
+          131,
+          135,
+          140,
+          143,
+          146,
+          149,
+          152,
+          155,
+          158,
+          161,
+          164,
+          167
+        ],
+        "spans": [
+          [
+            "22.1"
+          ],
+          [
+            "22.2",
+            "22.3"
+          ],
+          [
+            "22.3",
+            "22.4"
+          ],
+          [
+            "22.5",
+            "22.6"
+          ],
+          [
+            "30.1",
+            "30.2"
+          ],
+          [
+            "30.2",
+            "30.3"
+          ],
+          [
+            "30.2",
+            "30.3",
+            "30.4"
+          ],
+          [
+            "30.3",
+            "30.4",
+            "30.5"
+          ],
+          [
+            "30.4",
+            "30.5",
+            "30.6"
+          ],
+          [
+            "30.5",
+            "30.6"
+          ],
+          [
+            "30.5",
+            "30.6",
+            "30.7"
+          ],
+          [
+            "30.7",
+            "30.8"
+          ],
+          [
+            "30.8",
+            "30.9"
+          ],
+          [
+            "30.9",
+            "30.10"
+          ],
+          [
+            "30.10",
+            "30.11"
+          ],
+          [
+            "36.2",
+            "36.3"
+          ],
+          [
+            "36.3"
+          ],
+          [
+            "36.3",
+            "36.4"
+          ],
+          [
+            "36.3",
+            "36.4",
+            "36.5"
+          ],
+          [
+            "36.4",
+            "36.5",
+            "36.6"
+          ],
+          [
+            "36.5",
+            "36.6"
+          ],
+          [
+            "36.6",
+            "36.7"
+          ],
+          [
+            "36.7",
+            "36.8",
+            "36.9"
+          ],
+          [
+            "36.8",
+            "36.9"
+          ],
+          [
+            "36.8",
+            "36.9",
+            "36.10"
+          ],
+          [
+            "36.9",
+            "36.10"
+          ],
+          [
+            "36.10",
+            "36.11",
+            "36.12"
+          ],
+          [
+            "36.11",
+            "36.12"
+          ],
+          [
+            "36.12",
+            "36.13",
+            "36.14"
+          ],
+          [
+            "36.15",
+            "36.16"
+          ],
+          [
+            "36.16",
+            "36.17"
+          ],
+          [
+            "36.17",
+            "36.18"
+          ],
+          [
+            "36.18",
+            "36.19"
+          ],
+          [
+            "36.19",
+            "36.20"
+          ],
+          [
+            "36.20",
+            "36.21"
+          ],
+          [
+            "36.21",
+            "36.22"
+          ],
+          [
+            "36.22",
+            "36.23"
+          ],
+          [
+            "36.23",
+            "36.24"
+          ],
+          [
+            "36.24",
+            "36.25"
+          ]
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": 0,
+        "effect_evidence": "allow for year-round sale of 15 percent ethanol and gasoline",
+        "value_evidence": "farmers say is needed to provide an additional market for their crops without impacting air quality",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It states the bill’s effect (year-round E15 sales) and gives a policy reason it is desirable (adds a market for crops without harming air quality).",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "2.3"
+        ]
+      },
+      {
+        "id": 1,
+        "effect_evidence": "support this step forward on year- round E15",
+        "value_evidence": "agriculture is hurting. Across the country, input costs are up.",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It mentions support for E15 but does not state a concrete effect of the bill or explain why that effect is beneficial or harmful; the agricultural hardship is background, not a policy-linked consequence.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "10.0",
+          "10.1",
+          "10.2"
+        ]
+      },
+      {
+        "id": 2,
+        "effect_evidence": "",
+        "value_evidence": "agriculture is hurting. Across the country, input costs are up.",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "This is only background about farmers’ conditions and input costs, with no bill action/effect or policy consequence.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "10.1",
+          "10.2"
+        ]
+      },
+      {
+        "id": 3,
+        "effect_evidence": "eliminating the artificial prohibition on summer sales of E15",
+        "value_evidence": "an important step toward creating the consistent demand that will allow this industry to grow and stand on its own without RFS one day",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It identifies the bill’s action (ending the summer-sales prohibition) and explains the claimed benefit (consistent demand that helps the industry grow).",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "10.11",
+          "10.12",
+          "10.13"
+        ]
+      },
+      {
+        "id": 4,
+        "effect_evidence": "It will add $25.3 billion to U.S. GDP and support more than 128,000 full-time jobs",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It gives claimed economic effects, but not why those effects are desirable or harmful in a policy argument.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "10.14",
+          "10.15"
+        ]
+      },
+      {
+        "id": 5,
+        "effect_evidence": "we didn't allow farmers to produce this biofuel all year-round; that we didn't allow consumers to have this option",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It describes the prior restriction and the bill’s general subject, but does not explain a concrete effect of this bill or why that effect is desirable or harmful.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "12.1"
+        ]
+      },
+      {
+        "id": 6,
+        "effect_evidence": "that is a 30- cent savings with every gallon",
+        "value_evidence": "That is how much more affordable this option is",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It states a concrete effect of the bill-related option (lower per-gallon cost) and directly frames that effect as desirable because it is more affordable.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "12.14",
+          "12.15",
+          "12.16"
+        ]
+      },
+      {
+        "id": 7,
+        "effect_evidence": "",
+        "value_evidence": "energy independence is no longer a theoretical goal but a vital part of America's national security and economic survival",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "This is a general value claim about energy independence, not a specific bill effect or mechanism linked to the legislation.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "14.1"
+        ]
+      },
+      {
+        "id": 0,
+        "effect_evidence": "leading to a direct loss of at least 750 jobs",
+        "value_evidence": "This bill is disastrous for Wyoming refiners and independent petroleum producers",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It identifies a concrete harm attributed to the bill (job loss) and states why that harm is bad.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "22.1"
+        ]
+      },
+      {
+        "id": 1,
+        "effect_evidence": "this bill threatens to put them out of business",
+        "value_evidence": "the refiners",
+        "substantive": true,
+        "stands_alone": false,
+        "reason": "It gives a concrete harmful effect of the bill and a negative judgment about that effect, but the claim relies on prior context to know who 'them' are.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "22.2",
+          "22.3"
+        ]
+      },
+      {
+        "id": 2,
+        "effect_evidence": "this bill threatens to put them out of business",
+        "value_evidence": "forced, mandated, to meet the E15 requirement",
+        "substantive": true,
+        "stands_alone": false,
+        "reason": "It states a bill-induced mandate and says it will put refiners out of business, which is a harmful consequence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "22.3",
+          "22.4"
+        ]
+      },
+      {
+        "id": 3,
+        "effect_evidence": "at risk of closure because of this bill",
+        "value_evidence": "We could lose upward of 266,000 indirect jobs",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It specifies closure risk caused by the bill and explains the resulting job loss is harmful.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "22.5",
+          "22.6"
+        ]
+      },
+      {
+        "id": 4,
+        "effect_evidence": "It makes significant changes to definitions under the Renewable Fuel Standard",
+        "value_evidence": "impact 80 percent of small refineries",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It describes a policy change and its scope, but does not explain why that impact is desirable or harmful.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.1",
+          "30.2"
+        ]
+      },
+      {
+        "id": 5,
+        "effect_evidence": "It makes significant changes to definitions under the Renewable Fuel Standard",
+        "value_evidence": "impact 80 percent of small refineries",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "The quote states a bill effect and a scale of impact, but no expressed benefit or harm linked to that effect.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.2",
+          "30.3"
+        ]
+      },
+      {
+        "id": 6,
+        "effect_evidence": "It makes significant changes to definitions under the Renewable Fuel Standard",
+        "value_evidence": "impact 80 percent of small refineries",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It mentions a concrete policy change and affected entities, but not why that change matters.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.2",
+          "30.3",
+          "30.4"
+        ]
+      },
+      {
+        "id": 7,
+        "effect_evidence": "Under this bill, their definition would change.",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It identifies a change in definition, but no consequence or why that consequence is good or bad.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.3",
+          "30.4",
+          "30.5"
+        ]
+      },
+      {
+        "id": 8,
+        "effect_evidence": "They would no longer be small refineries",
+        "value_evidence": "no longer be able to obtain relief from the RFS compliance costs",
+        "substantive": true,
+        "stands_alone": false,
+        "reason": "It gives a concrete effect of the bill and explains the harmful consequence of losing compliance relief.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.4",
+          "30.5",
+          "30.6"
+        ]
+      },
+      {
+        "id": 9,
+        "effect_evidence": "They would no longer be small refineries",
+        "value_evidence": "no longer be able to obtain relief from the RFS compliance costs",
+        "substantive": true,
+        "stands_alone": false,
+        "reason": "It states the effect and its harmful policy consequence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.5",
+          "30.6"
+        ]
+      },
+      {
+        "id": 10,
+        "effect_evidence": "They would no longer be small refineries",
+        "value_evidence": "face an impact of over $100 million a year",
+        "substantive": true,
+        "stands_alone": false,
+        "reason": "It describes a concrete effect from the bill and gives a specific harmful cost consequence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.5",
+          "30.6",
+          "30.7"
+        ]
+      },
+      {
+        "id": 11,
+        "effect_evidence": "",
+        "value_evidence": "disproportionate impact on small refineries",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is a harm judgment about an impact, but the underlying bill effect is not stated in this sentence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.7",
+          "30.8"
+        ]
+      },
+      {
+        "id": 12,
+        "effect_evidence": "",
+        "value_evidence": "we can't afford to lose essential energy infrastructure",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It expresses a negative judgment and background concern, but does not state the bill's concrete action/effect.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.8",
+          "30.9"
+        ]
+      },
+      {
+        "id": 13,
+        "effect_evidence": "",
+        "value_evidence": "this is a matter of affordability for Coloradans",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It states a policy value judgment, but not a concrete bill effect.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.9",
+          "30.10"
+        ]
+      },
+      {
+        "id": 14,
+        "effect_evidence": "",
+        "value_evidence": "gas prices spiked by $1.40 a gallon",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It gives a past fact about prices, but does not state what this bill does or why the bill's effect is desirable or harmful.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "30.10",
+          "30.11"
+        ]
+      },
+      {
+        "id": 15,
+        "effect_evidence": "",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is merely a general acknowledgment with no bill effect or argument.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.2",
+          "36.3"
+        ]
+      },
+      {
+        "id": 16,
+        "effect_evidence": "",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is only a general statement, with no bill-specific effect or value claim.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.3"
+        ]
+      },
+      {
+        "id": 17,
+        "effect_evidence": "",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is a process/background remark, not a policy argument about the bill's effects.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.3",
+          "36.4"
+        ]
+      },
+      {
+        "id": 18,
+        "effect_evidence": "",
+        "value_evidence": "I just think we ought to be going about this a different way",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is an approach objection without a concrete bill effect or consequence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.3",
+          "36.4",
+          "36.5"
+        ]
+      },
+      {
+        "id": 19,
+        "effect_evidence": "",
+        "value_evidence": "If we need to do something to support farmers",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It calls for a different approach but does not identify the bill's concrete effect or why it is harmful.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.4",
+          "36.5",
+          "36.6"
+        ]
+      },
+      {
+        "id": 20,
+        "effect_evidence": "",
+        "value_evidence": "Expanding E15 is just the wrong direction to go",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is a value judgment without an articulated policy consequence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.5",
+          "36.6"
+        ]
+      },
+      {
+        "id": 21,
+        "effect_evidence": "",
+        "value_evidence": "It is going to harm refiners",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "The harm is stated, but the specific bill action/effect causing it is not identified in this quote.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.6",
+          "36.7"
+        ]
+      },
+      {
+        "id": 22,
+        "effect_evidence": "Expanding E15",
+        "value_evidence": "It is going to harm refiners",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It names the bill's concrete effect and explains it will harm refiners.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.7",
+          "36.8",
+          "36.9"
+        ]
+      },
+      {
+        "id": 23,
+        "effect_evidence": "",
+        "value_evidence": "It is going to drive up the cost of gas",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "The harmful consequence is stated, but the specific bill action/effect is missing.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.8",
+          "36.9"
+        ]
+      },
+      {
+        "id": 24,
+        "effect_evidence": "",
+        "value_evidence": "It is going to drive up the price of energy, generally",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It states a harm, but not the concrete policy change causing it.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.8",
+          "36.9",
+          "36.10"
+        ]
+      },
+      {
+        "id": 25,
+        "effect_evidence": "It is, in fact, a mandate.",
+        "value_evidence": "drive up the price of energy",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It identifies the bill as an expansion of a mandate and says that will raise energy prices.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.9",
+          "36.10"
+        ]
+      },
+      {
+        "id": 26,
+        "effect_evidence": "It is, in fact, a mandate.",
+        "value_evidence": "It is an expansion of the mandate",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It states the bill's nature, but offers no clear reason why that is harmful or desirable.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.10",
+          "36.11",
+          "36.12"
+        ]
+      },
+      {
+        "id": 27,
+        "effect_evidence": "It is an expansion of the mandate.",
+        "value_evidence": "That is what the practical effects of it will be",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It names an effect but the quote does not specify any concrete consequence or why it matters.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.11",
+          "36.12"
+        ]
+      },
+      {
+        "id": 28,
+        "effect_evidence": "it does with respect to the E15 requirement in the summer",
+        "value_evidence": "It doesn't fix the Renewable Fuel Standard, which is the core of the problem",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It identifies a concrete policy effect and says the failure to fix the RFS is harmful because it is the core problem.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.12",
+          "36.13",
+          "36.14"
+        ]
+      },
+      {
+        "id": 29,
+        "effect_evidence": "We are making it massively difficult for refining capacity to grow in the United States",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It states a harmful effect, but does not clearly tie it to this bill's concrete action.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.15",
+          "36.16"
+        ]
+      },
+      {
+        "id": 30,
+        "effect_evidence": "We are not actually solving the problem here",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is a conclusory objection without a specific bill effect or consequence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.16",
+          "36.17"
+        ]
+      },
+      {
+        "id": 31,
+        "effect_evidence": "trying to put a Band-Aid on it",
+        "value_evidence": "expands the mandate",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It references the bill's mandate expansion, but the 'Band-Aid' phrasing is not a clear policy consequence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.17",
+          "36.18"
+        ]
+      },
+      {
+        "id": 32,
+        "effect_evidence": "It doesn't fix the Renewable Fuel Standard",
+        "value_evidence": "which is the core of the problem",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It states a concrete policy deficiency and explains why that deficiency is harmful.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.18",
+          "36.19"
+        ]
+      },
+      {
+        "id": 33,
+        "effect_evidence": "",
+        "value_evidence": "It is trying to backdoor into farm subsidies",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It alleges an improper motive/effect but does not state a concrete bill mechanism or consequence.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.19",
+          "36.20"
+        ]
+      },
+      {
+        "id": 34,
+        "effect_evidence": "",
+        "value_evidence": "this bill should go to committee",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is a process objection only.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.20",
+          "36.21"
+        ]
+      },
+      {
+        "id": 35,
+        "effect_evidence": "",
+        "value_evidence": "This bill should be amended and debated",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is a procedural objection without a substantive policy effect.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.21",
+          "36.22"
+        ]
+      },
+      {
+        "id": 36,
+        "effect_evidence": "",
+        "value_evidence": "We shouldn't be putting it on the floor right now",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is only a scheduling/process objection.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.22",
+          "36.23"
+        ]
+      },
+      {
+        "id": 37,
+        "effect_evidence": "",
+        "value_evidence": "It is not ready for prime time",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is a generic value judgment with no policy link.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.23",
+          "36.24"
+        ]
+      },
+      {
+        "id": 38,
+        "effect_evidence": "",
+        "value_evidence": "I am going to oppose the legislation",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It announces opposition but gives no bill effect or reason.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "36.24",
+          "36.25"
+        ]
+      }
+    ],
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_0405fbe340acc368016b05c02b41b887d280882223887e48c9",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 9298,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 27,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 9325
+        },
+        "estimatedUsd": 0.007095,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_0400d381d036bd8e016b05c02c279887d2af2f0ba49038eef1",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 758,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 649,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 1407
+        },
+        "estimatedUsd": 0.003489,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_0f42f149ef0705f5016b05c0309f1487d2b0483b6bc95d7a30",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 3543,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 89,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3632
+        },
+        "estimatedUsd": 0.00305775,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_02f75b1001bc90a6016b05c031f41487d2bf721b0380b015c8",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 1851,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 2269,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 4120
+        },
+        "estimatedUsd": 0.01159875,
+        "status": "completed"
+      }
+    ],
+    "excludedAmendmentParagraphs": 0,
+    "candidateCounts": {
+      "Yea": 439,
+      "Nay": 173
+    }
+  }
+}
