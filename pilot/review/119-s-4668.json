@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "a04fe23196c2f3f14392f855cea2c39ceafa11b626a0cc20ba9f01e90856d649",
+  "debateFingerprint": "1ecd2b41b2d4836f8a48664d6cbf03cf874864527e1f082abe06deeb4a7c0c4e",
   "bill": "119-s-4668",
   "vote": "senate:119:2:250",
   "sources": {
@@ -415,251 +415,301 @@
     "yea": 77,
     "nay": 22
   },
-  "points": [
-    {
-      "bio": "C001098",
-      "speaker": "Ted Cruz",
-      "side": "Yea",
-      "manager": false,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-      "start": 99667,
-      "quote": "Madam President, the Senate will soon pass landmark \nlegislation to protect college sports. When any legislation, \nparticularly landmark legislation, is enacted into law, there can be \ndebate over that law's implementation. This isn't surprising. As the \nSenate prepares to potentially send the PCSA to the House of \nRepresentatives, I want to take a few moments to briefly explain the \nreasoning and intent behind some select, key provisions of the PCSA. I \nbelieve this will be useful not only for my colleagues here today, but \nfor the PCSA's implementation.",
-      "summary": "The Senate will soon pass landmark legislation to protect college sports.",
-      "index": 6
-    },
-    {
-      "bio": "B001288",
-      "speaker": "Cory A. Booker",
-      "side": "Nay",
-      "manager": false,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-      "start": 72807,
-      "quote": "Well, this is a bill, going forward, where college athletes and the \norganizations that represent them have not had a seat at the table. It \nis a bill that was actually shaped by millions of dollars in lobbying \nfrom the NCAA and other powerful interests that control that industry. \nAnd at its core, it is a bill that undermines the rights of young \npeople who pour their blood, sweat, tears, countless hours of work, and \nmore into their craft. Their voices should have shaped this debate. We \nshould have listened to their wisdom before voting today, before \nrushing to this vote as the last thing we do before a long recess.",
-      "summary": "Well, this is a bill, going forward, where college athletes and the organizations that represent them have not had a seat at the table. It is a bill that was actually shaped by millions of dollars in lobbying from the NCAA and other powerful interests that control that industry. And at its core, it is a bill that undermines the rights of young people who pour their blood, sweat, tears, countless hours of work, and more into their craft. Their voices should have shaped this debate. We should have listened to their wisdom before voting today, before rushing to this vote as the last thing we do before a long recess.",
-      "index": 12
-    }
-  ],
+  "points": [],
   "diagnostics": {
     "selection": [
       {
-        "bio": "C001098",
-        "speaker": "Ted Cruz",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 99667,
-        "quote": "Madam President, the Senate will soon pass landmark \nlegislation to protect college sports. When any legislation, \nparticularly landmark legislation, is enacted into law, there can be \ndebate over that law's implementation. This isn't surprising. As the \nSenate prepares to potentially send the PCSA to the House of \nRepresentatives, I want to take a few moments to briefly explain the \nreasoning and intent behind some select, key provisions of the PCSA. I \nbelieve this will be useful not only for my colleagues here today, but \nfor the PCSA's implementation.",
-        "summary": "The Senate will soon pass landmark legislation to protect college sports.",
-        "index": 6,
-        "reason": "Supports the bill by endorsing the legislation as landmark and necessary."
+        "pick": {
+          "paragraph": 55,
+          "first_sentence_id": 0,
+          "last_sentence_id": 6,
+          "reason": "Explains concrete athlete protections in the bill, including agent fraud, scholarship continuity, injury care, and opportunities across divisions."
+        }
       },
       {
-        "bio": "S001227",
-        "speaker": "Eric Schmitt",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 56552,
-        "quote": "The Protect College Sports Act is built around a simple idea: \nathletes should be able to benefit from their talent, they should be \nprotected from people who want to take advantage of them, and every \nschool and every athlete should play by the same set of rules.",
-        "summary": "Athletes should be able to benefit from their talent, they should be protected from people who want to take advantage of them, and every school and every athlete should play by the same set of rules.",
-        "index": 15,
-        "reason": "Directly states the bill's core proponent rationale for supporting athlete benefits, protections, and uniform rules."
+        "pick": {
+          "paragraph": 58,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States that the bill makes athlete protections real by enshrining revenue sharing and NIL compensation and funding women’s and Olympic sports."
+        }
       },
       {
-        "bio": "S001227",
-        "speaker": "Eric Schmitt",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 56985,
-        "quote": "The problem is that college sports entered this new era without a \nstable framework to govern it. One court issues an order, one State \npasses a law, one conference adopts a rule, another court blocks it. \nBefore athletes, coaches, and schools can adjust, the rules change all \nover again. This is the contradiction facing college athletics today.",
-        "summary": "The problem is that college sports entered this new era without a stable framework to govern it.",
-        "index": 35,
-        "reason": "Supports the bill as a needed response to instability in college sports."
+        "pick": {
+          "paragraph": 66,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Summarizes the bill’s core policy goals: athlete benefits, protection from exploitation, and uniform rules."
+        }
       },
       {
-        "bio": "S001227",
-        "speaker": "Eric Schmitt",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 57335,
-        "quote": "The product is booming, but the model is breaking. Stadiums are \npacked, television audiences are strong, and billions of dollars are \nmoving through the system; but behind the scenes, athletes and schools \nare trying to operate under a patchwork of State laws, court rulings, \nand conflicting standards. The Protect College Sports Act replaces that \nuncertainty with one national framework.",
-        "summary": "The product is booming, but the model is breaking.",
-        "index": 43,
-        "reason": "Argues the bill is needed because the current system is unstable despite strong demand and money."
+        "pick": {
+          "paragraph": 69,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues the bill replaces a chaotic patchwork of state laws and court rulings with a national framework."
+        }
       },
       {
-        "bio": "S001227",
-        "speaker": "Eric Schmitt",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 57729,
-        "quote": "An athlete in Missouri should have the same basic rights and \nprotections as an athlete in California, Florida, or anywhere else in \nthis country. A school should not gain an advantage simply because its \nState legislature passed a different NIL law. And a national \ncompetition should not be governed by 50 different rule books--that \ndoes not work in practice.",
-        "summary": "An athlete in Missouri should have the same basic rights and protections as an athlete in California, Florida, or anywhere else in this country.",
-        "index": 51,
-        "reason": "Supports the bill on the ground that athletes should have uniform rights and protections nationwide."
+        "pick": {
+          "paragraph": 71,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Supports the bill because it sets clear national rules and gives the governing body enforcement power so the rules actually work."
+        }
       },
       {
-        "bio": "S001227",
-        "speaker": "Eric Schmitt",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 58341,
-        "quote": "Just as important, athletes can keep making money. Let's be clear: \nthis bill does not end NIL. It protects an athlete's right to earn \nmoney from his or her name, image, and likeness in Federal law for the \nfirst time. Athletes can still sign legitimate endorsement deals, work \nwith local businesses and national brands, or hire an agent or an \nattorney. And schools can continue sharing substantial revenue directly \nwith their student-athletes.",
-        "summary": "This bill does not end NIL. It protects an athlete's right to earn money from his or her name, image, and likeness in Federal law for the first time.",
-        "index": 65,
-        "reason": "Supports the bill because it secures NIL rights and continued athlete compensation."
+        "pick": {
+          "paragraph": 74,
+          "first_sentence_id": 0,
+          "last_sentence_id": 3,
+          "reason": "Supports the bill’s agent regulation provisions, including registration, capped commissions, written contracts, and athlete remedies against bad actors."
+        }
       },
       {
-        "bio": "B001288",
-        "speaker": "Cory A. Booker",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 72807,
-        "quote": "Well, this is a bill, going forward, where college athletes and the \norganizations that represent them have not had a seat at the table. It \nis a bill that was actually shaped by millions of dollars in lobbying \nfrom the NCAA and other powerful interests that control that industry. \nAnd at its core, it is a bill that undermines the rights of young \npeople who pour their blood, sweat, tears, countless hours of work, and \nmore into their craft. Their voices should have shaped this debate. We \nshould have listened to their wisdom before voting today, before \nrushing to this vote as the last thing we do before a long recess.",
-        "summary": "Well, this is a bill, going forward, where college athletes and the organizations that represent them have not had a seat at the table. It is a bill that was actually shaped by millions of dollars in lobbying from the NCAA and other powerful interests that control that industry. And at its core, it is a bill that undermines the rights of young people who pour their blood, sweat, tears, countless hours of work, and more into their craft. Their voices should have shaped this debate. We should have listened to their wisdom before voting today, before rushing to this vote as the last thing we do before a long recess.",
-        "index": 12,
-        "reason": "This frames the bill as captured by powerful interests and as undermining athletes' rights, which directly supports a Nay vote."
+        "pick": {
+          "paragraph": 35,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Opposes the bill by arguing college sports are not actually in crisis, undercutting the stated need for this legislation."
+        }
       },
       {
-        "bio": "B001288",
-        "speaker": "Cory A. Booker",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 197122,
-        "quote": "Mr. President, this is one of the hypocrisies in this \nbill. This bill targets athletes. It is subject to endorsement deals, \nredtape, scrutiny, and bureaucracy. It limits the amount of revenue \nthat schools share with athletes, but there are no comparable \nrestrictions on coaches or any other powerful actor in college sports. \nThis strikes me as fundamentally unfair, especially when, during all \nthese negotiations, college after college would whisper to me and say: \nThere is a race to the bottom on these crazy coach salaries.",
-        "summary": "Mr. President, this is one of the hypocrisies in this bill. This bill targets athletes. It is subject to endorsement deals, redtape, scrutiny, and bureaucracy. It limits the amount of revenue that schools share with athletes, but there are no comparable restrictions on coaches or any other powerful actor in college sports. This strikes me as fundamentally unfair, especially when, during all these negotiations, college after college would whisper to me and say: There is a race to the bottom on these crazy coach salaries.",
-        "index": 29,
-        "reason": "This states the bill is fundamentally unfair because it targets athletes while sparing coaches and other powerful actors."
+        "pick": {
+          "paragraph": 79,
+          "first_sentence_id": 1,
+          "last_sentence_id": 2,
+          "reason": "Criticizes the bill for excluding college athletes from the drafting process and says it violates the principle that affected people should have a seat at the table."
+        }
       },
       {
-        "bio": "B001288",
-        "speaker": "Cory A. Booker",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 203067,
-        "quote": "I know this bill is about to be passed, but I want to say \nvery plainly, this bill sells out college athletes. This bill does not \nallow equal treatment between coaches and those athletes.",
-        "summary": "I know this bill is about to be passed, but I want to say very plainly, this bill sells out college athletes. This bill does not allow equal treatment between coaches and those athletes.",
-        "index": 34,
-        "reason": "This directly argues the bill sells out college athletes and fails to treat coaches and athletes equally."
+        "pick": {
+          "paragraph": 80,
+          "first_sentence_id": 0,
+          "last_sentence_id": 3,
+          "reason": "Argues the bill was shaped by lobbying from the NCAA and powerful interests, and that it undermines the rights of young athletes."
+        }
       },
       {
-        "bio": "B001288",
-        "speaker": "Cory A. Booker",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 203258,
-        "quote": "This bill does not provide enough money left over for their health \nand interests. This bill gives permanent antitrust exemptions to this \norganization, and it does not create permanent protections for Olympic \nathletes, no permanent protections for women's sports, and this bill \nundermines the ability for athletes to sue for privacy violations and \ncivil rights violations.",
-        "summary": "This bill does not provide enough money left over for their health and interests. This bill gives permanent antitrust exemptions to this organization, and it does not create permanent protections for Olympic athletes, no permanent protections for women's sports, and this bill undermines the ability for athletes to sue for privacy violations and civil rights violations.",
-        "index": 35,
-        "reason": "This contends the bill leaves insufficient protection for athletes' health and rights and fails to protect Olympic athletes and women's sports."
+        "pick": {
+          "paragraph": 185,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Says the bill’s $100 million injury fund is inadequate to cover the long-term medical costs athletes face, supporting a no vote on the bill as written."
+        }
       },
       {
-        "bio": "B001288",
-        "speaker": "Cory A. Booker",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 72491,
-        "quote": "The Senate is on the verge--it really could happen tonight--of \npassing a bill that could reshape college sports for generations to \ncome. It is a bill that was written without input from college athletes \nthemselves, whose lives will be directly affected. It violates a simple \nrule: nothing about us without us.",
-        "summary": "The Senate is on the verge--it really could happen tonight--of passing a bill that could reshape college sports for generations to come. It is a bill that was written without input from college athletes themselves, whose lives will be directly affected. It violates a simple rule: nothing about us without us.",
-        "index": 7,
-        "reason": "This argues the bill was written without input from the athletes it affects, which is a substantive reason to oppose it."
+        "pick": {
+          "paragraph": 198,
+          "first_sentence_id": 0,
+          "last_sentence_id": 4,
+          "reason": "Calls out the bill as unfair because it targets athletes with restrictions while leaving coaches and other powerful actors comparatively unregulated."
+        }
       },
       {
-        "bio": "B001288",
-        "speaker": "Cory A. Booker",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
-        "start": 187880,
-        "quote": "Mr. President, I would like to speak about my amendment \nBooker and Blumenthal 6805. To my colleagues, college athletes are \nputting their bodies out there on the line every day. And many of us \nwho played, we know that some suffer serious, long-term injuries to \ntheir spines, their knees, their shoulders, and now what we are seeing \nis the explosion of CTE, traumatic brain injury. It is a crisis in our \ncountry.",
-        "summary": "Mr. President, I would like to speak about my amendment Booker and Blumenthal 6805. To my colleagues, college athletes are putting their bodies out there on the line every day. And many of us who played, we know that some suffer serious, long-term injuries to their spines, their knees, their shoulders, and now what we are seeing is the explosion of CTE, traumatic brain injury. It is a crisis in our country.",
-        "index": 23,
-        "reason": "This emphasizes the serious injuries athletes suffer and the need for stronger protection, supporting a vote against the bill as written."
+        "pick": {
+          "paragraph": 214,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues the bill underfunds athlete health and interests while granting permanent antitrust immunity without comparable protections for Olympic athletes, women’s sports, privacy, or civil rights."
+        }
       }
     ],
     "checks": [
       {
-        "id": 6,
-        "accepted": true,
-        "reason": "The summary faithfully matches the quote’s central claim that the Senate will soon pass landmark legislation to protect college sports.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 55,
+          "first_sentence_id": 0,
+          "last_sentence_id": 6,
+          "reason": "Explains concrete athlete protections in the bill, including agent fraud, scholarship continuity, injury care, and opportunities across divisions."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 15,
-        "accepted": true,
-        "reason": "The summary accurately preserves the three listed principles in the quote without adding or changing meaning.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 58,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States that the bill makes athlete protections real by enshrining revenue sharing and NIL compensation and funding women’s and Olympic sports."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 35,
-        "accepted": true,
-        "reason": "The summary matches the quote’s central claim about college sports lacking a stable governing framework in this new era.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 66,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Summarizes the bill’s core policy goals: athlete benefits, protection from exploitation, and uniform rules."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 43,
-        "accepted": true,
-        "reason": "The summary is faithful to the quote’s main contrast that the sport is thriving while the governing model is failing.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 69,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues the bill replaces a chaotic patchwork of state laws and court rulings with a national framework."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 51,
-        "accepted": true,
-        "reason": "The summary accurately reflects the quote’s point that athletes across states should have equal basic rights and protections.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 71,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Supports the bill because it sets clear national rules and gives the governing body enforcement power so the rules actually work."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 65,
-        "accepted": true,
-        "reason": "The summary faithfully preserves both the negation that the bill does not end NIL and the claim that it creates a federal right to earn NIL income.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 74,
+          "first_sentence_id": 0,
+          "last_sentence_id": 3,
+          "reason": "Supports the bill’s agent regulation provisions, including registration, capped commissions, written contracts, and athlete remedies against bad actors."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 12,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the bill critique, the lobbying claim, and the call for athlete input without adding or changing the core meaning.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 35,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Opposes the bill by arguing college sports are not actually in crisis, undercutting the stated need for this legislation."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 29,
-        "accepted": true,
-        "reason": "The summary accurately reflects the bill's unequal treatment of athletes and coaches and the complaint about coach salaries.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 79,
+          "first_sentence_id": 1,
+          "last_sentence_id": 2,
+          "reason": "Criticizes the bill for excluding college athletes from the drafting process and says it violates the principle that affected people should have a seat at the table."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 34,
-        "accepted": true,
-        "reason": "The summary matches the quote's claim that the bill sells out college athletes and does not treat coaches and athletes equally.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 80,
+          "first_sentence_id": 0,
+          "last_sentence_id": 3,
+          "reason": "Argues the bill was shaped by lobbying from the NCAA and powerful interests, and that it undermines the rights of young athletes."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 35,
-        "accepted": true,
-        "reason": "The summary correctly includes the antitrust exemption, the lack of permanent protections, and the limits on athlete lawsuits.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 185,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Says the bill’s $100 million injury fund is inadequate to cover the long-term medical costs athletes face, supporting a no vote on the bill as written."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 7,
-        "accepted": true,
-        "reason": "The summary faithfully captures the imminent passage, lack of athlete input, and the 'nothing about us without us' point.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 198,
+          "first_sentence_id": 0,
+          "last_sentence_id": 4,
+          "reason": "Calls out the bill as unfair because it targets athletes with restrictions while leaving coaches and other powerful actors comparatively unregulated."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 23,
-        "accepted": true,
-        "reason": "The summary accurately conveys the amendment mention and the central warning about serious long-term injuries and CTE among college athletes.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 214,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues the bill underfunds athlete health and interests while granting permanent antitrust immunity without comparable protections for Olympic athletes, women’s sports, privacy, or civil rights."
+        },
+        "accepted": false,
+        "reason": "'first'"
       }
     ],
-    "proceduralDropped": 12
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_06e4fb729c808a55016b05b5d232a887d284fb4a66e1922a2d",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 14789,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 263,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 15052
+        },
+        "estimatedUsd": 0.01227525,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_08c685cce1685681016b05b5d5880887d29cac70298384e838",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 3298,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 301,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3599
+        },
+        "estimatedUsd": 0.003828,
+        "status": "completed"
+      }
+    ]
   }
 }
