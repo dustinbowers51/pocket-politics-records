@@ -79,6 +79,62 @@ def verify_vote(ballot):
             "result": result, "yea": tally["Yea"] + tally["Aye"], "nay": tally["Nay"] + tally["No"]}
 
 
+# A member marker can contain mixed case, a state qualifier, or a wrapped name.
+MEMBER = re.compile(r"^((?:Mr|Mrs|Ms|Miss|Dr)\.\s+[A-Za-zÀ-ž][\w’'–-]*(?:\s+[A-Za-zÀ-ž][\w’'–-]*)*)[.]\s*", re.I)
+SALUTATION = re.compile(r"^(?:(?:Mr|Madam)\.?\s+(?:Speaker|Chairman|Chairwoman|Chair|President)),\s*", re.I)
+
+
+def starts_marker(body):
+    if SALUTATION.match(body):
+        return False
+    return bool(re.match(r"^(?:(?:Mr|Mrs|Ms|Miss|Dr)\.\s|The (?:SPEAKER|PRESIDING|ACTING|Chair|Clerk|President)|Acting |Speaker |Clerk |\()", body, re.I))
+
+
+def attributed(text, speakers, managers, ballot, url):
+    active = None
+    previous_end = 0
+    for para in re.finditer(
+        r"(?m)^  (?! )\S[^\n]*(?:\n(?!\s*\n|  |\[\[|<)[^\n]+)*", text
+    ):
+        # Page furniture, unparsed formatting and speaker changes end attribution.
+        if text[previous_end : para.start()].strip():
+            active = None
+        previous_end = para.end()
+        body = para.group().strip()
+        marker = None if SALUTATION.match(body) else MEMBER.match(body)
+        if marker:
+            matches = set(speakers.get(norm(marker[1]).upper(), []))
+            active = (
+                (norm(marker[1]).upper(), *next(iter(matches)))
+                if len(matches) == 1
+                else None
+            )
+            body = body[marker.end() :]
+        if starts_marker(body):
+            active = None
+        if (
+            not active
+            or not body.endswith((".", "!", "?"))
+            or "<" in body
+            or len(body) > 2500
+        ):
+            continue
+        label, bio, name = active
+        side = ballot["positions"].get(bio)
+        if side not in ("Yea", "Nay", "Aye", "No"):
+            continue
+        start = para.start() + para.group().index(body)
+        yield dict(
+                bio=bio,
+                speaker=name,
+                side="Yea" if side in ("Yea", "Aye") else "Nay",
+                manager=label in managers,
+                url=url,
+                start=start,
+                quote=body,
+            )
+
+
 def sources(ballot):
     result, docs = [], {}
     speaking = set()
@@ -142,56 +198,7 @@ def sources(ballot):
                         managers.add(qualified)
                     elif len(speakers.get(name.upper(), [])) == 1:
                         managers.add(name.upper())
-            active = None
-            previous_end = 0
-            for para in re.finditer(
-                r"(?m)^  (?! )\S[^\n]*(?:\n(?!\s*\n|  |\[\[|<)[^\n]+)*", text
-            ):
-                # Page furniture, unparsed formatting and speaker changes end attribution.
-                if text[previous_end : para.start()].strip():
-                    active = None
-                previous_end = para.end()
-                body = para.group().strip()
-                marker = re.match(
-                    r"((?:Mr|Mrs|Ms|Miss|Dr)\. [A-Z][A-Z'’ -]*(?: of [A-Za-z ]+)?)\.\s+",
-                    body,
-                )
-                if marker:
-                    matches = set(speakers.get(marker[1].upper(), []))
-                    active = (
-                        (marker[1].upper(), *next(iter(matches)))
-                        if len(matches) == 1
-                        else None
-                    )
-                    body = body[marker.end() :]
-                elif re.match(
-                    r"(?:The (?:SPEAKER|PRESIDING OFFICER|ACTING|Chair|Clerk|clerk|Speaker pro tempore)|Acting |Speaker |Clerk |\()",
-                    body,
-                ):
-                    active = None
-                if (
-                    not active
-                    or not body.endswith((".", "!", "?"))
-                    or "<" in body
-                    or len(body) > 2500
-                ):
-                    continue
-                label, bio, name = active
-                side = ballot["positions"].get(bio)
-                if side not in ("Yea", "Nay", "Aye", "No") or len(body.split()) < 14:
-                    continue
-                start = para.start() + para.group().index(body)
-                result.append(
-                    dict(
-                        bio=bio,
-                        speaker=name,
-                        side="Yea" if side in ("Yea", "Aye") else "Nay",
-                        manager=label in managers,
-                        url=url,
-                        start=start,
-                        quote=body,
-                    )
-                )
+            result.extend(attributed(text, speakers, managers, ballot, url))
     return dict(
         bill=ballot["bill"],
         vote=ballot["vote"],
