@@ -1,0 +1,2249 @@
+{
+  "debateFingerprint": "d23387e864f69d8c497fa0a081c98af1c705eb4fd20a3c6d699863611db31229",
+  "bill": "119-hr-1041",
+  "vote": "house:119:2:190",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3684-5.htm": "2253d263eb9c613b463b3630b22b7ed66eb811bf5b71ed067c49776ca2cf3c88",
+    "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3710-2.htm": "5194de8aa9c77a99bad74bd27ee52834d9abcdc514d413c87b1153b54c5b7e3a"
+  },
+  "passageRecord": {
+    "url": "https://clerk.house.gov/evs/2026/roll190.xml",
+    "sha256": "805c1ca5e6f2d9fd3a1f037ac9fb246895ec6ad3d0e28dfe30de51a75f9c629f",
+    "members": {
+      "A000370": [
+        "D",
+        "NC"
+      ],
+      "A000055": [
+        "R",
+        "AL"
+      ],
+      "A000371": [
+        "D",
+        "CA"
+      ],
+      "A000379": [
+        "R",
+        "MO"
+      ],
+      "A000372": [
+        "R",
+        "GA"
+      ],
+      "A000380": [
+        "D",
+        "RI"
+      ],
+      "A000369": [
+        "R",
+        "NV"
+      ],
+      "A000381": [
+        "D",
+        "AZ"
+      ],
+      "A000375": [
+        "R",
+        "TX"
+      ],
+      "A000148": [
+        "D",
+        "MA"
+      ],
+      "B001291": [
+        "R",
+        "TX"
+      ],
+      "B001298": [
+        "R",
+        "NE"
+      ],
+      "B001307": [
+        "R",
+        "IN"
+      ],
+      "B001306": [
+        "R",
+        "OH"
+      ],
+      "B001318": [
+        "D",
+        "VT"
+      ],
+      "B001282": [
+        "R",
+        "KY"
+      ],
+      "B001300": [
+        "D",
+        "CA"
+      ],
+      "B001321": [
+        "R",
+        "MI"
+      ],
+      "B001322": [
+        "R",
+        "WA"
+      ],
+      "B001314": [
+        "R",
+        "FL"
+      ],
+      "B001281": [
+        "D",
+        "OH"
+      ],
+      "B001323": [
+        "R",
+        "AK"
+      ],
+      "B001324": [
+        "D",
+        "MO"
+      ],
+      "B000668": [
+        "R",
+        "OR"
+      ],
+      "B001287": [
+        "D",
+        "CA"
+      ],
+      "B001301": [
+        "R",
+        "MI"
+      ],
+      "B001292": [
+        "D",
+        "VA"
+      ],
+      "B000740": [
+        "R",
+        "OK"
+      ],
+      "B001302": [
+        "R",
+        "AZ"
+      ],
+      "B001325": [
+        "R",
+        "SC"
+      ],
+      "B001257": [
+        "R",
+        "FL"
+      ],
+      "B000490": [
+        "D",
+        "GA"
+      ],
+      "B000825": [
+        "R",
+        "CO"
+      ],
+      "B001278": [
+        "D",
+        "OR"
+      ],
+      "B001295": [
+        "R",
+        "IL"
+      ],
+      "B001296": [
+        "D",
+        "PA"
+      ],
+      "B001317": [
+        "R",
+        "OK"
+      ],
+      "B001327": [
+        "R",
+        "PA"
+      ],
+      "B001313": [
+        "D",
+        "OH"
+      ],
+      "B001285": [
+        "D",
+        "CA"
+      ],
+      "B001260": [
+        "R",
+        "FL"
+      ],
+      "B001315": [
+        "D",
+        "IL"
+      ],
+      "B001309": [
+        "R",
+        "TN"
+      ],
+      "B001316": [
+        "R",
+        "MO"
+      ],
+      "B001326": [
+        "D",
+        "OR"
+      ],
+      "C000059": [
+        "R",
+        "CA"
+      ],
+      "C001039": [
+        "R",
+        "FL"
+      ],
+      "C001112": [
+        "D",
+        "CA"
+      ],
+      "C001126": [
+        "R",
+        "OH"
+      ],
+      "C001072": [
+        "D",
+        "IN"
+      ],
+      "C001103": [
+        "R",
+        "GA"
+      ],
+      "C001125": [
+        "D",
+        "LA"
+      ],
+      "C001051": [
+        "R",
+        "TX"
+      ],
+      "C001131": [
+        "D",
+        "TX"
+      ],
+      "C001055": [
+        "D",
+        "HI"
+      ],
+      "C001117": [
+        "D",
+        "IL"
+      ],
+      "C001066": [
+        "D",
+        "FL"
+      ],
+      "C001091": [
+        "D",
+        "TX"
+      ],
+      "C001080": [
+        "D",
+        "CA"
+      ],
+      "C001133": [
+        "R",
+        "AZ"
+      ],
+      "C001123": [
+        "D",
+        "CA"
+      ],
+      "C001101": [
+        "D",
+        "MA"
+      ],
+      "C001067": [
+        "D",
+        "NY"
+      ],
+      "C001061": [
+        "D",
+        "MO"
+      ],
+      "C001118": [
+        "R",
+        "VA"
+      ],
+      "C001115": [
+        "R",
+        "TX"
+      ],
+      "C000537": [
+        "D",
+        "SC"
+      ],
+      "C001116": [
+        "R",
+        "GA"
+      ],
+      "C001068": [
+        "D",
+        "TN"
+      ],
+      "C001053": [
+        "R",
+        "OK"
+      ],
+      "C001129": [
+        "R",
+        "GA"
+      ],
+      "C001108": [
+        "R",
+        "KY"
+      ],
+      "C001136": [
+        "D",
+        "NJ"
+      ],
+      "C001110": [
+        "D",
+        "CA"
+      ],
+      "C001059": [
+        "D",
+        "CA"
+      ],
+      "C001069": [
+        "D",
+        "CT"
+      ],
+      "C001119": [
+        "D",
+        "MN"
+      ],
+      "C001132": [
+        "R",
+        "AZ"
+      ],
+      "C001137": [
+        "R",
+        "CO"
+      ],
+      "C001087": [
+        "R",
+        "AR"
+      ],
+      "C001120": [
+        "R",
+        "TX"
+      ],
+      "C001130": [
+        "D",
+        "TX"
+      ],
+      "C001121": [
+        "D",
+        "CO"
+      ],
+      "C001063": [
+        "D",
+        "TX"
+      ],
+      "D000629": [
+        "D",
+        "KS"
+      ],
+      "D000626": [
+        "R",
+        "OH"
+      ],
+      "D000096": [
+        "D",
+        "IL"
+      ],
+      "D000230": [
+        "D",
+        "NC"
+      ],
+      "D000594": [
+        "R",
+        "TX"
+      ],
+      "D000631": [
+        "D",
+        "PA"
+      ],
+      "D000197": [
+        "D",
+        "CO"
+      ],
+      "D000216": [
+        "D",
+        "CT"
+      ],
+      "D000617": [
+        "D",
+        "WA"
+      ],
+      "D000530": [
+        "D",
+        "PA"
+      ],
+      "D000623": [
+        "D",
+        "CA"
+      ],
+      "D000616": [
+        "R",
+        "TN"
+      ],
+      "D000635": [
+        "D",
+        "OR"
+      ],
+      "D000600": [
+        "R",
+        "FL"
+      ],
+      "D000624": [
+        "D",
+        "MI"
+      ],
+      "D000399": [
+        "D",
+        "TX"
+      ],
+      "D000032": [
+        "R",
+        "FL"
+      ],
+      "D000634": [
+        "R",
+        "MT"
+      ],
+      "D000628": [
+        "R",
+        "FL"
+      ],
+      "E000246": [
+        "R",
+        "NC"
+      ],
+      "E000301": [
+        "D",
+        "MD"
+      ],
+      "E000071": [
+        "R",
+        "TX"
+      ],
+      "E000294": [
+        "R",
+        "MN"
+      ],
+      "E000299": [
+        "D",
+        "TX"
+      ],
+      "E000297": [
+        "D",
+        "NY"
+      ],
+      "E000298": [
+        "R",
+        "KS"
+      ],
+      "E000300": [
+        "R",
+        "CO"
+      ],
+      "E000296": [
+        "D",
+        "PA"
+      ],
+      "E000235": [
+        "R",
+        "MS"
+      ],
+      "F000246": [
+        "R",
+        "TX"
+      ],
+      "F000482": [
+        "R",
+        "ND"
+      ],
+      "F000446": [
+        "R",
+        "IA"
+      ],
+      "F000110": [
+        "D",
+        "LA"
+      ],
+      "F000481": [
+        "D",
+        "AL"
+      ],
+      "F000484": [
+        "R",
+        "FL"
+      ],
+      "F000475": [
+        "R",
+        "MN"
+      ],
+      "F000470": [
+        "R",
+        "MN"
+      ],
+      "F000471": [
+        "R",
+        "WI"
+      ],
+      "F000466": [
+        "R",
+        "PA"
+      ],
+      "F000459": [
+        "R",
+        "TN"
+      ],
+      "F000468": [
+        "D",
+        "TX"
+      ],
+      "F000474": [
+        "R",
+        "NE"
+      ],
+      "F000480": [
+        "R",
+        "CA"
+      ],
+      "F000454": [
+        "D",
+        "IL"
+      ],
+      "F000477": [
+        "D",
+        "NC"
+      ],
+      "F000450": [
+        "R",
+        "NC"
+      ],
+      "F000462": [
+        "D",
+        "FL"
+      ],
+      "F000472": [
+        "R",
+        "FL"
+      ],
+      "F000483": [
+        "D",
+        "CA"
+      ],
+      "F000476": [
+        "D",
+        "FL"
+      ],
+      "F000478": [
+        "R",
+        "SC"
+      ],
+      "F000469": [
+        "R",
+        "ID"
+      ],
+      "F000485": [
+        "R",
+        "GA"
+      ],
+      "G000559": [
+        "D",
+        "CA"
+      ],
+      "G000597": [
+        "R",
+        "NY"
+      ],
+      "G000598": [
+        "D",
+        "CA"
+      ],
+      "G000586": [
+        "D",
+        "IL"
+      ],
+      "G000587": [
+        "D",
+        "TX"
+      ],
+      "G000603": [
+        "R",
+        "TX"
+      ],
+      "G000602": [
+        "D",
+        "NY"
+      ],
+      "G000593": [
+        "R",
+        "FL"
+      ],
+      "G000592": [
+        "D",
+        "ME"
+      ],
+      "G000599": [
+        "D",
+        "NY"
+      ],
+      "G000601": [
+        "R",
+        "TX"
+      ],
+      "G000585": [
+        "D",
+        "CA"
+      ],
+      "G000581": [
+        "D",
+        "TX"
+      ],
+      "G000589": [
+        "R",
+        "TX"
+      ],
+      "G000604": [
+        "D",
+        "NH"
+      ],
+      "G000565": [
+        "R",
+        "AZ"
+      ],
+      "G000583": [
+        "D",
+        "NJ"
+      ],
+      "G000546": [
+        "R",
+        "MO"
+      ],
+      "G000605": [
+        "D",
+        "CA"
+      ],
+      "G000553": [
+        "D",
+        "TX"
+      ],
+      "G000568": [
+        "R",
+        "VA"
+      ],
+      "G000606": [
+        "D",
+        "AZ"
+      ],
+      "G000576": [
+        "R",
+        "WI"
+      ],
+      "G000591": [
+        "R",
+        "MS"
+      ],
+      "G000558": [
+        "R",
+        "KY"
+      ],
+      "H001096": [
+        "R",
+        "WY"
+      ],
+      "H001098": [
+        "R",
+        "AZ"
+      ],
+      "H001090": [
+        "D",
+        "CA"
+      ],
+      "H001099": [
+        "R",
+        "FL"
+      ],
+      "H001101": [
+        "R",
+        "NC"
+      ],
+      "H001052": [
+        "R",
+        "MD"
+      ],
+      "H001102": [
+        "R",
+        "NC"
+      ],
+      "H001086": [
+        "R",
+        "TN"
+      ],
+      "H001081": [
+        "D",
+        "CT"
+      ],
+      "H001082": [
+        "R",
+        "OK"
+      ],
+      "H001077": [
+        "R",
+        "LA"
+      ],
+      "H001072": [
+        "R",
+        "AR"
+      ],
+      "H001047": [
+        "D",
+        "CT"
+      ],
+      "H001091": [
+        "R",
+        "IA"
+      ],
+      "H001066": [
+        "D",
+        "NV"
+      ],
+      "H001093": [
+        "R",
+        "IN"
+      ],
+      "H001085": [
+        "D",
+        "PA"
+      ],
+      "H000874": [
+        "D",
+        "MD"
+      ],
+      "H001094": [
+        "D",
+        "OR"
+      ],
+      "H001067": [
+        "R",
+        "NC"
+      ],
+      "H001068": [
+        "D",
+        "CA"
+      ],
+      "H001058": [
+        "R",
+        "MI"
+      ],
+      "H001095": [
+        "R",
+        "TX"
+      ],
+      "H001100": [
+        "R",
+        "CO"
+      ],
+      "I000056": [
+        "R",
+        "CA"
+      ],
+      "I000058": [
+        "D",
+        "MD"
+      ],
+      "J000311": [
+        "R",
+        "GA"
+      ],
+      "J000309": [
+        "D",
+        "IL"
+      ],
+      "J000304": [
+        "R",
+        "TX"
+      ],
+      "J000305": [
+        "D",
+        "CA"
+      ],
+      "J000307": [
+        "R",
+        "MI"
+      ],
+      "J000298": [
+        "D",
+        "WA"
+      ],
+      "J000294": [
+        "D",
+        "NY"
+      ],
+      "J000288": [
+        "D",
+        "GA"
+      ],
+      "J000299": [
+        "R",
+        "LA"
+      ],
+      "J000301": [
+        "R",
+        "SD"
+      ],
+      "J000310": [
+        "D",
+        "TX"
+      ],
+      "J000289": [
+        "R",
+        "OH"
+      ],
+      "J000295": [
+        "R",
+        "OH"
+      ],
+      "J000302": [
+        "R",
+        "PA"
+      ],
+      "K000400": [
+        "D",
+        "CA"
+      ],
+      "K000009": [
+        "D",
+        "OH"
+      ],
+      "K000398": [
+        "R",
+        "NJ"
+      ],
+      "K000375": [
+        "D",
+        "MA"
+      ],
+      "K000385": [
+        "D",
+        "IL"
+      ],
+      "K000388": [
+        "R",
+        "MS"
+      ],
+      "K000376": [
+        "R",
+        "PA"
+      ],
+      "K000402": [
+        "D",
+        "NY"
+      ],
+      "K000403": [
+        "R",
+        "UT"
+      ],
+      "K000389": [
+        "D",
+        "CA"
+      ],
+      "K000399": [
+        "R",
+        "VA"
+      ],
+      "K000401": [
+        "I",
+        "CA"
+      ],
+      "K000397": [
+        "R",
+        "CA"
+      ],
+      "K000405": [
+        "R",
+        "NC"
+      ],
+      "K000391": [
+        "D",
+        "IL"
+      ],
+      "K000392": [
+        "R",
+        "TN"
+      ],
+      "L000585": [
+        "R",
+        "IL"
+      ],
+      "L000598": [
+        "R",
+        "NY"
+      ],
+      "L000601": [
+        "D",
+        "OH"
+      ],
+      "L000600": [
+        "R",
+        "NY"
+      ],
+      "L000560": [
+        "D",
+        "WA"
+      ],
+      "L000557": [
+        "D",
+        "CT"
+      ],
+      "L000606": [
+        "D",
+        "NY"
+      ],
+      "L000566": [
+        "R",
+        "OH"
+      ],
+      "L000599": [
+        "R",
+        "NY"
+      ],
+      "L000597": [
+        "R",
+        "FL"
+      ],
+      "L000590": [
+        "D",
+        "NV"
+      ],
+      "L000602": [
+        "D",
+        "PA"
+      ],
+      "L000273": [
+        "D",
+        "NM"
+      ],
+      "L000595": [
+        "R",
+        "LA"
+      ],
+      "L000593": [
+        "D",
+        "CA"
+      ],
+      "L000607": [
+        "D",
+        "CA"
+      ],
+      "L000582": [
+        "D",
+        "CA"
+      ],
+      "L000397": [
+        "D",
+        "CA"
+      ],
+      "L000583": [
+        "R",
+        "GA"
+      ],
+      "L000491": [
+        "R",
+        "OK"
+      ],
+      "L000596": [
+        "R",
+        "FL"
+      ],
+      "L000603": [
+        "R",
+        "TX"
+      ],
+      "L000562": [
+        "D",
+        "MA"
+      ],
+      "M000194": [
+        "R",
+        "SC"
+      ],
+      "M001230": [
+        "R",
+        "PA"
+      ],
+      "M001223": [
+        "D",
+        "RI"
+      ],
+      "M000317": [
+        "R",
+        "NY"
+      ],
+      "M001228": [
+        "R",
+        "UT"
+      ],
+      "M000871": [
+        "R",
+        "KS"
+      ],
+      "M001231": [
+        "D",
+        "NY"
+      ],
+      "M001184": [
+        "R",
+        "KY"
+      ],
+      "M001199": [
+        "R",
+        "FL"
+      ],
+      "M001163": [
+        "D",
+        "CA"
+      ],
+      "M001208": [
+        "D",
+        "GA"
+      ],
+      "M001238": [
+        "D",
+        "DE"
+      ],
+      "M001157": [
+        "R",
+        "TX"
+      ],
+      "M001136": [
+        "R",
+        "MI"
+      ],
+      "M001232": [
+        "D",
+        "MD"
+      ],
+      "M001227": [
+        "D",
+        "VA"
+      ],
+      "M001177": [
+        "R",
+        "CA"
+      ],
+      "M001143": [
+        "D",
+        "MN"
+      ],
+      "M001218": [
+        "R",
+        "GA"
+      ],
+      "M001237": [
+        "D",
+        "MI"
+      ],
+      "M001240": [
+        "R",
+        "NC"
+      ],
+      "M001220": [
+        "D",
+        "KY"
+      ],
+      "M000312": [
+        "D",
+        "MA"
+      ],
+      "M001239": [
+        "R",
+        "VA"
+      ],
+      "M001229": [
+        "D",
+        "NJ"
+      ],
+      "M001137": [
+        "D",
+        "NY"
+      ],
+      "M001246": [
+        "D",
+        "NJ"
+      ],
+      "M001245": [
+        "D",
+        "TX"
+      ],
+      "M001226": [
+        "D",
+        "NJ"
+      ],
+      "M001188": [
+        "D",
+        "NY"
+      ],
+      "M001233": [
+        "R",
+        "IN"
+      ],
+      "M001204": [
+        "R",
+        "PA"
+      ],
+      "M000687": [
+        "D",
+        "MD"
+      ],
+      "M001211": [
+        "R",
+        "IL"
+      ],
+      "M001222": [
+        "R",
+        "OH"
+      ],
+      "M001205": [
+        "R",
+        "WV"
+      ],
+      "M001215": [
+        "R",
+        "IA"
+      ],
+      "M001216": [
+        "R",
+        "FL"
+      ],
+      "M001241": [
+        "D",
+        "CA"
+      ],
+      "M001194": [
+        "R",
+        "MI"
+      ],
+      "M001212": [
+        "R",
+        "AL"
+      ],
+      "M001236": [
+        "R",
+        "NC"
+      ],
+      "M001213": [
+        "R",
+        "UT"
+      ],
+      "M001160": [
+        "D",
+        "WI"
+      ],
+      "M001235": [
+        "R",
+        "WV"
+      ],
+      "M001224": [
+        "R",
+        "TX"
+      ],
+      "M001206": [
+        "D",
+        "NY"
+      ],
+      "M001234": [
+        "D",
+        "MN"
+      ],
+      "M001217": [
+        "D",
+        "FL"
+      ],
+      "M001196": [
+        "D",
+        "MA"
+      ],
+      "M001214": [
+        "D",
+        "IN"
+      ],
+      "M001225": [
+        "D",
+        "CA"
+      ],
+      "M001210": [
+        "R",
+        "NC"
+      ],
+      "N000002": [
+        "D",
+        "NY"
+      ],
+      "N000015": [
+        "D",
+        "MA"
+      ],
+      "N000191": [
+        "D",
+        "CO"
+      ],
+      "N000026": [
+        "R",
+        "TX"
+      ],
+      "N000189": [
+        "R",
+        "WA"
+      ],
+      "N000188": [
+        "D",
+        "NJ"
+      ],
+      "N000190": [
+        "R",
+        "SC"
+      ],
+      "N000193": [
+        "R",
+        "IA"
+      ],
+      "O000019": [
+        "R",
+        "CA"
+      ],
+      "O000172": [
+        "D",
+        "NY"
+      ],
+      "O000175": [
+        "R",
+        "TN"
+      ],
+      "O000176": [
+        "D",
+        "MD"
+      ],
+      "O000173": [
+        "D",
+        "MN"
+      ],
+      "O000177": [
+        "R",
+        "MO"
+      ],
+      "O000086": [
+        "R",
+        "UT"
+      ],
+      "P000034": [
+        "D",
+        "NJ"
+      ],
+      "P000609": [
+        "R",
+        "AL"
+      ],
+      "P000613": [
+        "D",
+        "CA"
+      ],
+      "P000614": [
+        "D",
+        "NH"
+      ],
+      "P000622": [
+        "R",
+        "FL"
+      ],
+      "P000197": [
+        "D",
+        "CA"
+      ],
+      "G000600": [
+        "D",
+        "WA"
+      ],
+      "P000605": [
+        "R",
+        "PA"
+      ],
+      "P000608": [
+        "D",
+        "CA"
+      ],
+      "P000620": [
+        "D",
+        "CO"
+      ],
+      "P000048": [
+        "R",
+        "TX"
+      ],
+      "P000597": [
+        "D",
+        "ME"
+      ],
+      "P000607": [
+        "D",
+        "WI"
+      ],
+      "P000621": [
+        "D",
+        "NJ"
+      ],
+      "P000617": [
+        "D",
+        "MA"
+      ],
+      "Q000023": [
+        "D",
+        "IL"
+      ],
+      "R000617": [
+        "D",
+        "IL"
+      ],
+      "R000621": [
+        "D",
+        "WA"
+      ],
+      "R000606": [
+        "D",
+        "MD"
+      ],
+      "R000610": [
+        "R",
+        "PA"
+      ],
+      "R000622": [
+        "D",
+        "NY"
+      ],
+      "R000620": [
+        "D",
+        "CA"
+      ],
+      "R000575": [
+        "R",
+        "AL"
+      ],
+      "R000395": [
+        "R",
+        "KY"
+      ],
+      "R000612": [
+        "R",
+        "TN"
+      ],
+      "R000305": [
+        "D",
+        "NC"
+      ],
+      "R000603": [
+        "R",
+        "NC"
+      ],
+      "R000614": [
+        "R",
+        "TX"
+      ],
+      "R000599": [
+        "D",
+        "CA"
+      ],
+      "R000619": [
+        "R",
+        "OH"
+      ],
+      "R000609": [
+        "R",
+        "FL"
+      ],
+      "R000579": [
+        "D",
+        "NY"
+      ],
+      "S000168": [
+        "R",
+        "FL"
+      ],
+      "S001226": [
+        "D",
+        "OR"
+      ],
+      "S001156": [
+        "D",
+        "CA"
+      ],
+      "S001176": [
+        "R",
+        "LA"
+      ],
+      "S001205": [
+        "D",
+        "PA"
+      ],
+      "S001145": [
+        "D",
+        "IL"
+      ],
+      "S001228": [
+        "R",
+        "KS"
+      ],
+      "S001190": [
+        "D",
+        "IL"
+      ],
+      "S001221": [
+        "D",
+        "MI"
+      ],
+      "S001216": [
+        "D",
+        "WA"
+      ],
+      "S001183": [
+        "R",
+        "AZ"
+      ],
+      "S000185": [
+        "D",
+        "VA"
+      ],
+      "S001189": [
+        "R",
+        "GA"
+      ],
+      "S001224": [
+        "R",
+        "TX"
+      ],
+      "S000250": [
+        "R",
+        "TX"
+      ],
+      "S001185": [
+        "D",
+        "AL"
+      ],
+      "S000344": [
+        "D",
+        "CA"
+      ],
+      "S001229": [
+        "R",
+        "IN"
+      ],
+      "S001231": [
+        "D",
+        "CA"
+      ],
+      "S001148": [
+        "R",
+        "ID"
+      ],
+      "S001195": [
+        "R",
+        "MO"
+      ],
+      "S001172": [
+        "R",
+        "NE"
+      ],
+      "S000522": [
+        "R",
+        "NJ"
+      ],
+      "S000510": [
+        "D",
+        "WA"
+      ],
+      "S001199": [
+        "R",
+        "PA"
+      ],
+      "S001225": [
+        "D",
+        "IL"
+      ],
+      "S001200": [
+        "D",
+        "FL"
+      ],
+      "S000929": [
+        "R",
+        "IN"
+      ],
+      "S001218": [
+        "D",
+        "NM"
+      ],
+      "S001211": [
+        "D",
+        "AZ"
+      ],
+      "S001212": [
+        "R",
+        "MN"
+      ],
+      "S001196": [
+        "R",
+        "NY"
+      ],
+      "S001213": [
+        "R",
+        "WI"
+      ],
+      "S001214": [
+        "R",
+        "FL"
+      ],
+      "S001215": [
+        "D",
+        "MI"
+      ],
+      "S001159": [
+        "D",
+        "WA"
+      ],
+      "S001220": [
+        "R",
+        "AL"
+      ],
+      "S001188": [
+        "R",
+        "IN"
+      ],
+      "S001230": [
+        "D",
+        "VA"
+      ],
+      "S001201": [
+        "D",
+        "NY"
+      ],
+      "S001223": [
+        "D",
+        "OH"
+      ],
+      "T000472": [
+        "D",
+        "CA"
+      ],
+      "T000490": [
+        "R",
+        "OH"
+      ],
+      "T000478": [
+        "R",
+        "NY"
+      ],
+      "T000488": [
+        "D",
+        "MI"
+      ],
+      "T000460": [
+        "D",
+        "CA"
+      ],
+      "T000193": [
+        "D",
+        "MS"
+      ],
+      "T000467": [
+        "R",
+        "PA"
+      ],
+      "T000165": [
+        "R",
+        "WI"
+      ],
+      "T000480": [
+        "R",
+        "SC"
+      ],
+      "T000468": [
+        "D",
+        "NV"
+      ],
+      "T000481": [
+        "D",
+        "MI"
+      ],
+      "T000487": [
+        "D",
+        "HI"
+      ],
+      "T000469": [
+        "D",
+        "NY"
+      ],
+      "T000474": [
+        "D",
+        "CA"
+      ],
+      "T000486": [
+        "D",
+        "NY"
+      ],
+      "T000482": [
+        "D",
+        "MA"
+      ],
+      "T000491": [
+        "D",
+        "CA"
+      ],
+      "T000463": [
+        "R",
+        "OH"
+      ],
+      "U000040": [
+        "D",
+        "IL"
+      ],
+      "V000129": [
+        "R",
+        "CA"
+      ],
+      "V000133": [
+        "R",
+        "NJ"
+      ],
+      "V000134": [
+        "R",
+        "TX"
+      ],
+      "V000139": [
+        "R",
+        "TN"
+      ],
+      "V000135": [
+        "R",
+        "WI"
+      ],
+      "V000130": [
+        "D",
+        "CA"
+      ],
+      "V000136": [
+        "D",
+        "NM"
+      ],
+      "V000131": [
+        "D",
+        "TX"
+      ],
+      "V000081": [
+        "D",
+        "NY"
+      ],
+      "V000138": [
+        "D",
+        "VA"
+      ],
+      "W000812": [
+        "R",
+        "MO"
+      ],
+      "W000798": [
+        "R",
+        "MI"
+      ],
+      "W000831": [
+        "D",
+        "VA"
+      ],
+      "W000797": [
+        "D",
+        "FL"
+      ],
+      "W000187": [
+        "D",
+        "CA"
+      ],
+      "W000822": [
+        "D",
+        "NJ"
+      ],
+      "W000814": [
+        "R",
+        "TX"
+      ],
+      "W000806": [
+        "R",
+        "FL"
+      ],
+      "W000821": [
+        "R",
+        "AR"
+      ],
+      "W000830": [
+        "D",
+        "CA"
+      ],
+      "W000829": [
+        "R",
+        "WI"
+      ],
+      "W000788": [
+        "D",
+        "GA"
+      ],
+      "W000816": [
+        "R",
+        "TX"
+      ],
+      "W000808": [
+        "D",
+        "FL"
+      ],
+      "W000795": [
+        "R",
+        "SC"
+      ],
+      "W000804": [
+        "R",
+        "VA"
+      ],
+      "W000809": [
+        "R",
+        "AR"
+      ],
+      "Y000067": [
+        "R",
+        "IN"
+      ],
+      "Z000018": [
+        "R",
+        "MT"
+      ]
+    },
+    "result": "Passed",
+    "yea": 216,
+    "nay": 201
+  },
+  "points": [
+    {
+      "debateScope": "general",
+      "bio": "B001295",
+      "speaker": "Mike Bost",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3684-5.htm",
+      "start": 7883,
+      "quote": "VA reported them not because they committed a crime or because a \njudge or a medical professional determined they were a danger to \nthemselves or others. VA reported them to NICS simply because they \nneeded help managing their benefits.",
+      "display": "VA reported them not because they committed a crime or because a judge or a medical professional determined they were a danger to themselves or others. VA reported them to NICS simply because they needed help managing their benefits.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3684-5.htm#:~:text=VA%20reported%20them%20not%20because%20they%20committed%20a%20crime%20or%20because%20a%20judge%20or%20a%20medical%20professional%20determined%20they%20were%20a%20danger%20to%20themselves%20or%20others.%20VA%20reported%20them%20to%20NICS%20simply%20because%20they%20needed%20help%20managing%20their%20benefits.",
+      "end": 8119,
+      "sentenceIds": [
+        "2.5",
+        "2.6"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "E000246",
+      "speaker": "Chuck Edwards",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3684-5.htm",
+      "start": 46196,
+      "quote": "This bill is about basic fairness and restoring a standard that \nrespects both our veterans and the Constitution. Under current \npractice, a veteran who simply needs help managing their VA benefits \ncan be reported to the FBI's background check system and lose their \nSecond Amendment rights without ever appearing before a judge.",
+      "display": "This bill is about basic fairness and restoring a standard that respects both our veterans and the Constitution. Under current practice, a veteran who simply needs help managing their VA benefits can be reported to the FBI's background check system and lose their Second Amendment rights without ever appearing before a judge.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3684-5.htm#:~:text=This%20bill%20is%20about%20basic%20fairness%20and%20restoring%20a%20standard%20that%20respects%20both%20our%20veterans%20and%20the%20Constitution.%20Under%20current%20practice%2C%20a%20veteran%20who%20simply%20needs%20help%20managing%20their%20VA%20benefits%20can%20be%20reported%20to%20the%20FBI%27s%20background%20check%20system%20and%20lose%20their%20Second%20Amendment%20rights%20without%20ever%20appearing%20before%20a%20judge.",
+      "end": 46526,
+      "sentenceIds": [
+        "20.2",
+        "20.3"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "W000797",
+      "speaker": "Debbie Wasserman Schultz",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3684-5.htm",
+      "start": 26715,
+      "quote": "Every day, 17 veterans die by suicide, and 13 of them use a firearm \nto take their lives. That number is simply unacceptable to me, as I \nknow it is to all of my colleagues, but I am deeply concerned that, \nwith this bill, we are about to make it worse.",
+      "display": "Every day, 17 veterans die by suicide, and 13 of them use a firearm to take their lives. That number is simply unacceptable to me, as I know it is to all of my colleagues, but I am deeply concerned that, with this bill, we are about to make it worse.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3684-5.htm#:~:text=Every%20day%2C%2017%20veterans%20die%20by%20suicide%2C%20and%2013%20of%20them%20use%20a%20firearm%20to%20take%20their%20lives.%20That%20number%20is%20simply%20unacceptable%20to%20me%2C%20as%20I%20know%20it%20is%20to%20all%20of%20my%20colleagues%2C%20but%20I%20am%20deeply%20concerned%20that%2C%20with%20this%20bill%2C%20we%20are%20about%20to%20make%20it%20worse.",
+      "end": 26968,
+      "sentenceIds": [
+        "6.3",
+        "6.4"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "M001234",
+      "speaker": "Kelly Morrison",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3684-5.htm",
+      "start": 42593,
+      "quote": "While no silver bullet that will eradicate veteran suicide, making it \neasier for veterans suffering from severe mental illness or impairment \nto obtain a gun is not the answer.\n  H.R. 1041 creates serious risks for a group of veterans who are \nalready in a vulnerable position, and I cannot support it.",
+      "display": "While no silver bullet that will eradicate veteran suicide, making it easier for veterans suffering from severe mental illness or impairment to obtain a gun is not the answer. H.R. 1041 creates serious risks for a group of veterans who are already in a vulnerable position, and I cannot support it.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-05-21/html/CREC-2026-05-21-pt1-PgH3684-5.htm#:~:text=While%20no%20silver%20bullet%20that%20will%20eradicate%20veteran%20suicide%2C%20making%20it%20easier%20for%20veterans%20suffering%20from%20severe%20mental%20illness%20or%20impairment%20to%20obtain%20a%20gun%20is%20not%20the%20answer.%20H.R.%201041%20creates%20serious%20risks%20for%20a%20group%20of%20veterans%20who%20are%20already%20in%20a%20vulnerable%20position%2C%20and%20I%20cannot%20support%20it.",
+      "end": 42896,
+      "sentenceIds": [
+        "16.14",
+        "16.15"
+      ]
+    }
+  ],
+  "diagnostics": {
+    "selection": [
+      {
+        "side": "Yea",
+        "attempt": 1,
+        "spanIds": [
+          4,
+          9,
+          10,
+          19,
+          20,
+          46,
+          48,
+          51
+        ],
+        "spans": [
+          [
+            "2.3"
+          ],
+          [
+            "2.5",
+            "2.6"
+          ],
+          [
+            "2.5",
+            "2.6",
+            "2.7"
+          ],
+          [
+            "2.10",
+            "2.11"
+          ],
+          [
+            "2.10",
+            "2.11",
+            "2.12"
+          ],
+          [
+            "20.1",
+            "20.2"
+          ],
+          [
+            "20.2",
+            "20.3"
+          ],
+          [
+            "20.5"
+          ]
+        ]
+      },
+      {
+        "side": "Nay",
+        "attempt": 1,
+        "spanIds": [
+          24,
+          29,
+          32,
+          47,
+          57,
+          58,
+          81,
+          134
+        ],
+        "spans": [
+          [
+            "6.3",
+            "6.4"
+          ],
+          [
+            "6.5",
+            "6.6"
+          ],
+          [
+            "6.6",
+            "6.7"
+          ],
+          [
+            "6.15"
+          ],
+          [
+            "10.3",
+            "10.4",
+            "10.5"
+          ],
+          [
+            "10.4"
+          ],
+          [
+            "10.13"
+          ],
+          [
+            "16.14",
+            "16.15"
+          ]
+        ]
+      }
+    ],
+    "checks": [
+      {
+        "id": 0,
+        "effect_evidence": "",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "Mentions only that Trump and Collins answered a question; no bill action/effect or stated benefit/harm.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "2.3"
+        ]
+      },
+      {
+        "id": 1,
+        "effect_evidence": "VA reported them to NICS",
+        "value_evidence": "simply because they needed help managing their benefits",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "States the policy effect of reporting veterans to NICS and explains the harm by tying it to people who only needed benefits help.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "2.5",
+          "2.6"
+        ]
+      },
+      {
+        "id": 2,
+        "effect_evidence": "VA reported them to NICS",
+        "value_evidence": "simply because they needed help managing their benefits",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "States the reporting effect and the harmful basis for it; the added timing detail does not change the substantive policy argument.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "2.5",
+          "2.6",
+          "2.7"
+        ]
+      },
+      {
+        "id": 3,
+        "effect_evidence": "about due process",
+        "value_evidence": "protecting our veterans' Second Amendment rights",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It gives a value judgment and general topic, but no concrete bill action or effect and no policy consequence.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "2.10",
+          "2.11"
+        ]
+      },
+      {
+        "id": 4,
+        "effect_evidence": "put a permanent end to the practice of treating our veterans' Second Amendment rights as an option",
+        "value_evidence": "put a permanent end",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "Identifies the bill as ending a harmful practice affecting veterans' rights, and says that permanent end is desirable.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "2.10",
+          "2.11",
+          "2.12"
+        ]
+      },
+      {
+        "id": 5,
+        "effect_evidence": "restoring a standard that respects both our veterans and the Constitution",
+        "value_evidence": "basic fairness",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "This is support language and a fairness claim, but it does not clearly state what the bill does in concrete policy terms.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "20.1",
+          "20.2"
+        ]
+      },
+      {
+        "id": 6,
+        "effect_evidence": "a veteran who simply needs help managing their VA benefits can be reported to the FBI's background check system and lose their Second Amendment rights without ever appearing before a judge",
+        "value_evidence": "lose their Second Amendment rights without ever appearing before a judge",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "Clearly describes the policy mechanism and harmful consequence: reporting to the FBI system leading to loss of rights without judicial review.",
+        "accepted": true,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "20.2",
+          "20.3"
+        ]
+      },
+      {
+        "id": 7,
+        "effect_evidence": "loses a constitutional right because of an administrative decision about their finances",
+        "value_evidence": "should not be that exception",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "Contains a normative claim about unfairness, but no clear statement of what this bill changes or why the change is specifically beneficial.",
+        "accepted": false,
+        "side": "Yea",
+        "attempt": 1,
+        "sentenceIds": [
+          "20.5"
+        ]
+      },
+      {
+        "id": 0,
+        "effect_evidence": "with this bill, we are about to make it worse",
+        "value_evidence": "Every day, 17 veterans die by suicide, and 13 of them use a firearm to take their lives",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It links the bill to worsening veteran suicide with firearms, and states that this is unacceptable and concerning/harmful.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "6.3",
+          "6.4"
+        ]
+      },
+      {
+        "id": 1,
+        "effect_evidence": "deemed to be mentally incapacitated",
+        "value_evidence": "written to help protect veterans",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It describes a current-law trigger, but does not identify any concrete effect of this bill or why that effect is desirable or harmful.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "6.5",
+          "6.6"
+        ]
+      },
+      {
+        "id": 2,
+        "effect_evidence": "prevent them from owning a gun and potentially harming themselves",
+        "value_evidence": "prevent them from owning a gun and potentially harming themselves",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "This explains an effect and a harm, but it is about current law, not the bill under discussion, so it is not a policy argument against this bill.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "6.6",
+          "6.7"
+        ]
+      },
+      {
+        "id": 3,
+        "effect_evidence": "this legislation that is attempting to use a sledgehammer where a scalpel can do the job",
+        "value_evidence": "vote ``no'' on this legislation",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It urges a no vote and gives a process/comparison metaphor, but does not state a concrete policy effect of the bill or why that effect is harmful or beneficial.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "6.15"
+        ]
+      },
+      {
+        "id": 4,
+        "effect_evidence": "It does not protect them, and it puts them in danger",
+        "value_evidence": "It does not protect them, and it puts them in danger",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It asserts harm and lack of protection, but does not specify what action or effect of the bill causes that harm.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "10.3",
+          "10.4",
+          "10.5"
+        ]
+      },
+      {
+        "id": 5,
+        "effect_evidence": "It does not protect them, and it puts them in danger",
+        "value_evidence": "It does not protect them, and it puts them in danger",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "It is a bare conclusion about harm without identifying the bill's mechanism or concrete effect.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "10.4"
+        ]
+      },
+      {
+        "id": 6,
+        "effect_evidence": "",
+        "value_evidence": "",
+        "substantive": false,
+        "stands_alone": true,
+        "reason": "This is background about an individual veteran and contains no reference to the bill's action or effect.",
+        "accepted": false,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "10.13"
+        ]
+      },
+      {
+        "id": 7,
+        "effect_evidence": "making it easier for veterans suffering from severe mental illness or impairment to obtain a gun",
+        "value_evidence": "creates serious risks for a group of veterans who are already in a vulnerable position",
+        "substantive": true,
+        "stands_alone": true,
+        "reason": "It states the bill's effect—easier gun access for vulnerable veterans—and says that this creates serious risks, which is a clear harmful policy argument.",
+        "accepted": true,
+        "side": "Nay",
+        "attempt": 1,
+        "sentenceIds": [
+          "16.14",
+          "16.15"
+        ]
+      }
+    ],
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_053f94be8f63d1f6016b05c007605487d2950d8dbc613ddb07",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 5323,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 27,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 5350
+        },
+        "estimatedUsd": 0.00411375,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_03db106a12f5cfd5016b05c0089b7487d2b40edd716793d863",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 680,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 565,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 1245
+        },
+        "estimatedUsd": 0.0030525,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_0e21bc550d3bb5e7016b05c00cb74087d29f30cfe62c62fa0d",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 5170,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 27,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 5197
+        },
+        "estimatedUsd": 0.003999,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_05a1fe6d8585fe2e016b05c00dd7cc87d2876d41721086f72f",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 680,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 615,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 1295
+        },
+        "estimatedUsd": 0.0032775,
+        "status": "completed"
+      }
+    ],
+    "excludedAmendmentParagraphs": 1,
+    "candidateCounts": {
+      "Yea": 220,
+      "Nay": 202
+    }
+  }
+}
