@@ -81,7 +81,7 @@ def verify_vote(ballot):
 
 # A member marker can contain mixed case, a state qualifier, or a wrapped name.
 MEMBER = re.compile(r"^((?:Mr|Mrs|Ms|Miss|Dr)\.\s+[A-Za-zÀ-ž][\w’'–-]*(?:\s+[A-Za-zÀ-ž][\w’'–-]*)*)[.]\s*", re.I)
-SALUTATION = re.compile(r"^(?:(?:Mr|Madam)\.?\s+(?:Speaker|Chairman|Chairwoman|Chair|President)),\s*", re.I)
+SALUTATION = re.compile(r"^(?:(?:Mr|Madam)\.?\s+(?:Speaker|Chairman|Chairwoman|Chair|President)|(?:my |dear )?colleagues)(?:,\s*(?:(?:my |dear )?colleagues,\s*)?)", re.I)
 
 
 def starts_marker(body):
@@ -90,9 +90,27 @@ def starts_marker(body):
     return bool(re.match(r"^(?:(?:Mr|Mrs|Ms|Miss|Dr)\.\s|The (?:SPEAKER|PRESIDING|ACTING|Chair|Clerk|President)|Acting |Speaker |Clerk |\()", body, re.I))
 
 
+# Track procedural events in the full granule, including centered headings that
+# the speaker parser skips. A pending amendment stays excluded through its vote.
+AMENDMENT_EVENTS = re.compile(
+    r"(?P<start>^[ \t]*(?:amendments? (?:no\.\s*\d+|number\s+\d+|offered by|en bloc)|"
+    r"(?:the (?:acting )?(?:chair|speaker pro tempore)|the presiding officer)\.\s+"
+    r"(?:it is now in order to consider (?:an |the )?amendment|the (?:clerk will report|question is on) (?:the |an )?amendment)|"
+    r"[^\n]{0,75}\.\s+(?:I (?:offer|call up|have) an amendment|I send an amendment to the desk)))"
+    r"|(?P<end>^[ \t]*(?:so,? )?the amendment(?:, as amended,)? was (?:not )?(?:agreed to|withdrawn|rejected))"
+    r"|(?P<general>^[ \t]*(?:general debate[ \t]*$|(?:the (?:acting )?(?:chair|speaker pro tempore)|the presiding officer)\.\s+"
+    r"(?:the question is on (?:the )?passage|the (?:House|Committee|Senate) will (?:now )?resume general debate)))",
+    re.I | re.M,
+)
+
+
 def attributed(text, speakers, managers, ballot, url):
     active = None
     previous_end = 0
+    events = iter(AMENDMENT_EVENTS.finditer(text))
+    event = next(events, None)
+    turn_amendment = False
+    scope = "general"
     for para in re.finditer(
         r"(?m)^  (?! )\S[^\n]*(?:\n(?!\s*\n|  |\[\[|<)[^\n]+)*", text
     ):
@@ -100,9 +118,14 @@ def attributed(text, speakers, managers, ballot, url):
         if text[previous_end : para.start()].strip():
             active = None
         previous_end = para.end()
+        while event and event.start() < para.end():
+            scope = "amendment" if event.lastgroup == "start" else "general"
+            active = None
+            event = next(events, None)
         body = para.group().strip()
         marker = None if SALUTATION.match(body) else MEMBER.match(body)
         if marker:
+            turn_amendment = False
             matches = set(speakers.get(norm(marker[1]).upper(), []))
             active = (
                 (norm(marker[1]).upper(), *next(iter(matches)))
@@ -119,12 +142,15 @@ def attributed(text, speakers, managers, ballot, url):
             or len(body) > 2500
         ):
             continue
+        if re.search(r"\b(?:my amendment|this amendment|amendment (?:No\.|number)\s*\d+)\b", norm(body), re.I):
+            turn_amendment = True
         label, bio, name = active
         side = ballot["positions"].get(bio)
         if side not in ("Yea", "Nay", "Aye", "No"):
             continue
         start = para.start() + para.group().index(body)
         yield dict(
+                debateScope="amendment" if turn_amendment else scope,
                 bio=bio,
                 speaker=name,
                 side="Yea" if side in ("Yea", "Aye") else "Nay",
@@ -211,7 +237,7 @@ def sources(ballot):
 
 if __name__ == "__main__":
     packets = []
-    for b in json.loads(Path("pilot/ballots.json").read_text()) + json.loads(Path("pilot/one-sided.json").read_text()):
+    for b in json.loads(Path("pilot/holdout.json").read_text()):
         record = verify_vote(b)
         packets.append({**sources(b), "passageRecord": record})
     Path("packets.json").write_text(json.dumps(packets))

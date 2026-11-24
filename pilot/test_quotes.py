@@ -40,3 +40,26 @@ class SentenceTest(unittest.TestCase):
             self.assertEqual(point["quote"], text[point["start"]:point["end"]])
             with self.assertRaises(ValueError):
                 resolve(packet, item, 0, 2)
+
+class HoldoutGuards(unittest.TestCase):
+    def test_amendment_stays_excluded_through_vote(self):
+        from preview import candidate_rows
+        text = ("  Mr. DesJARLAIS. The bill provides funding for rural clinics.\n"
+                "                 Amendment No. 1 Offered by Mr. Rogers\n"
+                "  Mr. ROGERS of Alabama. This change would close all the rural clinics.\n"
+                "  A second sentence with no amendment keywords must still be excluded.\n"
+                "  The amendment was not agreed to.\n"
+                "  Mr. DesJARLAIS. The final bill keeps the rural clinics open.")
+        rows = list(attributed(text, MEMBERS, set(), BALLOT, "record"))
+        self.assertEqual([r["debateScope"] for r in rows], ["general","amendment","amendment","general"])
+        self.assertEqual([item[0] for item in candidate_rows({"paragraphs":rows}, "Yea")], [0,3])
+
+    def test_title_context_and_salutation(self):
+        from sources import SALUTATION
+        from preview import BACK_REFERENCE, title_only
+        self.assertEqual(SALUTATION.sub("", "Mr. President, colleagues, every day counts."), "every day counts.")
+        for opening in ("Anything less than that leaves a loophole.", "This bill makes all of those protections real.",
+                        "The Act seeks to shrink that gap by restoring authority."):
+            self.assertTrue(BACK_REFERENCE.search(opening))
+        self.assertTrue(title_only("I rise today in support of the Stop Insider Trading Act.", "Stop Insider Trading Act"))
+        self.assertFalse(title_only("Members could still trade using confidential committee information.", "Stop Insider Trading Act"))
