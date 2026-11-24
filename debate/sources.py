@@ -74,7 +74,8 @@ def verify_vote(ballot):
     ):
         raise ValueError(f"Unverified bill or final passage question in {url}")
     for bio, side in ballot["positions"].items():
-        if votes.get(bio) != side:
+        equivalent = {"Aye":"Yea","No":"Nay"}
+        if equivalent.get(votes.get(bio),votes.get(bio)) != equivalent.get(side,side):
             raise ValueError(
                 f"Official vote and archived position disagree for {bio} in {url}"
             )
