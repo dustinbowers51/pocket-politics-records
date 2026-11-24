@@ -22,6 +22,13 @@ MODEL = "gpt-5.4-mini"
 
 
 def ask(instructions, payload, audit, stage, side):
+    fields = ({"paragraph":"integer", "first":"integer", "last":"integer", "reason":"string"}
+              if stage == "selection" else {"id":"integer", "accepted":"boolean", "reason":"string"})
+    key = "points" if stage == "selection" else "checks"
+    item = dict(type="object", properties={k:{"type":v} for k,v in fields.items()},
+                required=list(fields), additionalProperties=False)
+    schema = dict(type="object", properties={key:dict(type="array", items=item)},
+                  required=[key], additionalProperties=False)
     request = Request(
         "https://api.openai.com/v1/responses",
         method="POST",
@@ -35,7 +42,7 @@ def ask(instructions, payload, audit, stage, side):
                 store=False,
                 instructions=instructions,
                 input="Return JSON.\n" + json.dumps(payload),
-                text={"format": {"type": "json_object"}},
+                text={"format": dict(type="json_schema", name=stage, schema=schema, strict=True)},
                 max_output_tokens=10000,
             )
         ).encode(),
@@ -123,7 +130,7 @@ def resolve(packet, candidate, first, last):
                 sentenceIds=[f"{candidate[0]}.{i}" for i in range(first,last+1)])
 
 
-def select(packet, audit):
+def select(packet, audit, cached=None):
     accepted = {"Yea": {}, "Nay": {}}
     pools = {side: candidate_rows(packet, side) for side in accepted}
     if not all(pools.values()):
@@ -146,13 +153,18 @@ def select(packet, audit):
                 "sentences from one paragraph, at most 60 words combined. Use only the supplied IDs. "
                 "Return JSON with points containing integer paragraph, first and last sentence IDs "
                 "(local integer keys), and reason. Return an empty list when none qualify.")
-        result = ask(task, dict(bill=packet["title"], side=side, candidates=payload), audit, "selection", side)
+        if cached is not None:
+            picks = [s["pick"] for s in cached["selection"] if s["side"] == side]
+        else:
+            picks = ask(task, dict(bill=packet["title"], side=side, candidates=payload), audit, "selection", side)["points"]
         selected = {}
-        for pick in result["points"]:
+        for pick in picks:
             audit["selection"].append(dict(side=side, pick=pick))
             try:
                 i = pick["paragraph"]
-                point = resolve(packet, rows[i], pick["first"], pick["last"])
+                first = pick.get("first", pick.get("first_sentence_id"))
+                last = pick.get("last", pick.get("last_sentence_id"))
+                point = resolve(packet, rows[i], first, last)
             except (KeyError, TypeError, ValueError) as error:
                 audit["checks"].append(dict(side=side, pick=pick, accepted=False, reason=str(error)))
                 continue
@@ -237,7 +249,7 @@ if __name__ == "__main__":
     for packet in json.loads(Path("packets.json").read_text()):
         fingerprint = digest(
             json.dumps(
-                [3, packet["sources"], packet["passageRecord"]["sha256"]],
+                [4, packet["sources"], packet["passageRecord"]["sha256"]],
                 ensure_ascii=False,
             ).encode()
         )
@@ -246,8 +258,14 @@ if __name__ == "__main__":
         if old.get("debateFingerprint") == fingerprint:
             continue
         audit = {"selection": [], "checks": [], "responses": []}
+        previous = digest(json.dumps([3, packet["sources"], packet["passageRecord"]["sha256"]],
+                                     ensure_ascii=False).encode())
+        cached = old.get("diagnostics") if old.get("debateFingerprint") == previous else None
+        if cached:
+            audit["responses"] = list(cached["responses"])
+            audit["reusedSelection"] = True
         try:
-            points = select(packet, audit)
+            points = select(packet, audit, cached)
         except (TimeoutError, ValueError, RuntimeError, KeyError) as exc:
             audit["error"] = str(exc)
             points = []
