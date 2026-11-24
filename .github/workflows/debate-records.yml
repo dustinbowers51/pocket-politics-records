@@ -52,7 +52,7 @@ jobs:
         id: mode
         run: echo "seeded=$(jq -r .seedComplete state-host/debate-data/state.json)" >> "$GITHUB_OUTPUT"
       - name: Read latest hourly archive
-        if: github.event_name != 'issue_comment' && vars.DEBATE_QUOTES_ENABLED != 'false' && steps.mode.outputs.seeded == 'true'
+        if: github.event_name != 'issue_comment' && vars.DEBATE_QUOTES_ENABLED != 'false' && steps.mode.outputs.seeded == 'true' && github.event_name != 'push'
         uses: actions/cache/restore@v4
         with:
           path: var/live
@@ -65,7 +65,8 @@ jobs:
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         working-directory: state-host
-        run: python3 ../debate/daily.py
+        run: |
+          if [[ "$GITHUB_EVENT_NAME" == push ]]; then python3 ../debate/round6.py; else python3 ../debate/daily.py; fi
   first-publication:
     needs: manage
     if: needs.manage.outputs.seeded == 'true'
