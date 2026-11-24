@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "c0cd46498618b9de357a3066175eb4376f9a9888f9e950ea33570e1a91c6d8bd",
+  "debateFingerprint": "e53a06364356e09169da67e39bd0a48d922503ce377f27b0056137ed6f6594f4",
   "bill": "119-hr-1501",
   "vote": "house:119:2:294",
   "sources": {
@@ -1747,251 +1747,301 @@
     "yea": 218,
     "nay": 201
   },
-  "points": [
-    {
-      "bio": "W000821",
-      "speaker": "Bruce Westerman",
-      "side": "Yea",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-      "start": 4714,
-      "quote": "It is not enough to just mine here at home. Our country also needs \nmineral processing capabilities to secure our domestic mineral supply \nchain. Crucially, this bill extends FAST-41 eligibility to both mining \nand mineral processing projects. We must have a comprehensive mineral \nstrategy that engages and bolsters the entire supply chain. Developing \ndomestic processing capabilities encourages the onshoring of industrial \nsectors and strengthens domestic supply chains from mining to \nmanufacturing.",
-      "summary": "It is not enough to just mine here at home. Our country also needs mineral processing capabilities to secure our domestic mineral supply chain. Crucially, this bill extends FAST-41 eligibility to both mining and mineral processing projects. We must have a comprehensive mineral strategy that engages and bolsters the entire supply chain. Developing domestic processing capabilities encourages the onshoring of industrial sectors and strengthens domestic supply chains from mining to manufacturing.",
-      "index": 52
-    },
-    {
-      "bio": "H001068",
-      "speaker": "Jared Huffman",
-      "side": "Nay",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-      "start": 6699,
-      "quote": "It is our third day back from a 5-week recess. We have 15 days left \nhere in Washington before the election. It should be a time that we are \ntrying to get some real work done, but instead of doing that, instead \nof doing a single thing to help our constituents who are struggling \nunder skyrocketing costs of groceries, gas, and electricity bills, \nRepublicans are scraping the bottom of the barrel to come up with any \nbill that their chaotic Conference can find a way to pass, and one of \nthe surest ways, it seems, is to find a way to do another favor for the \nPresident's friends and for foreign-owned mining conglomerates.",
-      "summary": "instead of doing a single thing to help our constituents who are struggling under skyrocketing costs of groceries, gas, and electricity bills, Republicans are scraping the bottom of the barrel to come up with any bill that their chaotic Conference can find a way to pass, and one of the surest ways, it seems, is to find a way to do another favor for the President's friends and for foreign-owned mining conglomerates.",
-      "index": 0
-    }
-  ],
+  "points": [],
   "diagnostics": {
     "selection": [
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 4714,
-        "quote": "It is not enough to just mine here at home. Our country also needs \nmineral processing capabilities to secure our domestic mineral supply \nchain. Crucially, this bill extends FAST-41 eligibility to both mining \nand mineral processing projects. We must have a comprehensive mineral \nstrategy that engages and bolsters the entire supply chain. Developing \ndomestic processing capabilities encourages the onshoring of industrial \nsectors and strengthens domestic supply chains from mining to \nmanufacturing.",
-        "summary": "It is not enough to just mine here at home. Our country also needs mineral processing capabilities to secure our domestic mineral supply chain. Crucially, this bill extends FAST-41 eligibility to both mining and mineral processing projects. We must have a comprehensive mineral strategy that engages and bolsters the entire supply chain. Developing domestic processing capabilities encourages the onshoring of industrial sectors and strengthens domestic supply chains from mining to manufacturing.",
-        "index": 52,
-        "reason": "Directly supports expanding eligibility to mining and processing to strengthen the full domestic mineral supply chain."
+        "pick": {
+          "paragraph": 3,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "General floor-manager support for extending FAST-41 eligibility to mining and mineral processing projects."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 3308,
-        "quote": "On average, it takes 19 years to bring a new mine into operation in \nthe United States. Permitting delays drive up costs, halt economic \ngrowth, stifle innovation, and increase our reliance on foreign \nadversaries.",
-        "summary": "On average, it takes 19 years to bring a new mine into operation in the United States. Permitting delays drive up costs, halt economic growth, stifle innovation, and increase our reliance on foreign adversaries.",
-        "index": 16,
-        "reason": "Explains that delays hurt growth and increase dependence on adversaries, supporting streamlined permitting."
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains that lengthy permitting delays raise costs, slow growth, and increase dependence on foreign adversaries."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 6306,
-        "quote": "Representative Shreve's legislation is an important step in \nstrengthening domestic production, securing supply chains, and ensuring \nthat America leads the way.",
-        "summary": "Representative Shreve's legislation is an important step in strengthening domestic production, securing supply chains, and ensuring that America leads the way.",
-        "index": 69,
-        "reason": "Supports the bill as a way to strengthen domestic production and supply chains."
+        "pick": {
+          "paragraph": 10,
+          "first_sentence_id": 1,
+          "last_sentence_id": 4,
+          "reason": "Argues the bill is needed to include mineral processing in a comprehensive domestic mineral strategy and strengthen supply chains from mining to manufacturing."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 13716,
-        "quote": "Our need for critical minerals and mining spans administrations. We \nneed certainty in the process so that we can access the supplies of ore \nthat we have here in the United States to meet our own demands. If we \nstart playing political permitting ping-pong from one administration to \nthe next, that gives no certainty to investors in America to use our \nown materials. That is exactly why we need to codify this, so that it \ngives everybody a fair shot to use the process.",
-        "summary": "Our need for critical minerals and mining spans administrations. We need certainty in the process so that we can access the supplies of ore that we have here in the United States to meet our own demands. If we start playing political permitting ping-pong from one administration to the next, that gives no certainty to investors in America to use our own materials. That is exactly why we need to codify this, so that it gives everybody a fair shot to use the process.",
-        "index": 72,
-        "reason": "Argues for codifying the policy to provide certainty and avoid shifting permitting rules."
+        "pick": {
+          "paragraph": 11,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "States the bill would block narrowing FAST-41 coverage and warns that such narrowing would deepen dependence on foreign nations and adversaries."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 5221,
-        "quote": "H.R. 1501 would also prohibit any future administration from \nfinalizing or implementing the Biden-era proposed rule to narrow FAST-\n41 coverage to only critical mineral mining projects. Narrowing FAST-41 \neligibility in this manner would further increase our country's \ndependence on foreign nations and adversaries for mineral production.",
-        "summary": "H.R. 1501 would also prohibit any future administration from finalizing or implementing the Biden-era proposed rule to narrow FAST- 41 coverage to only critical mineral mining projects. Narrowing FAST-41 eligibility in this manner would further increase our country's dependence on foreign nations and adversaries for mineral production.",
-        "index": 59,
-        "reason": "Supports preventing narrower eligibility because it would increase dependence on foreign nations and adversaries."
+        "pick": {
+          "paragraph": 154,
+          "first_sentence_id": 0,
+          "last_sentence_id": 3,
+          "reason": "Defends the need for permanent legislation by arguing current administrative authority is temporary and the same flexibility should not depend on which administration is in office."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 53768,
-        "quote": "Mr. Speaker, if you support our domestic supply of critical minerals, \nthis bill provides the regulatory certainty necessary to strengthen \ndomestic mineral supply chains. If you support weakening China's global \ncontrol over minerals, then I would say join us in voting for the \nProtecting Domestic Mining Act.",
-        "summary": "Mr. Speaker, if you support our domestic supply of critical minerals, this bill provides the regulatory certainty necessary to strengthen domestic mineral supply chains. If you support weakening China's global control over minerals, then I would say join us in voting for the Protecting Domestic Mining Act.",
-        "index": 80,
-        "reason": "Frames the bill as providing certainty and weakening China's control over minerals."
+        "pick": {
+          "paragraph": 156,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Concludes that supporting mining is essential to economic and national security and justifies passage to secure mineral supply chains."
+        }
       },
       {
-        "bio": "H001068",
-        "speaker": "Jared Huffman",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 6699,
-        "quote": "It is our third day back from a 5-week recess. We have 15 days left \nhere in Washington before the election. It should be a time that we are \ntrying to get some real work done, but instead of doing that, instead \nof doing a single thing to help our constituents who are struggling \nunder skyrocketing costs of groceries, gas, and electricity bills, \nRepublicans are scraping the bottom of the barrel to come up with any \nbill that their chaotic Conference can find a way to pass, and one of \nthe surest ways, it seems, is to find a way to do another favor for the \nPresident's friends and for foreign-owned mining conglomerates.",
-        "summary": "instead of doing a single thing to help our constituents who are struggling under skyrocketing costs of groceries, gas, and electricity bills, Republicans are scraping the bottom of the barrel to come up with any bill that their chaotic Conference can find a way to pass, and one of the surest ways, it seems, is to find a way to do another favor for the President's friends and for foreign-owned mining conglomerates.",
-        "index": 0,
-        "reason": "Frames the bill as a favor to the President's friends and foreign-owned mining interests rather than helping constituents facing high costs."
+        "pick": {
+          "paragraph": 18,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Explains opposition by arguing the bill is not offering the responsible, balanced mineral policy needed to meet national needs."
+        }
       },
       {
-        "bio": "G000606",
-        "speaker": "Adelita S. Grijalva",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 18124,
-        "quote": "At a time when we should be strengthening environmental protections, \nrespecting Tribal sovereignty, and ensuring communities have a \nmeaningful voice in decisions that affect their land and water, this \nbill moves us in the wrong direction.",
-        "summary": "At a time when we should be strengthening environmental protections, respecting Tribal sovereignty, and ensuring communities have a meaningful voice in decisions that affect their land and water, this bill moves us in the wrong direction.",
-        "index": 4,
-        "reason": "Argues the bill weakens environmental protections and Tribal sovereignty while excluding affected communities."
+        "pick": {
+          "paragraph": 20,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Criticizes the administration for channeling taxpayer money into projects that serve private interests rather than actually helping the American people."
+        }
       },
       {
-        "bio": "H001068",
-        "speaker": "Jared Huffman",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 7808,
-        "quote": "Unfortunately, this administration seems to have a different \napproach. They are throwing billions of taxpayers' dollars at the \nprojects that only seem to benefit themselves. There is a lot of money \nflying right now in the name of strengthening the mineral supply chain, \nbut when you look beneath the surface, it is going to projects that \nwill not actually help the American people.",
-        "summary": "They are throwing billions of taxpayers' dollars at the projects that only seem to benefit themselves.",
-        "index": 9,
-        "reason": "Claims the administration is directing public money toward projects that benefit insiders instead of the American people."
+        "pick": {
+          "paragraph": 21,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Argues that current mining deals lack transparency and may not reduce dependence on foreign adversaries."
+        }
       },
       {
-        "bio": "H001094",
-        "speaker": "Val T. Hoyle",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 27245,
-        "quote": "This legislation does not make our supply chains more secure or even \nensure that more of the domestic critical minerals that we need will \nget mined for American workers.",
-        "summary": "This legislation does not make our supply chains more secure or even ensure that more of the domestic critical minerals that we need will get mined for American workers.",
-        "index": 17,
-        "reason": "Directly says the bill fails to improve supply chain security or increase domestic mineral production for American workers."
+        "pick": {
+          "paragraph": 44,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "States the bill moves the country in the wrong direction by weakening environmental protections and Tribal sovereignty."
+        }
       },
       {
-        "bio": "H001094",
-        "speaker": "Val T. Hoyle",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 27663,
-        "quote": "We do not need to be a cheap date for foreign entities so the \nPresident and his family and his donors can get rich off the companies \nthat they are personally invested in. That is not in the best interests \nof Americans or American workers.",
-        "summary": "We do not need to be a cheap date for foreign entities so the President and his family and his donors can get rich off the companies that they are personally invested in.",
-        "index": 21,
-        "reason": "Opposes the bill as enabling foreign entities and enriching the President, his family, and donors."
+        "pick": {
+          "paragraph": 45,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Says the bill should require meaningful, enforceable Tribal consultation before projects can receive expedited permitting."
+        }
       },
       {
-        "bio": "H001068",
-        "speaker": "Jared Huffman",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
-        "start": 61918,
-        "quote": "This does nothing to help lower prices for Americans. It just gives \ngold mines or even mines owned by our foreign adversaries the same \naccess to FAST-41 streamlining as minerals projects needed for our \nnational or economic security interests.",
-        "summary": "This does nothing to help lower prices for Americans. It just gives gold mines or even mines owned by our foreign adversaries the same access to FAST-41 streamlining as minerals projects needed for our national or economic security interests.",
-        "index": 39,
-        "reason": "Says the bill fails to lower prices and wrongly treats nonessential or foreign-owned mines like strategically important projects."
+        "pick": {
+          "paragraph": 72,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Argues the bill fails to make supply chains more secure or ensure more domestic critical minerals are mined for American workers."
+        }
       }
     ],
     "checks": [
       {
-        "id": 52,
-        "accepted": true,
-        "reason": "The summary faithfully repeats the quote’s claims about mining, mineral processing, FAST-41 eligibility, and strengthening domestic supply chains.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 3,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "General floor-manager support for extending FAST-41 eligibility to mining and mineral processing projects."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 16,
-        "accepted": true,
-        "reason": "The summary accurately preserves the quote’s point about the 19-year timeline and the harms of permitting delays.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains that lengthy permitting delays raise costs, slow growth, and increase dependence on foreign adversaries."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 69,
-        "accepted": true,
-        "reason": "The summary matches the quote exactly in describing Representative Shreve’s legislation as strengthening domestic production, supply chains, and U.S. leadership.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 10,
+          "first_sentence_id": 1,
+          "last_sentence_id": 4,
+          "reason": "Argues the bill is needed to include mineral processing in a comprehensive domestic mineral strategy and strengthen supply chains from mining to manufacturing."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 72,
-        "accepted": true,
-        "reason": "The summary faithfully conveys the quote’s call for certainty, codification, and fair access to U.S. ore supplies across administrations.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 11,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "States the bill would block narrowing FAST-41 coverage and warns that such narrowing would deepen dependence on foreign nations and adversaries."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 59,
-        "accepted": true,
-        "reason": "The summary correctly states that H.R. 1501 would block narrowing FAST-41 coverage and that such narrowing would increase dependence on foreign adversaries.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 154,
+          "first_sentence_id": 0,
+          "last_sentence_id": 3,
+          "reason": "Defends the need for permanent legislation by arguing current administrative authority is temporary and the same flexibility should not depend on which administration is in office."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 80,
-        "accepted": true,
-        "reason": "The summary accurately reflects the quote’s argument that the bill provides regulatory certainty for critical minerals and helps counter China’s mineral control.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 156,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Concludes that supporting mining is essential to economic and national security and justifies passage to secure mineral supply chains."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 0,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the criticism about Republicans failing to help constituents and favoring the President's friends and foreign-owned mining conglomerates.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 18,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Explains opposition by arguing the bill is not offering the responsible, balanced mineral policy needed to meet national needs."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 9,
-        "accepted": true,
-        "reason": "The summary accurately captures the claim that billions of taxpayer dollars are being directed to projects that mainly benefit the speakers' own side and not the American people.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 20,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Criticizes the administration for channeling taxpayer money into projects that serve private interests rather than actually helping the American people."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 39,
-        "accepted": true,
-        "reason": "The summary accurately reflects that the bill does not lower prices and unfairly gives gold mines and adversary-owned mines FAST-41 access.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 21,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Argues that current mining deals lack transparency and may not reduce dependence on foreign adversaries."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 4,
-        "accepted": true,
-        "reason": "The summary matches the quote exactly and preserves the full central claim without changes.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 44,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "States the bill moves the country in the wrong direction by weakening environmental protections and Tribal sovereignty."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 17,
-        "accepted": true,
-        "reason": "The summary faithfully restates the quote's claim that the legislation does not improve supply chains or ensure more domestic critical minerals are mined for American workers.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 45,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Says the bill should require meaningful, enforceable Tribal consultation before projects can receive expedited permitting."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 21,
-        "accepted": true,
-        "reason": "The summary preserves the warning against enriching the President, his family, and donors through foreign entities and keeps the original meaning intact.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 72,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Argues the bill fails to make supply chains more secure or ensure more domestic critical minerals are mined for American workers."
+        },
+        "accepted": false,
+        "reason": "'first'"
       }
     ],
-    "proceduralDropped": 6
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_092e8f9eba400ba3016b05b5ef758087d290390ef8e0efeccc",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 5996,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 263,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 6259
+        },
+        "estimatedUsd": 0.0056805,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_0f6f073a260e1dd0016b05b5f231d087d289d1e4e5c8450ee2",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 3038,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 250,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3288
+        },
+        "estimatedUsd": 0.0034035,
+        "status": "completed"
+      }
+    ]
   }
 }
