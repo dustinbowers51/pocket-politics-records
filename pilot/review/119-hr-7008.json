@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "e89de4db0de7f63036943d2c1b5c1e1f47df6b332446da86797a83efcab46330",
+  "debateFingerprint": "fe1036a2d7e30431cfacdf101e20f3c467cdcfcbabed8059a434f5b0a77b321d",
   "bill": "119-hr-7008",
   "vote": "house:119:2:280",
   "sources": {
@@ -1739,7 +1739,70 @@
     "yea": 232,
     "nay": 198
   },
-  "points": [],
+  "points": [
+    {
+      "bio": "S001213",
+      "speaker": "Bryan Steil",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
+      "start": 18224,
+      "quote": "Under current law, Members of Congress are required to publicly \ndisclose their stock trades. The disclosures lack details and are often \nfiled months after a transaction.",
+      "display": "Under current law, Members of Congress are required to publicly disclose their stock trades. The disclosures lack details and are often filed months after a transaction.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm#:~:text=Under%20current%20law%2C%20Members%20of%20Congress%20are%20required%20to%20publicly%20disclose%20their%20stock%20trades.%20The%20disclosures%20lack%20details%20and%20are%20often%20filed%20months%20after%20a%20transaction.",
+      "end": 18395,
+      "sentenceIds": [
+        "4.0",
+        "4.1"
+      ]
+    },
+    {
+      "bio": "M001211",
+      "speaker": "Mary E. Miller",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
+      "start": 29043,
+      "quote": "This legislation will bring about a more transparent and accountable \nCongress and will be a strong measure to restore the American people's \ntrust in this institution.",
+      "display": "This legislation will bring about a more transparent and accountable Congress and will be a strong measure to restore the American people's trust in this institution.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm#:~:text=This%20legislation%20will%20bring%20about%20a%20more%20transparent%20and%20accountable%20Congress%20and%20will%20be%20a%20strong%20measure%20to%20restore%20the%20American%20people%27s%20trust%20in%20this%20institution.",
+      "end": 29211,
+      "sentenceIds": [
+        "25.0"
+      ]
+    },
+    {
+      "bio": "M001206",
+      "speaker": "Joseph D. Morelle",
+      "side": "Nay",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
+      "start": 46707,
+      "quote": "Anything less than that, particularly when you continue to hold \nstock, continue to trade by selling stock, when it is appropriate for \nyou and your portfolio, and even to be able to take dividends from \nstock you own and reinvest and buy more stock--that is allowed under \nthis bill, as well.",
+      "display": "Anything less than that, particularly when you continue to hold stock, continue to trade by selling stock, when it is appropriate for you and your portfolio, and even to be able to take dividends from stock you own and reinvest and buy more stock--that is allowed under this bill, as well.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm#:~:text=Anything%20less%20than%20that%2C%20particularly%20when%20you%20continue%20to%20hold%20stock%2C%20continue%20to%20trade%20by%20selling%20stock%2C%20when%20it%20is%20appropriate%20for%20you%20and%20your%20portfolio%2C%20and%20even%20to%20be%20able%20to%20take%20dividends%20from%20stock%20you%20own%20and%20reinvest%20and%20buy%20more%20stock%2D%2Dthat%20is%20allowed%20under%20this%20bill%2C%20as%20well.",
+      "end": 47000,
+      "sentenceIds": [
+        "90.0"
+      ]
+    },
+    {
+      "bio": "P000607",
+      "speaker": "Mark Pocan",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm",
+      "start": 32618,
+      "quote": "However, this bill before us puts Members of Congress above the law. \nIt is not a real congressional stock trading ban like other bipartisan \nmeasures.",
+      "display": "However, this bill before us puts Members of Congress above the law. It is not a real congressional stock trading ban like other bipartisan measures.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-22/html/CREC-2026-07-22-pt1-PgH5143.htm#:~:text=However%2C%20this%20bill%20before%20us%20puts%20Members%20of%20Congress%20above%20the%20law.%20It%20is%20not%20a%20real%20congressional%20stock%20trading%20ban%20like%20other%20bipartisan%20measures.",
+      "end": 32769,
+      "sentenceIds": [
+        "42.0",
+        "42.1"
+      ]
+    }
+  ],
   "diagnostics": {
     "selection": [
       {
@@ -1861,73 +1924,59 @@
           "reason": "General floor-manager support for the bill and a specific governance rationale: the committee is leading the reform effort to improve transparency and ethics."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
+        "id": 0,
+        "accepted": true,
+        "reason": "It states that current stock disclosures are incomplete and delayed, which is a concrete justification for stricter insider-trading rules.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 4,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Explains the current disclosure regime is inadequate because trades are disclosed with too little detail and too late, supporting the need for the bill."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "4.0",
+          "4.1"
+        ]
       },
       {
+        "id": 1,
+        "accepted": true,
+        "reason": "It argues the bill would ban Members from buying individual stocks and remove the appearance of impropriety, a substantive pro-vote reason.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 5,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Argues that current stock trading by Members fuels public frustration and that a ban would eliminate even the appearance of impropriety."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "5.0",
+          "5.1",
+          "5.2"
+        ]
       },
       {
+        "id": 2,
+        "accepted": false,
+        "reason": "This is mostly about the vote being on the floor and members being observed, which is procedural rather than a substantive policy reason.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 6,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Frames the legislation as transformational ethics reform and notes it is the first House floor vote on a congressional stock trading ban."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "6.0",
+          "6.1",
+          "6.2"
+        ]
       },
       {
+        "id": 3,
+        "accepted": false,
+        "reason": "This is a rhetorical statement about where politicians should work, not a concrete policy reason supporting the bill.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 7,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Makes the substantive case that Members should not day trade in Washington and should work for the American people instead."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "7.0",
+          "7.1",
+          "7.2"
+        ]
       },
       {
+        "id": 4,
+        "accepted": true,
+        "reason": "It claims the legislation will increase transparency and accountability and restore public trust, which is a substantive reason for supporting it.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 25,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Says the bill will make Congress more transparent and accountable and help restore public trust."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 42,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Explains that the bill is not a real stock-trading ban and that it elevates Members above the law, directly arguing against passage."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "25.0"
+        ]
       },
       {
         "side": "Nay",
@@ -1938,40 +1987,7 @@
           "reason": "Details the loopholes—allowing Members to hold stock, use dividends, and let family members trade—showing the bill is an inadequate fake ban."
         },
         "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 75,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Argues the bill does not go far enough because Members can keep existing investments, preserving conflicts of interest."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 90,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "States that the bill still allows selling stock, taking dividends, and reinvesting, so it fails to stop the conduct it targets."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 123,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Supports a real ban as a trust-restoring reform but implies the bill on the floor falls short of that standard."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Nay",
@@ -1982,7 +1998,45 @@
           "reason": "Explicitly says the so-called Stop Insider Trading Act is not a stock trading ban and does not require divestiture, which is a direct substantive objection."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
+      },
+      {
+        "id": 2,
+        "accepted": true,
+        "reason": "Explains that the bill still allows stock holding, selling, and reinvesting dividends, so it does not adequately ban trading; that supports voting Nay.",
+        "side": "Nay",
+        "sentenceIds": [
+          "90.0"
+        ]
+      },
+      {
+        "id": 0,
+        "accepted": true,
+        "reason": "Argues the bill is not a real stock-trading ban and exempts Members of Congress, which is a substantive criticism supporting a Nay vote.",
+        "side": "Nay",
+        "sentenceIds": [
+          "42.0",
+          "42.1"
+        ]
+      },
+      {
+        "id": 1,
+        "accepted": true,
+        "reason": "Says the bill is too weak because Members can keep existing investments and conflicts of interest remain, which is a substantive reason to oppose it.",
+        "side": "Nay",
+        "sentenceIds": [
+          "75.0",
+          "75.1"
+        ]
+      },
+      {
+        "id": 3,
+        "accepted": false,
+        "reason": "This supports banning stock trading generally, but it does not give a reason to oppose the specific bill as written.",
+        "side": "Nay",
+        "sentenceIds": [
+          "123.0"
+        ]
       }
     ],
     "responses": [
@@ -2033,7 +2087,56 @@
         },
         "estimatedUsd": 0.00572625,
         "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_04299f18a9389cfb016b05b67057e887d28399b1c927c7d91c",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 347,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 186,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 533
+        },
+        "estimatedUsd": 0.00109725,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_06e51b97bf76f9df016b05b672733887d286a371fd4d4163f6",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 316,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 165,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 481
+        },
+        "estimatedUsd": 0.0009795,
+        "status": "completed"
       }
-    ]
+    ],
+    "reusedSelection": true
   }
 }
