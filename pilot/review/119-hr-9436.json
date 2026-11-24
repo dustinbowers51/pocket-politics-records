@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "747fdf2321a00bfe97531c522bb2ebf8d0cb490a57cf068438d0a7b9cdf22bb5",
+  "debateFingerprint": "e355f3a30f0e848219b4bfcec27012dae06713363d21cb73c2e2519992d3b4ca",
   "bill": "119-hr-9436",
   "vote": "house:119:2:291",
   "sources": {
@@ -1743,251 +1743,301 @@
     "yea": 219,
     "nay": 196
   },
-  "points": [
-    {
-      "bio": "W000821",
-      "speaker": "Bruce Westerman",
-      "side": "Yea",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-      "start": 2681,
-      "quote": "Mr. Speaker, I rise in strong support of H.R. 9436, the Northeast \nLobsterman Protection Act, which will protect one of the world's most \niconic fisheries and the American jobs, communities, and families that \ndepend on it.",
-      "summary": "which will protect one of the world's most iconic fisheries and the American jobs, communities, and families that depend on it.",
-      "index": 0
-    },
-    {
-      "bio": "H001068",
-      "speaker": "Jared Huffman",
-      "side": "Nay",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-      "start": 23266,
-      "quote": "Mr. Speaker, for the benefit of the chairman and others here, the \nfacts are these: Since 2022, 31 whales have died or been seriously \ninjured by entanglements.",
-      "summary": "Since 2022, 31 whales have died or been seriously injured by entanglements",
-      "index": 3
-    }
-  ],
+  "points": [],
   "diagnostics": {
     "selection": [
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 2681,
-        "quote": "Mr. Speaker, I rise in strong support of H.R. 9436, the Northeast \nLobsterman Protection Act, which will protect one of the world's most \niconic fisheries and the American jobs, communities, and families that \ndepend on it.",
-        "summary": "which will protect one of the world's most iconic fisheries and the American jobs, communities, and families that depend on it.",
-        "index": 0,
-        "reason": "manager-supported core justification tying the bill to protecting an iconic fishery and the people who depend on it"
+        "pick": {
+          "paragraph": 3,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Specific support for the bill as protecting the iconic fishery and the American jobs, communities, and families that depend on it."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 2907,
-        "quote": "In Maine, lobster accounts for 75 percent of the total value of the \nState's commercial fisheries, supporting an estimated $2 billion in \neconomic activity and 17,500 jobs.",
-        "summary": "In Maine, lobster accounts for 75 percent of the total value of the State's commercial fisheries, supporting an estimated $2 billion in economic activity and 17,500 jobs.",
-        "index": 6,
-        "reason": "manager-supported economic significance of the lobster industry"
+        "pick": {
+          "paragraph": 4,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Provides concrete economic justification, citing lobster's share of Maine fisheries value, $2 billion in activity, and 17,500 jobs."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 3082,
-        "quote": "While critical to the State's economy, a robust lobster industry \nisn't just about dollars and cents. It is about individuals, families, \nand communities whose stories and traditions are directly tied to this \nindustry that has operated for more than 70 years.",
-        "summary": "While critical to the State's economy, a robust lobster industry isn't just about dollars and cents. It is about individuals, families, and communities whose stories and traditions are directly tied to this industry that has operated for more than 70 years.",
-        "index": 12,
-        "reason": "manager-supported cultural and community importance of the industry"
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues the industry matters beyond money because it sustains families and communities tied to a 70-year tradition."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 3647,
-        "quote": "For nearly 30 years, the Atlantic Large Whale Take Reduction Team has \noverseen the Maine lobster and Jonah crab fisheries. They have \nimplemented and updated a take reduction plan with extensive regulatory \nrequirements designed to minimize the fishery's impact on North \nAtlantic right whales. What they are doing is working. For decades, the \nindustry has led conservation efforts to reduce right whale \nentanglements in their gear.",
-        "summary": "For nearly 30 years, the Atlantic Large Whale Take Reduction Team has overseen the Maine lobster and Jonah crab fisheries. They have implemented and updated a take reduction plan with extensive regulatory requirements designed to minimize the fishery's impact on North Atlantic right whales. What they are doing is working. For decades, the industry has led conservation efforts to reduce right whale entanglements in their gear.",
-        "index": 24,
-        "reason": "manager-supported claim that existing conservation efforts are working and should be preserved"
+        "pick": {
+          "paragraph": 10,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains the bill's purpose as a bipartisan regulatory pause that gives the state and industry more time to develop new gear, conservation measures, and research."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 4085,
-        "quote": "Despite the American lobster fishery virtually eliminating its impact \non right whales, the take reduction plan has faced repeated litigation, \nleaving the industry subject to regulatory whiplash. The American \nlobster fishery has been subject to four different biological opinions \nbetween 2010 and 2021, with ever more draconian restrictions.",
-        "summary": "Despite the American lobster fishery virtually eliminating its impact on right whales, the take reduction plan has faced repeated litigation, leaving the industry subject to regulatory whiplash. The American lobster fishery has been subject to four different biological opinions between 2010 and 2021, with ever more draconian restrictions.",
-        "index": 30,
-        "reason": "manager-supported need for relief from repeated litigation and regulatory whiplash"
+        "pick": {
+          "paragraph": 11,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States that more time is needed to gather data and says the bill extends MMPA and ESA coverage through 2035 to get regulations right."
+        }
       },
       {
-        "bio": "W000821",
-        "speaker": "Bruce Westerman",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 5283,
-        "quote": "Since then, the State of Maine, the industry, and other scientific \nand research bodies have made progress, investing more than $90 million \nin research. However, it is clear that more time is needed to gather \nthe necessary data and incorporate it into final regulations. \nRepresentative Lawler's bill would provide MMPA and ESA coverage for \nthese fisheries through 2035, providing the necessary time to get these \nregulations right without the threat of more frivolous litigation.",
-        "summary": "Since then, the State of Maine, the industry, and other scientific and research bodies have made progress, investing more than $90 million in research. However, it is clear that more time is needed to gather the necessary data and incorporate it into final regulations. Representative Lawler's bill would provide MMPA and ESA coverage for these fisheries through 2035, providing the necessary time to get these regulations right without the threat of more frivolous litigation.",
-        "index": 44,
-        "reason": "manager-supported need for more time, better data, and protection from frivolous litigation"
+        "pick": {
+          "paragraph": 32,
+          "first_sentence_id": 0,
+          "last_sentence_id": 4,
+          "reason": "Contends that Maine's approach is working, citing a right whale population increase and minimal attributed whale deaths while preserving economic activity."
+        }
       },
       {
-        "bio": "H001068",
-        "speaker": "Jared Huffman",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 13435,
-        "quote": "Mr. Speaker, I include in the Record a letter from more than 30 \ncommunity environmental and civic leaders in New York and New Jersey \nurging Congress to defend science-based management of the North \nAtlantic right whale and opposing this legislation.",
-        "summary": "defend science-based management of the North Atlantic right whale and opposing this legislation",
-        "index": 0,
-        "reason": "This supports rejecting the bill because it opposes science-based management for the right whale."
+        "pick": {
+          "paragraph": 44,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Cites concrete entanglement mortality data to argue the bill is dangerous for right whale protection."
+        }
       },
       {
-        "bio": "B001292",
-        "speaker": "Donald S. Beyer, Jr.",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 26968,
-        "quote": "Mr. Speaker, I rise in opposition to this bill. We must \nprotect the North Atlantic right whale, which, as you heard, is already \nat risk of extinction. This bill threatens to put them right over the \nedge.",
-        "summary": "the North Atlantic right whale, which, as you heard, is already at risk of extinction",
-        "index": 1,
-        "reason": "This supports rejecting the bill because it says the whale is already at risk of extinction."
+        "pick": {
+          "paragraph": 61,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues fishing-gear entanglement is a leading cause of right whale deaths and that earlier delays weakened needed protections."
+        }
       },
       {
-        "bio": "H001068",
-        "speaker": "Jared Huffman",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 23266,
-        "quote": "Mr. Speaker, for the benefit of the chairman and others here, the \nfacts are these: Since 2022, 31 whales have died or been seriously \ninjured by entanglements.",
-        "summary": "Since 2022, 31 whales have died or been seriously injured by entanglements",
-        "index": 3,
-        "reason": "This supports rejecting the bill because it cites ongoing entanglement deaths and serious injuries."
+        "pick": {
+          "paragraph": 90,
+          "first_sentence_id": 2,
+          "last_sentence_id": 5,
+          "reason": "Uses recent NOAA mortality and injury data to warn the bill would gut environmental protections and extend harmful exemptions."
+        }
       },
       {
-        "bio": "H001068",
-        "speaker": "Jared Huffman",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 23429,
-        "quote": "Entanglements are a huge problem. It is not even in serious dispute. \nEighty-five percent of living whales have been entangled at least once, \nand 60 percent at least twice.",
-        "summary": "Entanglements are a huge problem",
-        "index": 5,
-        "reason": "This supports rejecting the bill because it identifies entanglements as a major problem."
+        "pick": {
+          "paragraph": 104,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Directly urges rejection because the bill risks extinction of the right whale."
+        }
       },
       {
-        "bio": "H001068",
-        "speaker": "Jared Huffman",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 23605,
-        "quote": "In terms of the alleged progress in the past year or so for this \nwhale, they are not reproducing nearly fast enough to avoid an \nextinction trajectory. There are right now more Members of the House of \nRepresentatives than there are North Atlantic right whales living in \nour ocean.",
-        "summary": "they are not reproducing nearly fast enough to avoid an extinction trajectory",
-        "index": 7,
-        "reason": "This supports rejecting the bill because it says the whale is on an extinction trajectory."
+        "pick": {
+          "paragraph": 108,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Warns the bill discourages cooperative research and penalizes fishermen who already invested in safer gear."
+        }
       },
       {
-        "bio": "H001068",
-        "speaker": "Jared Huffman",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-01/html/CREC-2026-09-01-pt1-PgH5395.htm",
-        "start": 47623,
-        "quote": "Mr. Speaker, I urge this body to reject H.R. 9436. This bill moves \nthe goalposts and risks the extinction of an iconic whale that calls \nour Nation's Atlantic waters home.",
-        "summary": "This bill moves the goalposts and risks the extinction of an iconic whale that calls our Nation's Atlantic waters home",
-        "index": 16,
-        "reason": "This supports rejecting the bill because it says the bill risks extinction."
+        "pick": {
+          "paragraph": 109,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Criticizes the waiver extension as unfunded and based on obsolete data, weakening informed regulation."
+        }
       }
     ],
     "checks": [
       {
-        "id": 0,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the support for H.R. 9436 and the claim that it will protect the fishery and dependent American jobs, communities, and families.",
-        "side": "Yea"
-      },
-      {
-        "id": 6,
-        "accepted": true,
-        "reason": "The summary matches the stated economic figures for Maine lobster without adding or omitting any central claim.",
-        "side": "Yea"
-      },
-      {
-        "id": 12,
-        "accepted": true,
-        "reason": "The summary accurately reflects that the lobster industry matters for people, families, and communities, not just economics, and that it has operated for more than 70 years.",
-        "side": "Yea"
-      },
-      {
-        "id": 24,
-        "accepted": true,
-        "reason": "The summary faithfully states the team’s oversight, the take reduction plan, its purpose to minimize harm to North Atlantic right whales, and that the conservation efforts are working.",
-        "side": "Yea"
-      },
-      {
-        "id": 30,
-        "accepted": true,
-        "reason": "The summary accurately reflects the repeated litigation, regulatory whiplash, and multiple biological opinions with increasing restrictions.",
-        "side": "Yea"
-      },
-      {
-        "id": 44,
-        "accepted": true,
-        "reason": "The summary preserves the progress in research, the need for more time, and the bill’s extension of MMPA and ESA coverage through 2035 to avoid frivolous litigation.",
-        "side": "Yea"
-      },
-      {
-        "id": 0,
+        "side": "Yea",
+        "pick": {
+          "paragraph": 3,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Specific support for the bill as protecting the iconic fishery and the American jobs, communities, and families that depend on it."
+        },
         "accepted": false,
-        "reason": "The summary drops the attribution to the letter from more than 30 community environmental and civic leaders and turns a quoted request into a standalone statement.",
-        "side": "Nay"
+        "reason": "'first'"
       },
       {
-        "id": 3,
-        "accepted": true,
-        "reason": "The summary faithfully states the same fact about 31 whales dying or being seriously injured by entanglements since 2022.",
-        "side": "Nay"
-      },
-      {
-        "id": 5,
-        "accepted": true,
-        "reason": "The summary matches the quote’s central claim that entanglements are a huge problem.",
-        "side": "Nay"
-      },
-      {
-        "id": 7,
-        "accepted": true,
-        "reason": "The summary accurately preserves the claim that the whales are not reproducing nearly fast enough to avoid an extinction trajectory.",
-        "side": "Nay"
-      },
-      {
-        "id": 16,
-        "accepted": true,
-        "reason": "The summary faithfully reflects that the bill moves the goalposts and risks the extinction of an iconic whale in U.S. Atlantic waters.",
-        "side": "Nay"
-      },
-      {
-        "id": 1,
+        "side": "Yea",
+        "pick": {
+          "paragraph": 4,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Provides concrete economic justification, citing lobster's share of Maine fisheries value, $2 billion in activity, and 17,500 jobs."
+        },
         "accepted": false,
-        "reason": "The summary omits the speaker’s opposition to the bill and the warning that the bill threatens to push the whale over the edge.",
-        "side": "Nay"
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues the industry matters beyond money because it sustains families and communities tied to a 70-year tradition."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 10,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains the bill's purpose as a bipartisan regulatory pause that gives the state and industry more time to develop new gear, conservation measures, and research."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 11,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States that more time is needed to gather data and says the bill extends MMPA and ESA coverage through 2035 to get regulations right."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 32,
+          "first_sentence_id": 0,
+          "last_sentence_id": 4,
+          "reason": "Contends that Maine's approach is working, citing a right whale population increase and minimal attributed whale deaths while preserving economic activity."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 44,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Cites concrete entanglement mortality data to argue the bill is dangerous for right whale protection."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 61,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues fishing-gear entanglement is a leading cause of right whale deaths and that earlier delays weakened needed protections."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 90,
+          "first_sentence_id": 2,
+          "last_sentence_id": 5,
+          "reason": "Uses recent NOAA mortality and injury data to warn the bill would gut environmental protections and extend harmful exemptions."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 104,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Directly urges rejection because the bill risks extinction of the right whale."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 108,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Warns the bill discourages cooperative research and penalizes fishermen who already invested in safer gear."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 109,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Criticizes the waiver extension as unfunded and based on obsolete data, weakening informed regulation."
+        },
+        "accepted": false,
+        "reason": "'first'"
       }
     ],
-    "proceduralDropped": 12
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_0c882b1f1e24b778016b05b5f66b8887d290bba4c1b8cf9942",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 5355,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 284,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 5639
+        },
+        "estimatedUsd": 0.00529425,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_09e2526a3e756af2016b05b5f8502887d285560db2c55139a4",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 2157,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 247,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2404
+        },
+        "estimatedUsd": 0.00272925,
+        "status": "completed"
+      }
+    ]
   }
 }
