@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "5face8463c86e6a52f4220f7eebf9db8e623c76a53cdd4c83ceca26dd8e9994c",
+  "debateFingerprint": "a03127672ba905b470128d138c28637d4790b997de83329f91aba1f454de8a62",
   "bill": "119-hr-6955",
   "vote": "house:119:2:271",
   "sources": {
@@ -1739,295 +1739,301 @@
     "yea": 270,
     "nay": 155
   },
-  "points": [
-    {
-      "bio": "M001204",
-      "speaker": "Daniel Meuser",
-      "side": "Yea",
-      "manager": false,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-      "start": 203767,
-      "quote": "I do rise in support of the very appropriately named Main Street \nCapital Access Act introduced by Chairman Hill and Subcommittee \nChairman Barr. The legislation does exactly what it says. It supports \naccess to capital for Main Street.",
-      "summary": "I do rise in support of the very appropriately named Main Street Capital Access Act introduced by Chairman Hill and Subcommittee Chairman Barr. The legislation does exactly what it says. It supports access to capital for Main Street.",
-      "index": 4
-    },
-    {
-      "bio": "B001282",
-      "speaker": "Andy Barr",
-      "side": "Yea",
-      "manager": false,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-      "start": 184145,
-      "quote": "The Main Street Capital Access Act is exactly the kind of reform \nneeded to advance this committee's goal of making community banking \ngreat again. Over the past 18 months, we have worked hard to develop \nover two dozen banking reform bills--many of them with strong \nbipartisan support--and combined them into one multifaceted package \ndesigned to strengthen our community financial institutions, not big \nbanks, like the ranking member is referring to, community banks, Main \nStreet banks, midsize banks.",
-      "summary": "The Main Street Capital Access Act is exactly the kind of reform needed to advance this committee's goal of making community banking great again. Over the past 18 months, we have worked hard to develop over two dozen banking reform bills--many of them with strong bipartisan support--and combined them into one multifaceted package designed to strengthen our community financial institutions, not big banks, like the ranking member is referring to, community banks, Main Street banks, midsize banks.",
-      "index": 8
-    },
-    {
-      "bio": "K000405",
-      "speaker": "Brad Knott",
-      "side": "Yea",
-      "manager": false,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-      "start": 211830,
-      "quote": "With administrative costs rising every year, local banks simply \ncannot afford to operate. We can see this most clearly in 1980 where \nthere were more than 14,000 community banks in the United States. Now \nbecause of the regulatory structure of the current market, there are \nroughly 4,000 community banks. This stifles lending, reduces \ncompetition, and makes it harder for Americans, especially in rural \ncommunities, to access capital. Put plainly, the current regulatory \nclimate punishes community banks, and it benefits larger international \nbanks.",
-      "summary": "With administrative costs rising every year, local banks simply cannot afford to operate. We can see this most clearly in 1980 where there were more than 14,000 community banks in the United States. Now because of the regulatory structure of the current market, there are roughly 4,000 community banks. This stifles lending, reduces competition, and makes it harder for Americans, especially in rural communities, to access capital. Put plainly, the current regulatory climate punishes community banks, and it benefits larger international banks.",
-      "index": 19
-    },
-    {
-      "bio": "V000081",
-      "speaker": "Nydia M. Velazquez",
-      "side": "Nay",
-      "manager": false,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-      "start": 189736,
-      "quote": "Instead of focusing on modest improvements, this package represents \nthe largest amount of bank deregulation since before the financial \ncrisis. It includes sweeping reforms that will not only significantly \nroll back necessary safeguards and weaken oversight, but it will also \nundermine consumer protection and antidiscrimination measures and \nhamper the CFPB's ability to issue new rules. This deregulation package \nwill push risk into the shadows and make the next publicly financed \nbailout more likely.",
-      "summary": "This package represents the largest amount of bank deregulation since before the financial crisis. It includes sweeping reforms that will not only significantly roll back necessary safeguards and weaken oversight, but it will also undermine consumer protection and antidiscrimination measures and hamper the CFPB's ability to issue new rules. This deregulation package will push risk into the shadows and make the next publicly financed bailout more likely.",
-      "index": 7
-    },
-    {
-      "bio": "G000587",
-      "speaker": "Sylvia R. Garcia",
-      "side": "Nay",
-      "manager": false,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-      "start": 200719,
-      "quote": "It does not help end the affordability crisis, feed hardworking \nAmericans, or keep a roof over their heads. Instead, this bill sneaks \nin deregulatory measures, further weakens the Consumer Financial \nProtection Bureau, and weakens community reinvestment and anti-\ndiscrimination safeguards.",
-      "summary": "It does not help end the affordability crisis, feed hardworking Americans, or keep a roof over their heads. Instead, this bill sneaks in deregulatory measures, further weakens the Consumer Financial Protection Bureau, and weakens community reinvestment and anti- discrimination safeguards.",
-      "index": 5
-    },
-    {
-      "bio": "W000187",
-      "speaker": "Maxine Waters",
-      "side": "Nay",
-      "manager": false,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-      "start": 250180,
-      "quote": "Nothing in this bill will help consumers afford groceries or pay for \ngas. Do you know who is not suffering during the affordability crisis? \nWall Street. This bill would loosen the guardrails on Wall Street mega \nbanks even as they report record profits.",
-      "summary": "Nothing in this bill will help consumers afford groceries or pay for gas. Do you know who is not suffering during the affordability crisis? Wall Street. This bill would loosen the guardrails on Wall Street mega banks even as they report record profits.",
-      "index": 52
-    }
-  ],
+  "points": [],
   "diagnostics": {
     "selection": [
       {
-        "bio": "M001204",
-        "speaker": "Daniel Meuser",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 203767,
-        "quote": "I do rise in support of the very appropriately named Main Street \nCapital Access Act introduced by Chairman Hill and Subcommittee \nChairman Barr. The legislation does exactly what it says. It supports \naccess to capital for Main Street.",
-        "summary": "I do rise in support of the very appropriately named Main Street Capital Access Act introduced by Chairman Hill and Subcommittee Chairman Barr. The legislation does exactly what it says. It supports access to capital for Main Street.",
-        "index": 4,
-        "reason": "Direct support for the bill and its central purpose of expanding access to capital."
+        "pick": {
+          "paragraph": 24,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains the bill as a package of bipartisan banking reforms to strengthen community financial institutions, directly supporting Main Street access to capital."
+        }
       },
       {
-        "bio": "B001282",
-        "speaker": "Andy Barr",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 184145,
-        "quote": "The Main Street Capital Access Act is exactly the kind of reform \nneeded to advance this committee's goal of making community banking \ngreat again. Over the past 18 months, we have worked hard to develop \nover two dozen banking reform bills--many of them with strong \nbipartisan support--and combined them into one multifaceted package \ndesigned to strengthen our community financial institutions, not big \nbanks, like the ranking member is referring to, community banks, Main \nStreet banks, midsize banks.",
-        "summary": "The Main Street Capital Access Act is exactly the kind of reform needed to advance this committee's goal of making community banking great again. Over the past 18 months, we have worked hard to develop over two dozen banking reform bills--many of them with strong bipartisan support--and combined them into one multifaceted package designed to strengthen our community financial institutions, not big banks, like the ranking member is referring to, community banks, Main Street banks, midsize banks.",
-        "index": 8,
-        "reason": "Supports the bill as needed reform and emphasizes strengthening community financial institutions."
+        "pick": {
+          "paragraph": 45,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues the bill lowers regulatory costs for community and midsize banks and restores flexibility so they can better serve families and businesses."
+        }
       },
       {
-        "bio": "K000405",
-        "speaker": "Brad Knott",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 211830,
-        "quote": "With administrative costs rising every year, local banks simply \ncannot afford to operate. We can see this most clearly in 1980 where \nthere were more than 14,000 community banks in the United States. Now \nbecause of the regulatory structure of the current market, there are \nroughly 4,000 community banks. This stifles lending, reduces \ncompetition, and makes it harder for Americans, especially in rural \ncommunities, to access capital. Put plainly, the current regulatory \nclimate punishes community banks, and it benefits larger international \nbanks.",
-        "summary": "With administrative costs rising every year, local banks simply cannot afford to operate. We can see this most clearly in 1980 where there were more than 14,000 community banks in the United States. Now because of the regulatory structure of the current market, there are roughly 4,000 community banks. This stifles lending, reduces competition, and makes it harder for Americans, especially in rural communities, to access capital. Put plainly, the current regulatory climate punishes community banks, and it benefits larger international banks.",
-        "index": 19,
-        "reason": "Explains the harm of the current framework and the need for relief that this bill provides."
+        "pick": {
+          "paragraph": 87,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States the bill supports access to capital for Main Street, giving a specific policy rationale for a yea vote."
+        }
       },
       {
-        "bio": "B001282",
-        "speaker": "Andy Barr",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 186083,
-        "quote": "The goal is simple: Regulation should follow the risk, not the ZIP \nCode or the political fashion. A $500 million community bank in rural \nKentucky, rural Arkansas, or rural Michigan should not be regulated \nunder the same framework built for a trillion-dollar institution \noperating around the globe. That means higher costs, fewer loans, more \nforced consolidation. This hurts everyday Americans by reducing both \naccess to credit and opportunities for small business growth.",
-        "summary": "The goal is simple: Regulation should follow the risk, not the ZIP Code or the political fashion. A $500 million community bank in rural Kentucky, rural Arkansas, or rural Michigan should not be regulated under the same framework built for a trillion-dollar institution operating around the globe. That means higher costs, fewer loans, more forced consolidation. This hurts everyday Americans by reducing both access to credit and opportunities for small business growth.",
-        "index": 27,
-        "reason": "States the case for tailoring regulation to bank risk and against one-size-fits-all treatment."
+        "pick": {
+          "paragraph": 30,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Says the bill rightsizes the regulatory framework so community lenders can return to serving customers and communities."
+        }
       },
       {
-        "bio": "B001282",
-        "speaker": "Andy Barr",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 186563,
-        "quote": "The Main Street Capital Access Act is about changing that. It is \nabout rightsizing this regulatory framework to ensure that community \nlenders get back to what they do best: serving their customers and \ntheir communities.",
-        "summary": "The Main Street Capital Access Act is about changing that. It is about rightsizing this regulatory framework to ensure that community lenders get back to what they do best: serving their customers and their communities.",
-        "index": 30,
-        "reason": "Supports the bill as a change to make regulation fit community lenders and their role."
+        "pick": {
+          "paragraph": 33,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Notes the bill restores proportionality in regulation and frees more money for loans in local communities."
+        }
       },
       {
-        "bio": "B001282",
-        "speaker": "Andy Barr",
         "side": "Yea",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 187139,
-        "quote": "It also restores proportionality to regulation, updating capital \nleverage and enhanced prudential standards to actually reflect a bank's \nrisk profile, not just an arbitrary static asset threshold. That means \nless money spent on regulatory gymnastics and more money available for \nloans in your communities.",
-        "summary": "It also restores proportionality to regulation, updating capital leverage and enhanced prudential standards to actually reflect a bank's risk profile, not just an arbitrary static asset threshold. That means less money spent on regulatory gymnastics and more money available for loans in your communities.",
-        "index": 34,
-        "reason": "Highlights the bill's proportional regulation and its effect on lending capacity."
+        "pick": {
+          "paragraph": 62,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Claims the bill creates competition and increases opportunities for entrepreneurs instead of leaving small banks to be sold to big Wall Street lenders."
+        }
       },
       {
-        "bio": "V000081",
-        "speaker": "Nydia M. Velazquez",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 189736,
-        "quote": "Instead of focusing on modest improvements, this package represents \nthe largest amount of bank deregulation since before the financial \ncrisis. It includes sweeping reforms that will not only significantly \nroll back necessary safeguards and weaken oversight, but it will also \nundermine consumer protection and antidiscrimination measures and \nhamper the CFPB's ability to issue new rules. This deregulation package \nwill push risk into the shadows and make the next publicly financed \nbailout more likely.",
-        "summary": "This package represents the largest amount of bank deregulation since before the financial crisis. It includes sweeping reforms that will not only significantly roll back necessary safeguards and weaken oversight, but it will also undermine consumer protection and antidiscrimination measures and hamper the CFPB's ability to issue new rules. This deregulation package will push risk into the shadows and make the next publicly financed bailout more likely.",
-        "index": 7,
-        "reason": "Strong substantive opposition based on deregulation, weakened oversight, and increased systemic risk."
+        "pick": {
+          "paragraph": 36,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues community banks and credit unions are vital to small business, farm lending, mortgages, and underserved rural communities, framing the bill as harmful to those institutions."
+        }
       },
       {
-        "bio": "G000587",
-        "speaker": "Sylvia R. Garcia",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 200719,
-        "quote": "It does not help end the affordability crisis, feed hardworking \nAmericans, or keep a roof over their heads. Instead, this bill sneaks \nin deregulatory measures, further weakens the Consumer Financial \nProtection Bureau, and weakens community reinvestment and anti-\ndiscrimination safeguards.",
-        "summary": "It does not help end the affordability crisis, feed hardworking Americans, or keep a roof over their heads. Instead, this bill sneaks in deregulatory measures, further weakens the Consumer Financial Protection Bureau, and weakens community reinvestment and anti- discrimination safeguards.",
-        "index": 5,
-        "reason": "Argues the bill fails to address key economic needs while weakening consumer and civil-rights protections."
+        "pick": {
+          "paragraph": 38,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States the package is the largest bank deregulation since before the financial crisis and warns it would weaken safeguards, consumer protection, and increase bailout risk."
+        }
       },
       {
-        "bio": "W000187",
-        "speaker": "Maxine Waters",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 250180,
-        "quote": "Nothing in this bill will help consumers afford groceries or pay for \ngas. Do you know who is not suffering during the affordability crisis? \nWall Street. This bill would loosen the guardrails on Wall Street mega \nbanks even as they report record profits.",
-        "summary": "Nothing in this bill will help consumers afford groceries or pay for gas. Do you know who is not suffering during the affordability crisis? Wall Street. This bill would loosen the guardrails on Wall Street mega banks even as they report record profits.",
-        "index": 52,
-        "reason": "States the bill does not help consumers and instead benefits large banks during an affordability crisis."
+        "pick": {
+          "paragraph": 48,
+          "first_sentence_id": 1,
+          "last_sentence_id": 3,
+          "reason": "Says the bill would set new banks up for failure and undermine the bipartisan reforms already enacted in the housing law."
+        }
       },
       {
-        "bio": "W000187",
-        "speaker": "Maxine Waters",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 251236,
-        "quote": "Now is not the time to plant new seeds for the next crisis. Now is \nnot the time to juice the mega banks' profit margins. Now is not the \ntime to legitimize Trump's efforts to gut the CFPB, fair lending, and \nother consumer protections.",
-        "summary": "Now is not the time to plant new seeds for the next crisis. Now is not the time to juice the mega banks' profit margins. Now is not the time to legitimize Trump's efforts to gut the CFPB, fair lending, and other consumer protections.",
-        "index": 56,
-        "reason": "Frames the bill as worsening crisis risk and undercutting consumer safeguards."
+        "pick": {
+          "paragraph": 73,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Directly opposes the bill and characterizes it as a giveaway to Wall Street at Main Street’s expense."
+        }
       },
       {
-        "bio": "W000187",
-        "speaker": "Maxine Waters",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 249478,
-        "quote": "In fact, I am disappointed that my friends on the other side of the \naisle are advancing provisions that even contradict our carefully \ncrafted bipartisan agreement in the housing bill.",
-        "summary": "I am disappointed that my friends on the other side of the aisle are advancing provisions that even contradict our carefully crafted bipartisan agreement in the housing bill.",
-        "index": 48,
-        "reason": "Objects that the bill breaks a bipartisan compromise."
+        "pick": {
+          "paragraph": 74,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Contends the bill does nothing for affordability and instead weakens the CFPB, community reinvestment, and anti-discrimination safeguards."
+        }
       },
       {
-        "bio": "W000187",
-        "speaker": "Maxine Waters",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-21/html/CREC-2026-07-21-pt1-PgH4707.htm",
-        "start": 249666,
-        "quote": "There is a provision in this bill on de novo banks that goes beyond \nour bipartisan deal, allowing regulators to decide whether to make \npermanent reforms that really should be for Congress to decide.",
-        "summary": "There is a provision in this bill on de novo banks that goes beyond our bipartisan deal, allowing regulators to decide whether to make permanent reforms that really should be for Congress to decide.",
-        "index": 49,
-        "reason": "Raises a substantive concern that the bill exceeds the negotiated agreement and shifts authority improperly."
+        "pick": {
+          "paragraph": 140,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Cites admission that the bill is about deregulation and rolling back Dodd-Frank, with drafting input from regulators and banks rather than workers or consumers."
+        }
       }
     ],
     "checks": [
       {
-        "id": 4,
-        "accepted": true,
-        "reason": "The summary matches the quote without adding, omitting, or changing the claim.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 24,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains the bill as a package of bipartisan banking reforms to strengthen community financial institutions, directly supporting Main Street access to capital."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 8,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the reform and package description in the quote.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 45,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues the bill lowers regulatory costs for community and midsize banks and restores flexibility so they can better serve families and businesses."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 19,
-        "accepted": true,
-        "reason": "The summary accurately restates the rising costs, bank decline, and regulatory impact described in the quote.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 87,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States the bill supports access to capital for Main Street, giving a specific policy rationale for a yea vote."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 27,
-        "accepted": true,
-        "reason": "The summary closely matches the quote and keeps the same causal effects on lending and credit access.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 30,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Says the bill rightsizes the regulatory framework so community lenders can return to serving customers and communities."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 30,
-        "accepted": true,
-        "reason": "The summary faithfully captures the act's purpose and the role of community lenders in the quote.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 33,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Notes the bill restores proportionality in regulation and frees more money for loans in local communities."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 34,
-        "accepted": true,
-        "reason": "The summary accurately reflects the proportional regulation point and the effect on loan availability.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 62,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Claims the bill creates competition and increases opportunities for entrepreneurs instead of leaving small banks to be sold to big Wall Street lenders."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 7,
-        "accepted": true,
-        "reason": "The summary faithfully matches the quote's claims about large-scale bank deregulation, weakened safeguards, reduced CFPB authority, and higher bailout risk.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 36,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues community banks and credit unions are vital to small business, farm lending, mortgages, and underserved rural communities, framing the bill as harmful to those institutions."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 5,
-        "accepted": true,
-        "reason": "The summary accurately preserves the quote's point that the bill does not address affordability and instead weakens the CFPB and fair-lending safeguards.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 38,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States the package is the largest bank deregulation since before the financial crisis and warns it would weaken safeguards, consumer protection, and increase bailout risk."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 52,
-        "accepted": true,
-        "reason": "The summary is faithful to the quote's claims that the bill will not help consumers and would loosen guardrails on Wall Street megabanks despite record profits.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 48,
+          "first_sentence_id": 1,
+          "last_sentence_id": 3,
+          "reason": "Says the bill would set new banks up for failure and undermine the bipartisan reforms already enacted in the housing law."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 56,
-        "accepted": true,
-        "reason": "The summary accurately reflects the quote's warnings about fueling the next crisis, boosting megabank profits, and legitimizing efforts to gut consumer protections.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 73,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Directly opposes the bill and characterizes it as a giveaway to Wall Street at Main Street’s expense."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 48,
-        "accepted": true,
-        "reason": "The summary preserves the quote's meaning that the advancing provisions conflict with the bipartisan housing agreement.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 74,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Contends the bill does nothing for affordability and instead weakens the CFPB, community reinvestment, and anti-discrimination safeguards."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 49,
-        "accepted": true,
-        "reason": "The summary faithfully conveys that the de novo banks provision exceeds the bipartisan deal and lets regulators decide issues Congress should decide.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 140,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Cites admission that the bill is about deregulation and rolling back Dodd-Frank, with drafting input from regulators and banks rather than workers or consumers."
+        },
+        "accepted": false,
+        "reason": "'first'"
       }
     ],
-    "proceduralDropped": 12
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_0537afcc57e61425016b05b616c15887d28f6f2adc48ce8b6c",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 4784,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 259,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 5043
+        },
+        "estimatedUsd": 0.0047535,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_0eaf30225abf2a37016b05b618895887d2b33b562adbd54f42",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 5223,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 290,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 5513
+        },
+        "estimatedUsd": 0.00522225,
+        "status": "completed"
+      }
+    ]
   }
 }
