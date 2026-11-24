@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "1ecd2b41b2d4836f8a48664d6cbf03cf874864527e1f082abe06deeb4a7c0c4e",
+  "debateFingerprint": "47a1d21f7702364c73dc5f8e58a3c7d3c37cc88990d5e4933d6f078d031b291e",
   "bill": "119-s-4668",
   "vote": "senate:119:2:250",
   "sources": {
@@ -415,7 +415,41 @@
     "yea": 77,
     "nay": 22
   },
-  "points": [],
+  "points": [
+    {
+      "bio": "C001088",
+      "speaker": "Christopher A. Coons",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
+      "start": 52614,
+      "quote": "This bill makes all of those protections real. In some ways, most \nimportantly, it enshrined in statute revenue sharing and NIL \ncompensation--name, image, and likeness compensation--for college \nathletes. It more than doubles money currently available for athletic \nprograms to share with student-athletes, and it has a $5 million fund \nfor women's and Olympic sports.",
+      "display": "This bill makes all of those protections real. In some ways, most importantly, it enshrined in statute revenue sharing and NIL compensation--name, image, and likeness compensation--for college athletes. It more than doubles money currently available for athletic programs to share with student-athletes, and it has a $5 million fund for women's and Olympic sports.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm#:~:text=This%20bill%20makes%20all%20of%20those%20protections%20real.%20In%20some%20ways%2C%20most%20importantly%2C%20it%20enshrined%20in%20statute%20revenue%20sharing%20and%20NIL%20compensation%2D%2Dname%2C%20image%2C%20and%20likeness%20compensation%2D%2Dfor%20college%20athletes.%20It%20more%20than%20doubles%20money%20currently%20available%20for%20athletic%20programs%20to%20share%20with%20student%2Dathletes%2C%20and%20it%20has%20a%20%245%20million%20fund%20for%20women%27s%20and%20Olympic%20sports.",
+      "end": 52983,
+      "sentenceIds": [
+        "58.0",
+        "58.1",
+        "58.2"
+      ]
+    },
+    {
+      "bio": "B001288",
+      "speaker": "Cory A. Booker",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm",
+      "start": 72630,
+      "quote": "It is a bill that was written without input from college athletes \nthemselves, whose lives will be directly affected. It violates a simple \nrule: nothing about us without us.",
+      "display": "It is a bill that was written without input from college athletes themselves, whose lives will be directly affected. It violates a simple rule: nothing about us without us.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-28/html/CREC-2026-09-28-pt1-PgS5021-7.htm#:~:text=It%20is%20a%20bill%20that%20was%20written%20without%20input%20from%20college%20athletes%20themselves%2C%20whose%20lives%20will%20be%20directly%20affected.%20It%20violates%20a%20simple%20rule%3A%20nothing%20about%20us%20without%20us.",
+      "end": 72804,
+      "sentenceIds": [
+        "79.1",
+        "79.2"
+      ]
+    }
+  ],
   "diagnostics": {
     "selection": [
       {
@@ -537,51 +571,7 @@
           "reason": "Explains concrete athlete protections in the bill, including agent fraud, scholarship continuity, injury care, and opportunities across divisions."
         },
         "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 58,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "States that the bill makes athlete protections real by enshrining revenue sharing and NIL compensation and funding women’s and Olympic sports."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 66,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Summarizes the bill’s core policy goals: athlete benefits, protection from exploitation, and uniform rules."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 69,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Argues the bill replaces a chaotic patchwork of state laws and court rulings with a national framework."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 71,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Supports the bill because it sets clear national rules and gives the governing body enforcement power so the rules actually work."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Yea",
@@ -592,29 +582,48 @@
           "reason": "Supports the bill’s agent regulation provisions, including registration, capped commissions, written contracts, and athlete remedies against bad actors."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 35,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Opposes the bill by arguing college sports are not actually in crisis, undercutting the stated need for this legislation."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "id": 0,
+        "accepted": true,
+        "reason": "Supports the bill with a substantive claim that it enshrines revenue sharing and NIL compensation and funds women's and Olympic sports.",
+        "side": "Yea",
+        "sentenceIds": [
+          "58.0",
+          "58.1",
+          "58.2"
+        ]
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 79,
-          "first_sentence_id": 1,
-          "last_sentence_id": 2,
-          "reason": "Criticizes the bill for excluding college athletes from the drafting process and says it violates the principle that affected people should have a seat at the table."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "id": 1,
+        "accepted": true,
+        "reason": "Gives a policy reason: it protects athletes from exploitation and sets uniform rules across schools.",
+        "side": "Yea",
+        "sentenceIds": [
+          "66.0"
+        ]
+      },
+      {
+        "id": 2,
+        "accepted": true,
+        "reason": "Explains that the bill replaces a confusing patchwork of laws with one national framework.",
+        "side": "Yea",
+        "sentenceIds": [
+          "69.0",
+          "69.1",
+          "69.2"
+        ]
+      },
+      {
+        "id": 3,
+        "accepted": true,
+        "reason": "States that the bill creates clear national rules and enforcement authority, which is a substantive justification.",
+        "side": "Yea",
+        "sentenceIds": [
+          "71.0",
+          "71.1"
+        ]
       },
       {
         "side": "Nay",
@@ -625,18 +634,7 @@
           "reason": "Argues the bill was shaped by lobbying from the NCAA and powerful interests, and that it undermines the rights of young athletes."
         },
         "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 185,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Says the bill’s $100 million injury fund is inadequate to cover the long-term medical costs athletes face, supporting a no vote on the bill as written."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Nay",
@@ -647,18 +645,46 @@
           "reason": "Calls out the bill as unfair because it targets athletes with restrictions while leaving coaches and other powerful actors comparatively unregulated."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 214,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Argues the bill underfunds athlete health and interests while granting permanent antitrust immunity without comparable protections for Olympic athletes, women’s sports, privacy, or civil rights."
-        },
+        "id": 0,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "This is just a statement of opposition and a framing question, not a substantive reason about the bill.",
+        "side": "Nay",
+        "sentenceIds": [
+          "35.0"
+        ]
+      },
+      {
+        "id": 1,
+        "accepted": true,
+        "reason": "It gives a concrete policy objection: the bill was written without input from affected athletes, which the speaker says is a flaw in the bill.",
+        "side": "Nay",
+        "sentenceIds": [
+          "79.1",
+          "79.2"
+        ]
+      },
+      {
+        "id": 2,
+        "accepted": true,
+        "reason": "It cites a specific provision and argues the funding may be insufficient to cover injuries, which is a concrete reason against the bill.",
+        "side": "Nay",
+        "sentenceIds": [
+          "185.0",
+          "185.1"
+        ]
+      },
+      {
+        "id": 3,
+        "accepted": true,
+        "reason": "It lists substantive policy objections: insufficient protections and antitrust exemptions, plus limits on athletes' legal remedies for privacy and civil rights violations.",
+        "side": "Nay",
+        "sentenceIds": [
+          "214.0",
+          "214.1"
+        ]
       }
     ],
     "responses": [
@@ -709,7 +735,56 @@
         },
         "estimatedUsd": 0.003828,
         "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_07bafb8bd2fb3935016b05b646b54c87d28fc8a24fa2adaf75",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 397,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 133,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 530
+        },
+        "estimatedUsd": 0.00089625,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_09eaab5c785aa66c016b05b647de7087d2b0cde7fc38eec200",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 342,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 156,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 498
+        },
+        "estimatedUsd": 0.0009585,
+        "status": "completed"
       }
-    ]
+    ],
+    "reusedSelection": true
   }
 }
