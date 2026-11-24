@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "4056f191ab3d7cbebf45936d45af3bb4a7fb7551bddbe4d4ed7ac459ea1678dc",
+  "debateFingerprint": "3aec8eab7c5f9b5b9fae479de3ae344f76c7ae092d9e40c995ebb02cb5fd37fe",
   "bill": "119-hr-4795",
   "vote": "house:119:2:295",
   "sources": {
@@ -1746,251 +1746,261 @@
     "yea": 237,
     "nay": 169
   },
-  "points": [
-    {
-      "bio": "W000798",
-      "speaker": "Tim Walberg",
-      "side": "Yea",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-      "start": 7009,
-      "quote": "In recent years, we have seen campaigns to boycott Israel spread \nacross American campuses. These campaigns have pressured colleges and \nuniversities to cut financial, commercial, and academic ties with \nIsraeli companies and institutions. That can mean restricting study \nabroad opportunities, research partnerships, academic exchanges, \nconferences, and other programs involving Israel.",
-      "summary": "In recent years, we have seen campaigns to boycott Israel spread across American campuses. These campaigns have pressured colleges and universities to cut financial, commercial, and academic ties with Israeli companies and institutions. That can mean restricting study abroad opportunities, research partnerships, academic exchanges, conferences, and other programs involving Israel.",
-      "index": 3
-    },
-    {
-      "bio": "S000185",
-      "speaker": "Robert C. \"Bobby\" Scott",
-      "side": "Nay",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-      "start": 12824,
-      "quote": "As written, the bill presents serious First Amendment problems and \nimproperly limits academic freedom.",
-      "summary": "As written, the bill presents serious First Amendment problems and improperly limits academic freedom.",
-      "index": 26
-    }
-  ],
+  "points": [],
   "diagnostics": {
     "selection": [
       {
-        "bio": "W000798",
-        "speaker": "Tim Walberg",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 7009,
-        "quote": "In recent years, we have seen campaigns to boycott Israel spread \nacross American campuses. These campaigns have pressured colleges and \nuniversities to cut financial, commercial, and academic ties with \nIsraeli companies and institutions. That can mean restricting study \nabroad opportunities, research partnerships, academic exchanges, \nconferences, and other programs involving Israel.",
-        "summary": "In recent years, we have seen campaigns to boycott Israel spread across American campuses. These campaigns have pressured colleges and universities to cut financial, commercial, and academic ties with Israeli companies and institutions. That can mean restricting study abroad opportunities, research partnerships, academic exchanges, conferences, and other programs involving Israel.",
-        "index": 3,
-        "reason": "Supports the bill by describing boycott campaigns as affecting campuses and restricting academic and institutional ties with Israel."
+        "pick": {
+          "paragraph": 4,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Explains how campus boycott campaigns pressure universities to sever ties with Israeli institutions and restrict academic exchanges, directly supporting the bill's restrictions on discriminatory boycotts."
+        }
       },
       {
-        "bio": "W000798",
-        "speaker": "Tim Walberg",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 7400,
-        "quote": "We cannot ignore the role these campaigns have played in fueling the \nalarming rise of anti-Semitism on college campuses. It is no \ncoincidence that some of the largest supporters of these campaigns have \napplauded the October 7 attacks and continue to use anti-Semitic \nlanguage.",
-        "summary": "We cannot ignore the role these campaigns have played in fueling the alarming rise of anti-Semitism on college campuses. It is no coincidence that some of the largest supporters of these campaigns have applauded the October 7 attacks and continue to use anti-Semitic language.",
-        "index": 6,
-        "reason": "Supports the bill by linking the campaigns to rising anti-Semitism and anti-Semitic language."
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues that these boycott campaigns are fueling the rise of anti-Semitism on college campuses, giving a substantive policy rationale for the bill."
+        }
       },
       {
-        "bio": "W000798",
-        "speaker": "Tim Walberg",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 36328,
-        "quote": "Mr. Speaker, this legislation is about a simple principle: Our \ncolleges and universities should not discriminate against Israel, \nIsraeli institutions, or Israeli students; and Federal taxpayer dollars \nshould never support institutions that engage in such discrimination.",
-        "summary": "this legislation is about a simple principle: Our colleges and universities should not discriminate against Israel, Israeli institutions, or Israeli students; and Federal taxpayer dollars should never support institutions that engage in such discrimination.",
-        "index": 9,
-        "reason": "Supports the bill by asserting colleges should not discriminate against Israel and that federal dollars should not fund such discrimination."
+        "pick": {
+          "paragraph": 65,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "States the core principle that colleges and universities should not discriminate against Israel, Israeli institutions, or Israeli students, and should not use federal taxpayer dollars to support such discrimination."
+        }
       },
       {
-        "bio": "W000798",
-        "speaker": "Tim Walberg",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 36604,
-        "quote": "Academic freedom means students and faculty should be free to study, \nconduct research, collaborate, and exchange ideas without boycotts \nclosing doors based on nationality.",
-        "summary": "Academic freedom means students and faculty should be free to study, conduct research, collaborate, and exchange ideas without boycotts closing doors based on nationality.",
-        "index": 12,
-        "reason": "Supports the bill by framing boycotts as closing doors to study, research, collaboration, and exchange based on nationality."
+        "pick": {
+          "paragraph": 66,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Defines academic freedom as allowing study, research, collaboration, and exchange without boycotts that close doors based on nationality, directly grounding support for the legislation."
+        }
       },
       {
-        "bio": "W000798",
-        "speaker": "Tim Walberg",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 36780,
-        "quote": "H.R. 4795 protects that principle. It ensures that colleges \nparticipating in Federal higher education programs do not engage in \ncertain unjustified commercial boycotts of Israel and that academic \nopportunities involving Israel are treated fairly and equally.",
-        "summary": "H.R. 4795 protects that principle. It ensures that colleges participating in Federal higher education programs do not engage in certain unjustified commercial boycotts of Israel and that academic opportunities involving Israel are treated fairly and equally.",
-        "index": 15,
-        "reason": "Supports the bill by stating it protects fair and equal treatment of academic opportunities involving Israel and bars unjustified commercial boycotts."
+        "pick": {
+          "paragraph": 67,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains that the bill protects academic freedom by ensuring federally funded colleges do not engage in unjustified commercial boycotts and treat academic opportunities involving Israel fairly and equally."
+        }
       },
       {
-        "bio": "W000798",
-        "speaker": "Tim Walberg",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 37189,
-        "quote": "Our universities should be places where every student can learn \nwithout fear of discrimination or hostility and where academic \npartnerships are evaluated on their merits, not on campaigns that \ntarget one country.",
-        "summary": "Our universities should be places where every student can learn without fear of discrimination or hostility and where academic partnerships are evaluated on their merits, not on campaigns that target one country.",
-        "index": 20,
-        "reason": "Supports the bill by saying universities should avoid discrimination or hostility and evaluate partnerships on merit rather than targeted campaigns."
+        "pick": {
+          "paragraph": 69,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Emphasizes that universities should be places free from discrimination and that academic partnerships should be judged on merit rather than campaigns targeting one country, matching the bill's purpose."
+        }
       },
       {
-        "bio": "S000185",
-        "speaker": "Robert C. \"Bobby\" Scott",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 12824,
-        "quote": "As written, the bill presents serious First Amendment problems and \nimproperly limits academic freedom.",
-        "summary": "As written, the bill presents serious First Amendment problems and improperly limits academic freedom.",
-        "index": 26,
-        "reason": "Direct floor-manager opposition grounded in constitutional and academic-freedom concerns."
+        "pick": {
+          "paragraph": 12,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Summarizes the bill’s operative requirement that institutions certify they are not engaged in a boycott of Israel, directly framing the measure being opposed."
+        }
       },
       {
-        "bio": "S000185",
-        "speaker": "Robert C. \"Bobby\" Scott",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 12429,
-        "quote": "Moreover, as we examine the bill, Members should be careful to \nconsider how these Federal requirements would operate in practice, the \npotential of negative effect on institutions receiving Federal funds, \nand whether the bill is misusing the power that we have from the \nConstitution's Spending Clause to illegally sanction First Amendment-\nprotected speech, particularly those of students.",
-        "summary": "Members should be careful to consider how these Federal requirements would operate in practice, the potential of negative effect on institutions receiving Federal funds, and whether the bill is misusing the power that we have from the Constitution's Spending Clause to illegally sanction First Amendment- protected speech, particularly those of students.",
-        "index": 24,
-        "reason": "Floor-manager warning that the bill may improperly use federal spending power to punish protected speech and harm funded institutions."
+        "pick": {
+          "paragraph": 16,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Argues the bill misuses Congress’s spending power to sanction First Amendment-protected speech, a concrete constitutional objection supporting a Nay vote."
+        }
       },
       {
-        "bio": "S000185",
-        "speaker": "Robert C. \"Bobby\" Scott",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 12183,
-        "quote": "Simply put, the bill does not address any ongoing or existing higher \neducation policy boycotting Israel. Nonetheless, this would create new \nFederal requirements intended to prevent institutions from adopting \nsuch policies in the future.",
-        "summary": "The bill does not address any ongoing or existing higher education policy boycotting Israel. Nonetheless, this would create new Federal requirements intended to prevent institutions from adopting such policies in the future.",
-        "index": 22,
-        "reason": "Floor-manager admission that the bill targets future conduct rather than any existing policy, supporting a Nay vote."
+        "pick": {
+          "paragraph": 17,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "States the bill presents serious First Amendment problems and improperly limits academic freedom, a specific substantive reason to oppose it."
+        }
       },
       {
-        "bio": "S000185",
-        "speaker": "Robert C. \"Bobby\" Scott",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 11830,
-        "quote": "Students have the right to express their political views, but that \ndoes not mean that their university has adopted those views, such as \nthe Boycott, Divestment and Sanctions, or BDS, movement. We have yet to \nsee a single college or university in the United States adopt the BDS \nmovement or institutional boycott policies contemplated in the bill.",
-        "summary": "Students have the right to express their political views, but that does not mean that their university has adopted those views, such as the Boycott, Divestment and Sanctions, or BDS, movement. We have yet to see a single college or university in the United States adopt the BDS movement or institutional boycott policies contemplated in the bill.",
-        "index": 20,
-        "reason": "Floor-manager argues the bill is unnecessary because universities have not adopted the conduct it seeks to ban."
-      },
-      {
-        "bio": "T000481",
-        "speaker": "Rashida Tlaib",
-        "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 18873,
-        "quote": "Mr. Speaker, this bill is an attack on free speech and \nacademic freedom, all in the name of defending a genocidal apartheid \nstate.",
-        "summary": "this bill is an attack on free speech and academic freedom, all in the name of defending a genocidal apartheid state.",
-        "index": 1,
-        "reason": "Claims the bill suppresses speech and academic freedom, a substantive reason to oppose it."
-      },
-      {
-        "bio": "T000481",
-        "speaker": "Rashida Tlaib",
-        "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
-        "start": 20401,
-        "quote": "This bill is a clear assault on higher education for millions of \nworking-class students who depend on Federal student aid to get an \neducation. A vote for this bill is a betrayal of those promising young \nstudents, denying them the right to an education. Why? Because they \nwant to save lives, no matter their faith or ethnicity.",
-        "summary": "This bill is a clear assault on higher education for millions of working-class students who depend on Federal student aid to get an education.",
-        "index": 23,
-        "reason": "Argues the bill harms students who rely on federal aid, supporting opposition."
+        "pick": {
+          "paragraph": 18,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Explicitly announces the speaker will oppose the bill because the identified problems were not resolved, making it a direct vote explanation."
+        }
       }
     ],
     "checks": [
       {
-        "id": 3,
-        "accepted": true,
-        "reason": "The summary faithfully matches the quote without adding, removing, or changing any claim.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 4,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Explains how campus boycott campaigns pressure universities to sever ties with Israeli institutions and restrict academic exchanges, directly supporting the bill's restrictions on discriminatory boycotts."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 6,
-        "accepted": true,
-        "reason": "The summary accurately preserves the quote’s claims about anti-Semitism and support for the attacks.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues that these boycott campaigns are fueling the rise of anti-Semitism on college campuses, giving a substantive policy rationale for the bill."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 9,
-        "accepted": true,
-        "reason": "The summary is a faithful restatement of the quote’s principle and funding point.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 65,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "States the core principle that colleges and universities should not discriminate against Israel, Israeli institutions, or Israeli students, and should not use federal taxpayer dollars to support such discrimination."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 12,
-        "accepted": true,
-        "reason": "The summary matches the quote’s meaning exactly and introduces no new claims.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 66,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Defines academic freedom as allowing study, research, collaboration, and exchange without boycotts that close doors based on nationality, directly grounding support for the legislation."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 15,
-        "accepted": true,
-        "reason": "The summary accurately reflects the quote’s description of H.R. 4795 and its effects.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 67,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains that the bill protects academic freedom by ensuring federally funded colleges do not engage in unjustified commercial boycotts and treat academic opportunities involving Israel fairly and equally."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 20,
-        "accepted": true,
-        "reason": "The summary is faithful to the quote and does not alter its meaning.",
-        "side": "Yea"
+        "side": "Yea",
+        "pick": {
+          "paragraph": 69,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Emphasizes that universities should be places free from discrimination and that academic partnerships should be judged on merit rather than campaigns targeting one country, matching the bill's purpose."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 26,
-        "accepted": true,
-        "reason": "The summary matches the quote exactly and preserves the same claim about First Amendment problems and academic freedom.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 12,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Summarizes the bill’s operative requirement that institutions certify they are not engaged in a boycott of Israel, directly framing the measure being opposed."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 24,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the warnings about practical operation, negative effects on federally funded institutions, and misuse of Spending Clause power against protected student speech.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 16,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Argues the bill misuses Congress’s spending power to sanction First Amendment-protected speech, a concrete constitutional objection supporting a Nay vote."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 22,
-        "accepted": true,
-        "reason": "The summary accurately reflects that the bill does not address existing boycotts but would create new federal requirements to prevent future adoption.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 17,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "States the bill presents serious First Amendment problems and improperly limits academic freedom, a specific substantive reason to oppose it."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
-        "id": 20,
-        "accepted": true,
-        "reason": "The summary matches the quote’s distinction between students’ views and university adoption, plus the claim that no U.S. college or university has adopted the BDS or contemplated institutional boycott policies.",
-        "side": "Nay"
-      },
-      {
-        "id": 1,
-        "accepted": true,
-        "reason": "The summary is faithful to the quote’s accusation that the bill attacks free speech and academic freedom in defense of a genocidal apartheid state.",
-        "side": "Nay"
-      },
-      {
-        "id": 23,
-        "accepted": true,
-        "reason": "The summary correctly captures that the bill is described as an assault on higher education for working-class students who rely on federal student aid.",
-        "side": "Nay"
+        "side": "Nay",
+        "pick": {
+          "paragraph": 18,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Explicitly announces the speaker will oppose the bill because the identified problems were not resolved, making it a direct vote explanation."
+        },
+        "accepted": false,
+        "reason": "'first'"
       }
     ],
-    "proceduralDropped": 8
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_0af3f43fcecc7d98016b05b5e9ecc087d2bc66ad9ab0650b7f",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 2118,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 314,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2432
+        },
+        "estimatedUsd": 0.0030015,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_08b47341f9cb1cf3016b05b5ebcb6087d2b191491459039fdb",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 2399,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 189,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2588
+        },
+        "estimatedUsd": 0.00264975,
+        "status": "completed"
+      }
+    ]
   }
 }
