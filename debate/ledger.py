@@ -19,7 +19,7 @@ def commit(message, *paths):
     subprocess.run(["git","add","--",*map(str,paths)],check=True)
     if subprocess.run(["git","diff","--cached","--quiet"]).returncode:
         subprocess.run(["git","commit","-m",message],check=True)
-        subprocess.run(["git","push","origin","HEAD:main"],check=True)
+        subprocess.run(["git","push","origin","HEAD:published-debate"],check=True)
 
 
 def month():

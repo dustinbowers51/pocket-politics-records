@@ -116,16 +116,28 @@ jobs:
               print(f'Official source returned {error.code}: {error.url}', flush=True)
               raise
           print(f"Verified {len(manifest['files'])} files.", flush=True)
+      - name: Include completed debate snapshot in hashed metadata
+        env:
+          DEBATE_QUOTES_ENABLED: ${{ vars.DEBATE_QUOTES_ENABLED }}
+        run: |
+          state="$RUNNER_TEMP/debate-state.json"
+          if [[ "${DEBATE_QUOTES_ENABLED,,}" == false ]]; then
+            echo '{"seedComplete":false,"records":{}}' > "$state"
+          elif timeout 20 git -C records-host fetch --depth=1 origin refs/heads/published-debate &&
+               git -C records-host show FETCH_HEAD:debate-data/state.json > "$state"; then
+            cp "$state" var/live/debate-state.json
+          elif [[ -s var/live/debate-state.json ]]; then
+            cp var/live/debate-state.json "$state"
+          else
+            cp records-host/debate-data/state.json "$state"
+          fi
+          python3 records-host/debate/attach.py var/site "$state"
       - name: Save resumable official-source archive
         if: always() && steps.import.outcome != 'skipped'
         uses: actions/cache/save@v4
         with:
           path: var/live
           key: national-archive-v1-${{ github.run_id }}-${{ github.run_attempt }}
-      - name: Include completed debate snapshot in hashed metadata
-        env:
-          DEBATE_QUOTES_ENABLED: ${{ vars.DEBATE_QUOTES_ENABLED }}
-        run: python3 records-host/debate/attach.py var/site
       - run: node scripts/round6/check-release.cjs var/site
       - name: Set cache lifetimes and allow read-only cross-origin access
         run: |

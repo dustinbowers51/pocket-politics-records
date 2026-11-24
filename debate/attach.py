@@ -31,5 +31,5 @@ def attach(root, state, enabled):
     mf.write_bytes(encode(manifest))
 
 if __name__=="__main__":
-    state=json.loads((Path(__file__).resolve().parents[1]/"debate-data/state.json").read_text())
+    state=json.loads(Path(sys.argv[2]).read_text())
     attach(Path(sys.argv[1]),state,os.getenv("DEBATE_QUOTES_ENABLED","").lower() in ("","true"))
