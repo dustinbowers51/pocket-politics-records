@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "f6692fd5276485e55a9effbb2e4bcd573f9077900810b5d4d0034b909740347b",
+  "debateFingerprint": "eab840a01027fdb33ee5946bc3ee8da95ac0f7f7c83612bd1013869c93846fcb",
   "bill": "119-hr-10326",
   "vote": "house:119:2:310",
   "sources": {
@@ -1747,251 +1747,301 @@
     "yea": 217,
     "nay": 207
   },
-  "points": [
-    {
-      "bio": "V000133",
-      "speaker": "Jefferson Van Drew",
-      "side": "Yea",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-      "start": 8339,
-      "quote": "For years and years, the American taxpayer has been treated like an \nopen ATM machine by sophisticated criminal syndicates, international \nfraudsters, and identity thieves. Billions of dollars intended for our \nmost vulnerable citizens, for our children, for the hungry, and for the \nunemployed have, instead, been stolen by criminals.",
-      "summary": "For years and years, the American taxpayer has been treated like an open ATM machine by sophisticated criminal syndicates, international fraudsters, and identity thieves. Billions of dollars intended for our most vulnerable citizens, for our children, for the hungry, and for the unemployed have, instead, been stolen by criminals.",
-      "index": 2
-    },
-    {
-      "bio": "R000606",
-      "speaker": "Jamie Raskin",
-      "side": "Nay",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-      "start": 12187,
-      "quote": "However, I rise in vehement opposition to H.R. 10326, the so-called \nPROOF Act, which is a dangerous bill and has nothing to do with \nfighting fraud and everything to do with orchestrating a huge privacy \ndata power grab from the American people.",
-      "summary": "a dangerous bill and has nothing to do with fighting fraud and everything to do with orchestrating a huge privacy data power grab from the American people",
-      "index": 1
-    }
-  ],
+  "points": [],
   "diagnostics": {
     "selection": [
       {
-        "bio": "V000133",
-        "speaker": "Jefferson Van Drew",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 8339,
-        "quote": "For years and years, the American taxpayer has been treated like an \nopen ATM machine by sophisticated criminal syndicates, international \nfraudsters, and identity thieves. Billions of dollars intended for our \nmost vulnerable citizens, for our children, for the hungry, and for the \nunemployed have, instead, been stolen by criminals.",
-        "summary": "For years and years, the American taxpayer has been treated like an open ATM machine by sophisticated criminal syndicates, international fraudsters, and identity thieves. Billions of dollars intended for our most vulnerable citizens, for our children, for the hungry, and for the unemployed have, instead, been stolen by criminals.",
-        "index": 2,
-        "reason": "Strong pro-vote rationale centered on pervasive fraud and stolen public funds."
+        "pick": {
+          "paragraph": 3,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "General floor-manager support for the bill and its purpose to prevent rip-offs and obtain oversight of funds."
+        }
       },
       {
-        "bio": "V000133",
-        "speaker": "Jefferson Van Drew",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 8677,
-        "quote": "The tragedy isn't just that the money was stolen. The tragedy is that \nFederal law enforcement didn't have sufficient tools to stop it. \nSophisticated fraud rings intentionally scatter their operations across \nState lines because they know individual State databases do not talk to \neach other, and they also know they can hide behind local bureaucratic \nred tape.",
-        "summary": "The tragedy isn't just that the money was stolen. The tragedy is that Federal law enforcement didn't have sufficient tools to stop it. Sophisticated fraud rings intentionally scatter their operations across State lines because they know individual State databases do not talk to each other, and they also know they can hide behind local bureaucratic red tape.",
-        "index": 4,
-        "reason": "Supports the bill by emphasizing enforcement gaps and cross-state fraud that existing systems cannot stop."
+        "pick": {
+          "paragraph": 4,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains the harm from fraud to taxpayers and vulnerable beneficiaries, supporting the bill’s antifraud aim."
+        }
       },
       {
-        "bio": "V000133",
-        "speaker": "Jefferson Van Drew",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 22864,
-        "quote": "This PROOF Act doesn't build a surveillance state. That is nonsense. \nIt builds a shield for the taxpayer. They are not tracking law-abiding \ncitizens. That is complete nonsense, too.",
-        "summary": "This PROOF Act doesn't build a surveillance state. That is nonsense. It builds a shield for the taxpayer. They are not tracking law-abiding citizens. That is complete nonsense, too.",
-        "index": 15,
-        "reason": "Direct defense of the bill against privacy objections and affirmation of its taxpayer-protection purpose."
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues federal law enforcement needs stronger tools because fraud rings evade detection across state lines."
+        }
       },
       {
-        "bio": "V000133",
-        "speaker": "Jefferson Van Drew",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 23208,
-        "quote": "The claim that this creates a sweeping Federal surveillance database \nis completely and totally false. Data sharing would be highly targeted. \nIt requires an explicit--explicit--written request from the U.S. \nAttorney General for the purpose of investigating and prosecuting \ncrime.",
-        "summary": "The claim that this creates a sweeping Federal surveillance database is completely and totally false. Data sharing would be highly targeted. It requires an explicit--explicit--written request from the U.S. Attorney General for the purpose of investigating and prosecuting crime.",
-        "index": 17,
-        "reason": "Explains why the bill is narrowly aimed at crime investigation rather than broad surveillance."
+        "pick": {
+          "paragraph": 6,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Cites a real SNAP fraud example where state resistance blocked access to data needed to stop theft."
+        }
       },
       {
-        "bio": "V000133",
-        "speaker": "Jefferson Van Drew",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 23493,
-        "quote": "The legislation explicitly mandates full compliance--yes, read it. It \nis in there. It mandates full compliance with the Privacy Act of 1974 \nand with HIPAA regulations. The Federal Government cannot and will not \nsimply hoard this data, as was suggested. The bill requires strict \nencryption, tightly restricted access, and permanent destruction of \nshared records once an investigation concludes.",
-        "summary": "The legislation explicitly mandates full compliance--yes, read it. It is in there. It mandates full compliance with the Privacy Act of 1974 and with HIPAA regulations. The Federal Government cannot and will not simply hoard this data, as was suggested. The bill requires strict encryption, tightly restricted access, and permanent destruction of shared records once an investigation concludes.",
-        "index": 18,
-        "reason": "Provides substantive support by stressing the bill's privacy safeguards and limited data use."
+        "pick": {
+          "paragraph": 7,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Uses another concrete example of denied attendance logs to justify federal oversight against fraudulent billing."
+        }
       },
       {
-        "bio": "V000133",
-        "speaker": "Jefferson Van Drew",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 25291,
-        "quote": "True compassion means ensuring that the limited Federal benefits that \nare so stretched--and it is going to be tough over the next couple of \nyears. We want to make sure that money actually reaches the people who \nneed it. Every dollar stolen by a fraudster is a dollar taken away from \nsome senior, child, or family.",
-        "summary": "True compassion means ensuring that the limited Federal benefits that are so stretched--and it is going to be tough over the next couple of years. We want to make sure that money actually reaches the people who need it. Every dollar stolen by a fraudster is a dollar taken away from some senior, child, or family.",
-        "index": 24,
-        "reason": "Argues the bill protects intended beneficiaries by preventing fraud from diverting benefits."
+        "pick": {
+          "paragraph": 40,
+          "first_sentence_id": 0,
+          "last_sentence_id": 4,
+          "reason": "As bill sponsor, supports the measure as a commonsense accountability response to billions in stolen taxpayer funds."
+        }
       },
       {
-        "bio": "R000606",
-        "speaker": "Jamie Raskin",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 12187,
-        "quote": "However, I rise in vehement opposition to H.R. 10326, the so-called \nPROOF Act, which is a dangerous bill and has nothing to do with \nfighting fraud and everything to do with orchestrating a huge privacy \ndata power grab from the American people.",
-        "summary": "a dangerous bill and has nothing to do with fighting fraud and everything to do with orchestrating a huge privacy data power grab from the American people",
-        "index": 1,
-        "reason": "Primary floor-manager opposition framing: the bill is presented as a privacy data power grab rather than a fraud measure."
+        "pick": {
+          "paragraph": 10,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Specific opposition to H.R. 10326 as a privacy data power grab rather than a fraud measure."
+        }
       },
       {
-        "bio": "R000606",
-        "speaker": "Jamie Raskin",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 13458,
-        "quote": "We are being asked to vote today on a bill that overthrows the \nlongstanding privacy safeguards governing these programs and all the \ngeneral privacy laws enacted by Congress to protect our personal data \nfrom unwarranted government surveillance and collection. This is a \nsweeping change being rushed to the floor at the last minute in the \nwaning days of the least productive Congress for one century, at least, \nin total violation of regular order.",
-        "summary": "we are being asked to vote today on a bill that overthrows the longstanding privacy safeguards governing these programs and all the general privacy laws enacted by Congress to protect our personal data from unwarranted government surveillance and collection",
-        "index": 4,
-        "reason": "Primary floor-manager objection: it would overturn existing privacy safeguards and general privacy laws protecting personal data."
+        "pick": {
+          "paragraph": 13,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues the bill overturns longstanding privacy safeguards and was rushed to the floor outside regular order."
+        }
       },
       {
-        "bio": "R000606",
-        "speaker": "Jamie Raskin",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 14401,
-        "quote": "This legislation is totally unnecessary. The Department of Justice \nalready has the tools it needs to investigate and prosecute fraud. That \nis what the other side has been bragging about for the last hour about \nthe fraud investigations, most of them coming from the Biden \nadministration originally, but in any event, they are bragging about \nthe fraud investigations that they have done.",
-        "summary": "this legislation is totally unnecessary",
-        "index": 7,
-        "reason": "Primary floor-manager reason: DOJ already has the tools it needs to investigate and prosecute fraud."
+        "pick": {
+          "paragraph": 16,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Says the legislation is unnecessary because DOJ already has tools to investigate and prosecute fraud."
+        }
       },
       {
-        "bio": "R000606",
-        "speaker": "Jamie Raskin",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 15707,
-        "quote": "Of course, Madam Speaker, you shouldn't get all the data. That is not \nconsistent with the Privacy Act or any of the Federal statutes we have \nprotecting the private information of every American citizen.",
-        "summary": "you shouldn't get all the data",
-        "index": 11,
-        "reason": "Primary floor-manager concern: the bill would permit access to all the data in a way that is inconsistent with the Privacy Act and other federal privacy statutes."
+        "pick": {
+          "paragraph": 21,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Contends the bill would improperly allow access to all data, conflicting with the Privacy Act and federal privacy statutes."
+        }
       },
       {
-        "bio": "R000606",
-        "speaker": "Jamie Raskin",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 16266,
-        "quote": "It is not about fraud at all. It seeks to wipe out the privacy \nprotections that Congress has enacted in these programs and to force \nStates to turn over to Attorney General Todd Blanche massive amounts of \npersonal data without the government having to show an iota of evidence \nthat anyone is even suspected of fraud or anything else, no probable \ncause, no reasonable suspicion, no legal standard, just give us the \ninformation, which is exactly what Elon Musk wanted to do and why he \nwas driven out of town by a bipartisan coalition.",
-        "summary": "it is not about fraud at all",
-        "index": 13,
-        "reason": "Primary floor-manager claim: the bill would wipe out privacy protections and force disclosure of massive amounts of personal data without any evidence or legal standard."
+        "pick": {
+          "paragraph": 57,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Objects that the bill gives the Attorney General open-ended authority to deem programs vulnerable to fraud and demand all information."
+        }
       },
       {
-        "bio": "R000606",
-        "speaker": "Jamie Raskin",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-16/html/CREC-2026-09-16-pt1-PgH5947.htm",
-        "start": 48122,
-        "quote": "Let's stand up on a bipartisan basis for constitutional values and \nreject this legislation. In fact, I would urge our colleagues just to \nwithdraw the legislation and say save it for another day where we can \nhave an actual hearing about it and a markup, and we can analyze it and \nengage in the legislative process.",
-        "summary": "stand up on a bipartisan basis for constitutional values and reject this legislation",
-        "index": 46,
-        "reason": "Primary floor-manager appeal: the chamber should reject the legislation and instead allow an actual hearing, markup, and legislative process."
+        "pick": {
+          "paragraph": 115,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explicitly urges colleagues to reject or withdraw the bill and says it should return after proper hearings and markup."
+        }
       }
     ],
     "checks": [
       {
-        "id": 2,
-        "accepted": true,
-        "reason": "The summary faithfully matches the quote without adding or changing any claim.",
-        "side": "Yea"
-      },
-      {
-        "id": 4,
-        "accepted": true,
-        "reason": "The summary accurately preserves the quote’s central claim about insufficient federal tools and cross-state fraud operations.",
-        "side": "Yea"
-      },
-      {
-        "id": 15,
-        "accepted": true,
-        "reason": "The summary matches the quote’s denial of a surveillance state and its claim that the bill protects taxpayers.",
-        "side": "Yea"
-      },
-      {
-        "id": 17,
-        "accepted": true,
-        "reason": "The summary faithfully reflects the quote’s claim that data sharing is targeted and requires a written request from the U.S. Attorney General.",
-        "side": "Yea"
-      },
-      {
-        "id": 18,
-        "accepted": true,
-        "reason": "The summary accurately reproduces the quote’s privacy, encryption, access, and destruction requirements without altering meaning.",
-        "side": "Yea"
-      },
-      {
-        "id": 24,
-        "accepted": true,
-        "reason": "The summary preserves the quote’s point that limited benefits should reach intended recipients and that fraud steals from vulnerable people.",
-        "side": "Yea"
-      },
-      {
-        "id": 1,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the bill criticism and the claim that it is not about fighting fraud but about a privacy data power grab.",
-        "side": "Nay"
-      },
-      {
-        "id": 4,
-        "accepted": true,
-        "reason": "The summary accurately captures the bill's effect on longstanding privacy safeguards and general privacy laws protecting personal data from government surveillance and collection.",
-        "side": "Nay"
-      },
-      {
-        "id": 7,
-        "accepted": true,
-        "reason": "The summary correctly states that the legislation is unnecessary, matching the quote's central claim that DOJ already has the needed tools.",
-        "side": "Nay"
-      },
-      {
-        "id": 11,
-        "accepted": true,
-        "reason": "The summary faithfully reflects the speaker's claim that all the data should not be turned over.",
-        "side": "Nay"
-      },
-      {
-        "id": 13,
-        "accepted": true,
-        "reason": "The summary accurately conveys that the bill is not about fraud and instead would strip privacy protections and compel broad data turnover.",
-        "side": "Nay"
-      },
-      {
-        "id": 46,
+        "side": "Yea",
+        "pick": {
+          "paragraph": 3,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "General floor-manager support for the bill and its purpose to prevent rip-offs and obtain oversight of funds."
+        },
         "accepted": false,
-        "reason": "The summary adds a procedural/constitutional framing and omits the quote's request to withdraw the legislation and save it for another day.",
-        "side": "Nay"
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 4,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explains the harm from fraud to taxpayers and vulnerable beneficiaries, supporting the bill’s antifraud aim."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 5,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues federal law enforcement needs stronger tools because fraud rings evade detection across state lines."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 6,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Cites a real SNAP fraud example where state resistance blocked access to data needed to stop theft."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 7,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Uses another concrete example of denied attendance logs to justify federal oversight against fraudulent billing."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 40,
+          "first_sentence_id": 0,
+          "last_sentence_id": 4,
+          "reason": "As bill sponsor, supports the measure as a commonsense accountability response to billions in stolen taxpayer funds."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 10,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Specific opposition to H.R. 10326 as a privacy data power grab rather than a fraud measure."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 13,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Argues the bill overturns longstanding privacy safeguards and was rushed to the floor outside regular order."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 16,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Says the legislation is unnecessary because DOJ already has tools to investigate and prosecute fraud."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 21,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Contends the bill would improperly allow access to all data, conflicting with the Privacy Act and federal privacy statutes."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 57,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Objects that the bill gives the Attorney General open-ended authority to deem programs vulnerable to fraud and demand all information."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 115,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Explicitly urges colleagues to reject or withdraw the bill and says it should return after proper hearings and markup."
+        },
+        "accepted": false,
+        "reason": "'first'"
       }
     ],
-    "proceduralDropped": 4
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_06abfa31d4aa8229016b05b5e2df8887d2b6cb3b3eea80f27f",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 3101,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 238,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3339
+        },
+        "estimatedUsd": 0.00339675,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_04587c5318611804016b05b5e551cc87d2a31a883dbf3324b4",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 4404,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 248,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 4652
+        },
+        "estimatedUsd": 0.004419,
+        "status": "completed"
+      }
+    ]
   }
 }
