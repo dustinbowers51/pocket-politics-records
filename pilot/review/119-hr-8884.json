@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "7e27a207f382fec4ccf99720757af01f30f8c90e4603054a539e7658cfba52b1",
+  "debateFingerprint": "43606f57a602eaf90c25304d2c16b571fbcf7ca92b84b3dda85539583243353b",
   "bill": "119-hr-8884",
   "vote": "house:119:2:283",
   "sources": {
@@ -1739,251 +1739,301 @@
     "yea": 232,
     "nay": 188
   },
-  "points": [
-    {
-      "bio": "S001195",
-      "speaker": "Jason Smith",
-      "side": "Yea",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-      "start": 4941,
-      "quote": "Many Americans that are living with disabilities want to enter the \nworkforce and seek gainful employment. In fact, an estimated 60 percent \nof Americans who receive benefits under the Social Security Disability \nInsurance program have stated a desire to return to work. Yet less than \n1 percent leave the disability insurance program each year for a job. \nThat is a gigantic gap between the number of disabled Americans who \nwant to work and the number who successfully return to work.",
-      "summary": "Many Americans that are living with disabilities want to enter the workforce and seek gainful employment. In fact, an estimated 60 percent of Americans who receive benefits under the Social Security Disability Insurance program have stated a desire to return to work. Yet less than 1 percent leave the disability insurance program each year for a job. That is a gigantic gap between the number of disabled Americans who want to work and the number who successfully return to work.",
-      "index": 2
-    },
-    {
-      "bio": "C001080",
-      "speaker": "Judy Chu",
-      "side": "Nay",
-      "manager": true,
-      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-      "start": 7250,
-      "quote": "Mr. Speaker, at a time when Americans are dealing with skyrocketing \nprices and vulnerable populations like seniors and people with \ndisabilities are struggling to get help with their Social Security \nbenefits because this administration has created a customer service \ncrisis through reckless staffing cuts, it is shameful that Republicans \nhave chosen to bring H.R. 8884 to the floor. This bill won't lower \ncosts, won't improve customer service, and won't make it easier for \npeople with disabilities to access the benefits they have earned. \nInstead, it opens the door to cutting those benefits while making SSA's \ncustomer service crisis even worse.",
-      "summary": "at a time when Americans are dealing with skyrocketing prices and vulnerable populations like seniors and people with disabilities are struggling to get help with their Social Security benefits because this administration has created a customer service crisis through reckless staffing cuts, it is shameful that Republicans have chosen to bring H.R. 8884 to the floor. This bill won't lower costs, won't improve customer service, and won't make it easier for people with disabilities to access the benefits they have earned. Instead, it opens the door to cutting those benefits while making SSA's customer service crisis even worse.",
-      "index": 0
-    }
-  ],
+  "points": [],
   "diagnostics": {
     "selection": [
       {
-        "bio": "S001195",
-        "speaker": "Jason Smith",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 4941,
-        "quote": "Many Americans that are living with disabilities want to enter the \nworkforce and seek gainful employment. In fact, an estimated 60 percent \nof Americans who receive benefits under the Social Security Disability \nInsurance program have stated a desire to return to work. Yet less than \n1 percent leave the disability insurance program each year for a job. \nThat is a gigantic gap between the number of disabled Americans who \nwant to work and the number who successfully return to work.",
-        "summary": "Many Americans that are living with disabilities want to enter the workforce and seek gainful employment. In fact, an estimated 60 percent of Americans who receive benefits under the Social Security Disability Insurance program have stated a desire to return to work. Yet less than 1 percent leave the disability insurance program each year for a job. That is a gigantic gap between the number of disabled Americans who want to work and the number who successfully return to work.",
-        "index": 2,
-        "reason": "Directly supports the bill by showing a large unmet desire to work and a very low transition rate, motivating action."
+        "pick": {
+          "paragraph": 3,
+          "first sentence ID": 0,
+          "last sentence ID": 0,
+          "reason": "Supports the bill by explicitly stating support for H.R. 8884 and identifying it as the Removing Barriers to Work for Disabled Americans Act."
+        }
       },
       {
-        "bio": "S001195",
-        "speaker": "Jason Smith",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 5430,
-        "quote": "The Removing Barriers to Work for Disabled Americans Act seeks to \nshrink that gap by simply restoring the Social Security \nAdministration's authority to test drive solutions that can empower \nmore of our fellow Americans to get back to work.",
-        "summary": "The Removing Barriers to Work for Disabled Americans Act seeks to shrink that gap by simply restoring the Social Security Administration's authority to test drive solutions that can empower more of our fellow Americans to get back to work.",
-        "index": 4,
-        "reason": "States the bill's purpose as reducing the work gap and empowering disabled Americans to return to work."
+        "pick": {
+          "paragraph": 4,
+          "first sentence ID": 0,
+          "last sentence ID": 3,
+          "reason": "Explains the problem the bill addresses, citing disabled Americans who want to work and the large gap between that desire and actual return-to-work outcomes."
+        }
       },
       {
-        "bio": "S001195",
-        "speaker": "Jason Smith",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 5675,
-        "quote": "Up until 2022, the SSA had such authority to run demonstration \nprojects on improving work outcomes. With that authority expired and \nwith so many disabled Americans still unable to successfully navigate \nthe current program, we have to find a better way forward.",
-        "summary": "Up until 2022, the SSA had such authority to run demonstration projects on improving work outcomes. With that authority expired and with so many disabled Americans still unable to successfully navigate the current program, we have to find a better way forward.",
-        "index": 6,
-        "reason": "Argues the bill is needed because the prior authority expired and current program barriers remain."
+        "pick": {
+          "paragraph": 5,
+          "first sentence ID": 0,
+          "last sentence ID": 0,
+          "reason": "States the bill’s core mechanism: restoring SSA authority to test solutions that help more disabled Americans return to work."
+        }
       },
       {
-        "bio": "S001195",
-        "speaker": "Jason Smith",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 5941,
-        "quote": "In fact, some of the challenges cited for why so few SSDI \nbeneficiaries successfully return to the workforce are confusing rules \nof the road for eligibility, that and a fear of overpayments and \nbenefit cliffs.",
-        "summary": "In fact, some of the challenges cited for why so few SSDI beneficiaries successfully return to the workforce are confusing rules of the road for eligibility, that and a fear of overpayments and benefit cliffs.",
-        "index": 7,
-        "reason": "Identifies specific barriers that the bill aims to address."
+        "pick": {
+          "paragraph": 6,
+          "first sentence ID": 0,
+          "last sentence ID": 1,
+          "reason": "Argues that SSA’s expired demonstration authority needs to be renewed because too many disabled Americans still cannot navigate the current program."
+        }
       },
       {
-        "bio": "S001195",
-        "speaker": "Jason Smith",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 6156,
-        "quote": "Just so we do not forget why we should be focused on this issue, at a \nhearing of the Ways and Means Social Security and Work and Welfare \nSubcommittees in September, we heard from a witness, a former \nbeneficiary, about how the work he found helped give his life real \npurpose and a different outlook. He was talking about the dignity of \nwork, and that is what this bill will help deliver.",
-        "summary": "Just so we do not forget why we should be focused on this issue, at a hearing of the Ways and Means Social Security and Work and Welfare Subcommittees in September, we heard from a witness, a former beneficiary, about how the work he found helped give his life real purpose and a different outlook. He was talking about the dignity of work, and that is what this bill will help deliver.",
-        "index": 8,
-        "reason": "Supports the bill by tying work to dignity and improved life purpose for beneficiaries."
+        "pick": {
+          "paragraph": 7,
+          "first sentence ID": 0,
+          "last sentence ID": 0,
+          "reason": "Identifies the work-disincentive barriers the bill seeks to address, including confusing eligibility rules, overpayment fears, and benefit cliffs."
+        }
       },
       {
-        "bio": "S001195",
-        "speaker": "Jason Smith",
         "side": "Yea",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 6550,
-        "quote": "Representative Scott has been a long-time--and I would say long-time, \ntireless champion for Purple Heart veterans. Many of them wish to \nreturn to work but cannot afford the severe restrictions placed on \ntheir work status. I commend Mr. Scott for expanding his bill to allow \nthe SSA's demonstration authority for so many impacted individuals, \nincluding blind Americans. He has identified a commonsense solution and \nis fighting to see it come to pass, just as it did through the Ways and \nMeans Committee with bipartisan support.",
-        "summary": "Representative Scott has been a long-time--and I would say long-time, tireless champion for Purple Heart veterans. Many of them wish to return to work but cannot afford the severe restrictions placed on their work status. I commend Mr. Scott for expanding his bill to allow the SSA's demonstration authority for so many impacted individuals, including blind Americans. He has identified a commonsense solution and is fighting to see it come to pass, just as it did through the Ways and Means Committee with bipartisan support.",
-        "index": 9,
-        "reason": "Explains that many veterans and blind Americans want to work but face severe restrictions, and endorses the solution."
+        "pick": {
+          "paragraph": 8,
+          "first sentence ID": 0,
+          "last sentence ID": 1,
+          "reason": "Uses a hearing witness example to emphasize the dignity of work and explain how the bill would help deliver it."
+        }
       },
       {
-        "bio": "C001080",
-        "speaker": "Judy Chu",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 7250,
-        "quote": "Mr. Speaker, at a time when Americans are dealing with skyrocketing \nprices and vulnerable populations like seniors and people with \ndisabilities are struggling to get help with their Social Security \nbenefits because this administration has created a customer service \ncrisis through reckless staffing cuts, it is shameful that Republicans \nhave chosen to bring H.R. 8884 to the floor. This bill won't lower \ncosts, won't improve customer service, and won't make it easier for \npeople with disabilities to access the benefits they have earned. \nInstead, it opens the door to cutting those benefits while making SSA's \ncustomer service crisis even worse.",
-        "summary": "at a time when Americans are dealing with skyrocketing prices and vulnerable populations like seniors and people with disabilities are struggling to get help with their Social Security benefits because this administration has created a customer service crisis through reckless staffing cuts, it is shameful that Republicans have chosen to bring H.R. 8884 to the floor. This bill won't lower costs, won't improve customer service, and won't make it easier for people with disabilities to access the benefits they have earned. Instead, it opens the door to cutting those benefits while making SSA's customer service crisis even worse.",
-        "index": 0,
-        "reason": "Directly argues the bill fails to help disabled people and instead threatens earned benefits while worsening service problems."
+        "pick": {
+          "paragraph": 12,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Explains that the bill would not help disabled Americans and would instead worsen Social Security customer service while risking benefit cuts."
+        }
       },
       {
-        "bio": "D000096",
-        "speaker": "Danny K. Davis",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 22409,
-        "quote": "Mr. Speaker, I believe that you can measure the greatness of a \nsociety by how well it treats its old, how well it treats its young, \nand how well it treats those who have difficulties caring for \nthemselves, through no fault of their own, yet need help from other \nelements of society.",
-        "summary": "Let me be clear that Democrats strongly support the goal of reducing unnecessary barriers for disabled Americans who want to explore returning to work. Over the years, Democrats many times have supported giving SSA this demonstration authority. However, the bill before us today tries to accomplish this worthwhile goal in the worst possible way.",
-        "index": 1,
-        "reason": "Acknowledges the goal but explains the bill pursues it in a harmful way, supporting opposition."
+        "pick": {
+          "paragraph": 14,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States support for the general goal but argues this bill pursues it in a harmful way, framing the core opposition to the legislation."
+        }
       },
       {
-        "bio": "C001080",
-        "speaker": "Judy Chu",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 7907,
-        "quote": "H.R. 8884, the Removing Barriers to Work for Disabled Americans Act, \naims to remove barriers to employment faced by individuals receiving \nSocial Security Disability Insurance, or SSDI, benefits. It tries to do \nthis by authorizing the Social Security Administration to conduct \ndemonstration projects designed to test program changes that may \nencourage work.",
-        "summary": "Instead of protecting beneficiaries, it hands the Trump administration broad new authority to experiment with Social Security disability benefits with virtually no meaningful guardrails.",
-        "index": 2,
-        "reason": "Focuses on the bill's dangerous lack of guardrails and risk to beneficiaries."
+        "pick": {
+          "paragraph": 15,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Criticizes the bill for giving broad authority to experiment with disability benefits without meaningful guardrails."
+        }
       },
       {
-        "bio": "D000096",
-        "speaker": "Danny K. Davis",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 22698,
-        "quote": "If this bill is an indication of how we value our most vulnerable \ncitizens, then we are not in good shape. Instead of going after \nbillionaire tax cheats or ultrawealthy tax evaders, my Republican \ncolleagues are advancing a bill that purports to remove barriers to \nwork for disabled Americans.",
-        "summary": "First, let me be clear about what Social Security disability benefits are for. SSDI supports some of the most vulnerable Americans who have severe and long-lasting medical impairments that prevent them from being able to work at a level needed to financially support themselves.",
-        "index": 3,
-        "reason": "Explains why these benefits are essential for vulnerable disabled people, grounding opposition to changes that could weaken them."
+        "pick": {
+          "paragraph": 16,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Defines SSDI as support for severely impaired Americans who cannot work, underscoring why the bill's changes are risky for vulnerable beneficiaries."
+        }
       },
       {
-        "bio": "C001080",
-        "speaker": "Judy Chu",
         "side": "Nay",
-        "manager": true,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 8271,
-        "quote": "Let me be clear that Democrats strongly support the goal of reducing \nunnecessary barriers for disabled Americans who want to explore \nreturning to work. Over the years, Democrats many times have supported \ngiving SSA this demonstration authority. However, the bill before us \ntoday tries to accomplish this worthwhile goal in the worst possible \nway.",
-        "summary": "SSDI is an earned benefit, with the average beneficiary having worked and paid into the system for 22 years before becoming disabled. It also has stringent eligibility criteria. To qualify, applicants must provide extensive medical evidence and undergo a rigorous eligibility determination process. Many applicants are initially denied and must appeal a process that often takes a year or more. Even after all levels of appeal, SSA typically finds only about one in three applicants eligible. SSDI benefits are extremely low, at an average of about $20,000 a year.",
-        "index": 4,
-        "reason": "Highlights how hard-earned and modest the benefits are, supporting concern over exposing them to cuts."
+        "pick": {
+          "paragraph": 17,
+          "first_sentence_id": 0,
+          "last_sentence_id": 5,
+          "reason": "Emphasizes that SSDI is an earned, tightly restricted benefit with low payments, supporting the argument that it should not be subject to risky demonstrations."
+        }
       },
       {
-        "bio": "D000096",
-        "speaker": "Danny K. Davis",
         "side": "Nay",
-        "manager": false,
-        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-23/html/CREC-2026-07-23-pt1-PgH5182-6.htm",
-        "start": 22997,
-        "quote": "In all actuality, H.R. 8884 targets the earned benefits of workers \nwho qualify for the Social Security Disability Insurance, SSDI.",
-        "summary": "The bottom line is that this administration cannot be trusted to not cut people's benefits. These are earned benefits that people with disabilities rely on to make ends meet. This bill puts that lifeline in jeopardy, and that is why this House should reject this bill.",
-        "index": 5,
-        "reason": "States the core opposition: distrust of the administration and the danger the bill poses to a vital lifeline."
+        "pick": {
+          "paragraph": 38,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues the bill gives the administration open-ended authority to push disabled people into harmful demonstration programs that could threaten their benefits."
+        }
       }
     ],
     "checks": [
       {
-        "id": 2,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the quote’s claim about disabled Americans wanting to work, the 60 percent estimate, the less-than-1-percent exit rate, and the resulting gap.",
-        "side": "Yea"
-      },
-      {
-        "id": 4,
-        "accepted": true,
-        "reason": "The summary accurately states that the bill would restore SSA authority to test solutions to help more disabled Americans return to work.",
-        "side": "Yea"
-      },
-      {
-        "id": 6,
-        "accepted": true,
-        "reason": "The summary matches the quote’s point that the SSA had this demonstration authority until 2022 and now a better way forward is needed.",
-        "side": "Yea"
-      },
-      {
-        "id": 7,
-        "accepted": true,
-        "reason": "The summary correctly reproduces the cited obstacles: confusing eligibility rules, fear of overpayments, and benefit cliffs.",
-        "side": "Yea"
-      },
-      {
-        "id": 8,
-        "accepted": true,
-        "reason": "The summary faithfully reports the witness’s testimony that work gave his life purpose and that the bill helps deliver the dignity of work.",
-        "side": "Yea"
-      },
-      {
-        "id": 9,
+        "side": "Yea",
+        "pick": {
+          "paragraph": 3,
+          "first sentence ID": 0,
+          "last sentence ID": 0,
+          "reason": "Supports the bill by explicitly stating support for H.R. 8884 and identifying it as the Removing Barriers to Work for Disabled Americans Act."
+        },
         "accepted": false,
-        "reason": "The summary adds several unsupported claims, including Purple Heart veterans, blind Americans, bipartisan committee action, and Scott expanding his bill beyond the quote.",
-        "side": "Yea"
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 4,
+          "first sentence ID": 0,
+          "last sentence ID": 3,
+          "reason": "Explains the problem the bill addresses, citing disabled Americans who want to work and the large gap between that desire and actual return-to-work outcomes."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 5,
+          "first sentence ID": 0,
+          "last sentence ID": 0,
+          "reason": "States the bill’s core mechanism: restoring SSA authority to test solutions that help more disabled Americans return to work."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 6,
+          "first sentence ID": 0,
+          "last sentence ID": 1,
+          "reason": "Argues that SSA’s expired demonstration authority needs to be renewed because too many disabled Americans still cannot navigate the current program."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 7,
+          "first sentence ID": 0,
+          "last sentence ID": 0,
+          "reason": "Identifies the work-disincentive barriers the bill seeks to address, including confusing eligibility rules, overpayment fears, and benefit cliffs."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 8,
+          "first sentence ID": 0,
+          "last sentence ID": 1,
+          "reason": "Uses a hearing witness example to emphasize the dignity of work and explain how the bill would help deliver it."
+        },
+        "accepted": false,
+        "reason": "'first'"
       },
       {
         "side": "Nay",
-        "id": 4,
+        "pick": {
+          "paragraph": 12,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Explains that the bill would not help disabled Americans and would instead worsen Social Security customer service while risking benefit cuts."
+        },
         "accepted": false,
-        "reason": "Unsupported numeric/date expression or generic attribution."
+        "reason": "'first'"
       },
       {
-        "id": 0,
-        "accepted": true,
-        "reason": "The summary faithfully preserves the quote’s core claim that H.R. 8884 will not lower costs or improve customer service and instead risks cutting benefits and worsening SSA service.",
-        "side": "Nay"
-      },
-      {
-        "id": 2,
-        "accepted": true,
-        "reason": "The summary accurately captures that the bill gives the administration authority to run demonstration projects on Social Security disability benefits with limited guardrails.",
-        "side": "Nay"
-      },
-      {
-        "id": 1,
+        "side": "Nay",
+        "pick": {
+          "paragraph": 14,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "States support for the general goal but argues this bill pursues it in a harmful way, framing the core opposition to the legislation."
+        },
         "accepted": false,
-        "reason": "The summary is about Democratic support for reducing barriers to work and bill criticism, but the quote is a generic statement about how society should treat vulnerable people, so the central claim is omitted.",
-        "side": "Nay"
+        "reason": "'first'"
       },
       {
-        "id": 3,
+        "side": "Nay",
+        "pick": {
+          "paragraph": 15,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Criticizes the bill for giving broad authority to experiment with disability benefits without meaningful guardrails."
+        },
         "accepted": false,
-        "reason": "The summary invents a specific explanation of SSDI’s purpose and beneficiaries that is not stated in the quote, which instead contrasts the bill with priorities like going after billionaire tax cheats.",
-        "side": "Nay"
+        "reason": "'first'"
       },
       {
-        "id": 5,
+        "side": "Nay",
+        "pick": {
+          "paragraph": 16,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Defines SSDI as support for severely impaired Americans who cannot work, underscoring why the bill's changes are risky for vulnerable beneficiaries."
+        },
         "accepted": false,
-        "reason": "The summary adds unsupported claims about the administration not being trusted and benefits being cut, while the quote only says the bill targets earned SSDI benefits.",
-        "side": "Nay"
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 17,
+          "first_sentence_id": 0,
+          "last_sentence_id": 5,
+          "reason": "Emphasizes that SSDI is an earned, tightly restricted benefit with low payments, supporting the argument that it should not be subject to risky demonstrations."
+        },
+        "accepted": false,
+        "reason": "'first'"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 38,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "Argues the bill gives the administration open-ended authority to push disabled people into harmful demonstration programs that could threaten their benefits."
+        },
+        "accepted": false,
+        "reason": "'first'"
       }
     ],
-    "proceduralDropped": 7
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_0a3b5b9569b67d9a016b05b602774c87d2a33aef2abbfb45e8",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 1209,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 285,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 1494
+        },
+        "estimatedUsd": 0.00218925,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_0b353c54a5630e57016b05b6051c0087d2ad96d9fe0784bb6e",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 1876,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 275,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2151
+        },
+        "estimatedUsd": 0.0026445,
+        "status": "completed"
+      }
+    ]
   }
 }
