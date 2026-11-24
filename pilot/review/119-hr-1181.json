@@ -1,0 +1,2172 @@
+{
+  "debateFingerprint": "775217a97f5854deac1d40082f82288d4f1501110430d034feec8dace794f17e",
+  "bill": "119-hr-1181",
+  "vote": "house:119:2:240",
+  "sources": {
+    "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4441-2.htm": "9db51bec7111484c878b597a2c658745aaddabf8544a217a28dc23cf5e6b61c7",
+    "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4451.htm": "cf1ea2491fea5641fe3af103346f7b96c236cefd328d835b30114933509d13b1"
+  },
+  "passageRecord": {
+    "url": "https://clerk.house.gov/evs/2026/roll240.xml",
+    "sha256": "fe1c3b2b7a3ae809b952c7e8c31c2fb8227ec9d6aa986d05ab5c439518244a4f",
+    "members": {
+      "A000370": [
+        "D",
+        "NC"
+      ],
+      "A000055": [
+        "R",
+        "AL"
+      ],
+      "A000371": [
+        "D",
+        "CA"
+      ],
+      "A000379": [
+        "R",
+        "MO"
+      ],
+      "A000372": [
+        "R",
+        "GA"
+      ],
+      "A000380": [
+        "D",
+        "RI"
+      ],
+      "A000369": [
+        "R",
+        "NV"
+      ],
+      "A000381": [
+        "D",
+        "AZ"
+      ],
+      "A000375": [
+        "R",
+        "TX"
+      ],
+      "A000148": [
+        "D",
+        "MA"
+      ],
+      "B001291": [
+        "R",
+        "TX"
+      ],
+      "B001298": [
+        "R",
+        "NE"
+      ],
+      "B001307": [
+        "R",
+        "IN"
+      ],
+      "B001306": [
+        "R",
+        "OH"
+      ],
+      "B001318": [
+        "D",
+        "VT"
+      ],
+      "B001282": [
+        "R",
+        "KY"
+      ],
+      "B001300": [
+        "D",
+        "CA"
+      ],
+      "B001321": [
+        "R",
+        "MI"
+      ],
+      "B001322": [
+        "R",
+        "WA"
+      ],
+      "B001314": [
+        "R",
+        "FL"
+      ],
+      "B001281": [
+        "D",
+        "OH"
+      ],
+      "B001323": [
+        "R",
+        "AK"
+      ],
+      "B001324": [
+        "D",
+        "MO"
+      ],
+      "B000668": [
+        "R",
+        "OR"
+      ],
+      "B001287": [
+        "D",
+        "CA"
+      ],
+      "B001301": [
+        "R",
+        "MI"
+      ],
+      "B001292": [
+        "D",
+        "VA"
+      ],
+      "B000740": [
+        "R",
+        "OK"
+      ],
+      "B001302": [
+        "R",
+        "AZ"
+      ],
+      "B001325": [
+        "R",
+        "SC"
+      ],
+      "B001257": [
+        "R",
+        "FL"
+      ],
+      "B000490": [
+        "D",
+        "GA"
+      ],
+      "B000825": [
+        "R",
+        "CO"
+      ],
+      "B001278": [
+        "D",
+        "OR"
+      ],
+      "B001295": [
+        "R",
+        "IL"
+      ],
+      "B001296": [
+        "D",
+        "PA"
+      ],
+      "B001317": [
+        "R",
+        "OK"
+      ],
+      "B001327": [
+        "R",
+        "PA"
+      ],
+      "B001313": [
+        "D",
+        "OH"
+      ],
+      "B001285": [
+        "D",
+        "CA"
+      ],
+      "B001260": [
+        "R",
+        "FL"
+      ],
+      "B001315": [
+        "D",
+        "IL"
+      ],
+      "B001309": [
+        "R",
+        "TN"
+      ],
+      "B001316": [
+        "R",
+        "MO"
+      ],
+      "B001326": [
+        "D",
+        "OR"
+      ],
+      "C000059": [
+        "R",
+        "CA"
+      ],
+      "C001039": [
+        "R",
+        "FL"
+      ],
+      "C001112": [
+        "D",
+        "CA"
+      ],
+      "C001126": [
+        "R",
+        "OH"
+      ],
+      "C001072": [
+        "D",
+        "IN"
+      ],
+      "C001103": [
+        "R",
+        "GA"
+      ],
+      "C001125": [
+        "D",
+        "LA"
+      ],
+      "C001051": [
+        "R",
+        "TX"
+      ],
+      "C001131": [
+        "D",
+        "TX"
+      ],
+      "C001055": [
+        "D",
+        "HI"
+      ],
+      "C001117": [
+        "D",
+        "IL"
+      ],
+      "C001066": [
+        "D",
+        "FL"
+      ],
+      "C001091": [
+        "D",
+        "TX"
+      ],
+      "C001080": [
+        "D",
+        "CA"
+      ],
+      "C001133": [
+        "R",
+        "AZ"
+      ],
+      "C001123": [
+        "D",
+        "CA"
+      ],
+      "C001101": [
+        "D",
+        "MA"
+      ],
+      "C001067": [
+        "D",
+        "NY"
+      ],
+      "C001061": [
+        "D",
+        "MO"
+      ],
+      "C001118": [
+        "R",
+        "VA"
+      ],
+      "C001115": [
+        "R",
+        "TX"
+      ],
+      "C000537": [
+        "D",
+        "SC"
+      ],
+      "C001116": [
+        "R",
+        "GA"
+      ],
+      "C001068": [
+        "D",
+        "TN"
+      ],
+      "C001053": [
+        "R",
+        "OK"
+      ],
+      "C001129": [
+        "R",
+        "GA"
+      ],
+      "C001108": [
+        "R",
+        "KY"
+      ],
+      "C001136": [
+        "D",
+        "NJ"
+      ],
+      "C001110": [
+        "D",
+        "CA"
+      ],
+      "C001059": [
+        "D",
+        "CA"
+      ],
+      "C001069": [
+        "D",
+        "CT"
+      ],
+      "C001119": [
+        "D",
+        "MN"
+      ],
+      "C001132": [
+        "R",
+        "AZ"
+      ],
+      "C001137": [
+        "R",
+        "CO"
+      ],
+      "C001087": [
+        "R",
+        "AR"
+      ],
+      "C001120": [
+        "R",
+        "TX"
+      ],
+      "C001130": [
+        "D",
+        "TX"
+      ],
+      "C001121": [
+        "D",
+        "CO"
+      ],
+      "C001063": [
+        "D",
+        "TX"
+      ],
+      "D000629": [
+        "D",
+        "KS"
+      ],
+      "D000626": [
+        "R",
+        "OH"
+      ],
+      "D000096": [
+        "D",
+        "IL"
+      ],
+      "D000230": [
+        "D",
+        "NC"
+      ],
+      "D000594": [
+        "R",
+        "TX"
+      ],
+      "D000631": [
+        "D",
+        "PA"
+      ],
+      "D000197": [
+        "D",
+        "CO"
+      ],
+      "D000216": [
+        "D",
+        "CT"
+      ],
+      "D000617": [
+        "D",
+        "WA"
+      ],
+      "D000530": [
+        "D",
+        "PA"
+      ],
+      "D000623": [
+        "D",
+        "CA"
+      ],
+      "D000616": [
+        "R",
+        "TN"
+      ],
+      "D000635": [
+        "D",
+        "OR"
+      ],
+      "D000600": [
+        "R",
+        "FL"
+      ],
+      "D000624": [
+        "D",
+        "MI"
+      ],
+      "D000399": [
+        "D",
+        "TX"
+      ],
+      "D000032": [
+        "R",
+        "FL"
+      ],
+      "D000634": [
+        "R",
+        "MT"
+      ],
+      "D000628": [
+        "R",
+        "FL"
+      ],
+      "E000246": [
+        "R",
+        "NC"
+      ],
+      "E000301": [
+        "D",
+        "MD"
+      ],
+      "E000071": [
+        "R",
+        "TX"
+      ],
+      "E000294": [
+        "R",
+        "MN"
+      ],
+      "E000299": [
+        "D",
+        "TX"
+      ],
+      "E000297": [
+        "D",
+        "NY"
+      ],
+      "E000298": [
+        "R",
+        "KS"
+      ],
+      "E000300": [
+        "R",
+        "CO"
+      ],
+      "E000296": [
+        "D",
+        "PA"
+      ],
+      "E000235": [
+        "R",
+        "MS"
+      ],
+      "F000246": [
+        "R",
+        "TX"
+      ],
+      "F000482": [
+        "R",
+        "ND"
+      ],
+      "F000446": [
+        "R",
+        "IA"
+      ],
+      "F000110": [
+        "D",
+        "LA"
+      ],
+      "F000481": [
+        "D",
+        "AL"
+      ],
+      "F000484": [
+        "R",
+        "FL"
+      ],
+      "F000475": [
+        "R",
+        "MN"
+      ],
+      "F000470": [
+        "R",
+        "MN"
+      ],
+      "F000471": [
+        "R",
+        "WI"
+      ],
+      "F000466": [
+        "R",
+        "PA"
+      ],
+      "F000459": [
+        "R",
+        "TN"
+      ],
+      "F000468": [
+        "D",
+        "TX"
+      ],
+      "F000474": [
+        "R",
+        "NE"
+      ],
+      "F000480": [
+        "R",
+        "CA"
+      ],
+      "F000454": [
+        "D",
+        "IL"
+      ],
+      "F000477": [
+        "D",
+        "NC"
+      ],
+      "F000450": [
+        "R",
+        "NC"
+      ],
+      "F000462": [
+        "D",
+        "FL"
+      ],
+      "F000472": [
+        "R",
+        "FL"
+      ],
+      "F000483": [
+        "D",
+        "CA"
+      ],
+      "F000476": [
+        "D",
+        "FL"
+      ],
+      "F000478": [
+        "R",
+        "SC"
+      ],
+      "F000469": [
+        "R",
+        "ID"
+      ],
+      "F000485": [
+        "R",
+        "GA"
+      ],
+      "G000607": [
+        "R",
+        "CA"
+      ],
+      "G000559": [
+        "D",
+        "CA"
+      ],
+      "G000597": [
+        "R",
+        "NY"
+      ],
+      "G000598": [
+        "D",
+        "CA"
+      ],
+      "G000586": [
+        "D",
+        "IL"
+      ],
+      "G000587": [
+        "D",
+        "TX"
+      ],
+      "G000603": [
+        "R",
+        "TX"
+      ],
+      "G000602": [
+        "D",
+        "NY"
+      ],
+      "G000593": [
+        "R",
+        "FL"
+      ],
+      "G000592": [
+        "D",
+        "ME"
+      ],
+      "G000599": [
+        "D",
+        "NY"
+      ],
+      "G000601": [
+        "R",
+        "TX"
+      ],
+      "G000585": [
+        "D",
+        "CA"
+      ],
+      "G000581": [
+        "D",
+        "TX"
+      ],
+      "G000589": [
+        "R",
+        "TX"
+      ],
+      "G000604": [
+        "D",
+        "NH"
+      ],
+      "G000565": [
+        "R",
+        "AZ"
+      ],
+      "G000583": [
+        "D",
+        "NJ"
+      ],
+      "G000546": [
+        "R",
+        "MO"
+      ],
+      "G000605": [
+        "D",
+        "CA"
+      ],
+      "G000553": [
+        "D",
+        "TX"
+      ],
+      "G000568": [
+        "R",
+        "VA"
+      ],
+      "G000606": [
+        "D",
+        "AZ"
+      ],
+      "G000576": [
+        "R",
+        "WI"
+      ],
+      "G000591": [
+        "R",
+        "MS"
+      ],
+      "G000558": [
+        "R",
+        "KY"
+      ],
+      "H001096": [
+        "R",
+        "WY"
+      ],
+      "H001098": [
+        "R",
+        "AZ"
+      ],
+      "H001090": [
+        "D",
+        "CA"
+      ],
+      "H001099": [
+        "R",
+        "FL"
+      ],
+      "H001101": [
+        "R",
+        "NC"
+      ],
+      "H001052": [
+        "R",
+        "MD"
+      ],
+      "H001102": [
+        "R",
+        "NC"
+      ],
+      "H001086": [
+        "R",
+        "TN"
+      ],
+      "H001081": [
+        "D",
+        "CT"
+      ],
+      "H001082": [
+        "R",
+        "OK"
+      ],
+      "H001077": [
+        "R",
+        "LA"
+      ],
+      "H001072": [
+        "R",
+        "AR"
+      ],
+      "H001047": [
+        "D",
+        "CT"
+      ],
+      "H001091": [
+        "R",
+        "IA"
+      ],
+      "H001066": [
+        "D",
+        "NV"
+      ],
+      "H001093": [
+        "R",
+        "IN"
+      ],
+      "H001085": [
+        "D",
+        "PA"
+      ],
+      "H000874": [
+        "D",
+        "MD"
+      ],
+      "H001094": [
+        "D",
+        "OR"
+      ],
+      "H001067": [
+        "R",
+        "NC"
+      ],
+      "H001068": [
+        "D",
+        "CA"
+      ],
+      "H001058": [
+        "R",
+        "MI"
+      ],
+      "H001095": [
+        "R",
+        "TX"
+      ],
+      "H001100": [
+        "R",
+        "CO"
+      ],
+      "I000056": [
+        "R",
+        "CA"
+      ],
+      "I000058": [
+        "D",
+        "MD"
+      ],
+      "J000311": [
+        "R",
+        "GA"
+      ],
+      "J000309": [
+        "D",
+        "IL"
+      ],
+      "J000304": [
+        "R",
+        "TX"
+      ],
+      "J000305": [
+        "D",
+        "CA"
+      ],
+      "J000307": [
+        "R",
+        "MI"
+      ],
+      "J000298": [
+        "D",
+        "WA"
+      ],
+      "J000294": [
+        "D",
+        "NY"
+      ],
+      "J000288": [
+        "D",
+        "GA"
+      ],
+      "J000299": [
+        "R",
+        "LA"
+      ],
+      "J000301": [
+        "R",
+        "SD"
+      ],
+      "J000310": [
+        "D",
+        "TX"
+      ],
+      "J000289": [
+        "R",
+        "OH"
+      ],
+      "J000295": [
+        "R",
+        "OH"
+      ],
+      "J000302": [
+        "R",
+        "PA"
+      ],
+      "K000400": [
+        "D",
+        "CA"
+      ],
+      "K000009": [
+        "D",
+        "OH"
+      ],
+      "K000398": [
+        "R",
+        "NJ"
+      ],
+      "K000375": [
+        "D",
+        "MA"
+      ],
+      "K000385": [
+        "D",
+        "IL"
+      ],
+      "K000388": [
+        "R",
+        "MS"
+      ],
+      "K000376": [
+        "R",
+        "PA"
+      ],
+      "K000402": [
+        "D",
+        "NY"
+      ],
+      "K000403": [
+        "R",
+        "UT"
+      ],
+      "K000389": [
+        "D",
+        "CA"
+      ],
+      "K000399": [
+        "R",
+        "VA"
+      ],
+      "K000401": [
+        "I",
+        "CA"
+      ],
+      "K000397": [
+        "R",
+        "CA"
+      ],
+      "K000405": [
+        "R",
+        "NC"
+      ],
+      "K000391": [
+        "D",
+        "IL"
+      ],
+      "K000392": [
+        "R",
+        "TN"
+      ],
+      "L000585": [
+        "R",
+        "IL"
+      ],
+      "L000598": [
+        "R",
+        "NY"
+      ],
+      "L000601": [
+        "D",
+        "OH"
+      ],
+      "L000600": [
+        "R",
+        "NY"
+      ],
+      "L000560": [
+        "D",
+        "WA"
+      ],
+      "L000557": [
+        "D",
+        "CT"
+      ],
+      "L000606": [
+        "D",
+        "NY"
+      ],
+      "L000566": [
+        "R",
+        "OH"
+      ],
+      "L000599": [
+        "R",
+        "NY"
+      ],
+      "L000597": [
+        "R",
+        "FL"
+      ],
+      "L000590": [
+        "D",
+        "NV"
+      ],
+      "L000602": [
+        "D",
+        "PA"
+      ],
+      "L000273": [
+        "D",
+        "NM"
+      ],
+      "L000595": [
+        "R",
+        "LA"
+      ],
+      "L000593": [
+        "D",
+        "CA"
+      ],
+      "L000607": [
+        "D",
+        "CA"
+      ],
+      "L000582": [
+        "D",
+        "CA"
+      ],
+      "L000397": [
+        "D",
+        "CA"
+      ],
+      "L000583": [
+        "R",
+        "GA"
+      ],
+      "L000491": [
+        "R",
+        "OK"
+      ],
+      "L000596": [
+        "R",
+        "FL"
+      ],
+      "L000603": [
+        "R",
+        "TX"
+      ],
+      "L000562": [
+        "D",
+        "MA"
+      ],
+      "M000194": [
+        "R",
+        "SC"
+      ],
+      "M001230": [
+        "R",
+        "PA"
+      ],
+      "M001223": [
+        "D",
+        "RI"
+      ],
+      "M000317": [
+        "R",
+        "NY"
+      ],
+      "M001228": [
+        "R",
+        "UT"
+      ],
+      "M000871": [
+        "R",
+        "KS"
+      ],
+      "M001231": [
+        "D",
+        "NY"
+      ],
+      "M001184": [
+        "R",
+        "KY"
+      ],
+      "M001199": [
+        "R",
+        "FL"
+      ],
+      "M001163": [
+        "D",
+        "CA"
+      ],
+      "M001208": [
+        "D",
+        "GA"
+      ],
+      "M001238": [
+        "D",
+        "DE"
+      ],
+      "M001157": [
+        "R",
+        "TX"
+      ],
+      "M001136": [
+        "R",
+        "MI"
+      ],
+      "M001232": [
+        "D",
+        "MD"
+      ],
+      "M001227": [
+        "D",
+        "VA"
+      ],
+      "M001177": [
+        "R",
+        "CA"
+      ],
+      "M001143": [
+        "D",
+        "MN"
+      ],
+      "M001218": [
+        "R",
+        "GA"
+      ],
+      "M001237": [
+        "D",
+        "MI"
+      ],
+      "M001240": [
+        "R",
+        "NC"
+      ],
+      "M001220": [
+        "D",
+        "KY"
+      ],
+      "M000312": [
+        "D",
+        "MA"
+      ],
+      "M001239": [
+        "R",
+        "VA"
+      ],
+      "M001229": [
+        "D",
+        "NJ"
+      ],
+      "M001137": [
+        "D",
+        "NY"
+      ],
+      "M001246": [
+        "D",
+        "NJ"
+      ],
+      "M001245": [
+        "D",
+        "TX"
+      ],
+      "M001226": [
+        "D",
+        "NJ"
+      ],
+      "M001188": [
+        "D",
+        "NY"
+      ],
+      "M001233": [
+        "R",
+        "IN"
+      ],
+      "M001204": [
+        "R",
+        "PA"
+      ],
+      "M000687": [
+        "D",
+        "MD"
+      ],
+      "M001211": [
+        "R",
+        "IL"
+      ],
+      "M001222": [
+        "R",
+        "OH"
+      ],
+      "M001205": [
+        "R",
+        "WV"
+      ],
+      "M001215": [
+        "R",
+        "IA"
+      ],
+      "M001216": [
+        "R",
+        "FL"
+      ],
+      "M001241": [
+        "D",
+        "CA"
+      ],
+      "M001194": [
+        "R",
+        "MI"
+      ],
+      "M001212": [
+        "R",
+        "AL"
+      ],
+      "M001236": [
+        "R",
+        "NC"
+      ],
+      "M001213": [
+        "R",
+        "UT"
+      ],
+      "M001160": [
+        "D",
+        "WI"
+      ],
+      "M001235": [
+        "R",
+        "WV"
+      ],
+      "M001224": [
+        "R",
+        "TX"
+      ],
+      "M001206": [
+        "D",
+        "NY"
+      ],
+      "M001234": [
+        "D",
+        "MN"
+      ],
+      "M001217": [
+        "D",
+        "FL"
+      ],
+      "M001196": [
+        "D",
+        "MA"
+      ],
+      "M001214": [
+        "D",
+        "IN"
+      ],
+      "M001225": [
+        "D",
+        "CA"
+      ],
+      "M001210": [
+        "R",
+        "NC"
+      ],
+      "N000002": [
+        "D",
+        "NY"
+      ],
+      "N000015": [
+        "D",
+        "MA"
+      ],
+      "N000191": [
+        "D",
+        "CO"
+      ],
+      "N000026": [
+        "R",
+        "TX"
+      ],
+      "N000189": [
+        "R",
+        "WA"
+      ],
+      "N000188": [
+        "D",
+        "NJ"
+      ],
+      "N000190": [
+        "R",
+        "SC"
+      ],
+      "N000193": [
+        "R",
+        "IA"
+      ],
+      "O000019": [
+        "R",
+        "CA"
+      ],
+      "O000172": [
+        "D",
+        "NY"
+      ],
+      "O000175": [
+        "R",
+        "TN"
+      ],
+      "O000176": [
+        "D",
+        "MD"
+      ],
+      "O000173": [
+        "D",
+        "MN"
+      ],
+      "O000177": [
+        "R",
+        "MO"
+      ],
+      "O000086": [
+        "R",
+        "UT"
+      ],
+      "P000034": [
+        "D",
+        "NJ"
+      ],
+      "P000609": [
+        "R",
+        "AL"
+      ],
+      "P000613": [
+        "D",
+        "CA"
+      ],
+      "P000614": [
+        "D",
+        "NH"
+      ],
+      "P000622": [
+        "R",
+        "FL"
+      ],
+      "P000197": [
+        "D",
+        "CA"
+      ],
+      "G000600": [
+        "D",
+        "WA"
+      ],
+      "P000605": [
+        "R",
+        "PA"
+      ],
+      "P000608": [
+        "D",
+        "CA"
+      ],
+      "P000620": [
+        "D",
+        "CO"
+      ],
+      "P000048": [
+        "R",
+        "TX"
+      ],
+      "P000597": [
+        "D",
+        "ME"
+      ],
+      "P000607": [
+        "D",
+        "WI"
+      ],
+      "P000621": [
+        "D",
+        "NJ"
+      ],
+      "P000617": [
+        "D",
+        "MA"
+      ],
+      "Q000023": [
+        "D",
+        "IL"
+      ],
+      "R000617": [
+        "D",
+        "IL"
+      ],
+      "R000621": [
+        "D",
+        "WA"
+      ],
+      "R000606": [
+        "D",
+        "MD"
+      ],
+      "R000610": [
+        "R",
+        "PA"
+      ],
+      "R000622": [
+        "D",
+        "NY"
+      ],
+      "R000620": [
+        "D",
+        "CA"
+      ],
+      "R000575": [
+        "R",
+        "AL"
+      ],
+      "R000395": [
+        "R",
+        "KY"
+      ],
+      "R000612": [
+        "R",
+        "TN"
+      ],
+      "R000305": [
+        "D",
+        "NC"
+      ],
+      "R000603": [
+        "R",
+        "NC"
+      ],
+      "R000614": [
+        "R",
+        "TX"
+      ],
+      "R000599": [
+        "D",
+        "CA"
+      ],
+      "R000619": [
+        "R",
+        "OH"
+      ],
+      "R000609": [
+        "R",
+        "FL"
+      ],
+      "R000579": [
+        "D",
+        "NY"
+      ],
+      "S000168": [
+        "R",
+        "FL"
+      ],
+      "S001226": [
+        "D",
+        "OR"
+      ],
+      "S001156": [
+        "D",
+        "CA"
+      ],
+      "S001176": [
+        "R",
+        "LA"
+      ],
+      "S001205": [
+        "D",
+        "PA"
+      ],
+      "S001145": [
+        "D",
+        "IL"
+      ],
+      "S001228": [
+        "R",
+        "KS"
+      ],
+      "S001190": [
+        "D",
+        "IL"
+      ],
+      "S001221": [
+        "D",
+        "MI"
+      ],
+      "S001216": [
+        "D",
+        "WA"
+      ],
+      "S001183": [
+        "R",
+        "AZ"
+      ],
+      "S000185": [
+        "D",
+        "VA"
+      ],
+      "S001189": [
+        "R",
+        "GA"
+      ],
+      "S001224": [
+        "R",
+        "TX"
+      ],
+      "S000250": [
+        "R",
+        "TX"
+      ],
+      "S001185": [
+        "D",
+        "AL"
+      ],
+      "S000344": [
+        "D",
+        "CA"
+      ],
+      "S001229": [
+        "R",
+        "IN"
+      ],
+      "S001231": [
+        "D",
+        "CA"
+      ],
+      "S001148": [
+        "R",
+        "ID"
+      ],
+      "S001195": [
+        "R",
+        "MO"
+      ],
+      "S001172": [
+        "R",
+        "NE"
+      ],
+      "S000522": [
+        "R",
+        "NJ"
+      ],
+      "S000510": [
+        "D",
+        "WA"
+      ],
+      "S001199": [
+        "R",
+        "PA"
+      ],
+      "S001225": [
+        "D",
+        "IL"
+      ],
+      "S001200": [
+        "D",
+        "FL"
+      ],
+      "S000929": [
+        "R",
+        "IN"
+      ],
+      "S001218": [
+        "D",
+        "NM"
+      ],
+      "S001211": [
+        "D",
+        "AZ"
+      ],
+      "S001212": [
+        "R",
+        "MN"
+      ],
+      "S001196": [
+        "R",
+        "NY"
+      ],
+      "S001213": [
+        "R",
+        "WI"
+      ],
+      "S001214": [
+        "R",
+        "FL"
+      ],
+      "S001215": [
+        "D",
+        "MI"
+      ],
+      "S001159": [
+        "D",
+        "WA"
+      ],
+      "S001220": [
+        "R",
+        "AL"
+      ],
+      "S001188": [
+        "R",
+        "IN"
+      ],
+      "S001230": [
+        "D",
+        "VA"
+      ],
+      "S001201": [
+        "D",
+        "NY"
+      ],
+      "S001223": [
+        "D",
+        "OH"
+      ],
+      "T000472": [
+        "D",
+        "CA"
+      ],
+      "T000490": [
+        "R",
+        "OH"
+      ],
+      "T000478": [
+        "R",
+        "NY"
+      ],
+      "T000488": [
+        "D",
+        "MI"
+      ],
+      "T000460": [
+        "D",
+        "CA"
+      ],
+      "T000193": [
+        "D",
+        "MS"
+      ],
+      "T000467": [
+        "R",
+        "PA"
+      ],
+      "T000165": [
+        "R",
+        "WI"
+      ],
+      "T000480": [
+        "R",
+        "SC"
+      ],
+      "T000468": [
+        "D",
+        "NV"
+      ],
+      "T000481": [
+        "D",
+        "MI"
+      ],
+      "T000487": [
+        "D",
+        "HI"
+      ],
+      "T000469": [
+        "D",
+        "NY"
+      ],
+      "T000474": [
+        "D",
+        "CA"
+      ],
+      "T000486": [
+        "D",
+        "NY"
+      ],
+      "T000482": [
+        "D",
+        "MA"
+      ],
+      "T000491": [
+        "D",
+        "CA"
+      ],
+      "T000463": [
+        "R",
+        "OH"
+      ],
+      "U000040": [
+        "D",
+        "IL"
+      ],
+      "V000129": [
+        "R",
+        "CA"
+      ],
+      "V000133": [
+        "R",
+        "NJ"
+      ],
+      "V000134": [
+        "R",
+        "TX"
+      ],
+      "V000139": [
+        "R",
+        "TN"
+      ],
+      "V000135": [
+        "R",
+        "WI"
+      ],
+      "V000130": [
+        "D",
+        "CA"
+      ],
+      "V000136": [
+        "D",
+        "NM"
+      ],
+      "V000131": [
+        "D",
+        "TX"
+      ],
+      "V000081": [
+        "D",
+        "NY"
+      ],
+      "V000138": [
+        "D",
+        "VA"
+      ],
+      "W000812": [
+        "R",
+        "MO"
+      ],
+      "W000798": [
+        "R",
+        "MI"
+      ],
+      "W000831": [
+        "D",
+        "VA"
+      ],
+      "W000797": [
+        "D",
+        "FL"
+      ],
+      "W000187": [
+        "D",
+        "CA"
+      ],
+      "W000822": [
+        "D",
+        "NJ"
+      ],
+      "W000814": [
+        "R",
+        "TX"
+      ],
+      "W000806": [
+        "R",
+        "FL"
+      ],
+      "W000821": [
+        "R",
+        "AR"
+      ],
+      "W000830": [
+        "D",
+        "CA"
+      ],
+      "W000829": [
+        "R",
+        "WI"
+      ],
+      "W000788": [
+        "D",
+        "GA"
+      ],
+      "W000816": [
+        "R",
+        "TX"
+      ],
+      "W000808": [
+        "D",
+        "FL"
+      ],
+      "W000795": [
+        "R",
+        "SC"
+      ],
+      "W000804": [
+        "R",
+        "VA"
+      ],
+      "W000809": [
+        "R",
+        "AR"
+      ],
+      "Y000067": [
+        "R",
+        "IN"
+      ],
+      "Z000018": [
+        "R",
+        "MT"
+      ]
+    },
+    "result": "Passed",
+    "yea": 221,
+    "nay": 201
+  },
+  "points": [
+    {
+      "debateScope": "general",
+      "bio": "H001072",
+      "speaker": "J. French Hill",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4441-2.htm",
+      "start": 8796,
+      "quote": "Financial privacy is fundamental to consumer trust and confidence in \nour financial system. As technology continues to transform financial \nservices, protecting Americans' financial privacy remains an essential \npart of Congress' oversight role.",
+      "display": "Financial privacy is fundamental to consumer trust and confidence in our financial system. As technology continues to transform financial services, protecting Americans' financial privacy remains an essential part of Congress' oversight role.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4441-2.htm#:~:text=Financial%20privacy%20is%20fundamental%20to%20consumer%20trust%20and%20confidence%20in%20our%20financial%20system.%20As%20technology%20continues%20to%20transform%20financial%20services%2C%20protecting%20Americans%27%20financial%20privacy%20remains%20an%20essential%20part%20of%20Congress%27%20oversight%20role.",
+      "end": 9041,
+      "sentenceIds": [
+        "4.0",
+        "4.1"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "M001235",
+      "speaker": "Riley M. Moore",
+      "side": "Yea",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4441-2.htm",
+      "start": 15236,
+      "quote": "My bill \npreserves two fundamental rights: the right to privacy and the right to \nbear arms. Americans should not be forced to disclose to payment \nprocessors when they buy firearms.",
+      "display": "My bill preserves two fundamental rights: the right to privacy and the right to bear arms. Americans should not be forced to disclose to payment processors when they buy firearms.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4441-2.htm#:~:text=My%20bill%20preserves%20two%20fundamental%20rights%3A%20the%20right%20to%20privacy%20and%20the%20right%20to%20bear%20arms.%20Americans%20should%20not%20be%20forced%20to%20disclose%20to%20payment%20processors%20when%20they%20buy%20firearms.",
+      "end": 15418,
+      "sentenceIds": [
+        "13.1",
+        "13.2"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "T000460",
+      "speaker": "Mike Thompson",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4441-2.htm",
+      "start": 18739,
+      "quote": "Mr. Speaker, I rise in opposition to H.R. 1181, a bill which makes it \nharder to catch criminals and makes our communities less safe.",
+      "display": "I rise in opposition to H.R. 1181, a bill which makes it harder to catch criminals and makes our communities less safe.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4441-2.htm#:~:text=Mr.%20Speaker%2C%20I%20rise%20in%20opposition%20to%20H.R.%201181%2C%20a%20bill%20which%20makes%20it%20harder%20to%20catch%20criminals%20and%20makes%20our%20communities%20less%20safe.",
+      "end": 18872,
+      "sentenceIds": [
+        "24.0"
+      ]
+    },
+    {
+      "debateScope": "general",
+      "bio": "F000476",
+      "speaker": "Maxwell Frost",
+      "side": "Nay",
+      "manager": false,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4441-2.htm",
+      "start": 24253,
+      "quote": "Financial institutions have already been using merchant codes to \ndetect crimes like money laundering and human trafficking.",
+      "display": "Financial institutions have already been using merchant codes to detect crimes like money laundering and human trafficking.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-07-14/html/CREC-2026-07-14-pt1-PgH4441-2.htm#:~:text=Financial%20institutions%20have%20already%20been%20using%20merchant%20codes%20to%20detect%20crimes%20like%20money%20laundering%20and%20human%20trafficking.",
+      "end": 24377,
+      "sentenceIds": [
+        "38.0"
+      ]
+    }
+  ],
+  "diagnostics": {
+    "selection": [
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 4,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "Financial privacy is essential to consumer trust and confidence, and Congress should protect Americans' financial privacy as technology changes the financial system."
+        }
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 6,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "The bill prevents payment card networks and processors from using merchant category codes to target firearms retailers and their customers, protecting consumers from misuse of payment systems to monitor lawful purchases."
+        }
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 13,
+          "first_sentence_id": 1,
+          "last_sentence_id": 2,
+          "reason": "Protecting privacy in purchases keeps Americans from being forced to disclose firearm purchases to payment processors, preserving both privacy and the right to bear arms."
+        }
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 14,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "The bill prohibits a separate firearms merchant category code, which would function as a de facto gun registry, and gives enforcement tools against banks or processors that assign such codes."
+        }
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 35,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "This legislation protects privacy by preventing government surveillance of citizens simply for exercising their Second Amendment rights."
+        }
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 69,
+          "first_sentence_id": 1,
+          "last_sentence_id": 2,
+          "reason": "The bill should pass because it protects privacy in the United States, and Members are urged to support it on that ground."
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 24,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "The Protecting Privacy in Purchases Act would make it harder to catch criminals and would make communities less safe."
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 26,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "The bill blocks states from using merchant category codes to flag suspicious firearms transactions and uncover gun trafficking rings."
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 38,
+          "first_sentence_id": 0,
+          "last_sentence_id": 0,
+          "reason": "Financial institutions already use merchant codes to detect crimes like money laundering and human trafficking, and this speaker argues they should also be allowed to use them to help prevent gun violence."
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 41,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "The bill would miss warning signs again and strip law enforcement of an essential tool to stop violence before it happens, making communities less safe."
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 54,
+          "first_sentence_id": 3,
+          "last_sentence_id": 4,
+          "reason": "This speaker argues privacy should not trump the right to life, especially where no court has found the practice unconstitutional."
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 61,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "The speaker says merchant category codes are just a standard banking tool, that the constitutional objection falls flat, and that law enforcement still needs legal process to access records."
+        }
+      }
+    ],
+    "checks": [
+      {
+        "id": 0,
+        "passage_reason": true,
+        "stands_alone": true,
+        "more_than_title": true,
+        "reason": "It says financial privacy is fundamental to consumer trust and that protecting Americans' financial privacy is an essential oversight role, which is a substantive reason supporting the bill.",
+        "accepted": true,
+        "side": "Yea",
+        "sentenceIds": [
+          "4.0",
+          "4.1"
+        ]
+      },
+      {
+        "id": 1,
+        "passage_reason": true,
+        "stands_alone": true,
+        "more_than_title": true,
+        "reason": "It explains that the bill safeguards consumers by stopping payment networks and processors from using merchant category codes to target firearms retailers and by preventing misuse of payment systems to monitor lawful purchases.",
+        "accepted": true,
+        "side": "Yea",
+        "sentenceIds": [
+          "6.0",
+          "6.1"
+        ]
+      },
+      {
+        "id": 5,
+        "passage_reason": true,
+        "stands_alone": true,
+        "more_than_title": true,
+        "reason": "It urges support because the bill advances privacy in the United States, which is a substantive pro-vote reason rather than a mere procedural statement.",
+        "accepted": true,
+        "side": "Yea",
+        "sentenceIds": [
+          "69.1",
+          "69.2"
+        ]
+      },
+      {
+        "id": 2,
+        "passage_reason": true,
+        "stands_alone": true,
+        "more_than_title": true,
+        "reason": "It states that the bill preserves privacy and the right to bear arms and argues Americans should not have to disclose firearm purchases to payment processors.",
+        "accepted": true,
+        "side": "Yea",
+        "sentenceIds": [
+          "13.1",
+          "13.2"
+        ]
+      },
+      {
+        "id": 3,
+        "passage_reason": true,
+        "stands_alone": true,
+        "more_than_title": true,
+        "reason": "It gives substantive effects of the bill: prohibiting a separate firearms merchant category code, preventing a de facto gun registry, and preempting state laws while empowering enforcement.",
+        "accepted": true,
+        "side": "Yea",
+        "sentenceIds": [
+          "14.0",
+          "14.1",
+          "14.2"
+        ]
+      },
+      {
+        "id": 4,
+        "passage_reason": true,
+        "stands_alone": true,
+        "more_than_title": true,
+        "reason": "It argues the bill protects privacy and prevents government surveillance of citizens for exercising Second Amendment rights, which is a substantive justification for support.",
+        "accepted": true,
+        "side": "Yea",
+        "sentenceIds": [
+          "35.0"
+        ]
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 41,
+          "first_sentence_id": 0,
+          "last_sentence_id": 1,
+          "reason": "The bill would miss warning signs again and strip law enforcement of an essential tool to stop violence before it happens, making communities less safe."
+        },
+        "accepted": false,
+        "reason": "Opening sentence depends on earlier context"
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 61,
+          "first_sentence_id": 0,
+          "last_sentence_id": 2,
+          "reason": "The speaker says merchant category codes are just a standard banking tool, that the constitutional objection falls flat, and that law enforcement still needs legal process to access records."
+        },
+        "accepted": false,
+        "reason": "Invalid quote start or word count"
+      },
+      {
+        "id": 0,
+        "passage_reason": true,
+        "stands_alone": true,
+        "more_than_title": true,
+        "reason": "Argues the bill should be voted against because it would make it harder to catch criminals and less safe, which is a substantive policy objection.",
+        "accepted": true,
+        "side": "Nay",
+        "sentenceIds": [
+          "24.0"
+        ]
+      },
+      {
+        "id": 1,
+        "passage_reason": true,
+        "stands_alone": true,
+        "more_than_title": true,
+        "reason": "Claims the bill would prevent states from flagging suspicious firearms transactions and thereby hinder uncovering gun trafficking rings, a direct substantive reason against passage.",
+        "accepted": true,
+        "side": "Nay",
+        "sentenceIds": [
+          "26.0"
+        ]
+      },
+      {
+        "id": 2,
+        "passage_reason": true,
+        "stands_alone": true,
+        "more_than_title": true,
+        "reason": "Says merchant codes are already used to detect money laundering and human trafficking, implying the bill would block an effective crime-detection tool and thus should be opposed.",
+        "accepted": true,
+        "side": "Nay",
+        "sentenceIds": [
+          "38.0"
+        ]
+      },
+      {
+        "id": 3,
+        "passage_reason": true,
+        "stands_alone": false,
+        "more_than_title": true,
+        "reason": "Argues privacy should yield to the right to life because the bill's privacy protections would impede abortion enforcement, which is a substantive reason against the bill, but the reference to 'this' and the constitutional claim depend on outside context.",
+        "accepted": false,
+        "side": "Nay",
+        "sentenceIds": [
+          "54.3",
+          "54.4"
+        ]
+      }
+    ],
+    "responses": [
+      {
+        "stage": "selection",
+        "side": "Yea",
+        "id": "resp_01159929eeed61f6016b05baf29f6c87d2a8cf8cf056f95e13",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 2832,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 287,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 3119
+        },
+        "estimatedUsd": 0.0034155,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_0a88cdfa50f89bf9016b05baf4cac487d2838843cf4d4f8a53",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 531,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 342,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 873
+        },
+        "estimatedUsd": 0.00193725,
+        "status": "completed"
+      },
+      {
+        "stage": "selection",
+        "side": "Nay",
+        "id": "resp_0f2453f267b5733c016b05baf78b1c87d2854a51d476ffb0d1",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 1763,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 283,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 2046
+        },
+        "estimatedUsd": 0.00259575,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_080dd96026b89474016b05baf9270887d2b395de2880a1139f",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 368,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 246,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 614
+        },
+        "estimatedUsd": 0.001383,
+        "status": "completed"
+      }
+    ],
+    "excludedAmendmentParagraphs": 1
+  }
+}
