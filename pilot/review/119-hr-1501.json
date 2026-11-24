@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "e53a06364356e09169da67e39bd0a48d922503ce377f27b0056137ed6f6594f4",
+  "debateFingerprint": "effb3ad32cb3f03c40de5069721d1b7aa8cd5a7e704eae8a354b715bf315413f",
   "bill": "119-hr-1501",
   "vote": "house:119:2:294",
   "sources": {
@@ -1747,7 +1747,39 @@
     "yea": 218,
     "nay": 201
   },
-  "points": [],
+  "points": [
+    {
+      "bio": "W000821",
+      "speaker": "Bruce Westerman",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
+      "start": 3308,
+      "quote": "On average, it takes 19 years to bring a new mine into operation in \nthe United States. Permitting delays drive up costs, halt economic \ngrowth, stifle innovation, and increase our reliance on foreign \nadversaries.",
+      "display": "On average, it takes 19 years to bring a new mine into operation in the United States. Permitting delays drive up costs, halt economic growth, stifle innovation, and increase our reliance on foreign adversaries.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm#:~:text=On%20average%2C%20it%20takes%2019%20years%20to%20bring%20a%20new%20mine%20into%20operation%20in%20the%20United%20States.%20Permitting%20delays%20drive%20up%20costs%2C%20halt%20economic%20growth%2C%20stifle%20innovation%2C%20and%20increase%20our%20reliance%20on%20foreign%20adversaries.",
+      "end": 3522,
+      "sentenceIds": [
+        "5.0",
+        "5.1"
+      ]
+    },
+    {
+      "bio": "H001068",
+      "speaker": "Jared Huffman",
+      "side": "Nay",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm",
+      "start": 8198,
+      "quote": "We have seen this administration make major investments and backroom \ndeals with mining projects with no transparency about who benefits, \nabout what the national security rationale is, or how these decisions \nactually reduce our dependence on foreign adversaries.",
+      "display": "We have seen this administration make major investments and backroom deals with mining projects with no transparency about who benefits, about what the national security rationale is, or how these decisions actually reduce our dependence on foreign adversaries.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-02/html/CREC-2026-09-02-pt1-PgH5452.htm#:~:text=We%20have%20seen%20this%20administration%20make%20major%20investments%20and%20backroom%20deals%20with%20mining%20projects%20with%20no%20transparency%20about%20who%20benefits%2C%20about%20what%20the%20national%20security%20rationale%20is%2C%20or%20how%20these%20decisions%20actually%20reduce%20our%20dependence%20on%20foreign%20adversaries.",
+      "end": 8462,
+      "sentenceIds": [
+        "21.0"
+      ]
+    }
+  ],
   "diagnostics": {
     "selection": [
       {
@@ -1863,46 +1895,13 @@
       {
         "side": "Yea",
         "pick": {
-          "paragraph": 3,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "General floor-manager support for extending FAST-41 eligibility to mining and mineral processing projects."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 5,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Explains that lengthy permitting delays raise costs, slow growth, and increase dependence on foreign adversaries."
-        },
-        "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
           "paragraph": 10,
           "first_sentence_id": 1,
           "last_sentence_id": 4,
           "reason": "Argues the bill is needed to include mineral processing in a comprehensive domestic mineral strategy and strengthen supply chains from mining to manufacturing."
         },
         "accepted": false,
-        "reason": "'first'"
-      },
-      {
-        "side": "Yea",
-        "pick": {
-          "paragraph": 11,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "States the bill would block narrowing FAST-41 coverage and warns that such narrowing would deepen dependence on foreign nations and adversaries."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
         "side": "Yea",
@@ -1913,29 +1912,46 @@
           "reason": "Defends the need for permanent legislation by arguing current administrative authority is temporary and the same flexibility should not depend on which administration is in office."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid sentence range"
       },
       {
+        "id": 0,
+        "accepted": false,
+        "reason": "This is a bare statement of support for the bill, not a substantive reason.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 156,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Concludes that supporting mining is essential to economic and national security and justifies passage to secure mineral supply chains."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "3.0"
+        ]
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 18,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Explains opposition by arguing the bill is not offering the responsible, balanced mineral policy needed to meet national needs."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "id": 1,
+        "accepted": true,
+        "reason": "It gives concrete reasons: long permitting delays raise costs, slow growth, stifle innovation, and increase dependence on foreign adversaries.",
+        "side": "Yea",
+        "sentenceIds": [
+          "5.0",
+          "5.1"
+        ]
+      },
+      {
+        "id": 2,
+        "accepted": true,
+        "reason": "It argues the bill prevents narrowing FAST-41 coverage and that doing so would worsen dependence on foreign nations for minerals.",
+        "side": "Yea",
+        "sentenceIds": [
+          "11.0",
+          "11.1"
+        ]
+      },
+      {
+        "id": 3,
+        "accepted": true,
+        "reason": "It states a substantive rationale that mining supports economic and national security and that the bill would secure mineral supply chains.",
+        "side": "Yea",
+        "sentenceIds": [
+          "156.0",
+          "156.1"
+        ]
       },
       {
         "side": "Nay",
@@ -1946,51 +1962,52 @@
           "reason": "Criticizes the administration for channeling taxpayer money into projects that serve private interests rather than actually helping the American people."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid quote start or word count"
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 21,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Argues that current mining deals lack transparency and may not reduce dependence on foreign adversaries."
-        },
+        "id": 0,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "This is a general criticism and opening contrast, but it does not state a concrete policy reason about the bill itself.",
+        "side": "Nay",
+        "sentenceIds": [
+          "18.0"
+        ]
       },
       {
+        "id": 1,
+        "accepted": true,
+        "reason": "It gives a substantive objection: the bill lacks transparency and clear national security justification, so it does not adequately reduce dependence on foreign adversaries.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 44,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "States the bill moves the country in the wrong direction by weakening environmental protections and Tribal sovereignty."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "21.0"
+        ]
       },
       {
+        "id": 2,
+        "accepted": true,
+        "reason": "It states a specific policy concern that the bill weakens environmental protections and Tribal sovereignty.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 45,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Says the bill should require meaningful, enforceable Tribal consultation before projects can receive expedited permitting."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "44.0"
+        ]
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 72,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Argues the bill fails to make supply chains more secure or ensure more domestic critical minerals are mined for American workers."
-        },
+        "id": 3,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "This is about a proposed amendment, not a reason the bill itself should be voted nay.",
+        "side": "Nay",
+        "sentenceIds": [
+          "45.0"
+        ]
+      },
+      {
+        "id": 4,
+        "accepted": true,
+        "reason": "It directly argues the bill fails to improve supply chain security or increase domestic critical mineral production.",
+        "side": "Nay",
+        "sentenceIds": [
+          "72.0"
+        ]
       }
     ],
     "responses": [
@@ -2041,7 +2058,56 @@
         },
         "estimatedUsd": 0.0034035,
         "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_0414b3f605a26a5f016b05b65a629c87d285a2d85b4ef418ab",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 356,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 143,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 499
+        },
+        "estimatedUsd": 0.0009105,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_00fb50da068d07c3016b05b65c494087d2b467466b7bc06b9c",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 351,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 171,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 522
+        },
+        "estimatedUsd": 0.00103275,
+        "status": "completed"
       }
-    ]
+    ],
+    "reusedSelection": true
   }
 }
