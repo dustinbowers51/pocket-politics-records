@@ -47,7 +47,7 @@ class DiscoveryTest(unittest.TestCase):
         packet=dict(sources={},paragraphs=[],missingDates=[str(day)])
         vote=dict(url="https://example.org/vote",sha256="abc",result="Passed",yea=230,nay=200)
         with patch.object(daily,"sources",return_value=packet),patch.object(daily,"verify_vote",return_value=vote):
-            self.assertIsNone(daily.process(b))
+            self.assertTrue(daily.process(b)["retryPending"])
             b["date"]=str(day-timedelta(days=14))
             result=daily.process(b)
             self.assertFalse(result["points"])

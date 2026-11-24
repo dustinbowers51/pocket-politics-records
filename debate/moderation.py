@@ -11,12 +11,18 @@ OWNER=318668238
 PATH=f"repos/{REPO}/issues/{ISSUE}/comments"
 
 
+def surname(name):
+    words=re.sub(r"[,\.]","",name).casefold().split()
+    while len(words)>1 and words[-1] in {"jr","sr","ii","iii","iv"}:words.pop()
+    return words[-1]
+
+
 def command(state,body,events):
     match=re.fullmatch(r"drop\s+(H\.?\s*R\.?|S\.?|H\.?\s*J\.?\s*Res\.?|S\.?\s*J\.?\s*Res\.?)\s*(\d+)\s+(.+)",body,re.I)
     if not match:return "Nothing changed. Use `drop H.R. 7567 Lucas` or `drop S. 123 Smith`."
     kind=re.sub(r"[^a-z]","",match[1].lower());name=match[3].strip().casefold()
     hits=[(r,p) for r in state["records"].values() if r["bill"].endswith(f"-{kind}-{int(match[2])}")
-          for p in r["points"] if name in (p["speaker"].casefold(),p["speaker"].casefold().split()[-1])]
+          for p in r["points"] if name in (p["speaker"].casefold(),surname(p["speaker"]))]
     if not hits:return "Nothing changed. No active quote matched that bill and speaker."
     if len(hits)!=1:return "Nothing changed. Multiple quotes matched. Use the speaker’s full name or the exact quote ID with `drop-id ID`."
     r,p=hits[0]

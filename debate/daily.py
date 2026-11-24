@@ -47,24 +47,23 @@ def process(b):
         # The archived roll call can supply an empty state, never a quotation.
         if "archiveVote" not in b:
             raise
-        return dict(record(b,b["archiveVote"],packet,[]),emptyReason="Passage identity verification failed")
+        return dict(record(b,b["archiveVote"],packet,[]),emptyReason="noClearPair")
     packet["passageRecord"]=vote
     try:
         verify_vote(b)
     except ValueError:
         result=record(b,vote,packet,[])
-        return dict(result,emptyReason="Passage vote verification failed")
+        return dict(result,emptyReason="noClearPair")
     deadline=date.fromisoformat(b["date"])+timedelta(days=14)
     if packet["missingDates"]:
-        if date.today()<deadline:return None
-        return dict(record(b,vote,packet,[]),emptyReason="Record unavailable after 14 days")
+        return dict(record(b,vote,packet,[]),emptyReason="recordPending", retryPending=date.today()<deadline)
     audit=dict(selection=[],checks=[],responses=[])
     try:
         if ledger.run is None:ledger.begin()
         points=select(packet,audit)
         result=record(b,vote,packet,points)
     except HardFailure as exc:
-        result=dict(record(b,vote,packet,[]),emptyReason=str(exc))
+        result=dict(record(b,vote,packet,[]),emptyReason="noClearPair",verificationError=str(exc))
     return result
 
 
@@ -75,13 +74,17 @@ def main():
     events=[]
     try:
         for b in planned:
-            if b["vote"] in state["records"]:continue
+            previous=state["records"].get(b["vote"])
+            if previous and not previous.get("retryPending"):continue
             checkpoint=WORK/(b["vote"].replace(":","-")+".json")
-            if checkpoint.exists():
+            if checkpoint.exists() and not previous:
                 rec=json.loads(checkpoint.read_text())
             else:
                 rec=process(b)
                 if rec is None:continue
+                if rec.get("retryPending"):
+                    state["records"][b["vote"]]=rec
+                    continue
                 ledger.save(checkpoint,rec)
                 ledger.commit("Checkpoint verified debate "+b["vote"],checkpoint)
             denied={p["id"] for p in rec["points"] if p["id"] in state["blocked"]}

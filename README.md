@@ -1,7 +1,11 @@
 # pocket-politics-records
 Hourly refresh of verified public government records for Pocket Politics.
 
-## Decision to publish debate quotes — November 24, 2026
+## Round 6 decision — accuracy only
+
+Members speak for themselves. Round 6 restores the eight weakness exclusions, the Kennedy, Houlahan and Beyer removals, and their balancing trims. Selection excludes procedure, amendment-only debate and remarks unrelated to the bill. Exact-source hashes, offsets, speaker turns, recorded passage votes, eligible spans of at most 60 words and equal sides remain mandatory. [Issue 7](https://github.com/dustinbowers51/pocket-politics-records/issues/7) is for actual errors. Display capitalization is separate from source evidence. Empty records carry oneSided and speakingSide, noClearPair or recordPending, plus the roll call and Record link.
+
+### Earlier decision to publish debate quotes — November 24, 2026
 
 The owner approved automatic publication and accepted that an accurately attributed quotation can be a weak explanation. Both fresh tests failed the original editorial threshold. Across 38 independently checked quotes there were zero wrong speakers, wrong passage votes or altered quotations. Reviewers counted three weak quotes in the first test and five in the second. This is a product decision to publish despite those results, without rescoring or further tuning.
 
