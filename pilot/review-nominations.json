@@ -1,0 +1,155 @@
+{
+  "119-hr-10326": {
+    "sourceFingerprint": "7e76e053eea4f3bdcaf8be39453fb6be357e27cdcd50c0b6013ef88b37774bd9",
+    "selection": [
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 5,
+          "first": 0,
+          "last": 2
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 16,
+          "first": 0,
+          "last": 1
+        }
+      }
+    ]
+  },
+  "119-hr-1501": {
+    "sourceFingerprint": "effb3ad32cb3f03c40de5069721d1b7aa8cd5a7e704eae8a354b715bf315413f",
+    "selection": [
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 10,
+          "first": 0,
+          "last": 2
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 148,
+          "first": 0,
+          "last": 0
+        }
+      }
+    ]
+  },
+  "119-hr-8884": {
+    "sourceFingerprint": "69268f86f1f3aa8722904241ffc2fb856041c977e0ae7c11bdb3bba5d6f65cde",
+    "selection": [
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 5,
+          "first": 0,
+          "last": 0
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 15,
+          "first": 0,
+          "last": 0
+        }
+      }
+    ]
+  },
+  "119-hr-8800": {
+    "sourceFingerprint": "5c9b82ff8773359fd6f502f28b0a19fa9e57df2a7868630fcdaa03c661ae0138",
+    "selection": [
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 165,
+          "first": 1,
+          "last": 1
+        }
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 36,
+          "first": 0,
+          "last": 0
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 161,
+          "first": 4,
+          "last": 4
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 29,
+          "first": 0,
+          "last": 1
+        }
+      }
+    ]
+  },
+  "119-hr-6955": {
+    "sourceFingerprint": "31964cab0eb98aa1646c239918c19c4994aaa26c7bd2834e5b32ff7229626f85",
+    "selection": [
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 45,
+          "first": 0,
+          "last": 0
+        }
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 33,
+          "first": 0,
+          "last": 1
+        }
+      },
+      {
+        "side": "Yea",
+        "pick": {
+          "paragraph": 62,
+          "first": 2,
+          "last": 2
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 38,
+          "first": 0,
+          "last": 1
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 48,
+          "first": 2,
+          "last": 3
+        }
+      },
+      {
+        "side": "Nay",
+        "pick": {
+          "paragraph": 74,
+          "first": 0,
+          "last": 1
+        }
+      }
+    ]
+  }
+}
