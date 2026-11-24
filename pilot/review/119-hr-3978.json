@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "9b6c3b7059908a949b98980234708a898e737e05c7cf395c01add3049ac2ce78",
+  "debateFingerprint": "1a9b54b34db28a522f33747677fb649f5aef05ee1929299b703eece3df229d71",
   "bill": "119-hr-3978",
   "vote": "house:119:2:315",
   "sources": {
@@ -1752,6 +1752,7 @@
     "selection": [],
     "checks": [],
     "responses": [],
+    "reusedSelection": true,
     "reason": "At least one recorded side has no eligible sentences."
   }
 }
