@@ -18,10 +18,11 @@ FIRST_DAY = "2026-11-24"
 def ballots(db_path):
     crosswalk=json.loads(Path(__file__).with_name("senate-ids.json").read_text())
     with sqlite3.connect(f"file:{db_path}?mode=ro",uri=True) as db:
-        query="""select v.id,v.bill_id,v.chamber,v.date,b.title,e.payload
+        query="""select v.id,b.id,v.chamber,v.date,b.title,e.payload,e.source_sha,src.url
                  from votes v join entities e on e.id=v.id and e.kind='vote'
+                 join sources src on src.sha=e.source_sha
                  join bills b on b.id=coalesce(v.bill_id,json_extract(e.payload,'$.unimportedBillId')) where v.date>=? order by v.date,v.id"""
-        for vid,bill,chamber,day,title,payload in db.execute(query,(FIRST_DAY,)):
+        for vid,bill,chamber,day,title,payload,source_sha,url in db.execute(query,(FIRST_DAY,)):
             vote=json.loads(payload)
             if bill.split("-")[1] not in ("hr","s","hjres","sjres") or not re.match(r"^On (Passage\b|Motion to Suspend the Rules and Pass\b)",vote["question"],re.I):
                 continue
@@ -33,12 +34,20 @@ def ballots(db_path):
                 if origin and chamber.lower() not in origin.lower() and not re.search(r"\b"+chamber+r"\b",body,re.I):continue
                 if d<day and re.search(r"(?:Passed (?:the )?"+chamber+r"|On passage.*(?:passed|failed))",body,re.I):break
                 if re.search(r"\bdebate\b|considered by (?:the )?"+chamber,body,re.I):dates.add(d)
-            yield dict(bill=bill,vote=vid,date=day,dates=sorted(dates or {day}),title=title,chamber=chamber,positions=positions)
+            fallback=dict(url=url,sha256=source_sha,result=vote["result"],
+                          yea=vote["tally"].get("Yea",0),nay=vote["tally"].get("Nay",0))
+            yield dict(archiveVote=fallback,bill=bill,vote=vid,date=day,dates=sorted(dates or {day}),title=title,chamber=chamber,positions=positions)
 
 
 def process(b):
     packet=sources(b)
-    vote=verify_vote({**b,"positions":{}})
+    try:
+        vote=verify_vote({**b,"positions":{}})
+    except ValueError:
+        # The archived roll call can supply an empty state, never a quotation.
+        if "archiveVote" not in b:
+            raise
+        return dict(record(b,b["archiveVote"],packet,[]),emptyReason="Passage identity verification failed")
     packet["passageRecord"]=vote
     try:
         verify_vote(b)
