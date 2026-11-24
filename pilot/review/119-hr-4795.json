@@ -1,5 +1,5 @@
 {
-  "debateFingerprint": "3aec8eab7c5f9b5b9fae479de3ae344f76c7ae092d9e40c995ebb02cb5fd37fe",
+  "debateFingerprint": "3b3e1da55c4ef0b0e3765cae3e6c2e12001eb942880557755f02fab47d07b7b7",
   "bill": "119-hr-4795",
   "vote": "house:119:2:295",
   "sources": {
@@ -1746,7 +1746,40 @@
     "yea": 237,
     "nay": 169
   },
-  "points": [],
+  "points": [
+    {
+      "bio": "W000798",
+      "speaker": "Tim Walberg",
+      "side": "Yea",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
+      "start": 7009,
+      "quote": "In recent years, we have seen campaigns to boycott Israel spread \nacross American campuses. These campaigns have pressured colleges and \nuniversities to cut financial, commercial, and academic ties with \nIsraeli companies and institutions. That can mean restricting study \nabroad opportunities, research partnerships, academic exchanges, \nconferences, and other programs involving Israel.",
+      "display": "In recent years, we have seen campaigns to boycott Israel spread across American campuses. These campaigns have pressured colleges and universities to cut financial, commercial, and academic ties with Israeli companies and institutions. That can mean restricting study abroad opportunities, research partnerships, academic exchanges, conferences, and other programs involving Israel.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm#:~:text=In%20recent%20years%2C%20we%20have%20seen%20campaigns%20to%20boycott%20Israel%20spread%20across%20American%20campuses.%20These%20campaigns%20have%20pressured%20colleges%20and%20universities%20to%20cut%20financial%2C%20commercial%2C%20and%20academic%20ties%20with%20Israeli%20companies%20and%20institutions.%20That%20can%20mean%20restricting%20study%20abroad%20opportunities%2C%20research%20partnerships%2C%20academic%20exchanges%2C%20conferences%2C%20and%20other%20programs%20involving%20Israel.",
+      "end": 7397,
+      "sentenceIds": [
+        "4.0",
+        "4.1",
+        "4.2"
+      ]
+    },
+    {
+      "bio": "S000185",
+      "speaker": "Robert C. \"Bobby\" Scott",
+      "side": "Nay",
+      "manager": true,
+      "url": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm",
+      "start": 12429,
+      "quote": "Moreover, as we examine the bill, Members should be careful to \nconsider how these Federal requirements would operate in practice, the \npotential of negative effect on institutions receiving Federal funds, \nand whether the bill is misusing the power that we have from the \nConstitution's Spending Clause to illegally sanction First Amendment-\nprotected speech, particularly those of students.",
+      "display": "Moreover, as we examine the bill, Members should be careful to consider how these Federal requirements would operate in practice, the potential of negative effect on institutions receiving Federal funds, and whether the bill is misusing the power that we have from the Constitution's Spending Clause to illegally sanction First Amendment- protected speech, particularly those of students.",
+      "passageUrl": "https://www.govinfo.gov/content/pkg/CREC-2026-09-03/html/CREC-2026-09-03-pt1-PgH5483-2.htm#:~:text=Moreover%2C%20as%20we%20examine%20the%20bill%2C%20Members%20should%20be%20careful%20to%20consider%20how%20these%20Federal%20requirements%20would%20operate%20in%20practice%2C%20the%20potential%20of%20negative%20effect%20on%20institutions%20receiving%20Federal%20funds%2C%20and%20whether%20the%20bill%20is%20misusing%20the%20power%20that%20we%20have%20from%20the%20Constitution%27s%20Spending%20Clause%20to%20illegally%20sanction%20First%20Amendment%2D%20protected%20speech%2C%20particularly%20those%20of%20students.",
+      "end": 12821,
+      "sentenceIds": [
+        "16.0"
+      ]
+    }
+  ],
   "diagnostics": {
     "selection": [
       {
@@ -1842,70 +1875,62 @@
     ],
     "checks": [
       {
+        "id": 0,
+        "accepted": true,
+        "reason": "Supports the bill by arguing that boycott campaigns pressure schools to cut ties with Israel and related academic opportunities, which the bill would address.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 4,
-          "first_sentence_id": 0,
-          "last_sentence_id": 2,
-          "reason": "Explains how campus boycott campaigns pressure universities to sever ties with Israeli institutions and restrict academic exchanges, directly supporting the bill's restrictions on discriminatory boycotts."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "4.0",
+          "4.1",
+          "4.2"
+        ]
       },
       {
+        "id": 1,
+        "accepted": true,
+        "reason": "Supports the bill by claiming these campaigns fuel anti-Semitism on campuses, giving a substantive justification for restricting them.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 5,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Argues that these boycott campaigns are fueling the rise of anti-Semitism on college campuses, giving a substantive policy rationale for the bill."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "5.0",
+          "5.1"
+        ]
       },
       {
+        "id": 2,
+        "accepted": true,
+        "reason": "Supports the bill by stating a principle against discrimination toward Israel and arguing federal funds should not back institutions that engage in it.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 65,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "States the core principle that colleges and universities should not discriminate against Israel, Israeli institutions, or Israeli students, and should not use federal taxpayer dollars to support such discrimination."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "65.0"
+        ]
       },
       {
+        "id": 3,
+        "accepted": true,
+        "reason": "Supports the bill by framing it as protecting academic freedom from boycotts that block study, research, and collaboration based on nationality.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 66,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Defines academic freedom as allowing study, research, collaboration, and exchange without boycotts that close doors based on nationality, directly grounding support for the legislation."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "66.0"
+        ]
       },
       {
+        "id": 4,
+        "accepted": true,
+        "reason": "Supports the bill by saying it protects fair treatment of Israel-related academic opportunities and limits unjustified boycotts.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 67,
-          "first_sentence_id": 0,
-          "last_sentence_id": 1,
-          "reason": "Explains that the bill protects academic freedom by ensuring federally funded colleges do not engage in unjustified commercial boycotts and treat academic opportunities involving Israel fairly and equally."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "67.0",
+          "67.1"
+        ]
       },
       {
+        "id": 5,
+        "accepted": true,
+        "reason": "Supports the bill by arguing universities should avoid discrimination and evaluate partnerships on merit rather than campaigns targeting one country.",
         "side": "Yea",
-        "pick": {
-          "paragraph": 69,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Emphasizes that universities should be places free from discrimination and that academic partnerships should be judged on merit rather than campaigns targeting one country, matching the bill's purpose."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "69.0"
+        ]
       },
       {
         "side": "Nay",
@@ -1916,40 +1941,34 @@
           "reason": "Summarizes the bill’s operative requirement that institutions certify they are not engaged in a boycott of Israel, directly framing the measure being opposed."
         },
         "accepted": false,
-        "reason": "'first'"
+        "reason": "Invalid quote start or word count"
       },
       {
+        "id": 0,
+        "accepted": true,
+        "reason": "States that the bill could negatively affect federally funded institutions and may misuse Spending Clause power to sanction protected speech.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 16,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Argues the bill misuses Congress’s spending power to sanction First Amendment-protected speech, a concrete constitutional objection supporting a Nay vote."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "16.0"
+        ]
       },
       {
+        "id": 1,
+        "accepted": true,
+        "reason": "Gives a substantive reason: the bill creates First Amendment problems and improperly limits academic freedom.",
         "side": "Nay",
-        "pick": {
-          "paragraph": 17,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "States the bill presents serious First Amendment problems and improperly limits academic freedom, a specific substantive reason to oppose it."
-        },
-        "accepted": false,
-        "reason": "'first'"
+        "sentenceIds": [
+          "17.0"
+        ]
       },
       {
-        "side": "Nay",
-        "pick": {
-          "paragraph": 18,
-          "first_sentence_id": 0,
-          "last_sentence_id": 0,
-          "reason": "Explicitly announces the speaker will oppose the bill because the identified problems were not resolved, making it a direct vote explanation."
-        },
+        "id": 2,
         "accepted": false,
-        "reason": "'first'"
+        "reason": "This is only the speaker's opposition, not a substantive reason about the bill itself.",
+        "side": "Nay",
+        "sentenceIds": [
+          "18.0"
+        ]
       }
     ],
     "responses": [
@@ -2000,7 +2019,56 @@
         },
         "estimatedUsd": 0.00264975,
         "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Yea",
+        "id": "resp_057318f96e32f517016b05b65445f487d2b33376ea6e448384",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 433,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 225,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 658
+        },
+        "estimatedUsd": 0.00133725,
+        "status": "completed"
+      },
+      {
+        "stage": "verification",
+        "side": "Nay",
+        "id": "resp_03cbbc992e06022e016b05b656546487d2b4d9541cfa35b792",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "usage": {
+          "input_tokens": 271,
+          "input_tokens_details": {
+            "cache_write_tokens": 0,
+            "cache_write_tokens_details": {
+              "ttl_12h_tokens": 0,
+              "ttl_30m_tokens": 0
+            },
+            "cached_tokens": 0
+          },
+          "output_tokens": 101,
+          "output_tokens_details": {
+            "reasoning_tokens": 0
+          },
+          "total_tokens": 372
+        },
+        "estimatedUsd": 0.00065775,
+        "status": "completed"
       }
-    ]
+    ],
+    "reusedSelection": true
   }
 }
